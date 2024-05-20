@@ -1,0 +1,148 @@
+# Base configuration, will be extended by project-specific configs.
+# Any value set here can be considered a reasonable default but
+# can be overwritten on a per-project basis
+
+# The LLM configuration we communicate to ollama. Note that this
+# code will not fetch a model that Ollama has not preloaded yet.
+model: KBlueLeaf_guanaco-7B-leh
+
+# Options for the LLM (do not set temperature, that's usually per persona)
+#model_options:
+  #num_ctx: 256000
+  #num_ctx: 16000 # The LLM can take more, but I don't have enough GPU memory
+
+# How many words to aim for per beat
+words per beat: 300
+
+# How many words from the previous chapter to retain
+words from last chapter: 500
+
+# How many words in a summary
+words per summary: 1000
+
+# Character encoding format (windows is encoding='cp1252')
+encoding: cp1252
+
+# How many versions per beat to create
+versions per beat: 6
+
+# How many summaries to create
+versions per summary: 5
+
+# The LLM temperature to be used for the author persona
+author creativity: 75
+
+# The LLM temperature to be used for the assistant persona
+assistant creativity: 1
+
+# The LLM temperature to be used for the editor persona
+editor creativity: 2
+
+# Prompts to be sent to a LLM. Allows a level of templatization.
+prompts:
+  # Used for a simple test to see if the LLM can be interacted with
+  smoke test:
+    respond with "OK"
+
+  # Instructs the LLM to take on the persona of an author
+  author persona:
+    I want you to adopt the persona of a best-selling author of the
+    ${genre} genre. Your writing is engaging, and you are experienced
+    with crafting fiction that is appealing to a broad audience.
+    Your overall style is ${style}. In your writing, it is important
+    to you to show, not tell. You write in ${tense}.
+
+  # Instructs the LLM to take on the persona of an editor.
+  editor persona:
+    I want you to adopt the persona of a seasoned fiction editor specializing in ${genre}
+    with a keen eye for pacing and a passion for genre consistency. A writer has submitted
+    a manuscript, and your job is to provide constructive feedback that will elevate their
+    work.
+    While maintaining a respectful and encouraging tone, point out areas where the story
+    loses momentum, identify inconsistencies with the chosen genre conventions, and
+    suggest revisions that will keep the reader turning pages.
+
+  # Used to write a chapter beat. Adopted from the nerdy novelist
+  # channel (https://www.youtube.com/watch?v=2tpEGmRIh6M&t=713s)
+  story beat:
+    Using all of the information on <overview>, <setting>, and
+    <characters>, write ${words_per_beat} words with plenty of detail
+    and deep point of view. Use the <style> to determine the prose 
+    style of the output. Follow the <beat> exactly. All paragraphs should
+    take place during the timeframe of the <overview> instead of adding new
+    events. Focus on fully developing the given story <beat> rather than
+    running to new plot points. The writing shoud continue what was written
+    in <previous scene> and emulate its style and point of view. The writing 
+    should end at the specified <beat> rather
+    than continuing further. The chapter should be in the ${perspective}
+    and in the ${tense}. Include lots of realistic dialogue, deep point
+    of view, and show more than tell. Do not retell any information that
+    has already been shared in <prior beats>, because the reader already
+    knows it anyway.
+
+    <overview>${overview}</overview>
+    <prior beats>${prior_beats}</prior beats>
+    <setting>${setting}</setting>
+    <characters>${characters}</characters>
+    <style>${style}</style>
+    <previous scene>${previous_scene}</previous scene>
+    <beat>${current_beat}</beat>
+
+    Stay consistent with the style of the <previous scene>.
+    Be sure to write in the in the ${perspective} and in the tense of
+    ${tense}. RESPOND ONLY WITH THE WRITTEN WORDS, NOTHING ELSE.
+
+  # Used by the editor persona to pick the version of the beat that works best
+  beat selection:
+    A writer has submitted ${versions_per_beat} <drafts> for your consideration.
+    Each versions showcases the story's potential, but they differ slightly in terms of
+    writing style. Please review all drafts and identify the version that best aligns with 
+    the desired <style> and <tense>, that seems like the best continuation of
+    <previous scene> based on stylistic and logical consistency,
+    and that most accurately represents the desired <beat>.
+    RESPOND ONLY WITH THE NUMBER OF THE CHOSEN DRAFT.
+    <tense>${tense}</tense>
+    <style>${style}</style>
+    <previous scene>${previous_scene}</previous scene>
+    <beat>${current_beat}</beat>
+    <drafts>${drafts}</drafts>
+    RESPOND ONLY WITH THE NUMBER OF THE CHOSEN DRAFT.
+
+  # Adjust the tense of the draft, if necessary
+  tense correction:
+    If the following <text> is not written in ${tense}, rewrite it to be written in 
+    ${tense}. Otherwise return the original text.
+    Only return the text and nothing else.
+    DO NOT MAKE ANY MODIFIATIONS BESIDE ADJUSTING THE TENSE IF NECESSARY.
+    <text>${draft}</text>
+
+  # Summarize the story so far
+  summarize story 2:
+    Write a concise summary in ${words_per_summary} words using
+    <previous summary> and the most recent <chapter> of a book.
+    DO NOT EDITORIALIZE, DO NOT ADD ANY NEW EVENTS.
+    <previous summary>${previous_summary}</previous summary>
+    <chapter>${chapter}</chapter>
+
+  summarize story:
+    "Write a concise summary in ${words_per_summary} words of
+    the following text:
+    ${previous_summary}
+    ${chapter}"
+
+  summarize story 3:
+    "Summarize the following in ${words_per_summary} words:
+    ${previous_summary} ${chapter}"
+
+# Used by the editor to pick the best summary selection
+  summary selection:
+    A writer has submitted ${versions_per_summary} <chapter summaries>
+    for your consideration. Please review all summaries and identify 
+    the version that best represents the given <chapter> that it is
+    intended to summarize. Ensure that the selection does not embellish
+    but that it sticks as close to the content of <chapter> as possible.
+    RESPOND ONLY WITH THE NUMBER OF THE CHOSEN SUMMARY.
+    <chapter>${chapter}</chapter>
+    <chapter summaries>${drafts}</chapter summaries>
+    RESPOND ONLY WITH THE NUMBER OF THE CHOSEN SUMMARY.
+

@@ -1,0 +1,110 @@
+# Book/series specific configuration
+genre:
+  Urban fantasy
+
+style:
+  Write from the first person perspective of the main character, Jam Slate.Emulate the
+  style of classic film noir detective novels, meaning the narration is cynical, wisecracking,
+  and tough.  Dialogue is short, fast-paced, and packed with punch.
+  Dialogue reveals character motivations and drives the plot forward without
+  flowery language. Use vivid settings descriptions but stay away from metaphors and similes.
+  Good and bad are blurred, and the detectives themselves are often flawed.
+  Justice might be served, but at a cost.
+
+perspective:
+  First person limited point of view of Jim Slate's perspective
+
+tense:
+  First person past tense
+
+settings:
+  Shadow Falls:
+    The story plays in and around Shadow Falls, a small city in New England in the present time.
+    Nestled amidst rolling hills and vibrant maple forests lies the town of Shadow Falls.
+    Time seems to slow down as you enter this quaint haven. The main street, Maple Lane,
+    is a tapestry of color. Brick buildings with worn storefronts house generations-old
+    businesses. The Shadow Falls General Store, with its creaky screen door and shelves
+    overflowing with local honey and hand-knitted scarves, is the heart of the town.
+    Mrs. Peabody, with her kind smile and encyclopedic knowledge of everyone's needs,
+    presides over the counter. Across the street, the Shadow Falls Book Nook boasts a 
+    crooked wooden sign and a mishmash of used and new books piled high. The scent of
+    old paper mingles with the aroma of freshly brewed coffee from The Bean There,
+    a tiny café next door, where folks gather for morning gossip and steaming mugs.
+    There are no national chains here. A hand-painted sign announces 
+    "Ol' Macdonald's Farm Fresh Produce," while the Shadow Falls Hardware boasts 
+    a dusty collection of everything from nails to antique tools.  In the afternoon, 
+    the rhythmic clang of the blacksmith's hammer echoes from down the street. Shadow Falls
+    embraces a simpler pace. Evenings are spent on porches, catching fireflies and
+    listening to crickets chirp.  On weekends, the townsfolk gather at the bandstand
+    in the town square for open mic nights or potluck picnics.  Life here is a gentle
+    symphony of community spirit and timeless charm.
+  city hall:
+    City Hall in Shadow Falls stands as a relic of a bygone era, its weathered exterior exuding
+    a quaint charm that harks back to the town's roots in New England. Nestled amidst the bustling streets,
+    it serves as the heart of the community, housing a myriad of functions that cater to the town's diverse needs.
+    The building's façade boasts intricate Victorian architecture, with ornate details adorning its wooden frame. 
+    A grand staircase leads up to the entrance, flanked by antique lamp posts that cast a warm 
+    glow in the evening hours. Ivy climbs the walls, adding a touch of rustic elegance to the scene.
+    Stepping inside, visitors are greeted by a nostalgic ambiance that seems frozen in time.
+    The lobby is adorned with vintage furnishings, including plush armchairs and mahogany tables,
+    evoking a sense of old-world charm. Faded photographs line the walls,
+    capturing moments from the town's storied past.
+    To the left, the Sheriff's office occupies a corner of the ground floor. Jam Slate's domain, 
+    it exudes an air of authority tempered by a hint of ruggedness. Both Jam and Charlaine Meyers,
+    his deputy, share a cluttered desk that sits at the center of the room, 
+    piled high with paperwork and outdated technology. An old-school wired phone sits prominently on the desk,
+    its rotary dial a testament to a simpler time. A bulletin board displays wanted posters and notices, while 
+    a filing cabinet stands sentinel in the corner, holding the secrets of Shadow Falls within its metal drawers.
+    Adjacent to the Sheriff's office lies the Mayor's domain, a space that seamlessly blends function with tradition. 
+    The mayor, Anna Arborio, tends to her duties amidst an eclectic mix of medical equipment and administrative 
+    clutter. A desk, cluttered with papers and medical journals, takes center stage, flanked by shelves lined 
+    with medical supplies and reference books. The old speaker of an inter-office communication system sits atop 
+    the desk, crackling to life with the mayor's voice whenever she needs to call the Sheriff over.
+    In a nod to modernity, a small library and community center occupies a corner of City Hall, offering residents
+    a space to gather and connect. Here, a modern computer sits atop a sturdy oak desk, its screen flickering to 
+    life with the click of a mouse. Bookshelves line the walls, filled with a diverse array of titles that cater 
+    to the town's eclectic tastes. A cozy reading nook beckons visitors to curl up with a good book, while a bulletin
+    board displays upcoming events and gatherings.
+    Throughout City Hall, the spirit of Shadow Falls thrives, weaving a tapestry of tradition and innovation 
+    that reflects the town's rich history and vibrant community. Despite its antiquated charm, the building 
+    remains a beacon of hope and unity, bringing together residents from all walks of life in a shared 
+    celebration of small-town living.
+
+
+# If this was a book series, this would summarize what has happened so far.
+previously:
+  Jam Slate had been keeping the citizens of Shadow Falls safe for over a century now and
+  encountered many interesting cases. The last few years had been peaceful. No murders,
+  little violence, mostly petty crimes. However, several recent murders were pointing towards
+  a serial killer having moved into town. Jam was investigating.
+
+characters:
+  Jam Slate:
+    The Sheriff of Shadow Falls. Jam looks humanoid but is actually a golem made from clay.
+    Jam was created by a Czech immigrant in the 18th century
+    to protect the local Jewish community. Due to inter-faith marriage, Jam has long
+    lost track who is or isn't on his to-protect list, so he decided to broaden his
+    scope and just keep everybody safe. Jam looks like a regular human in his 40s and
+    has been a cop since the 1890s. Because of some legal loopholes in the city's charter,
+    he eventually gained so much seniority that is the head of police "for life", which
+    in his case can mean a very long time. Jam is immune to most physical damage, as he
+    absorbs things like bullets or knife into his clay. His biggest weakness is that his
+    clay needs to stay moist; if he spends too much time in the sun or in a hot room, he 
+    will start to stiffen and eventually break into smaller pieces.
+    The locals know what Jam is and treat him like any other human being.
+  Charlaine Meyers:
+    Deputy to Sheriff Slate. Charlaine is a regular human, no special powers,
+    in her early twenties. Charlaine was born and raised in Shadow Falls.
+    When she was a child, Jam had saved her life when she fell into an old well.
+    Charlaine considers Jam as family and is extremely loyal to him.
+    Charlaine is of creole descent with short curls and an impish nature. Her grandmother
+    is a manbo, a female Voodoo priest. She supplies Charlaine with various tools that
+    help her investigate supernatural incidents in Shadow Falls (Jam uses to call these tools
+    Charlaine's "kit").
+  Anna Arborio:
+    Mayor and town doctor of Shadow Falls, Anna has a complicated relationship with Jam.
+    On the one hand, Jam is an old friend and her AA sponsor. On the other hand,
+    Jam's need to protect the town and Anna's ambitions for the community are sometimes
+    at odds. Anna has pitch black hair, very fair skin, and bloodshot eyes that she usually
+    hides behind sunglasses.
+

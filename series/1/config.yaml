@@ -1,0 +1,62 @@
+# Chapter specific configuration
+story beats:
+  - The chapter opens with Sheriff Jam Slate chasing a killer across the rooftops of
+    Shadow Falls on a sweltering summer day. Both Jam and the killer are leaping from
+    roof to roof, with Jam struggling to narrow the distance between them. Jam is on his
+    own, no backup from Charlaine or the other deputies. Jam actually prefers it this way,
+    as he has already buried too many friends and comrades in his life.
+  - For a moment, Jam looses sight of the killer. While scanning his surroundings, he
+    reflects on the case. These were the first murders in over a decade. The killer staged
+    the victims elaborately, Jam is frustrated with the killer's theatrics and 
+    a longs for normalcy. There were a thousand things he'd rather do right now than 
+    chasing the killer in this heat.
+  - Jam spots the killer and the chase contiunues. Jam struggles to keep up with the agile
+    killer, because the sun keeps pulling the moisture out of him. Every step
+    gets harder, every jump closer to missing the next building. Jam knows that it is only
+    a matter of minutes before his joints will be too stiff to keep running.
+  - The killer darts into an abandoned building. Jam cautiously enters the
+    building and descends a dark stairwell.
+  - The killer ambushes Jam from behind, stabbing him in the back. Despite being stabbed,
+    Jam overpowers the killer with superhuman strength, cracking the killer's wrist.
+  - A second figure emerges from the shadows, an apparent twin of the first killer.
+    The second killer shoots Jam multiple times. Being made from clay, the wounds hurt but
+    do not cause any major damage to Jam. They do not slow him down, rather annoy him than
+    anything else. The second killer keeps shooting until he runs out of bullets. 
+  - Jam knows that he is too stiff to chase the second killer, who did not have to take
+    a single step in this heat yet.  Jam slowly approaches the second killer, pretending to 
+    negotiate. He tells the killer to calm down, that they can figure this all out. When Jam gets
+    close enough, Jam knocks the killer out with a single punch. Jam notices that
+    he lost a finger in the process. Jam curses the heat and realizes he needs to get water
+    fast.
+  - Jam throws the first killer on his left shoulder and the second killer on his right
+    shoulder and shuffles out of the building. His goal is to bring the killers to the station.
+  - Outside the building, Jam sees a roadside stand where a young boy sells lemonade.
+    He briefly sets down the killers to buy a glass and rehydrate. He is pleased to see
+    that his finger regenerates. However, when he turns back around, the killers are gone.
+  - Jam looks around frantically for any sight of the killers but cannot find anything. He
+    realizes that they could not have gotten this far without help. He kneels down and inspects
+    the place were the killers used to lie. The pavement is colder than it should be, and Jam
+    notices a distinct odor of ozone and clovers. Jam recognizes this as the leftover of a
+    teleportation spell. Someone used some serious magic to free the killers before he could
+    bring them in. 
+  - Jam sighs and buys another lemonade for the road. Sufficiently replenished, he makes his way
+    back to the Sheriff's office.
+
+# What of the given sceneries does this chapter play in?
+environment:
+  Shadow Falls
+
+# For this series, I am going to be a pantser. In other words, I don't have a very strong
+# overview yet. I plan to evolve this further as the story progresses.
+overview:
+  The story begins with Jam Slate chasing a serial killer across the rooftops of Shadow Falls,
+  but the perpetrator manages to escape. Jam will have to use all of his wits and the help
+  of other people in town, both human and non-human, to pick up the trail before the killer
+  strikes again.
+
+characters:
+  The killer:
+    A serial killer being chased by Jam. The serial killer looks like a man in his late
+    twenties with a "forgettable" face. Medium built, medium height, brown hair, no
+    remarkable features. It's the kind of person that can blend in anywhere and not be
+    remembered.
