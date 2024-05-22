@@ -1,5 +1,5 @@
 imported projects:
 
-ollama
 pyyaml
-
+dotenv
+google-generativeai
