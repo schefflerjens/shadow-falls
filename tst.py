@@ -1,8 +1,12 @@
 from chat import Chat
-from config import parse_flags, Config, CommonPrompts, PropertyKeys
+from config import parse_flags, Config, PropertyKeys
+from dotenv import load_dotenv
 from os import path
 from workflow import Workflow
 from sys import exit
+
+# Google API key info
+load_dotenv()
 
 # Load the config and check whether we are just supposed to print it.
 config = Config(parse_flags())

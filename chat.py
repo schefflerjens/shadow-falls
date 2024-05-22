@@ -1,19 +1,23 @@
 """A wrapper around ollama and our config"""
 
+from google.generativeai import (
+    configure as genai_config, GenerationConfig, GenerativeModel)
 from collections.abc import Iterator
 from config import Config, CommonPrompts
-from ollama import chat
 from typing import Any, Optional, Mapping, Union
 
 
 class Chat:
     """Represents a configured interaction with an LLM"""
 
+    __GENAI_INITIALIZED = False
+
     def __init__(self, config: Config) -> None:
         self.__config = config
         self.__system_messages = []
         self.__chat_history = []
         self.__temperature = None
+        self.__model = None
 
     def __copy__(self):
         result = Chat(self.__config)
@@ -34,7 +38,7 @@ class Chat:
         messages = []
         messages.extend(self.__system_messages)
         messages.extend(self.__chat_history)
-        messages.append({'role': 'user', 'content': message})
+        messages.append({'role': 'user', 'parts': [{'text': message}]})
         return messages
 
     def _get_first_response(
@@ -45,7 +49,7 @@ class Chat:
             return result['message']['content']
         else:
             return None
-        
+
     def set_temperature(self, temperature: int) -> None:
         """Sets the temperature the LLK should use"""
         self.__temperature = temperature
@@ -54,29 +58,30 @@ class Chat:
         """Append a non-empty system message to initialize the chat."""
         assert message, 'Message must be non-empty'
         assert not self.__chat_history, 'Cannot set messages after chat has started'
-        self.__system_messages.append({'role': 'system', 'content': message})
-
-    def interact(self, message: str) -> Union[Mapping[str, Any], Iterator[Mapping[str, Any]]]:
-        """Asks a question and returns the raw response.
-        
-        Mostly used for debugging, the 'chat" method is usually more convenient.
-        """
-        options = {}
-        if self.__temperature is not None:
-            options['temperature'] = self.__temperature
-        response = chat(
-            model=self.__config.llm_model(),
-            options=self.__config.llm_options(**options),
-            messages=self._make_messages(message))
-        first_response = self._get_first_response(response)
-        if first_response:
-            self.__chat_history.append({'role': 'user', 'content': message})
-            self.__chat_history.append(response['message'])
-        return response
+        self.__system_messages.append(
+            # TODO: in other LLMs, the role would be 'system'. What's the best fit in Gemini?
+            {'role': 'user', 'parts': [{'text': message}]})
 
     def chat(self, message: str) -> Optional[str]:
-        """Asks a question thast is not preserved in history"""
-        return self._get_first_response(self.interact(message))
+        """Asks a question and returns the response.
+
+        Mostly used for debugging, the 'chat" method is usually more convenient.
+        """
+        if not Chat.__GENAI_INITIALIZED:
+            genai_config()
+            Chat.__GENAI_INITIALIZED = True
+        gen_config = None
+        if self.__temperature is not None:
+            gen_config = GenerationConfig(temperature=self.__temperature)
+        # TODO: infer model from yaml
+        if not self.__model:
+            self.__model = GenerativeModel('gemini-1.5-flash-latest',
+                                           generation_config=gen_config)
+        response = self.__model.generate_content(self._make_messages(message))
+        if response.text:
+            return response.text.rstrip()
+        # TODO: express the error somehow?
+        return None
 
     def smoke_test(self) -> str:
         """ Sends a test message to the LLM that we know the response to.
@@ -92,6 +97,6 @@ class Chat:
         test_response = self.chat(test_message)
         self.__chat_history = []
         if (test_response != 'OK'):
-            return ('Smoke test failed: llm was expected to return "OK", got: %s'
+            return ('Smoke test failed: llm was expected to return "OK", got: "%s"'
                     % test_response)
         return ''
