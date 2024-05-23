@@ -94,6 +94,9 @@ def parse_flags() -> Namespace:
                         action=BooleanOptionalAction,
                         help='If set, overwrite the existing output file.',
                         default=False)
+    parser.add_argument('-l', '--log_file',
+                        help='If set, log verbose info to this file.',
+                        default='')
     args = parser.parse_args()
 
     # Validate that project folders exist
@@ -112,7 +115,6 @@ def parse_flags() -> Namespace:
 class Config:
 
     __MODEL_OPTIONS = 'model_options'
-
 
     def _merge_config(self, p: str) -> None:
         if not path.exists(p):
@@ -178,10 +180,10 @@ class Config:
 
     def versions_per_summary(self) -> str:
         return self.__config[_ConfigKeys.VERSIONS_PER_SUMMARY]
-    
+
     def chapter_number(self) -> int:
         return self.__args.chapter
-    
+
     def setting(self) -> Optional[str]:
         return self.__config[_ConfigKeys.ALL_SETTINGS].get(
             self.__config[_ConfigKeys.STORY_SETTINGS], None)
@@ -192,7 +194,7 @@ class Config:
     def chapter_path(self) -> str:
         """Returns the path to the current chapter"""
         return _chapter_path(self.__args, self.__args.chapter)
-    
+
     def llm_options(self, **kwargs) -> dict[str, str]:
         """Returns LLM options with manual overrides, for example for temerature"""
         result = {}
@@ -248,7 +250,7 @@ class Config:
             return copy(val)
         else:
             return None
-        
+
     def get_property(self, chapter_number: int, key: PropertyKeys, default: Any = None) -> Any:
         properties = self.get_properties(chapter_number)
         if not properties:
