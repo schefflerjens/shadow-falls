@@ -15,7 +15,6 @@ class CommonPrompts(StrEnum):
     SMOKE_TEST = 'smoke test'
     STORY_BEAT = 'story beat'
     BEAT_SELECTION = 'beat selection'
-    TENSE_CORRECTION = 'tense correction'
     AUTHOR_PERSONA = 'author persona'
     EDITOR_PERSONA = 'editor persona'
     SUMMARIZE_STORY = 'summarize story'

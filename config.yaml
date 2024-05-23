@@ -109,14 +109,6 @@ prompts:
     <drafts>${drafts}</drafts>
     RESPOND ONLY WITH THE NUMBER OF THE CHOSEN DRAFT.
 
-  # Adjust the tense of the draft, if necessary
-  tense correction:
-    If the following <text> is not written in ${tense}, rewrite it to be written in 
-    ${tense}. Otherwise return the original text.
-    Only return the text and nothing else.
-    DO NOT MAKE ANY MODIFIATIONS BESIDE ADJUSTING THE TENSE WHERE NECESSARY.
-    <text>${draft}</text>
-
   # Summarize the story so far
   summarize story:
     Write a concise summary in ${words_per_summary} words using

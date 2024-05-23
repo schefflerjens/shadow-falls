@@ -67,18 +67,12 @@ class Workflow:
         )
 
     def pick_beat(self, drafts: list[str], previous_scene: str, current_beat: str) -> str:
-        best_draft = self.pick_best(
+        return self.pick_best(
             CommonPrompts.BEAT_SELECTION,
             drafts,
             previous_scene=previous_scene,
             current_beat=current_beat
         )
-
-        # Make some common edits before returing
-        logger.debug('Ensure we are in the correct tense.')
-        draft = self.editor_chat().chat(self.__config.prompt(
-            CommonPrompts.TENSE_CORRECTION, draft=best_draft))
-        return draft
 
     def write_summary(self, chapter: str) -> str:
         drafts = []
