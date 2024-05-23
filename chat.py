@@ -2,9 +2,12 @@
 
 from google.generativeai import (
     configure as genai_config, GenerationConfig, GenerativeModel)
-from collections.abc import Iterator
 from config import Config, CommonPrompts
-from typing import Any, Optional, Mapping, Union
+from logging import getLogger
+from typing import Optional
+
+
+logger = getLogger()
 
 
 class Chat:
@@ -39,16 +42,26 @@ class Chat:
         messages.extend(self.__system_messages)
         messages.extend(self.__chat_history)
         messages.append({'role': 'user', 'parts': [{'text': message}]})
+        logger.debug('Message object to be sent:\n%s' % messages)
         return messages
 
-    def _get_first_response(
-            self, result: Union[Mapping[str, Any], Iterator[Mapping[str, Any]]]
-    ) -> Optional[str]:
-        """Extracts the text response from an LLM query."""
-        if 'message' in result and 'content' in result['message']:
-            return result['message']['content']
+    def _get_model(self) -> GenerativeModel:
+        if self.__model:
+            return self.__model
+        if not Chat.__GENAI_INITIALIZED:
+            logger.debug('Calling genai_config()')
+            genai_config()
+            Chat.__GENAI_INITIALIZED = True
+        gen_config = None
+        if self.__temperature is not None:
+            logger.debug('Setting model temperature to %s' %
+                         self.__temperature)
+            gen_config = GenerationConfig(temperature=self.__temperature)
         else:
-            return None
+            logger.debug('Using default temperature for model.')
+        self.__model = GenerativeModel(self.__config.llm_model(),
+                                       generation_config=gen_config)
+        return self.__model
 
     def set_temperature(self, temperature: int) -> None:
         """Sets the temperature the LLK should use"""
@@ -67,20 +80,14 @@ class Chat:
 
         Mostly used for debugging, the 'chat" method is usually more convenient.
         """
-        if not Chat.__GENAI_INITIALIZED:
-            genai_config()
-            Chat.__GENAI_INITIALIZED = True
-        gen_config = None
-        if self.__temperature is not None:
-            gen_config = GenerationConfig(temperature=self.__temperature)
-        if not self.__model:
-            self.__model = GenerativeModel(self.__config.llm_model(),
-                                           generation_config=gen_config)
-        response = self.__model.generate_content(self._make_messages(message))
-        if response.text:
-            return response.text.rstrip()
-        # TODO: express the error somehow?
-        return None
+        response = self._get_model().generate_content(self._make_messages(message))
+        if not response.text:
+            logger.error('Gemini failed to respond as expeced.')
+            logger.debug('Detailed response: %s' % response)
+            return None
+        text = response.text.rstrip()
+        logger.debug('Gemini responded: %s' % text)
+        return text
 
     def smoke_test(self) -> str:
         """ Sends a test message to the LLM that we know the response to.
