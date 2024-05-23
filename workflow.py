@@ -75,6 +75,7 @@ class Workflow:
         )
 
         # Make some common edits before returing
+        logger.debug('Ensure we are in the correct tense.')
         draft = self.editor_chat().chat(self.__config.prompt(
             CommonPrompts.TENSE_CORRECTION, draft=best_draft))
         return draft
@@ -95,6 +96,8 @@ class Workflow:
     def write_beat(self, current_beat: str, prior_output: str, prior_beats: str, setting: str) -> str:
         """Write several drafts for the next beat and return the best one."""
         drafts = []
+        logger.debug('Writing %s versions of the current beat: %s' % (
+            self.__config.versions_per_beat(), current_beat))
         for i in range(self.__config.versions_per_beat()):
             draft = self.author_chat().chat(self.__config.prompt(
                 CommonPrompts.STORY_BEAT,
@@ -115,17 +118,24 @@ class Workflow:
             exit(2)
         prior_output = ''
         if self.__config.chapter_number() > 1:
+            logger.debug('Fetching prior output from properties.yaml')
             prior_output = self.__config.get_property(
                 self.__config.chapter_number() - 1, PropertyKeys.CHAPTER_SNIPPET)
             if not prior_output:
                 logger.fatal('Error, previous chapter sample not found. '
                              'Did you run the UPDATE_METADATA command?')
                 exit(2)
+            logger.debug('Prior output: %s' % prior_output)
         settings = self.__config.setting()
         if not settings:
             logger.fatal('Cannot find settings description for this chapter.')
             exit(2)
-        for current_beat in self.__config.story_beats():
+        else:
+            logger.debug('Chapter setting: %s' % settings)
+        story_beats = self.__config.story_beats()
+        for count, current_beat in enumerate(story_beats):
+            logger.info('Writing beat %s of %s' %
+                        ((count + 1, len(story_beats))))
             next_output = self.write_beat(
                 current_beat, prior_output, prior_beats, settings)
             output.append(next_output)

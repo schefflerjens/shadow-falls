@@ -114,7 +114,7 @@ prompts:
     If the following <text> is not written in ${tense}, rewrite it to be written in 
     ${tense}. Otherwise return the original text.
     Only return the text and nothing else.
-    DO NOT MAKE ANY MODIFIATIONS BESIDE ADJUSTING THE TENSE IF NECESSARY.
+    DO NOT MAKE ANY MODIFIATIONS BESIDE ADJUSTING THE TENSE WHERE NECESSARY.
     <text>${draft}</text>
 
   # Summarize the story so far
