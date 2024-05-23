@@ -2,6 +2,7 @@
 
 from google.generativeai import (
     configure as genai_config, GenerationConfig, GenerativeModel)
+from google.generativeai.types.safety_types import HarmCategory
 from config import Config, CommonPrompts
 from logging import getLogger
 from typing import Optional
@@ -45,6 +46,21 @@ class Chat:
         logger.debug('Message object to be sent:\n%s' % messages)
         return messages
 
+    def _safety_settings(self) -> list[dict[str, str]]:
+        # For safety settings, see also https://tinyurl.com/442f8hpv
+        result = []
+        for c in [
+            HarmCategory.HARM_CATEGORY_HARASSMENT,
+            HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+            HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+            HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+        ]:
+            result.append({
+                "category": c.name,
+                "threshold": "BLOCK_NONE",
+            })
+        return result
+
     def _get_model(self) -> GenerativeModel:
         if self.__model:
             return self.__model
@@ -60,7 +76,8 @@ class Chat:
         else:
             logger.debug('Using default temperature for model.')
         self.__model = GenerativeModel(self.__config.llm_model(),
-                                       generation_config=gen_config)
+                                       generation_config=gen_config,
+                                       safety_settings=self._safety_settings())
         return self.__model
 
     def set_temperature(self, temperature: int) -> None:
