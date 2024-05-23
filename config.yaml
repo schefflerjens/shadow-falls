@@ -2,9 +2,10 @@
 # Any value set here can be considered a reasonable default but
 # can be overwritten on a per-project basis
 
-# The LLM configuration we communicate to ollama. Note that this
-# code will not fetch a model that Ollama has not preloaded yet.
-model: KBlueLeaf_guanaco-7B-leh
+# The Gemini model to be used, for example gemini-pro. It is recommended
+# to not change models in the middle of the project. If you change models,
+# use the SMOKE_TEST acton to ensure that everything is hooked up properly.
+model: gemini-1.5-flash-latest
 
 # Options for the LLM (do not set temperature, that's usually per persona)
 #model_options:

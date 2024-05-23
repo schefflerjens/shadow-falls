@@ -73,9 +73,8 @@ class Chat:
         gen_config = None
         if self.__temperature is not None:
             gen_config = GenerationConfig(temperature=self.__temperature)
-        # TODO: infer model from yaml
         if not self.__model:
-            self.__model = GenerativeModel('gemini-1.5-flash-latest',
+            self.__model = GenerativeModel(self.__config.llm_model(),
                                            generation_config=gen_config)
         response = self.__model.generate_content(self._make_messages(message))
         if response.text:
