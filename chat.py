@@ -1,10 +1,13 @@
 """A wrapper around ollama and our config"""
 
+from google.api_core.exceptions import ResourceExhausted
 from google.generativeai import (
     configure as genai_config, GenerationConfig, GenerativeModel)
+from google.generativeai.types.generation_types import GenerateContentResponse
 from google.generativeai.types.safety_types import HarmCategory
 from config import Config, CommonPrompts
 from logging import getLogger
+from time import sleep
 from typing import Optional
 
 
@@ -92,13 +95,35 @@ class Chat:
             # TODO: in other LLMs, the role would be 'system'. What's the best fit in Gemini?
             {'role': 'user', 'parts': [{'text': message}]})
 
+    def __rpc_with_retry(self, payload: list[dict[str, str]]) -> Optional[GenerateContentResponse]:
+        # see https://www.googlecloudcommunity.com/gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
+        sleep_count = 0
+        sleep_time = 2
+        while True:
+            try:
+                response = self._get_model().generate_content(payload)
+            except ResourceExhausted as re:
+                logger.debug(
+                    'ResourceExhausted exception occurred while talking to gemini: %s' % re)
+                sleep_count += 1
+                if sleep_count > 5:
+                    logger.warn(
+                        'ResourceExhausted exception occurred 5 times in a row. Exiting.')
+                    return None
+                logger.info(
+                    'Too many requests, backing off for %s seconds' % sleep_time)
+                sleep(sleep_time)
+                sleep_time *= 2
+            else:
+                return response
+
     def chat(self, message: str) -> Optional[str]:
         """Asks a question and returns the response.
 
         Mostly used for debugging, the 'chat" method is usually more convenient.
         """
-        response = self._get_model().generate_content(self._make_messages(message))
-        if not response.text:
+        response = self.__rpc_with_retry(self._make_messages(message))
+        if not response or not response.text:
             logger.error('Gemini failed to respond as expeced.')
             logger.debug('Detailed response: %s' % response)
             return None
