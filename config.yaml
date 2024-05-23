@@ -21,8 +21,8 @@ words from last chapter: 500
 # How many words in a summary
 words per summary: 1000
 
-# Character encoding format (windows is encoding='cp1252')
-encoding: cp1252
+# Character encoding format (windows is encoding='cp1252', mac is 'utf-8')
+encoding: utf-8
 
 # How many versions per beat to create
 versions per beat: 3
@@ -31,7 +31,7 @@ versions per beat: 3
 versions per summary: 2
 
 # The LLM temperature to be used for the author persona
-author creativity: 2
+author creativity: 1.2
 
 # The LLM temperature to be used for the assistant persona
 assistant creativity: 1
