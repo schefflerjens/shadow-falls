@@ -1,6 +1,10 @@
 from chat import Chat
 from config import Config, CommonPrompts, PropertyKeys
+from logging import getLogger
 from re import findall
+
+
+logger = getLogger()
 
 
 class Workflow:
@@ -19,8 +23,6 @@ class Workflow:
     def assistant_chat(self) -> Chat:
         """Create a clean assistant / junior writing partner chat."""
         chat = Chat(self.__config)
-        #chat.add_system_message(
-        #    self.__config.prompt(CommonPrompts.EDITOR_PERSONA))
         chat.set_temperature(self.__config.assistant_temperature())
         return chat
 
@@ -33,6 +35,9 @@ class Workflow:
         return chat
 
     def pick_best(self, prompt: CommonPrompts, drafts: list[str], **kwargs) -> str:
+        assert len(drafts), 'Drafts array should never be empty!!!'
+        if len(drafts) == 1:
+            return drafts[0]
         # Prompt the editor persona to choose the best draft
         versions = []
         for i in range(len(drafts)):
@@ -86,12 +91,6 @@ class Workflow:
             drafts.append(draft)
         # Pick the best draft
         return self.pick_summary(drafts, chapter)
-        """
-        return self.assistant_chat().chat(self.__config.prompt(
-                    CommonPrompts.SUMMARIZE_STORY,
-                    chapter=chapter,
-                    previous_summary=self.__config.previous_summary()
-                ))"""
 
     def write_beat(self, current_beat: str, prior_output: str, prior_beats: str, setting: str) -> str:
         """Write several drafts for the next beat and return the best one."""
@@ -111,18 +110,21 @@ class Workflow:
         output = []
         prior_beats = self.__config.previous_summary()
         if not prior_beats:
-            exit('Error, previous summary not found. '
-                 'Did you run the UPDATE_METADATA command?')
+            logger.fatal('Error, previous summary not found. '
+                         'Did you run the UPDATE_METADATA command?')
+            exit(2)
         prior_output = ''
         if self.__config.chapter_number() > 1:
             prior_output = self.__config.get_property(
-                  self.__config.chapter_number() - 1, PropertyKeys.CHAPTER_SNIPPET)
+                self.__config.chapter_number() - 1, PropertyKeys.CHAPTER_SNIPPET)
             if not prior_output:
-                  exit('Error, previous chapter sample not found. '
-                       'Did you run the UPDATE_METADATA command?')
+                logger.fatal('Error, previous chapter sample not found. '
+                             'Did you run the UPDATE_METADATA command?')
+                exit(2)
         settings = self.__config.setting()
         if not settings:
-            exit('Cannot find settings description for this chapter.')
+            logger.fatal('Cannot find settings description for this chapter.')
+            exit(2)
         for current_beat in self.__config.story_beats():
             next_output = self.write_beat(
                 current_beat, prior_output, prior_beats, settings)

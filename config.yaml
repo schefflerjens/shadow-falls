@@ -25,19 +25,19 @@ words per summary: 1000
 encoding: cp1252
 
 # How many versions per beat to create
-versions per beat: 6
+versions per beat: 3
 
 # How many summaries to create
-versions per summary: 5
+versions per summary: 2
 
 # The LLM temperature to be used for the author persona
-author creativity: 75
+author creativity: 2
 
 # The LLM temperature to be used for the assistant persona
 assistant creativity: 1
 
 # The LLM temperature to be used for the editor persona
-editor creativity: 2
+editor creativity: 1
 
 # Prompts to be sent to a LLM. Allows a level of templatization.
 prompts:
@@ -118,22 +118,12 @@ prompts:
     <text>${draft}</text>
 
   # Summarize the story so far
-  summarize story 2:
+  summarize story:
     Write a concise summary in ${words_per_summary} words using
     <previous summary> and the most recent <chapter> of a book.
     DO NOT EDITORIALIZE, DO NOT ADD ANY NEW EVENTS.
     <previous summary>${previous_summary}</previous summary>
     <chapter>${chapter}</chapter>
-
-  summarize story:
-    "Write a concise summary in ${words_per_summary} words of
-    the following text:
-    ${previous_summary}
-    ${chapter}"
-
-  summarize story 3:
-    "Summarize the following in ${words_per_summary} words:
-    ${previous_summary} ${chapter}"
 
 # Used by the editor to pick the best summary selection
   summary selection:
