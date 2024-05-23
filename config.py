@@ -42,7 +42,6 @@ class _ConfigKeys(StrEnum):
     STORY_WORDS_PER_BEAT = 'words per beat'
     STORY_PERSPECTIVE = 'perspective'
     STORY_TENSE = 'tense'
-    STORY_OVERVIEW = 'overview'
     STORY_PREVIOUSLY = 'previously'
     AUTHOR_TEMPERATURE = 'author creativity'
     EDITOR_TEMPERATURE = 'editor creativity'
@@ -81,7 +80,8 @@ def parse_flags() -> Namespace:
     parser.add_argument('-a', '--action',
                         help='What action to perform',
                         required=True,
-                        choices=['WRITE_DRAFT', 'PRINT_CONFIG', 'SMOKE_TEST', 'UPDATE_METADATA'])
+                        choices=['WRITE_DRAFT', 'PRINT_CONFIG', 'SMOKE_TEST',
+                                 'UPDATE_METADATA', 'NEW_CHAPTER'])
     parser.add_argument('-o', '--output',
                         help='Name of the file to write output to. Defaults to out.txt.',
                         default='out.txt')
@@ -103,7 +103,8 @@ def parse_flags() -> Namespace:
         exit('Project path does not exist: %s' % args.project)
     if (args.chapter < 1):
         exit('Chapter should be a positive number, was %s' % args.chapter)
-    for i in range(1, args.chapter + 1):
+    chapter_range = args.chapter if args.action == 'NEW_CHAPTER' else args.chapter + 1
+    for i in range(1, chapter_range):
         if not path.exists(_chapter_path(args, i)):
             exit('Chapter %s does not have a folder: %s' %
                  (i, _chapter_path(args, i)))
@@ -125,7 +126,11 @@ class Config:
             return
         for k, v in new_config.items():
             if isinstance(v, dict) and k in self.__config:
-                self.__config[k].update(v)
+                for k1, v1 in v.items():
+                    if v1 == 'DELETE':
+                        self.__config[k].pop(k1, None)
+                    else:
+                        self.__config[k][k1] = v1
             else:
                 self.__config[k] = v
 
@@ -136,7 +141,8 @@ class Config:
         self.error = None
         self._merge_config('config.yaml')
         self._merge_config(path.join(args.project, 'config.yaml'))
-        for i in range(1, args.chapter + 1):
+        chapter_range = args.chapter if args.action == 'NEW_CHAPTER' else args.chapter + 1
+        for i in range(1, chapter_range):
             self._merge_config(
                 path.join(_chapter_path(args, i), 'config.yaml'))
         # Validate that all common keys exist

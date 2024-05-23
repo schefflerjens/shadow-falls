@@ -2,12 +2,34 @@ from chat import Chat
 from config import parse_flags, Config, PropertyKeys
 from dotenv import load_dotenv
 from logging import basicConfig, getLogger, FileHandler, Formatter, StreamHandler, INFO, DEBUG
-from os import path
+from os import path, mkdir
 from workflow import Workflow
 from sys import exit
 
 
 logger = getLogger(__name__)
+
+
+CHAPTER_YAML = """# Chapter specific configuration
+
+# The beats for this chapter
+story beats:
+  - The chapter opens with foo...
+  - bar...
+  - foobar...
+  - and so on until the last beat
+
+
+# What of the given sceneries in the parent YAML does this chapter play in?
+environment:
+  Environment Name
+
+# Optional changes to characters
+characters:
+  New Character Name:
+    Use this section to introduce new characters of replace the desctiption for existing ones.
+    Characters introduced carry over into future chapters until the description reads "DELETE".
+"""
 
 
 def initialize() -> Config:
@@ -87,6 +109,37 @@ def main() -> int:
         config.set_properties(config.chapter_number(), chapter_metadata)
         config.save_properties()
         logger.info('Chapter metadata was updated')
+        return 0
+
+    # Create the folder and files for the next chapter
+    if config.action() == 'NEW_CHAPTER':
+        chapter_path = config.chapter_path()
+        if path.exists(chapter_path):
+            logger.warning('Chapter directory already exists, '
+                           'will only check for missing files')
+        else:
+            logger.info('Making new directory')
+            mkdir(chapter_path)
+        yaml_path = path.join(chapter_path, 'config.yaml')
+        if path.exists(yaml_path):
+            logger.warning(
+                'config.yaml already exists, leaving it as is')
+        else:
+            logger.info('Writing config.yaml')
+            with open(yaml_path, 'w', encoding=config.encoding()) as f:
+                f.write(CHAPTER_YAML)
+        edited_path = config.input_file()
+        edited_name = path.split(edited_path)[-1]
+        if path.exists(edited_path):
+            logger.warning(
+                '%s already exists, leaving it as is' % edited_name)
+        else:
+            logger.info('Writing %s' % edited_name)
+            with open(edited_path, 'w', encoding=config.encoding()) as f:
+                f.write('Once the chapter is created, '
+                        'drop the edited version of it in this file.')
+        logger.info('Done. Please run UPDATE_METADATA on the '
+                    'previous chapter if you have not yet done so.')
         return 0
 
     logger.fatal('Unknown command: %s' % config.action())
