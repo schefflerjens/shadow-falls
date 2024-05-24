@@ -44,7 +44,7 @@ story beats:
 
 # What of the given sceneries does this chapter play in?
 environment:
-  Shadow Falls
+  - Shadow Falls
 
 characters:
   The killer:

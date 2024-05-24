@@ -10,7 +10,8 @@ story beats:
 
 # What of the given sceneries in the parent YAML does this chapter play in?
 environment:
-  Environment Name
+  - abandoned basement
+  - Fangs and Fur
 
 # Optional changes to characters
 characters:
