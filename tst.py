@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from logging import basicConfig, getLogger, FileHandler, Formatter, StreamHandler, INFO, DEBUG
 from os import path, mkdir
 from workflow import Workflow
-from sys import exit
+from sys import argv, exit
 
 
 logger = getLogger(__name__)
@@ -50,6 +50,7 @@ def initialize() -> Config:
     else:
         basicConfig(level=INFO, format='%(message)s')
 
+    logger.debug("COMMANDLINE: python tst.py %s" % ' '.join(argv))
     logger.debug('Parsing config')
     config = Config(flags)
     if config.error:

@@ -66,15 +66,22 @@ prompts:
   # Used to write a chapter beat. Adopted from the nerdy novelist
   # channel (https://www.youtube.com/watch?v=2tpEGmRIh6M&t=713s)
   story beat:
-    Using all of the information on <overview>, <setting>, and
-    <characters>, write ${words_per_beat} words with plenty of detail
-    and deep point of view. Use the <style> to determine the prose 
-    style of the output. Follow the <beat> exactly. All paragraphs should
-    take place during the timeframe of the <beat> instead of adding new
-    events. Focus on fully developing the given story <beat> rather than
+    I want you to write ${words_per_beat} words with plenty of detail
+    and deep point of view that tells part of a chapter outlined in <beat>.
+    Additional background information can be found about the
+    characters in <characters>, about the scenery in <setting> and
+    about what what happened right before this part in <previous scene>.
+    More details that happened previously in this chapter is summarized
+    in <prior beats>. Use the <style> to determine the prose 
+    style of the output. Follow the outline in <beat> exactly. 
+    All paragraphs should take place during the timeframe of the <beat>
+    instead of adding new events, and should pick up where <prior beats> 
+    left off. Focus on fully developing the given story rather than
     running to new plot points. The writing shoud continue what was written
-    in <previous scene> and emulate its style and point of view. The writing 
-    should end at the specified <beat> rather
+    in <prior beats> and emulate its style and point of view. The last
+    few sentences of the previous paragraph can be found in <previous scene>;
+    make sure that the generated text is a logical continuation it.
+    The writing should end at the specified <beat> rather
     than continuing further. The chapter should be in the ${perspective}
     and in the ${tense}. Include lots of realistic dialogue, deep point
     of view, and show more than tell. Do not retell any information that
@@ -88,9 +95,11 @@ prompts:
     <previous scene>${previous_scene}</previous scene>
     <beat>${current_beat}</beat>
 
-    Stay consistent with the style of the <previous scene>.
+    REMINDER to stay consistent with the style of the <previous scene> and be logically
+    consistent with the story told in <previous scene>.
     Be sure to write in the in the ${perspective} and in the tense of
-    ${tense}. RESPOND ONLY WITH THE WRITTEN WORDS, NOTHING ELSE.
+    ${tense}. The output should be ${words_per_beat} words long.
+    RESPOND ONLY WITH THE WRITTEN WORDS, NOTHING ELSE.
 
   # Used by the editor persona to pick the version of the beat that works best
   beat selection:
