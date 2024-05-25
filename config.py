@@ -3,11 +3,15 @@
 from argparse import ArgumentParser, BooleanOptionalAction, Namespace
 from copy import copy
 from enum import StrEnum
+from logging import getLogger
 from os import path
 from string import Template
 from sys import exit
 from typing import Any, Optional, Tuple
 from yaml import dump, safe_load, YAMLError
+
+
+logger = getLogger()
 
 
 class CommonPrompts(StrEnum):
@@ -190,8 +194,14 @@ class Config:
         return self.__args.chapter
 
     def setting(self) -> Optional[str]:
-        return self.__config[_ConfigKeys.ALL_SETTINGS].get(
-            self.__config[_ConfigKeys.STORY_SETTINGS], None)
+        result = []
+        for k in self.__config[_ConfigKeys.STORY_SETTINGS]:
+            if k not in self.__config[_ConfigKeys.ALL_SETTINGS]:
+                logger.warning(
+                    'Could not find a description for "%s" in settings.' % k)
+                return None
+            result.append('%s: %s\n' % (k, self.__config[_ConfigKeys.ALL_SETTINGS][k]))
+        return '\n'.join(result)
 
     def story_beats(self) -> list[str]:
         return list(self.__config[_ConfigKeys.STORY_BEATS])

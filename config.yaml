@@ -70,7 +70,7 @@ prompts:
     <characters>, write ${words_per_beat} words with plenty of detail
     and deep point of view. Use the <style> to determine the prose 
     style of the output. Follow the <beat> exactly. All paragraphs should
-    take place during the timeframe of the <overview> instead of adding new
+    take place during the timeframe of the <beat> instead of adding new
     events. Focus on fully developing the given story <beat> rather than
     running to new plot points. The writing shoud continue what was written
     in <previous scene> and emulate its style and point of view. The writing 
@@ -81,7 +81,6 @@ prompts:
     has already been shared in <prior beats>, because the reader already
     knows it anyway.
 
-    <overview>${overview}</overview>
     <prior beats>${prior_beats}</prior beats>
     <setting>${setting}</setting>
     <characters>${characters}</characters>
