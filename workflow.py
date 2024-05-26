@@ -133,9 +133,9 @@ class Workflow:
             next_output = self.write_beat(
                 current_beat, prior_output, prior_beats, settings)
             output.append(next_output)
-            prior_beats = '%s\n%s' % (
+            prior_beats = self.write_summary('%s\n%s' % (
                 prior_beats,
                 current_beat,
-            )
-            prior_output = next_output
+            ))
+            prior_output = self.__config.trim_previous_chapter(next_output)
         return output
