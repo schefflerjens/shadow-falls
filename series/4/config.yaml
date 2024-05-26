@@ -1,0 +1,19 @@
+# Chapter specific configuration
+
+# The beats for this chapter
+story beats:
+  - The chapter opens with foo...
+  - bar...
+  - foobar...
+  - and so on until the last beat
+
+
+# What of the given sceneries in the parent YAML does this chapter play in?
+environment:
+  Environment Name
+
+# Optional changes to characters
+characters:
+  New Character Name:
+    Use this section to introduce new characters of replace the desctiption for existing ones.
+    Characters introduced carry over into future chapters until the description reads "DELETE".
