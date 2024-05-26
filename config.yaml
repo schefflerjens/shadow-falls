@@ -31,13 +31,13 @@ versions per beat: 3
 versions per summary: 2
 
 # The LLM temperature to be used for the author persona
-author creativity: 1.2
+author creativity: 0.8
 
 # The LLM temperature to be used for the assistant persona
-assistant creativity: 1
+assistant creativity: 0.2
 
 # The LLM temperature to be used for the editor persona
-editor creativity: 1
+editor creativity: 0.2
 
 # Prompts to be sent to a LLM. Allows a level of templatization.
 prompts:
