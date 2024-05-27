@@ -2,18 +2,33 @@
 
 # The beats for this chapter
 story beats:
-  - The chapter opens with foo...
-  - bar...
-  - foobar...
-  - and so on until the last beat
+  - Jam makes his way to the "Main Street Mini Storage", a self storage facility
+    and the place where the serial killer last struck. He does not have a lot of
+    hope to find any new clues here, since the coroner has already removed the body
+    and Charlaine had told him any magic trail would run cold after two to three
+    hours anyway. But Charlaine is missing, and Jam has no better idea where to
+    look.
+  - Jam enters, ignoring police tape he had put up himself earlier today.
+    The storage facility is dark, dusty, and filled with an unsettling quiet.
+    Everything still looks the way Jam left it. Jam approaches the scene of the
+    crime and remembers Frankie, a twenty-something kid who had been working here.
+    Jam reflects that he never found out how and why the killer chose their victims.
+  - Standing where Frankie's body lay, Jam feels a strange unease. He runs a hand through his hair,
+    frustration gnawing at him. Examining the dusty concrete, he notices a faint, almost imperceptible
+    scratch in the floor, hidden beneath a smear of dried blood.
+  - Intrigued, Jam cleans the area around the scratch, revealing a faint magical inscription
+    etched into the concrete. He doesn't recognize the symbols, but they resonate with a subtle energy.
+    Jam takes out his phone and snaps a picture.
+  - Hesitantly, Jam traces the inscription with his finger. A jolt of energy shoots through him, 
+    and the inscription glows with an eerie blue light. The air crackles, and a shimmering circle 
+    materializes on the floor where the inscription is etched.
+  - Jam leaps back, his heart pounding. The warehouse plunges into an unnatural darkness within
+    the circle. A low growl echoes from the darkness, sending shivers down Jam's spine.
+  - Jam draws his revolver, aiming it at the swirling shadows within the circle.
+    He knows bullets might not work, but it's all he has.
 
 
 # What of the given sceneries in the parent YAML does this chapter play in?
 environment:
-  Environment Name
+  - Shadow Falls
 
-# Optional changes to characters
-characters:
-  New Character Name:
-    Use this section to introduce new characters of replace the desctiption for existing ones.
-    Characters introduced carry over into future chapters until the description reads "DELETE".

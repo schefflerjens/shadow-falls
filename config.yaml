@@ -63,43 +63,38 @@ prompts:
     loses momentum, identify inconsistencies with the chosen genre conventions, and
     suggest revisions that will keep the reader turning pages.
 
-  # Used to write a chapter beat. Adopted from the nerdy novelist
-  # channel (https://www.youtube.com/watch?v=2tpEGmRIh6M&t=713s)
-  story beat:
-    I want you to write ${words_per_beat} words with plenty of detail
-    and deep point of view that tells part of a chapter outlined in <beat>.
-    Additional background information can be found about the
-    characters in <characters>, about the scenery in <setting> and
-    about what what happened right before this part in <previous scene>.
-    More details that happened previously in this chapter is summarized
-    in <prior beats>. Use the <style> to determine the prose 
-    style of the output. Follow the outline in <beat> exactly. 
-    All paragraphs should take place during the timeframe of the <beat>
-    instead of adding new events, and should pick up where <prior beats> 
-    left off. Focus on fully developing the given story rather than
-    running to new plot points. The writing shoud continue what was written
-    in <prior beats> and emulate its style and point of view. The last
-    few sentences of the previous paragraph can be found in <previous scene>;
-    make sure that the generated text is a logical continuation it.
-    The writing should end at the specified <beat> rather
-    than continuing further. The chapter should be in the ${perspective}
-    and in the ${tense}. Include lots of realistic dialogue, deep point
-    of view, and show more than tell. Do not retell any information that
-    has already been shared in <prior beats>, because the reader already
-    knows it anyway.
+  # Used to write a chapter beat.
+  story beat: |
+    I want you to write a scene for a chapter.
 
-    <prior beats>${prior_beats}</prior beats>
-    <setting>${setting}</setting>
-    <characters>${characters}</characters>
-    <style>${style}</style>
-    <previous scene>${previous_scene}</previous scene>
-    <beat>${current_beat}</beat>
+    Target Length: ${words_per_beat} words
 
-    REMINDER to stay consistent with the style of the <previous scene> and be logically
-    consistent with the story told in <previous scene>.
-    Be sure to write in the in the ${perspective} and in the tense of
-    ${tense}. The output should be ${words_per_beat} words long.
-    RESPOND ONLY WITH THE WRITTEN WORDS, NOTHING ELSE.
+    Style: ${style}
+
+    Tense: ${tense}
+
+    Perspective: ${perspective}
+
+    Scenery: ${setting}
+
+    Characters: ${characters}
+    
+    Previous Scene:
+    ${previous_scene}
+
+    Scene Summary:
+
+    Write a continuation of the previous scene that adheres to the following summary:
+
+    ${current_beat}
+
+
+    Additional Notes:
+
+    Maintain consistency with the established tone, setting, and character traits from the previous scene(s).
+    Use vivid language and imagery to bring the scene to life.
+    Ensure a smooth transition between the previous scene and the generated text.
+
 
   # Used by the editor persona to pick the version of the beat that works best
   beat selection:
