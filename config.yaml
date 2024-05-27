@@ -12,8 +12,9 @@ model: gemini-1.5-flash-latest
   #num_ctx: 256000
   #num_ctx: 16000 # The LLM can take more, but I don't have enough GPU memory
 
-# How many words to aim for per beat
-words per beat: 300
+# How many words to aim for per beat. The actual beat will be a little shorter,
+# because we prompt the LLM to start with the end of the prior beat for consistency.
+words per beat: 375
 
 # How many words from the previous chapter to retain
 words from last chapter: 500
@@ -87,6 +88,9 @@ prompts:
     Write a continuation of the previous scene that adheres to the following summary:
 
     ${current_beat}
+
+    The newly written text should begin with the following text:
+    ${start_with}
 
 
     Additional Notes:
