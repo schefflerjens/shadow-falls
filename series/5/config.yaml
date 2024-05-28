@@ -2,18 +2,64 @@
 
 # The beats for this chapter
 story beats:
-  - The chapter opens with foo...
-  - bar...
-  - foobar...
-  - and so on until the last beat
-
+  - Jam said, "And then he told me to come here before you open the mail."
+    Jam and Anna are sitting in the mayor's office at city hall. The place is still
+    a mess, but Anna has at least managed to clean up the guest chair and enough of
+    the desk to have space for Jam's pot of steaming coffee. Jam drinks directly from
+    the pot, not bothering to transfer it into a mug. Having told Anna everything that 
+    happened so far, Jam puts down the pot and waits for the Anna's reaction.
+  - Anna recaps the situation - Charlaine is gone, Krabat is gone, and an ancient voodoo
+    deity has sent you on a quest to bring them back. Jam corrects that, technically,
+    he is only tasked with bringing back Charlaine and that Jam doubts that Papa Legba
+    is interested in Krabat whatsoever.
+  - Anna sighs and pulls a little flask out of her drawer. Before Jam can intervene,
+    she takes a swig. She notices the expression on Jam's face and tells him to relax.
+    She tells him that the flask only contains pig's blood, which tastes like crap but
+    at least is not addictive. Jam shrugs and admits that old habits die hard, even after
+    years. Anna nods and points at her fifty year chip. One day at a time, she replies.
+  - Jam takes another sip of coffee and asks Anna what she makes of the situation. Anna
+    replies that we can conclude that Krabat is as much a victim as Charlaine. 
+    Anna knows that Jam had suspicions about Krabat, but this encounter prooves 
+    that he is not behind this. After all, Krabat's source of magic  is very different
+    from Voodoo. Jam does not agree but does not press the matter.
+  - Anna continues that she is still confused by Legba's involvement. If he was behind 
+    the recent series of murders, why would he task Jam to find Charlaine? Why not just
+    do it himself? Jam considers this. He counters that Legba did not admit to anything,
+    he just did not deny it. Being a trickster god, his schemes might be hard to 
+    anticipate. That being said, Jam had the impression that Legba genuinely wanted
+    Charlaine saved. If he didn't do it himself, that meant he couldn't directly interfere.
+    Which could mean many things. For example, there might be different factions in his
+    cult and he cannot play favorite. Another explanation could be that another deity 
+    is involved.
+  - There is moment of silence where Jam and Anna mull this over. Anna asks, "so, 
+    this guy spends you on the quest but doesn't give you any help? No godly 
+    weapon or a magic compass that shows you the way?" Jam nods and responds that all
+    that Legba told him was come to city hall before the mayor opened her mail.
+    Anna and Jam stare at the half dozen letters on Anna's desk. Anna sighs and grabs a
+    letter opener. "Let's get to it, then," she says and reaches for the first letter.
 
 # What of the given sceneries in the parent YAML does this chapter play in?
 environment:
-  Environment Name
+  - city hall
 
-# Optional changes to characters
 characters:
-  New Character Name:
-    Use this section to introduce new characters of replace the desctiption for existing ones.
-    Characters introduced carry over into future chapters until the description reads "DELETE".
+  Anna Arborio:
+    Mayor and town doctor of Shadow Falls, Anna has a complicated relationship with Jam.
+    Anna is a vampire, but she has not fed on humans in many decades. Jam is actually her
+    AA sponsor and a good friend.  On the other hand, Jam's need to protect the town and 
+    Anna's ambitions for the community are sometimes at odds. Anna has pitch black hair, 
+    very fair skin, and bloodshot eyes because she works through the day and does not
+    spend enough time in her coffin. She tries to hide her eyes behind sunglasses and
+    has also banned any mirrors from her office. Jam has a romantic interest in Anna,
+    but the feeling is not mutual. The same is true for Krabat.
+  Papa Legba:
+    Also calls himself Eshu or Elegba. Papa Legba is an ancient god of the Fon people,
+    a West African ethnic group, though he is better known through his place in voodoo
+    religion. Legba is often referred to as a trickster god, like Loki or Coyote. He 
+    has the ability to traverse seamlessly between the mortal and divine realms. He often 
+    serves as a mediator between the realms. He is often portraied as an old man with
+    a walking stick in tattered clothing. Elegba is fond of dogs and has a giant hound
+    as a pet. He has a vested interest in Charlaine, since her grandmother is one of
+    his devout followers and Charlaine displays an aptitude for magic. Jam amuses him,
+    and he is willing to overlook minor transgressions like Jam calling him Daddy
+    Longlegs.
