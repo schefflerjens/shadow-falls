@@ -21,8 +21,9 @@ story beats:
 
 
 # What of the given sceneries in the parent YAML does this chapter play in?
+# List one or more...
 environment:
-  Environment Name
+  - Environment Name
 
 # Optional changes to characters
 characters:
