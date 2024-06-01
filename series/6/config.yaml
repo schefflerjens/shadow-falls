@@ -2,19 +2,43 @@
 
 # The beats for this chapter
 story beats:
-  - The chapter opens with foo...
-  - bar...
-  - foobar...
-  - and so on until the last beat
+  - Jam follows the spinning doll beyond the town, deeper into the woods.
+    The air grows colder and the sunlight fainter.
+  - An unsettling silence descends, broken only by the rustle of unseen creatures. A
+    nxiety gnaws at Jam, the doll's direction unwavering.
+  - hrough the trees, a dilapidated cabin appears. Relief flickers in Jam's chest, but something feels off.
+    The silence remains unbroken despite the supposed guards.
+  - Jam approaches cautiously, spotting several rough-looking figures patrolling the perimeter. He approaches
+    through the underbrush, careful not to be spotted.
+  - Once getting closer, Jam can make out the faces of some of the guards. They all have the same, average
+    looking, forgettable features. Jam is staring at the face of the murder twins, except that instead of two,
+    there is at least half a dozen of them now. A tense internal debate takes place - can Jam sneak past, 
+    or will he have to fight?
+  - Suddenly, a guard steps closer, suspicious eyes catching sight of Jam. No time for stealth. 
+    A fight breaks out - fast, brutal, and showcasing Jam's combat expertise.
+  - One by one, Jam dispatches the guards. Four guards are on the floor, unconscious.  The remaining figures scatter, 
+    shouts echoing through the woods.
+  - Catching his breath, Jam surveys the fallen guards. They all look exactly the same. Clearly, twins would have been 
+    possible, though unlikely, but murderous sextuplets? Jam concludes that these are not regular humans. He wonders
+    if they were created by magic, similar to Golems like himself?
+  - Approaching the cabin cautiously, Jam checks for reinforcements. Finding none, he cautiously enters.
+  - The interior of the cabin is dusty and abandoned, furniture overturned and cobwebs hanging thick. 
+    An air of neglect hangs heavy. Jam is reminded of a horror movie he once watched with Anna. Lonely cabins in the
+    woods often come with dark secrets, he thinks.
+  - Jam searches meticulously, a sense of urgency growing. Finding a loose floorboard, hope sparks.
+    Prying open the floorboard reveals a dark, gaping hole, a secret passage leading deeper into the unknown.
+  - Descending into the dank passage, Jam pulls out a small light source, illuminating rough-hewn 
+    steps leading downward. The air grows thick and stale with a faint, musky odor.
+  - After what feels like an eternity, the passage opens into a small, dimly lit chamber. In the center, 
+    bound and slumped against a wall, sits Charlaine, dirt smudging her cheeks. Dried tears trace glistening 
+    paths through the grime. Relief washes over Jam, a wave of warmth battling the chill of the underground space.
+  - Hurrying to her side, Jam kneels, throwing caution to the wind. He fumbles with the thick ropes binding Charlaine's
+    wrists. Charlaine's eyes flutter open, unfocused at first, then widening in recognition.
+    A flicker of relief crosses her face, quickly replaced by confusion and a tremor that runs through her body. 
+    She croaks out, her voice hoarse, "Jam? What... what happened?"
 
 
 # What of the given sceneries in the parent YAML does this chapter play in?
 # List one or more...
 environment:
-  - Environment Name
-
-# Optional changes to characters
-characters:
-  New Character Name:
-    Use this section to introduce new characters of replace the desctiption for existing ones.
-    Characters introduced carry over into future chapters until the description reads "DELETE".
+  - Shadow Falls

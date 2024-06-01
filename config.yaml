@@ -13,7 +13,7 @@ model: gemini-1.5-flash-latest
 # Settings this value to a really by value, like 100,000, effectively means
 # that all items are combined into a single writing prompt (not recommended
 # for most LLMs due to context window length)
-items per beat: 3
+items per beat: 2
 
 # TODO: re-implement or drop from the code!!!
 # Options for the LLM (do not set temperature, that's usually per persona)
@@ -24,7 +24,7 @@ items per beat: 3
 # How many words to aim for per beat. The actual beat will be a little shorter,
 # because we prompt the LLM to start with the end of the prior beat for consistency.
 # (also, especially for large numbers, the LLM might not honor the word count)
-words per beat: 3000
+words per beat: 750
 
 # How many words from the previous chapter to retain
 words from last chapter: 500
@@ -42,7 +42,7 @@ versions per beat: 3
 versions per summary: 2
 
 # The LLM temperature to be used for the author persona
-author creativity: 1.2
+author creativity: 1
 
 # The LLM temperature to be used for the assistant persona
 assistant creativity: 0.2
@@ -108,6 +108,8 @@ prompts:
     Maintain consistency with the established tone, setting, and character traits from the previous scene(s).
     Use vivid language and imagery to bring the scene to life.
     Ensure a smooth transition between the previous scene and the generated text.
+    DO NOT INVENT EVENTS BEYOND THE SCOPE OF THE SCENE SUMMARY, because someobody else will continue the
+    scene based on an already established outline.
 
 
   # Used by the editor persona to pick the version of the beat that works best
