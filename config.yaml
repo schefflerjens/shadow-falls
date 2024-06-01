@@ -7,6 +7,15 @@
 # use the SMOKE_TEST acton to ensure that everything is hooked up properly.
 model: gemini-1.5-flash-latest
 
+# If set to a value > 1, combine multiple beats to write a part of a chapter.
+# This can be useful for LLMs with large enough context windows to create
+# more coherent output (consider increasing th words per beat setting though).
+# Settings this value to a really by value, like 100,000, effectively means
+# that all items are combined into a single writing prompt (not recommended
+# for most LLMs due to context window length)
+items per beat: 3
+
+# TODO: re-implement or drop from the code!!!
 # Options for the LLM (do not set temperature, that's usually per persona)
 #model_options:
   #num_ctx: 256000
@@ -14,7 +23,8 @@ model: gemini-1.5-flash-latest
 
 # How many words to aim for per beat. The actual beat will be a little shorter,
 # because we prompt the LLM to start with the end of the prior beat for consistency.
-words per beat: 375
+# (also, especially for large numbers, the LLM might not honor the word count)
+words per beat: 3000
 
 # How many words from the previous chapter to retain
 words from last chapter: 500
@@ -32,7 +42,7 @@ versions per beat: 3
 versions per summary: 2
 
 # The LLM temperature to be used for the author persona
-author creativity: 0.8
+author creativity: 1.2
 
 # The LLM temperature to be used for the assistant persona
 assistant creativity: 0.2

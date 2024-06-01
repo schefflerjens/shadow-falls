@@ -43,6 +43,7 @@ class _ConfigKeys(StrEnum):
     STORY_BEATS = 'story beats'
     STORY_CHARACTERS = 'characters'
     STORY_GENRE = 'genre'
+    STORY_ITEMS_PER_BEAT = 'items per beat'
     STORY_WORDS_PER_BEAT = 'words per beat'
     STORY_PERSPECTIVE = 'perspective'
     STORY_TENSE = 'tense'
@@ -200,11 +201,20 @@ class Config:
                 logger.warning(
                     'Could not find a description for "%s" in settings.' % k)
                 return None
-            result.append('%s: %s\n' % (k, self.__config[_ConfigKeys.ALL_SETTINGS][k]))
+            result.append('%s: %s\n' %
+                          (k, self.__config[_ConfigKeys.ALL_SETTINGS][k]))
         return '\n'.join(result)
 
     def story_beats(self) -> list[str]:
-        return list(self.__config[_ConfigKeys.STORY_BEATS])
+        """Returns the combined story beat items as specified by the "items per beat" setting."""
+        items = list(self.__config[_ConfigKeys.STORY_BEATS])
+        items_per_beat = self.__config[_ConfigKeys.STORY_ITEMS_PER_BEAT]
+        assert items_per_beat > 0
+        result = []
+        for i in range(0, len(items), items_per_beat):
+            result.append(
+                '* \n'.join(items[i: min(len(items), i + items_per_beat)]))
+        return result
 
     def chapter_path(self) -> str:
         """Returns the path to the current chapter"""
