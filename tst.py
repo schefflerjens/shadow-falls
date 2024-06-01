@@ -91,6 +91,7 @@ def main() -> int:
         with open(output_file, 'w', encoding=config.encoding()) as f:
             f.write('\n\n'.join(chapter_by_beat))
         logger.info('Chapter was written to %s' % output_file)
+        logger.info('Total approximate word count: %s' % len(' '.join(chapter_by_beat).split()))
         return 0
 
     # Retain information for the next chapter
