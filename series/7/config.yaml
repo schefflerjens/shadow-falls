@@ -2,19 +2,47 @@
 
 # The beats for this chapter
 story beats:
-  - The chapter opens with foo...
-  - bar...
-  - foobar...
-  - and so on until the last beat
+  - Jam helps Charlaine out of the hidden chamber and back up the passage. Together, they emerge cautiously into the night air. 
+  - Relief washes over them, but it's short-lived. They hear a car approaching. It is the black sedan that took Krabat away earlier.
+    Jam recalls that one of the guards got away earlier. Most likely, reinforcements are arriving.
+  - Jam grabs Charlaine's arm and they dive into the undergrowth. They watch as the sedan parks at the clearing
+    and six of the murder twins emerge, all armed to the teeth.
+  - Jam pulls Charlaine away towards the path he came from earlier. The woods are dark and dense in the night, offering some cover.
+    They push through bushes, adrenaline pumping, the sound of their pursuers growing closer. 
+    Charlaine stumbles at first, her legs shaky from confinement, but Jam urges her on.
+    He knows they can't outrun the guards for long.
+  - Reaching a slight rise in the ground, Jam spots a large, fallen log.  He ushers Charlaine behind it and whispers a plan. 
+    He'll create a diversion while she keeps going.  Charlaine protests, but Jam insists, shoving the gun into her hand just in case.
+    With a deep breath, he throws a rock in the opposite direction. The sound draws the guards' attention,
+    and they charge off after the false lead.
+  - Just as Jam is ready to run off, he suddenly feals heat in his pocket. He reaches in and pulls out the compass with the little
+    "Charlaine" doll. He notices a faint, otherworldly glow emanating from it, something it had not done before.
+    Charlaine asks what's wrong, and he shows her the doll.
+  - When Charlaine sees the doll, surprise and fear show on her face. "Where did you get this," she asks Jam. Before he can respond,
+    she snatches the doll out of his hand and throws it as far away from her as possible.
+  - For a moment, nothing happens. Then the glow from the doll turns into a bright light. Jam instintively shields his eyes. When he 
+    looks back at the place where the doll used to be, a life-sized exact copy of Charlaine stands in her stead, including all the recent
+    bruises and dirt staint the real Charlaine has suffered.
+  - The life-sized doll that looks like Charlaine smiles and briefly waves to Jam, then starts running through the underbrush.
+    Jam notices that the doll makes a lot of noise and deduces that this intentional. The doll is creating the very diversion that Jam
+    planned doing himself.
+  - Jam and Charlaine wait and listen. Once it is clear that the guards fell for it and are hunting the doll, the get back on the path
+    towards town. The cannot see well in the night but do not dare turning on a flashlight, so progress is not as fast as Jam would like.
+    Eventually though, they make it to a field on the outskirts of the forest, where Jam's car is parked. They get in and drive back
+    to Shadow Falls as quickly as they can.
 
 
 # What of the given sceneries in the parent YAML does this chapter play in?
 # List one or more...
 environment:
-  - Environment Name
+  - Shadow Falls
 
 # Optional changes to characters
 characters:
-  New Character Name:
-    Use this section to introduce new characters of replace the desctiption for existing ones.
-    Characters introduced carry over into future chapters until the description reads "DELETE".
+  Murder Twins:
+    A group of identical looking humanoid creatures. Despite Jam calling them "twins", there are
+    more than two of them. Jam has seen up to six of them at once. Each looks like a man in his late
+    twenties with a "forgettable" face. Medium built, medium height, brown hair, no
+    remarkable features. It's the kind of person that can blend in anywhere and not be
+    remembered. Jam has had several encounters with them. If they get defeated or incapacitated,
+    they tend to eventually vanish, leaving a smell of clove and ozone behind.
