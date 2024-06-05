@@ -1,5 +1,5 @@
 imported projects:
 
 pyyaml
-dotenv
+python-dotenv
 google-generativeai
