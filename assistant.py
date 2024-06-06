@@ -4,33 +4,11 @@ from dotenv import load_dotenv
 from logging import basicConfig, getLogger, Formatter, StreamHandler, INFO, DEBUG
 from os import path, mkdir
 from workflow import Workflow
+from shutil import copyfile
 from sys import argv
 
 
 logger = getLogger(__name__)
-
-
-CHAPTER_YAML = """# Chapter specific configuration
-
-# The beats for this chapter
-story beats:
-  - The chapter opens with foo...
-  - bar...
-  - foobar...
-  - and so on until the last beat
-
-
-# What of the given sceneries in the parent YAML does this chapter play in?
-# List one or more...
-environment:
-  - Environment Name
-
-# Optional changes to characters
-characters:
-  New Character Name:
-    Use this section to introduce new characters of replace the desctiption for existing ones.
-    Characters introduced carry over into future chapters until the description reads "DELETE".
-"""
 
 
 def initialize() -> Config:
@@ -129,8 +107,7 @@ def main() -> int:
                 'config.yaml already exists, leaving it as is')
         else:
             logger.info('Writing config.yaml')
-            with open(yaml_path, 'w', encoding=config.encoding()) as f:
-                f.write(CHAPTER_YAML)
+            copyfile('chapter.yaml.template', yaml_path)
         edited_path = config.input_file()
         edited_name = path.split(edited_path)[-1]
         if path.exists(edited_path):
