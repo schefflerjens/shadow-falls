@@ -121,7 +121,7 @@ class Config:
 
     __MODEL_OPTIONS = 'model_options'
 
-    def _merge_config(self, p: str) -> None:
+    def __merge_config(self, p: str) -> None:
         if not path.exists(p):
             self.error = 'Path does not exist: %s' % p
             return
@@ -144,11 +144,11 @@ class Config:
         self.__config = dict()
         self.__args = args
         self.error = None
-        self._merge_config('config.yaml')
-        self._merge_config(path.join(args.project, 'config.yaml'))
+        self.__merge_config('config.yaml')
+        self.__merge_config(path.join(args.project, 'config.yaml'))
         chapter_range = args.chapter if args.action == 'NEW_CHAPTER' else args.chapter + 1
         for i in range(1, chapter_range):
-            self._merge_config(
+            self.__merge_config(
                 path.join(_chapter_path(args, i), 'config.yaml'))
         # Validate that all common keys exist
         for k in _ConfigKeys:

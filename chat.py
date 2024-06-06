@@ -1,4 +1,4 @@
-"""A wrapper around ollama and our config"""
+"""A wrapper around gemini, customized for our config"""
 
 from google.api_core.exceptions import ResourceExhausted
 from google.generativeai import (
@@ -39,7 +39,7 @@ class Chat:
         messages.extend(self.__chat_history)
         return '\n'.join([str(m) for m in messages])
 
-    def _make_messages(self, message: str) -> list[dict[str, str]]:
+    def __make_messages(self, message: str) -> list[dict[str, str]]:
         """Creates a list of messages we can send to an LLM."""
         assert message, 'Message must be non-empty'
         messages = []
@@ -49,7 +49,7 @@ class Chat:
         logger.debug('Message object to be sent:\n%s' % messages)
         return messages
 
-    def _safety_settings(self) -> list[dict[str, str]]:
+    def __safety_settings(self) -> list[dict[str, str]]:
         # For safety settings, see also https://tinyurl.com/442f8hpv
         result = []
         for c in [
@@ -64,7 +64,7 @@ class Chat:
             })
         return result
 
-    def _get_model(self) -> GenerativeModel:
+    def __get_model(self) -> GenerativeModel:
         if self.__model:
             return self.__model
         if not Chat.__GENAI_INITIALIZED:
@@ -80,7 +80,7 @@ class Chat:
             logger.debug('Using default temperature for model.')
         self.__model = GenerativeModel(self.__config.llm_model(),
                                        generation_config=gen_config,
-                                       safety_settings=self._safety_settings())
+                                       safety_settings=self.__safety_settings())
         return self.__model
 
     def set_temperature(self, temperature: int) -> None:
@@ -101,7 +101,7 @@ class Chat:
         sleep_time = 2
         while True:
             try:
-                response = self._get_model().generate_content(payload)
+                response = self.__get_model().generate_content(payload)
             except ResourceExhausted as re:
                 logger.debug(
                     'ResourceExhausted exception occurred while talking to gemini: %s' % re)
@@ -122,7 +122,7 @@ class Chat:
 
         Mostly used for debugging, the 'chat" method is usually more convenient.
         """
-        response = self.__rpc_with_retry(self._make_messages(message))
+        response = self.__rpc_with_retry(self.__make_messages(message))
         if not response or not response.text:
             logger.error('Gemini failed to respond as expeced.')
             logger.debug('Detailed response: %s' % response)
