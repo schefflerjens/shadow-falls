@@ -29,12 +29,14 @@ def main() -> int:
     config = initialize()
     if not config:
         return 1
+    
+    # PRINT_CONFIG command: print the config to the console
     if config.action() == 'PRINT_CONFIG':
         logger.debug('Printing config to standard output')
         print(config)
         return 0
 
-    # If necessary, run a smoke test to verify that the LLM works
+    # SMOKE_TEST: send a query to the LLM to verify that the overall plumbing works.
     if config.action() == 'SMOKE_TEST':
         chat = Chat(config)
         error = chat.smoke_test()
