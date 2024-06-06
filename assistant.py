@@ -1,10 +1,10 @@
 from chat import Chat
 from config import parse_flags, Config, PropertyKeys
 from dotenv import load_dotenv
-from logging import basicConfig, getLogger, FileHandler, Formatter, StreamHandler, INFO, DEBUG
+from logging import basicConfig, getLogger, Formatter, StreamHandler, INFO, DEBUG
 from os import path, mkdir
 from workflow import Workflow
-from sys import argv, exit
+from sys import argv
 
 
 logger = getLogger(__name__)
