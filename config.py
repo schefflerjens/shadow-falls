@@ -119,8 +119,6 @@ def parse_flags() -> Namespace:
 
 class Config:
 
-    __MODEL_OPTIONS = 'model_options'
-
     def __merge_config(self, p: str) -> None:
         if not path.exists(p):
             self.error = 'Path does not exist: %s' % p
@@ -219,14 +217,6 @@ class Config:
     def chapter_path(self) -> str:
         """Returns the path to the current chapter"""
         return _chapter_path(self.__args, self.__args.chapter)
-
-    def llm_options(self, **kwargs) -> dict[str, str]:
-        """Returns LLM options with manual overrides, for example for temerature"""
-        result = {}
-        if Config.__MODEL_OPTIONS in self.__config:
-            result.update(self.__config[Config.__MODEL_OPTIONS])
-        result.update(**kwargs)
-        return result
 
     def previous_summary(self) -> Optional[str]:
         """Returns a summary of the previous chapter."""

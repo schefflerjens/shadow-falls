@@ -15,12 +15,6 @@ model: gemini-1.5-flash-latest
 # for most LLMs due to context window length)
 items per beat: 2
 
-# TODO: re-implement or drop from the code!!!
-# Options for the LLM (do not set temperature, that's usually per persona)
-#model_options:
-  #num_ctx: 256000
-  #num_ctx: 16000 # The LLM can take more, but I don't have enough GPU memory
-
 # How many words to aim for per beat. The actual beat will be a little shorter,
 # because we prompt the LLM to start with the end of the prior beat for consistency.
 # (also, especially for large numbers, the LLM might not honor the word count)
