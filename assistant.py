@@ -16,7 +16,7 @@ def initialize() -> Config:
     load_dotenv()
     flags = parse_flags()
     configure_logging(flags.log_file)
-    logger.debug("COMMANDLINE: python tst.py %s" % ' '.join(argv))
+    logger.debug("COMMANDLINE: python assistant.py %s" % ' '.join(argv))
     logger.debug('Parsing config')
     config = Config(flags)
     if config.error:
