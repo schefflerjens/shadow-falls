@@ -1,8 +1,9 @@
 from chat import Chat
 from config import parse_flags, Config, PropertyKeys
 from dotenv import load_dotenv
-from logging import basicConfig, getLogger, Formatter, StreamHandler, INFO, DEBUG
+from logging import getLogger
 from os import path, mkdir
+from util import configure_logging
 from workflow import Workflow
 from shutil import copyfile
 from sys import argv
@@ -14,21 +15,7 @@ logger = getLogger(__name__)
 def initialize() -> Config:
     load_dotenv()
     flags = parse_flags()
-
-    # Set up logging
-    if flags.log_file:
-        basicConfig(level=DEBUG,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    datefmt='%m-%d %H:%M',
-                    filename=flags.log_file,
-                    filemode='a')
-        console = StreamHandler()
-        console.setLevel(INFO)
-        console.setFormatter(Formatter('%(message)s'))
-        getLogger('').addHandler(console)
-    else:
-        basicConfig(level=INFO, format='%(message)s')
-
+    configure_logging(flags.log_file)
     logger.debug("COMMANDLINE: python tst.py %s" % ' '.join(argv))
     logger.debug('Parsing config')
     config = Config(flags)
@@ -69,7 +56,8 @@ def main() -> int:
         with open(output_file, 'w', encoding=config.encoding()) as f:
             f.write('\n\n'.join(chapter_by_beat))
         logger.info('Chapter was written to %s' % output_file)
-        logger.info('Total approximate word count: %s' % len(' '.join(chapter_by_beat).split()))
+        logger.info('Total approximate word count: %s' %
+                    len(' '.join(chapter_by_beat).split()))
         return 0
 
     # Retain information for the next chapter

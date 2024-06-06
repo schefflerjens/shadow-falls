@@ -1,5 +1,24 @@
 """Various utility functions."""
 
+from logging import basicConfig, getLogger, Formatter, StreamHandler, INFO, DEBUG
+from typing import Optional
+
+
+def configure_logging(log_file: Optional[str]) -> None:
+    """Set up logging to log info and above to console and (optionally) everything to a file."""
+    if log_file:
+        basicConfig(level=DEBUG,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    datefmt='%m-%d %H:%M',
+                    filename=log_file,
+                    filemode='a')
+        console = StreamHandler()
+        console.setLevel(INFO)
+        console.setFormatter(Formatter('%(message)s'))
+        getLogger('').addHandler(console)
+    else:
+        basicConfig(level=INFO, format='%(message)s')
+
 
 def remove_overlap(first_part: str, second_part: str) -> str:
     """Returns the part of second_part that is not at the end of first_part."""
