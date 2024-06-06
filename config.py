@@ -148,17 +148,18 @@ class Config:
         for i in range(1, chapter_range):
             self.__merge_config(
                 path.join(_chapter_path(args, i), 'config.yaml'))
-        # Validate that all common keys exist
-        for k in _ConfigKeys:
-            if k not in self.__config:
-                self.error = 'Missing config key: %s' % k
-                self.__config = {}
-                return
-        for k in CommonPrompts:
-            if k not in self.__config[_ConfigKeys.PROMPTS]:
-                self.error = 'Missing common prompt: %s' % k
-                self.__config = {}
-                return
+        # Validate that all common keys exist (except for NEW_CHAPTER or SMOKE_TEST)
+        if not args.action in ['NEW_CHAPTER', 'SMOKE_TEST']:
+            for k in _ConfigKeys:
+                if k not in self.__config:
+                    self.error = 'Missing config key: %s' % k
+                    self.__config = {}
+                    return
+            for k in CommonPrompts:
+                if k not in self.__config[_ConfigKeys.PROMPTS]:
+                    self.error = 'Missing common prompt: %s' % k
+                    self.__config = {}
+                    return
         # Load properties if they exist
         properties_path = _properties_path(args)
         if path.exists(properties_path):
