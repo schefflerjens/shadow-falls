@@ -19,6 +19,17 @@ class Chat:
 
     __GENAI_INITIALIZED = False
 
+    _words_sent = 0
+    _words_received = 0
+
+    @staticmethod
+    def words_sent():
+        return Chat._words_sent
+    
+    @staticmethod
+    def words_received():
+        return Chat._words_received
+
     def __init__(self, config: Config) -> None:
         self.__config = config
         self.__system_messages = []
@@ -94,14 +105,29 @@ class Chat:
         self.__system_messages.append(
             # TODO: in other LLMs, the role would be 'system'. What's the best fit in Gemini?
             {'role': 'user', 'parts': [{'text': message}]})
+        
+    def __count_words(self, payload: list[dict[str, any]]):
+        count = 0
+        for i in payload:
+            if 'parts' not in i:
+                continue
+            for p in i['parts']:
+                if 'text' not in p:
+                    continue
+                count += len(p['text'].split())
+        return count
 
-    def __rpc_with_retry(self, payload: list[dict[str, str]]) -> Optional[GenerateContentResponse]:
+    def __rpc_with_retry(self, payload: list[dict[str, any]]) -> Optional[GenerateContentResponse]:
         # see https://www.googlecloudcommunity.com/gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
         sleep_count = 0
         sleep_time = 2
+        payload_wordcount = self.__count_words(payload)
         while True:
             try:
+                Chat._words_sent += payload_wordcount
                 response = self.__get_model().generate_content(payload)
+                if response and response.text:
+                    Chat._words_received += len(response.text.split())
             except ResourceExhausted as re:
                 logger.debug(
                     'ResourceExhausted exception occurred while talking to gemini: %s' % re)

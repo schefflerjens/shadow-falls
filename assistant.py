@@ -118,3 +118,5 @@ def main() -> int:
 
 if __name__ == '__main__':
     main()
+    logger.info('%s word(s) sent to LLM' % Chat.words_sent())
+    logger.info('%s word(s) received from LLM' % Chat.words_received())
