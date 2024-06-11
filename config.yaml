@@ -5,8 +5,8 @@
 # The Gemini model to be used, for example gemini-pro. It is recommended
 # to not change models in the middle of the project. If you change models,
 # use the SMOKE_TEST acton to ensure that everything is hooked up properly.
-#model: gemini-1.5-flash-latest
-model: gemini-1.5-pro-latest
+model: gemini-1.5-flash-latest
+#model: gemini-1.5-pro-latest
 
 # If set to a value > 1, combine multiple beats to write a part of a chapter.
 # This can be useful for LLMs with large enough context windows to create
