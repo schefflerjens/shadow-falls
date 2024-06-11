@@ -13,7 +13,7 @@ model: gemini-1.5-flash-latest
 # Settings this value to a really by value, like 100,000, effectively means
 # that all items are combined into a single writing prompt (not recommended
 # for most LLMs due to context window length)
-items per beat: 2
+items per beat: 1
 
 # How many words to aim for per beat. The actual beat will be a little shorter,
 # because we prompt the LLM to start with the end of the prior beat for consistency.

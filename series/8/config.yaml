@@ -1,0 +1,34 @@
+# Chapter specific configuration
+
+# The beats for this chapter
+story beats:
+  - Jam speeds towards Charlaine's grandma's house, with Charlaine still shaken by her ordeal of being
+    kidnapped, and then saved by Jam and a magic doll.
+  - Jam explains his decision to go to Charlaine's grandma (briefly mentioning needing help understanding the magic,
+    Papa Legba's deal, and what is happening ). Jam suspects the grandma is involved because Legba gave him the means
+    to rescue her.
+  - Charlaine expresses fear and confusion about the doll and the situation but refuses to believe that her
+    grandma could be involved.
+  - Jam and Charlaine arrive at the grandma's house, which is actually the town pharmacy. It's in the middle of the night,
+    so the shop is closed, but Jam rings the bell and rattles on the door until the lights turn on inside.
+  - Charlaine's grandma greets them, surprised by their hurried arrival. (Consider adding a detail about her appearance that 
+    hints at her magic - wise eyes, unusual jewelry).
+  - Jam explains the situation - the disappearances, Krabat, the creepy forest, and most importantly, the doll's transformation.
+    Charlaine's grandma is silent for a moment, contemplating what she heard, then she shuffles off to make some tea.
+  - When Grandma returns, She reveals her knowledge of the magic used on the doll (explain the magic - a powerful enchantment 
+    connection to crossroads magic). Grandma explains what the doll's transformation means (tie it to Charlaine's importance - dormant magic awakened, bloodline connection).
+  - Jam confronts the possibility that Papa Legba might be behind the doll's magic (introduce the idea that Papa Legba might
+    have motives beyond finding his follower). He asks Grandma if she put the Voodoo god up to this plan. Grandma shrugs
+    and responds that she does not have that kind of power. She then sais that, whenever she isn't sure, she finds
+    reassurance in consulting the tea leaves.
+  - Jam is derisive and compares it to carneval fortune teller tricks, but stops abruptly when Charlaine kicks him under the
+    table. Grandma clarifies that if they want answers to Legba, they need to find a way to communicate with him. The tea leaves
+    are a line of communication, a way to focus the mind and be more receptive to the spirit world. Unlike other Voodoo deities,
+    the good of crossroads will be able to pick it up.
+  - Jam sighs and agrees to the approach. Grandma spills the tea in a saucer and begins the ritual.
+
+
+# What of the given sceneries in the parent YAML does this chapter play in?
+# List one or more...
+environment:
+  - Shadow Falls
