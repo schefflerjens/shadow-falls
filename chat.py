@@ -91,7 +91,8 @@ class Chat:
             logger.debug('Using default temperature for model.')
         self.__model = GenerativeModel(self.__config.llm_model(),
                                        generation_config=gen_config,
-                                       safety_settings=self.__safety_settings())
+                                       safety_settings=self.__safety_settings()
+                                       )
         return self.__model
 
     def set_temperature(self, temperature: int) -> None:
@@ -121,7 +122,8 @@ class Chat:
 
     def __rpc_with_retry(self, payload: list[dict[str, any]])\
             -> Optional[GenerateContentResponse]:
-        # see https://www.googlecloudcommunity.com/gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
+        # see https://www.googlecloudcommunity.com/\
+        # gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
         sleep_count = 0
         sleep_time = 2
         payload_wordcount = self.__count_words(payload)
