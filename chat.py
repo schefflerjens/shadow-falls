@@ -25,7 +25,7 @@ class Chat:
     @staticmethod
     def words_sent():
         return Chat._words_sent
-    
+
     @staticmethod
     def words_received():
         return Chat._words_received
@@ -101,11 +101,13 @@ class Chat:
     def add_system_message(self, message: str) -> None:
         """Append a non-empty system message to initialize the chat."""
         assert message, 'Message must be non-empty'
-        assert not self.__chat_history, 'Cannot set messages after chat has started'
+        assert not self.__chat_history, 'Cannot set messages '\
+                                        'after chat has started'
         self.__system_messages.append(
-            # TODO: in other LLMs, the role would be 'system'. What's the best fit in Gemini?
+            # TODO: in other LLMs, the role would be 'system'.
+            # What's the best fit in Gemini?
             {'role': 'user', 'parts': [{'text': message}]})
-        
+
     def __count_words(self, payload: list[dict[str, any]]):
         count = 0
         for i in payload:
@@ -117,7 +119,8 @@ class Chat:
                 count += len(p['text'].split())
         return count
 
-    def __rpc_with_retry(self, payload: list[dict[str, any]]) -> Optional[GenerateContentResponse]:
+    def __rpc_with_retry(self, payload: list[dict[str, any]])\
+            -> Optional[GenerateContentResponse]:
         # see https://www.googlecloudcommunity.com/gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
         sleep_count = 0
         sleep_time = 2
@@ -130,14 +133,17 @@ class Chat:
                     Chat._words_received += len(response.text.split())
             except ResourceExhausted as re:
                 logger.debug(
-                    'ResourceExhausted exception occurred while talking to gemini: %s' % re)
+                    'ResourceExhausted exception occurred '
+                    'while talking to gemini: %s' % re)
                 sleep_count += 1
                 if sleep_count > 5:
                     logger.warn(
-                        'ResourceExhausted exception occurred 5 times in a row. Exiting.')
+                        'ResourceExhausted exception occurred '
+                        '5 times in a row. Exiting.')
                     return None
                 logger.info(
-                    'Too many requests, backing off for %s seconds' % sleep_time)
+                    'Too many requests, backing off for %s seconds'
+                    % sleep_time)
                 sleep(sleep_time)
                 sleep_time *= 2
             else:
@@ -146,7 +152,8 @@ class Chat:
     def chat(self, message: str) -> Optional[str]:
         """Asks a question and returns the response.
 
-        Mostly used for debugging, the 'chat" method is usually more convenient.
+        Mostly used for debugging.
+        The 'chat" method is usually more convenient.
         """
         response = self.__rpc_with_retry(self.__make_messages(message))
         if not response or not response.text:
@@ -163,14 +170,17 @@ class Chat:
         Returns:
           str: Error string if the test failed, empty string otherwise
         """
-        assert not self.__system_messages, 'Cannot run smoke test with system messages'
-        assert not self.__chat_history, 'Cannot run smoke test after chat has started'
+        assert not self.__system_messages, \
+            'Cannot run smoke test with system messages'
+        assert not self.__chat_history, \
+            'Cannot run smoke test after chat has started'
         if self.__config.error:
             return 'Invalid config. %s' % self.__config.error
         test_message = self.__config.prompt(CommonPrompts.SMOKE_TEST)
         test_response = self.chat(test_message)
         self.__chat_history = []
         if (test_response != 'OK'):
-            return ('Smoke test failed: llm was expected to return "OK", got: "%s"'
+            return ('Smoke test failed: llm was expected '
+                    'to return "OK", got: "%s"'
                     % test_response)
         return ''
