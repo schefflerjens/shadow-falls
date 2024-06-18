@@ -69,6 +69,7 @@ def _load_yaml(path: str, encoding: str) -> Optional[Any]:
         try:
             return safe_load(stream)
         except YAMLError as err:
+            logger.exception(err)
             return None
 
 
@@ -88,10 +89,12 @@ def parse_flags() -> Namespace:
                         choices=['WRITE_DRAFT', 'PRINT_CONFIG', 'SMOKE_TEST',
                                  'UPDATE_METADATA', 'NEW_CHAPTER'])
     parser.add_argument('-o', '--output',
-                        help='Name of the file to write output to. Defaults to out.txt.',
+                        help='Name of the file to write output to. '
+                             'Defaults to out.txt.',
                         default='out.txt')
     parser.add_argument('-i', '--infile',
-                        help='Name of text files to be read, for example an edited chapter. '
+                        help='Name of text files to be read, '
+                             'for example an edited chapter. '
                              'Defaults to edited.txt',
                         default='edited.txt')
     parser.add_argument('-f', '--force_overwrite',
@@ -108,7 +111,9 @@ def parse_flags() -> Namespace:
         exit('Project path does not exist: %s' % args.project)
     if (args.chapter < 1):
         exit('Chapter should be a positive number, was %s' % args.chapter)
-    chapter_range = args.chapter if args.action == 'NEW_CHAPTER' else args.chapter + 1
+    chapter_range = (args.chapter
+                     if args.action == 'NEW_CHAPTER'
+                     else args.chapter + 1)
     for i in range(1, chapter_range):
         if not path.exists(_chapter_path(args, i)):
             exit('Chapter %s does not have a folder: %s' %
@@ -144,12 +149,15 @@ class Config:
         self.error = None
         self.__merge_config('config.yaml')
         self.__merge_config(path.join(args.project, 'config.yaml'))
-        chapter_range = args.chapter if args.action == 'NEW_CHAPTER' else args.chapter + 1
+        chapter_range = (args.chapter
+                         if args.action == 'NEW_CHAPTER'
+                         else args.chapter + 1)
         for i in range(1, chapter_range):
             self.__merge_config(
                 path.join(_chapter_path(args, i), 'config.yaml'))
-        # Validate that all common keys exist (except for NEW_CHAPTER or SMOKE_TEST)
-        if not args.action in ['NEW_CHAPTER', 'SMOKE_TEST']:
+        # Validate that all common keys exist
+        # (except for NEW_CHAPTER or SMOKE_TEST)
+        if args.action not in ['NEW_CHAPTER', 'SMOKE_TEST']:
             for k in _ConfigKeys:
                 if k not in self.__config:
                     self.error = 'Missing config key: %s' % k
@@ -205,7 +213,10 @@ class Config:
         return '\n'.join(result)
 
     def story_beats(self) -> list[str]:
-        """Returns the combined story beat items as specified by the "items per beat" setting."""
+        """Returns the combined story beat items.
+
+          The "items per beat" setting determines how many beats
+          are combined into one."""
         items = list(self.__config[_ConfigKeys.STORY_BEATS])
         items_per_beat = self.__config[_ConfigKeys.STORY_ITEMS_PER_BEAT]
         assert items_per_beat > 0
