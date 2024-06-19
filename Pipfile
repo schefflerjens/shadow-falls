@@ -7,8 +7,9 @@ name = "pypi"
 pyyaml = "*"
 python-dotenv = "*"
 google-generativeai = "*"
+StrEnum = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.10.12"

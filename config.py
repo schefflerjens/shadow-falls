@@ -2,9 +2,9 @@
 
 from argparse import ArgumentParser, BooleanOptionalAction, Namespace
 from copy import copy
-from enum import StrEnum
 from logging import getLogger
 from os import path
+from strenum import StrEnum
 from string import Template
 from sys import exit
 from typing import Any, Optional, Tuple
