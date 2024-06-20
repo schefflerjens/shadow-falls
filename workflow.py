@@ -1,5 +1,5 @@
 from chat import Chat
-from config import Config, CommonPrompts, PropertyKeys
+from config import Config, CommonPrompts, PropertyKeys, Persona
 from logging import getLogger
 from re import findall
 from util import last_sentences, remove_overlap
@@ -13,27 +13,26 @@ class Workflow:
     def __init__(self, config: Config) -> None:
         self.__config = config
 
+    def ___new_chat(self, p: Persona) -> Chat:
+        chat = Chat(self.__config, p)
+        llm_config = self.__config.llm_config(p)
+        if llm_config.persona is not None:
+            chat.add_system_message(
+                self.__config.persona(llm_config)
+            )
+        return chat
+
     def __author_chat(self) -> Chat:
         """Create a clean author chat (without chat history)"""
-        chat = Chat(self.__config)
-        chat.add_system_message(
-            self.__config.prompt(CommonPrompts.AUTHOR_PERSONA))
-        chat.set_temperature(self.__config.author_temperature())
-        return chat
+        return self.___new_chat(Persona.AUTHOR)
 
     def __assistant_chat(self) -> Chat:
         """Create a clean assistant / junior writing partner chat."""
-        chat = Chat(self.__config)
-        chat.set_temperature(self.__config.assistant_temperature())
-        return chat
+        return self.___new_chat(Persona.ASSISTANT)
 
     def __editor_chat(self) -> Chat:
         """Create a clean editor chat (without chat history)"""
-        chat = Chat(self.__config)
-        chat.add_system_message(
-            self.__config.prompt(CommonPrompts.EDITOR_PERSONA))
-        chat.set_temperature(self.__config.editor_temperature())
-        return chat
+        return self.___new_chat(Persona.EDITOR)
 
     def __pick_best(self, prompt: CommonPrompts, drafts: list[str], **kwargs) -> str:
         assert len(drafts), 'Drafts array should never be empty!!!'

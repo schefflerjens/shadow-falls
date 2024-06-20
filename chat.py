@@ -5,7 +5,7 @@ from google.generativeai import (
     configure as genai_config, GenerationConfig, GenerativeModel)
 from google.generativeai.types.generation_types import GenerateContentResponse
 from google.generativeai.types.safety_types import HarmCategory
-from config import Config, CommonPrompts
+from config import Config, CommonPrompts, Persona
 from logging import getLogger
 from time import sleep
 from typing import Optional
@@ -30,12 +30,12 @@ class Chat:
     def words_received():
         return Chat._words_received
 
-    def __init__(self, config: Config) -> None:
+    def __init__(self, config: Config, persona: Persona) -> None:
         self.__config = config
         self.__system_messages = []
         self.__chat_history = []
-        self.__temperature = None
         self.__model = None
+        self.__persona = persona
 
     def __copy__(self):
         result = Chat(self.__config)
@@ -82,28 +82,26 @@ class Chat:
             logger.debug('Calling genai_config()')
             genai_config()
             Chat.__GENAI_INITIALIZED = True
+        llm_config = self.__config.llm_config(self.__persona)
         gen_config = None
-        if self.__temperature is not None:
+        if llm_config.temperature is not None:
             logger.debug('Setting model temperature to %s' %
-                         self.__temperature)
-            gen_config = GenerationConfig(temperature=self.__temperature)
+                         llm_config.temperature)
+            gen_config = GenerationConfig(
+                temperature=llm_config.temperature)
         else:
             logger.debug('Using default temperature for model.')
-        self.__model = GenerativeModel(self.__config.llm_model(),
+        self.__model = GenerativeModel(llm_config.model,
                                        generation_config=gen_config,
                                        safety_settings=self.__safety_settings()
                                        )
         return self.__model
 
-    def set_temperature(self, temperature: int) -> None:
-        """Sets the temperature the LLK should use"""
-        self.__temperature = temperature
-
     def add_system_message(self, message: str) -> None:
         """Append a non-empty system message to initialize the chat."""
         assert message, 'Message must be non-empty'
-        assert not self.__chat_history, 'Cannot set messages '\
-                                        'after chat has started'
+        assert not self.__chat_history, 'Cannot set messages '
+        'after chat has started'
         self.__system_messages.append(
             # TODO: in other LLMs, the role would be 'system'.
             # What's the best fit in Gemini?

@@ -2,11 +2,51 @@
 # Any value set here can be considered a reasonable default but
 # can be overwritten on a per-project basis
 
-# The Gemini model to be used, for example gemini-pro. It is recommended
-# to not change models in the middle of the project. If you change models,
-# use the SMOKE_TEST acton to ensure that everything is hooked up properly.
-model: gemini-1.5-flash-latest
-#model: gemini-1.5-pro-latest
+# Configuration for the different LLMs being used
+model_configs:
+
+  # The author persona that writes the fiction.
+  author:
+    # The Gemini model to be used, for example gemini-pro. It is recommended
+    # to not change models in the middle of the project. If you change models,
+    # use the SMOKE_TEST acton to ensure that everything is hooked up properly.
+    #model: gemini-1.5-pro-latest
+    model: gemini-1.5-flash-latest
+
+    # The LLM temperature to be used
+    temperature: 1
+
+    # Any initial instructions on what role to fulfill
+    persona:
+      I want you to adopt the persona of a best-selling author of the
+      ${genre} genre. Your writing is engaging, and you are experienced
+      with crafting fiction that is appealing to a broad audience.
+      Your overall style is ${style}. In your writing, it is important
+      to you to show, not tell. You write in ${tense}.
+
+  # The editor persona that provides feeback.
+  editor:
+    model: gemini-1.5-flash-latest
+    temperature: 0.2
+    persona:
+      I want you to adopt the persona of a seasoned fiction editor specializing in ${genre}
+      with a keen eye for pacing and a passion for genre consistency. A writer has submitted
+      a manuscript, and your job is to provide constructive feedback that will elevate their
+      work.
+      While maintaining a respectful and encouraging tone, point out areas where the story
+      loses momentum, identify inconsistencies with the chosen genre conventions, and
+      suggest revisions that will keep the reader turning pages.
+
+
+  # The assistant persona that provides simple tasks for the author
+  # with limited freedom to deviate.
+  assistant:
+    model: gemini-1.5-flash-latest
+    temperature: 0.2
+    persona:
+      I want you to be the assistant to a best-selling author. The author might outsorce
+      certain tasks to you, such as summarizing plotlines, spell-checks, or verifying plot
+      consistency. You must follow this instructions but not go beyond them. Do not improvise!
 
 # If set to a value > 1, combine multiple beats to write a part of a chapter.
 # This can be useful for LLMs with large enough context windows to create
@@ -36,38 +76,12 @@ versions per beat: 3
 # How many summaries to create
 versions per summary: 2
 
-# The LLM temperature to be used for the author persona
-author creativity: 1
-
-# The LLM temperature to be used for the assistant persona
-assistant creativity: 0.2
-
-# The LLM temperature to be used for the editor persona
-editor creativity: 0.2
 
 # Prompts to be sent to a LLM. Allows a level of templatization.
 prompts:
   # Used for a simple test to see if the LLM can be interacted with
   smoke test:
     respond with "OK"
-
-  # Instructs the LLM to take on the persona of an author
-  author persona:
-    I want you to adopt the persona of a best-selling author of the
-    ${genre} genre. Your writing is engaging, and you are experienced
-    with crafting fiction that is appealing to a broad audience.
-    Your overall style is ${style}. In your writing, it is important
-    to you to show, not tell. You write in ${tense}.
-
-  # Instructs the LLM to take on the persona of an editor.
-  editor persona:
-    I want you to adopt the persona of a seasoned fiction editor specializing in ${genre}
-    with a keen eye for pacing and a passion for genre consistency. A writer has submitted
-    a manuscript, and your job is to provide constructive feedback that will elevate their
-    work.
-    While maintaining a respectful and encouraging tone, point out areas where the story
-    loses momentum, identify inconsistencies with the chosen genre conventions, and
-    suggest revisions that will keep the reader turning pages.
 
   # Used to write a chapter beat.
   story beat: |

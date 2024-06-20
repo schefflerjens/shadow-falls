@@ -19,8 +19,6 @@ class CommonPrompts(StrEnum):
     SMOKE_TEST = 'smoke test'
     STORY_BEAT = 'story beat'
     BEAT_SELECTION = 'beat selection'
-    AUTHOR_PERSONA = 'author persona'
-    EDITOR_PERSONA = 'editor persona'
     SUMMARIZE_STORY = 'summarize story'
     SUMMARY_SELECTION = 'summary selection'
 
@@ -31,9 +29,16 @@ class PropertyKeys(StrEnum):
     CHAPTER_SUMMARY = 'summary'
 
 
+class Persona(StrEnum):
+    """LLM personas to be found in the config"""
+    AUTHOR = 'author'
+    EDITOR = 'editor'
+    ASSISTANT = 'assistant'
+
+
 class _ConfigKeys(StrEnum):
     PROMPTS = 'prompts'
-    LLM_MODEL = 'model'
+    MODEL_CONFIGS = 'model_configs'
     VERSIONS_PER_BEAT = 'versions per beat'
     VERSIONS_PER_SUMMARY = 'versions per summary'
     FILE_ENCODING = 'encoding'
@@ -48,9 +53,6 @@ class _ConfigKeys(StrEnum):
     STORY_PERSPECTIVE = 'perspective'
     STORY_TENSE = 'tense'
     STORY_PREVIOUSLY = 'previously'
-    AUTHOR_TEMPERATURE = 'author creativity'
-    EDITOR_TEMPERATURE = 'editor creativity'
-    ASSISTANT_TEMPERATURE = 'author creativity'
     SUMMARY_LENGTH = 'words per summary'
     PREVIOUS_LENGTH = 'words from last chapter'
 
@@ -122,6 +124,18 @@ def parse_flags() -> Namespace:
     return args
 
 
+class LlmConfig:
+    def __init__(self, config: dict[str, any]) -> None:
+        assert 'model' in config
+        self.model = str(config['model'])
+        self.temperature = None
+        self.persona = None
+        if 'temperature' in config:
+            self.temperature = int(config['temperature'])
+        if 'persona' in config:
+            self.persona = str(config['persona'])
+
+
 class Config:
 
     def __merge_config(self, p: str) -> None:
@@ -168,6 +182,11 @@ class Config:
                     self.error = 'Missing common prompt: %s' % k
                     self.__config = {}
                     return
+            for k in Persona:
+                if k not in self.__config[_ConfigKeys.MODEL_CONFIGS]:
+                    self.error = 'Missing persona for %s' % k
+                    self.__config = {}
+                    return
         # Load properties if they exist
         properties_path = _properties_path(args)
         if path.exists(properties_path):
@@ -189,8 +208,8 @@ class Config:
     def encoding(self) -> str:
         return self.__config.get(_ConfigKeys.FILE_ENCODING, 'cp1252')
 
-    def llm_model(self) -> str:
-        return self.__config[_ConfigKeys.LLM_MODEL]
+    def llm_config(self, p: Persona) -> LlmConfig:
+        return LlmConfig(self.__config[_ConfigKeys.MODEL_CONFIGS][p])
 
     def versions_per_beat(self) -> str:
         return self.__config[_ConfigKeys.VERSIONS_PER_BEAT]
@@ -249,18 +268,6 @@ class Config:
         """Returns the name of the input file to read from."""
         return path.join(self.chapter_path(), self.__args.infile)
 
-    def author_temperature(self) -> int:
-        """Returns the temperature for the author persona"""
-        return int(self.__config[_ConfigKeys.AUTHOR_TEMPERATURE])
-
-    def editor_temperature(self) -> int:
-        """Returns the temperature for the editor persona"""
-        return int(self.__config[_ConfigKeys.EDITOR_TEMPERATURE])
-
-    def assistant_temperature(self) -> int:
-        """Returns the temperature for the assistant persona"""
-        return int(self.__config[_ConfigKeys.ASSISTANT_TEMPERATURE])
-
     def trim_previous_chapter(self, previous_chapter: str) -> str:
         """Returns up to PREVIOUS_LENGTH words from the end of the last chapter"""
         chapter_words = previous_chapter.split()
@@ -293,22 +300,9 @@ class Config:
             f.write(dump(self.__properties))
             f.write('\n')
 
-    def prompt(self, prompt_name: CommonPrompts, **kwargs) -> str:
-        """Returns a prompt that is customized based on this config.
-
-        This method allows value subsitution: for example, having "${style}
-        in the prompt will lookup and replace the value with the "style"
-        entry from the config.yaml.
-
-        Parameters
-        ----------
-        prompt_name: CommonPrompts
-          one of the predefined prompt names to look up
-        **kwargs:
-          additional key/value string pairs to add for template substitution
-
-        """
-        template = Template(self.__config[_ConfigKeys.PROMPTS][prompt_name])
+    def __customize(self, s: str, **kwargs) -> str:
+        """Returns a string that is customized based on this config."""
+        template = Template(s)
         values = dict()
         # Add simple key/value pairs
         for key in _ConfigKeys:
@@ -324,3 +318,28 @@ class Config:
             values[str(k).replace(' ', '_')] = v
         # Substitute values, normalize whitespace, and return
         return ' '.join(template.substitute(values).split())
+
+    def prompt(self, prompt_name: CommonPrompts, **kwargs) -> str:
+        """Returns a prompt that is customized based on this config.
+
+        This method allows value subsitution: for example, having "${style}
+        in the prompt will lookup and replace the value with the "style"
+        entry from the config.yaml.
+
+        Parameters
+        ----------
+        prompt_name: CommonPrompts
+          one of the predefined prompt names to look up
+        **kwargs:
+          additional key/value string pairs to add for template substitution
+
+        """
+        return self.__customize(
+            self.__config[_ConfigKeys.PROMPTS][prompt_name], **kwargs)
+
+    def persona(self, config: LlmConfig) -> Optional[str]:
+        """Returns the persona prompt for a given config"""
+        if config.persona:
+            return self.__customize(config.persona)
+        else:
+            return None
