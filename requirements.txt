@@ -1,4 +1,5 @@
 pyyaml
 python-dotenv
 google-generativeai
+tabulate
 StrEnum

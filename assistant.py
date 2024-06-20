@@ -1,5 +1,5 @@
 from chat import Chat
-from config import parse_flags, Config, PropertyKeys
+from config import parse_flags, Config, PropertyKeys, Persona
 from dotenv import load_dotenv
 from logging import getLogger
 from os import path, mkdir
@@ -7,6 +7,7 @@ from util import configure_logging
 from workflow import Workflow
 from shutil import copyfile
 from sys import argv
+from tabulate import tabulate
 
 
 logger = getLogger(__name__)
@@ -29,7 +30,7 @@ def main() -> int:
     config = initialize()
     if not config:
         return 1
-    
+
     # PRINT_CONFIG command: print the config to the console
     if config.action() == 'PRINT_CONFIG':
         logger.debug('Printing config to standard output')
@@ -118,5 +119,23 @@ def main() -> int:
 
 if __name__ == '__main__':
     main()
-    logger.info('%s word(s) sent to LLM' % Chat.words_sent())
-    logger.info('%s word(s) received from LLM' % Chat.words_received())
+    logger.info('LLM stats:\n%s' %
+                tabulate([
+                    [
+                        'Words sent',
+                        Chat.words_sent(Persona.AUTHOR),
+                        Chat.words_sent(Persona.EDITOR),
+                        Chat.words_sent(Persona.ASSISTANT)
+                    ],
+                    [
+                        'Words received',
+                        Chat.words_received(Persona.AUTHOR),
+                        Chat.words_received(Persona.EDITOR),
+                        Chat.words_received(Persona.ASSISTANT)
+                    ]
+                ], [
+                    '',
+                    Persona.AUTHOR,
+                    Persona.EDITOR,
+                    Persona.ASSISTANT
+                ]))

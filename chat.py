@@ -19,16 +19,16 @@ class Chat:
 
     __GENAI_INITIALIZED = False
 
-    _words_sent = 0
-    _words_received = 0
+    _words_sent = {}
+    _words_received = {}
 
     @staticmethod
-    def words_sent():
-        return Chat._words_sent
+    def words_sent(p: Persona) -> int:
+        return Chat._words_sent.get(p, 0)
 
     @staticmethod
-    def words_received():
-        return Chat._words_received
+    def words_received(p: Persona) -> int:
+        return Chat._words_received.get(p, 0)
 
     def __init__(self, config: Config, persona: Persona) -> None:
         self.__config = config
@@ -127,10 +127,13 @@ class Chat:
         payload_wordcount = self.__count_words(payload)
         while True:
             try:
-                Chat._words_sent += payload_wordcount
+                Chat._words_sent[self.__persona] = Chat._words_sent.get(
+                    self.__persona, 0) + payload_wordcount
                 response = self.__get_model().generate_content(payload)
                 if response and response.text:
-                    Chat._words_received += len(response.text.split())
+                    Chat._words_received[self.__persona] = (
+                        Chat._words_received.get(
+                            self.__persona, 0) + len(response.text.split()))
             except ResourceExhausted as re:
                 logger.debug(
                     'ResourceExhausted exception occurred '
