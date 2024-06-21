@@ -1,0 +1,55 @@
+# Chapter specific configuration
+
+# The beats for this chapter
+story beats:
+  - the leaves in the saucer spin and come to a halt. The room chills, and the atmosphere grows tense.
+    Mama Marie said that he's here, but she did not say who. Jam assumes that it is Papa Legba, 
+    but he does not see anyone. He decides to provoke the spirit world, saying something like
+    "you better show your face, Daddy Longlegs." A voice from the dark responds 
+    "I still wish you wouldn't call me that."
+  - the voice of the speaker turns out to be Anna who is apporaching the group. She sways and her eyes glow green, 
+    possessed by Papa Legba.  She speaks in a chilling, unfamiliar voice, acknowledging Sheriff Slate 
+    and complimenting Mama Marie, thanking her for her offerings and hospitality. Jam is upset that the Loa
+    is posessing his friend. Legba retorts that he can only manifest at the crossroads between life and
+    death. Like the murder scene in the warehouse, and a vampire, being dead yet still alive, also qualifies.
+    Mama Marie adds that she asked the mayor here for that very reason and that the she volunteered.
+  - Legba, through Anna,  acknowledges the deal made with Sheriff Slate. Legba congratulates Jam and the
+    speedy delivery. He claims that the deal has been completed, as the person he rescued was also the person
+    he was looking for. Sheriff Slate disagrees and quotes Legba's original terms (Legba had said that
+    in return, he can give Jam something he'd been searching for.) He argues that finding "someone"  isn't 
+    the same as finding "something" as originally promised in the deal. Therefore, Legba was still in Jam's
+    debt.
+  - For a moment, Legba does not respond. A storm brews outside. The lights flicker.
+    Thunder rattles the house, lightning strikes
+    and something outside explodes. Charlaine kicks Jam discreetly and murmurs that he'd better stop pissing
+    off deities. Then, suddenly, everything goes back to normal. The only sounds remaining are the whining
+    of cerberus, the dog, and a guttural laugh from Papa Legba.
+  - Legba admits that it is very rare for a trickster god to be outsmarted,  
+    acknowledging the Sheriff's cleverness.
+    English is a tricky language, Legba reflects, but game recognizes game. 
+    He encourages Jam to name his price, within reason. He asks Sheriff Slate what he truly desires, 
+    reminding him there's always a price at the crossroads.
+  - Jam reflects about what he is going to ask. Since he cannot ask for "someone", Krabat is out of the question.
+    Asking for Krabat's location is equally tricky, since he had set a precedent with that for Charlaine's release.
+    He considers asking for who is behind the murder twins but realizes that the answer might not help if
+    the person is from out of town or in some tibetan monestary at the opposite end of the world. After some
+    more thoughts, Jam has an idea.
+  - Jam tells Legba that he is searching for a way to stop the source of the killings from committing any
+    further killings, abductions, or other crimes in and around Shadow Falls, without any more citizens coming
+    to harm in the process. Legba responds that the request is very specific, with a lot of constraints that
+    would be hard to fulfill. Jam asks Legba if that means he can't do it? Another round of thunder outside suggests
+    that Jam is close to angering the Loa again, and Charlaine kicks Jam a second time.
+  - Legba admits that it can be done, but that Jam might not like the outcome. Then again, Legba chuckles,
+    giving what you ask for but not what you needed was somewhat on brand with his image. He tells Jam to
+    go back to city hall and wait for the clock to strike noon.
+  - Legba then turns around to Mama Marie. With a smile, he asks her if she would say her kin has been safely returned.
+    Mama Marie nods her head and agrees that she is ready to fulfill her part of the deal. Before Jam or Charlaine
+    can do anything about it. Legba (in Anna's vampire body) jumps forward and sinks his
+    fangs into Mama Marie's neck.
+
+
+# What of the given sceneries in the parent YAML does this chapter play in?
+# List one or more...
+environment:
+  - grandma's hut
+  - Shadow Falls
