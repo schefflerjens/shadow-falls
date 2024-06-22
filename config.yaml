@@ -111,12 +111,16 @@ prompts:
     The newly written text should begin with the following text:
     ${start_with}
 
+    Here is what happens after the written text, make sure that the written text leads up
+    to those events BUT DOES NOT INCLUDE THEM:
+    ${next_beat}
+
 
     Additional Notes:
 
     Maintain consistency with the established tone, setting, and character traits from the previous scene(s).
     Use vivid language and imagery to bring the scene to life.
-    Ensure a smooth transition between the previous scene and the generated text.
+    Ensure a smooth transition between the previous scene, the generated text, and the scene that follows after.
     DO NOT INVENT EVENTS BEYOND THE SCOPE OF THE SCENE SUMMARY, because someobody else will continue the
     scene based on an already established outline.
 
