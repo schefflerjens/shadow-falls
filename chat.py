@@ -31,7 +31,7 @@ class Chat:
         self.__persona = persona
         self.__system_message = None
 
-    def __get_model(self) -> Llm:
+    def __get_llm(self) -> Llm:
         # TODO: support Claude
         return Gemini(self.__config.llm_config(self.__persona))
 
@@ -53,7 +53,7 @@ class Chat:
         The 'chat" method is usually more convenient.
         """
         logger.debug("Sending chat to %s LLM: %s" % (self.__persona, message))
-        response = self.__get_model().chat(message, self.__system_message)
+        response = self.__get_llm().chat(message, self.__system_message)
         self.__update_stats(response)
         if response.success:
             logger.debug('LLM responded: %s' % response.text_response)
@@ -71,7 +71,7 @@ class Chat:
         if self.__config.error:
             return 'Invalid config. %s' % self.__config.error
         test_message = self.__config.prompt(CommonPrompts.SMOKE_TEST)
-        response = self.__get_model().chat(test_message, None)
+        response = self.__get_llm().chat(test_message, None)
         self.__update_stats(response)
         if response.success:
             if response.text_response == 'OK':
