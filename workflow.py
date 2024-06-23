@@ -17,7 +17,7 @@ class Workflow:
         chat = Chat(self.__config, p)
         llm_config = self.__config.llm_config(p)
         if llm_config.persona is not None:
-            chat.add_system_message(
+            chat.set_system_message(
                 self.__config.persona(llm_config)
             )
         return chat

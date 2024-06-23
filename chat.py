@@ -32,30 +32,22 @@ class Chat:
 
     def __init__(self, config: Config, persona: Persona) -> None:
         self.__config = config
-        self.__system_messages = []
-        self.__chat_history = []
         self.__model = None
         self.__persona = persona
+        self.__system_message = None
 
-    def __copy__(self):
-        result = Chat(self.__config)
-        result.__system_messages.extend(self.__system_messages)
-        result.__chat_history.extend(self.__chat_history)
-        return result
-
-    def __str__(self) -> str:
-        """Returns a history for the chat."""
-        messages = []
-        messages.extend(self.__system_messages)
-        messages.extend(self.__chat_history)
-        return '\n'.join([str(m) for m in messages])
-
-    def __make_messages(self, message: str) -> list[dict[str, str]]:
+    def __create_payload(self,
+                         message: str,
+                         system_message: Optional[str] = None)\
+            -> list[dict[str, str]]:
         """Creates a list of messages we can send to an LLM."""
         assert message, 'Message must be non-empty'
         messages = []
-        messages.extend(self.__system_messages)
-        messages.extend(self.__chat_history)
+        if system_message:
+            messages.append(
+                # TODO: in other LLMs, the role would be 'system'.
+                # What's the best fit in Gemini?
+                {'role': 'user', 'parts': [{'text': message}]})
         messages.append({'role': 'user', 'parts': [{'text': message}]})
         logger.debug('Message object to be sent:\n%s' % messages)
         return messages
@@ -97,15 +89,9 @@ class Chat:
                                        )
         return self.__model
 
-    def add_system_message(self, message: str) -> None:
+    def set_system_message(self, message: Optional[str]) -> None:
         """Append a non-empty system message to initialize the chat."""
-        assert message, 'Message must be non-empty'
-        assert not self.__chat_history, 'Cannot set messages '
-        'after chat has started'
-        self.__system_messages.append(
-            # TODO: in other LLMs, the role would be 'system'.
-            # What's the best fit in Gemini?
-            {'role': 'user', 'parts': [{'text': message}]})
+        self.__system_message = message
 
     def __count_words(self, payload: list[dict[str, any]]):
         count = 0
@@ -118,8 +104,9 @@ class Chat:
                 count += len(p['text'].split())
         return count
 
-    def __rpc_with_retry(self, payload: list[dict[str, any]])\
+    def __rpc_with_retry(self, message: str)\
             -> Optional[GenerateContentResponse]:
+        payload = self.__create_payload(message, self.__system_message)
         # see https://www.googlecloudcommunity.com/\
         # gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
         sleep_count = 0
@@ -158,7 +145,7 @@ class Chat:
         Mostly used for debugging.
         The 'chat" method is usually more convenient.
         """
-        response = self.__rpc_with_retry(self.__make_messages(message))
+        response = self.__rpc_with_retry(message)
         if not response or not response.text:
             logger.error('Gemini failed to respond as expeced.')
             logger.debug('Detailed response: %s' % response)
@@ -173,10 +160,6 @@ class Chat:
         Returns:
           str: Error string if the test failed, empty string otherwise
         """
-        assert not self.__system_messages, \
-            'Cannot run smoke test with system messages'
-        assert not self.__chat_history, \
-            'Cannot run smoke test after chat has started'
         if self.__config.error:
             return 'Invalid config. %s' % self.__config.error
         test_message = self.__config.prompt(CommonPrompts.SMOKE_TEST)

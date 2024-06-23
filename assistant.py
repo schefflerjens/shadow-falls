@@ -39,7 +39,7 @@ def main() -> int:
 
     # SMOKE_TEST: send a query to the LLM to verify that the overall plumbing works.
     if config.action() == 'SMOKE_TEST':
-        chat = Chat(config)
+        chat = Chat(config, Persona.AUTHOR)
         error = chat.smoke_test()
         if error:
             logger.error('Smoke test failed: %s' % error)
