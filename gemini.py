@@ -3,38 +3,25 @@
 from google.api_core.exceptions import ResourceExhausted
 from google.generativeai import (
     configure as genai_config, GenerationConfig, GenerativeModel)
-from google.generativeai.types.generation_types import GenerateContentResponse
 from google.generativeai.types.safety_types import HarmCategory
-from config import Config, CommonPrompts, Persona
+from config import LlmConfig
 from logging import getLogger
 from time import sleep
+from typedefs import Llm, ChatResult
 from typing import Optional
 
 
 logger = getLogger()
 
 
-class Chat:
+class Gemini(Llm):
     """Represents a configured interaction with an LLM"""
 
     __GENAI_INITIALIZED = False
 
-    _words_sent = {}
-    _words_received = {}
-
-    @staticmethod
-    def words_sent(p: Persona) -> int:
-        return Chat._words_sent.get(p, 0)
-
-    @staticmethod
-    def words_received(p: Persona) -> int:
-        return Chat._words_received.get(p, 0)
-
-    def __init__(self, config: Config, persona: Persona) -> None:
+    def __init__(self, config: LlmConfig) -> None:
         self.__config = config
         self.__model = None
-        self.__persona = persona
-        self.__system_message = None
 
     def __create_payload(self,
                          message: str,
@@ -70,30 +57,25 @@ class Chat:
     def __get_model(self) -> GenerativeModel:
         if self.__model:
             return self.__model
-        if not Chat.__GENAI_INITIALIZED:
+        if not Gemini.__GENAI_INITIALIZED:
             logger.debug('Calling genai_config()')
             genai_config()
-            Chat.__GENAI_INITIALIZED = True
-        llm_config = self.__config.llm_config(self.__persona)
+            Gemini.__GENAI_INITIALIZED = True
         gen_config = None
-        if llm_config.temperature is not None:
+        if self.__config.temperature is not None:
             logger.debug('Setting model temperature to %s' %
-                         llm_config.temperature)
+                         self.__config.temperature)
             gen_config = GenerationConfig(
-                temperature=llm_config.temperature)
+                temperature=self.__config.temperature)
         else:
             logger.debug('Using default temperature for model.')
-        self.__model = GenerativeModel(llm_config.model,
+        self.__model = GenerativeModel(self.__config.model,
                                        generation_config=gen_config,
                                        safety_settings=self.__safety_settings()
                                        )
         return self.__model
 
-    def set_system_message(self, message: Optional[str]) -> None:
-        """Append a non-empty system message to initialize the chat."""
-        self.__system_message = message
-
-    def __count_words(self, payload: list[dict[str, any]]):
+    def __count_words(self, payload: list[dict[str, any]]) -> int:
         count = 0
         for i in payload:
             if 'parts' not in i:
@@ -104,23 +86,25 @@ class Chat:
                 count += len(p['text'].split())
         return count
 
-    def __rpc_with_retry(self, message: str)\
-            -> Optional[GenerateContentResponse]:
-        payload = self.__create_payload(message, self.__system_message)
+    def chat(
+        self,
+        message: str,
+        system_message: Optional[str])\
+            -> ChatResult:
+        payload = self.__create_payload(message, system_message)
         # see https://www.googlecloudcommunity.com/\
         # gc/AI-ML/Gemini-Pro-Quota-Exceeded/m-p/693185
         sleep_count = 0
         sleep_time = 2
+        words_sent = 0
+        words_received = 0
         payload_wordcount = self.__count_words(payload)
         while True:
             try:
-                Chat._words_sent[self.__persona] = Chat._words_sent.get(
-                    self.__persona, 0) + payload_wordcount
+                words_sent += payload_wordcount
                 response = self.__get_model().generate_content(payload)
                 if response and response.text:
-                    Chat._words_received[self.__persona] = (
-                        Chat._words_received.get(
-                            self.__persona, 0) + len(response.text.split()))
+                    words_received += len(response.text.split())
             except ResourceExhausted as re:
                 logger.debug(
                     'ResourceExhausted exception occurred '
@@ -130,43 +114,21 @@ class Chat:
                     logger.warn(
                         'ResourceExhausted exception occurred '
                         '5 times in a row. Exiting.')
-                    return None
+                    return ChatResult(
+                        success=False,
+                        text_response=None,
+                        words_sent=words_sent,
+                        words_received=words_received
+                    )
                 logger.info(
                     'Too many requests, backing off for %s seconds'
                     % sleep_time)
                 sleep(sleep_time)
                 sleep_time *= 2
             else:
-                return response
-
-    def chat(self, message: str) -> Optional[str]:
-        """Asks a question and returns the response.
-
-        Mostly used for debugging.
-        The 'chat" method is usually more convenient.
-        """
-        response = self.__rpc_with_retry(message)
-        if not response or not response.text:
-            logger.error('Gemini failed to respond as expeced.')
-            logger.debug('Detailed response: %s' % response)
-            return None
-        text = response.text.rstrip()
-        logger.debug('Gemini responded: %s' % text)
-        return text
-
-    def smoke_test(self) -> str:
-        """ Sends a test message to the LLM that we know the response to.
-
-        Returns:
-          str: Error string if the test failed, empty string otherwise
-        """
-        if self.__config.error:
-            return 'Invalid config. %s' % self.__config.error
-        test_message = self.__config.prompt(CommonPrompts.SMOKE_TEST)
-        test_response = self.chat(test_message)
-        self.__chat_history = []
-        if (test_response != 'OK'):
-            return ('Smoke test failed: llm was expected '
-                    'to return "OK", got: "%s"'
-                    % test_response)
-        return ''
+                return ChatResult(
+                    success=True,
+                    text_response=response.text.rstrip(),
+                    words_sent=words_sent,
+                    words_received=words_received
+                )
