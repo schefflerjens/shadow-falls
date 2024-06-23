@@ -59,7 +59,7 @@ class Chat:
             logger.debug('LLM responded: %s' % response.text_response)
             return response.text_response
         else:
-            logger.error('LLLM failed to respond as expeced.')
+            logger.error('LLM failed to respond as expected.')
             return None
 
     def smoke_test(self) -> str:
