@@ -11,8 +11,8 @@ model_configs:
     # to not change models in the middle of the project. If you change models,
     # use the SMOKE_TEST acton to ensure that everything is hooked up properly.
     #model: gemini-1.5-pro-latest
-    #model: claude-3-5-sonnet-20240620
-    model: gemini-1.5-flash-latest
+    model: claude-3-5-sonnet-20240620
+    #model: gemini-1.5-flash-latest
 
     # The LLM temperature to be used
     temperature: 1
@@ -55,12 +55,12 @@ model_configs:
 # Settings this value to a really by value, like 100,000, effectively means
 # that all items are combined into a single writing prompt (not recommended
 # for most LLMs due to context window length)
-items per beat: 1
+items per beat: 5
 
 # How many words to aim for per beat. The actual beat will be a little shorter,
 # because we prompt the LLM to start with the end of the prior beat for consistency.
 # (also, especially for large numbers, the LLM might not honor the word count)
-words per beat: 750
+words per beat: 1600
 
 # How many words from the previous chapter to retain
 words from last chapter: 500
@@ -72,7 +72,7 @@ words per summary: 1000
 encoding: utf-8
 
 # How many versions per beat to create
-versions per beat: 3
+versions per beat: 1
 
 # How many summaries to create
 versions per summary: 2

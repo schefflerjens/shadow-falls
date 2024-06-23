@@ -1,6 +1,6 @@
 """A wrapper around gemini, customized for our config"""
 
-from anthropic import Anthropic
+from anthropic import Anthropic, NOT_GIVEN
 from config import LlmConfig
 from logging import getLogger
 from typedefs import Llm, ChatResult
@@ -24,19 +24,13 @@ class Claude(Llm):
         message: str,
         system_message: Optional[str])\
             -> ChatResult:
-        payload = []
-        if system_message:
-            payload.append({
-                "role": "system",
-                "content": system_message,
-            })
-        payload.append({
-            "role": "user",
-                    "content": message,
-        })
         response = self.__client.messages.create(
-            max_tokens=1024,
-            messages=payload,
+            max_tokens=3000,  # TODO: make configurable
+            messages=[{
+                "role": "user",
+                "content": message,
+            }],
+            system=system_message if system_message else NOT_GIVEN,
             model=self.__config.model,
             temperature=self.__config.temperature or 1.0
         )
