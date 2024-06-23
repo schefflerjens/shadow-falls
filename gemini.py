@@ -15,7 +15,7 @@ logger = getLogger()
 
 
 class Gemini(Llm):
-    """Represents a configured interaction with an LLM"""
+    """Represents an interaction with Gemini"""
 
     __GENAI_INITIALIZED = False
 
