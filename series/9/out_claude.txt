@@ -4,6 +4,9 @@ LLM stats:
 Words sent        5335.5     11562        11004
 Words received     685.5         2         3754
 
+Overall cost for this chapter: 4 cents!!!
+============================================
+
 
 The leaves in the saucer spun wildly, then halted abruptly. A chill crept through the room. The air thickened, pressing against my clay skin.
 
