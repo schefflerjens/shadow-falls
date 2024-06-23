@@ -9,6 +9,7 @@ python-dotenv = "*"
 google-generativeai = "*"
 tabulate = "*"
 StrEnum = "*"
+anthropic = "*"
 
 [dev-packages]
 

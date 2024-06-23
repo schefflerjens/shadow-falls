@@ -8,6 +8,7 @@ from typing import Optional
 class ChatResult:
     success: bool
     text_response: str
+    # TODO: switch stats to tokens instead of words!!!
     words_sent: int
     words_received: int
 

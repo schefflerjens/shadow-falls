@@ -1,6 +1,7 @@
 """A wrapper around LLMs, customized for our config"""
 
 from config import Config, CommonPrompts, Persona
+from claude import Claude
 from gemini import Gemini
 from logging import getLogger
 from typedefs import Llm, ChatResult
@@ -32,8 +33,13 @@ class Chat:
         self.__system_message = None
 
     def __get_llm(self) -> Llm:
-        # TODO: support Claude
-        return Gemini(self.__config.llm_config(self.__persona))
+        llm_config = self.__config.llm_config(self.__persona)
+        if llm_config.model.startswith('gemini'):
+            return Gemini(llm_config)
+        if (llm_config.model.startswith('anthropic')
+                or llm_config.model.startswith('claude')):
+            return Claude(llm_config)
+        assert False, 'Unsupported model: %s' % llm_config.model
 
     def __update_stats(self, result: ChatResult) -> None:
         Chat._words_sent[self.__persona] = Chat._words_sent.get(
