@@ -2,7 +2,12 @@
 
 from logging import basicConfig, getLogger, Formatter, StreamHandler, \
     INFO, DEBUG
+from string import whitespace
 from typing import Optional
+
+_WHITESPACE_AND_PUNCTUATION = whitespace + ',.;!'
+_WHITESPACE_AND_QUOTES = whitespace + "\"'"
+_WHITESPACE_AND_PUNCTATION_AND_QUOTES = _WHITESPACE_AND_PUNCTUATION + "'\""
 
 
 def configure_logging(log_file: Optional[str]) -> None:
@@ -24,12 +29,36 @@ def configure_logging(log_file: Optional[str]) -> None:
 
 def remove_overlap(first_part: str, second_part: str) -> str:
     """Eliminates overalp between two strings, returning the second part."""
-    first_part = first_part.strip()
-    second_part = second_part.strip()
-    for i in range(len(first_part)):
-        if second_part.startswith(first_part[i:]):
-            return second_part[(len(first_part) - i):].strip()
-    return second_part.strip()
+    candidates = [
+        first_part,
+        first_part.rstrip(whitespace),
+        first_part.rstrip(_WHITESPACE_AND_PUNCTUATION),
+        first_part.rstrip(_WHITESPACE_AND_QUOTES),
+        first_part.rstrip(_WHITESPACE_AND_PUNCTATION_AND_QUOTES),
+    ]
+    result = second_part
+    sp_stripped = second_part.lstrip(_WHITESPACE_AND_PUNCTATION_AND_QUOTES)
+    for candidate in candidates:
+        for i in range(len(candidate)):
+            if second_part.startswith(candidate[i:]):
+                new_result = second_part[(len(candidate) - i):].strip()
+                removed = second_part[0: len(candidate) - i]
+                # Ignore if only quotes and whitespace get removed
+                if not removed.strip(_WHITESPACE_AND_PUNCTATION_AND_QUOTES):
+                    continue
+                if len(new_result) < len(result):
+                    result = new_result
+                    break
+            if sp_stripped.startswith(candidate[i:]):
+                new_result = sp_stripped[(len(candidate) - i):].strip()
+                removed = sp_stripped[0: len(candidate) - i]
+                # Ignore if only quotes and whitespace get removed
+                if not removed.strip(_WHITESPACE_AND_PUNCTATION_AND_QUOTES):
+                    continue
+                if len(new_result) < len(result):
+                    result = new_result
+                    break
+    return result.strip()
 
 
 def last_sentences(s: str, i: int) -> str:
