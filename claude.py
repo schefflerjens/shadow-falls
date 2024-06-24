@@ -25,7 +25,7 @@ class Claude(Llm):
         system_message: Optional[str])\
             -> ChatResult:
         response = self.__client.messages.create(
-            max_tokens=3000,  # TODO: make configurable
+            max_tokens=4096,  # TODO: make configurable
             messages=[{
                 "role": "user",
                 "content": message,
