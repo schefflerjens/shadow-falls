@@ -24,7 +24,7 @@ She moved through the basement in a slow circuit, palm held flat, the powder sit
 
 The powder moved.
 
-Not much. A lean, a drift, the way iron filings move toward a magnet. It pulled toward the far corner, behind the collapsed shelving. Charlaine followed it. I followed her.
+Not much. A lean, a drift, the way iron filings pull toward a magnet. It pulled toward the far corner, behind the collapsed shelving. Charlaine followed it. I followed her.
 
 The shelving had come down in a heap — old metal brackets, warped particleboard, the whole thing folded in on itself. Charlaine crouched and held her palm over the debris. The powder pulled harder, the shimmer brightening to something almost visible in the dark.
 
@@ -68,7 +68,7 @@ I pushed through the double doors.
 
 The warmth came first. Then the smell — whiskey and woodsmoke and the particular density of a crowd. Oil lamps hung from the ceiling beams, throwing honeyed light across the worn floorboards. Every booth was full. The bar ran the length of the left wall, stools packed tight. A stage at the back held a three-piece band working through something in a minor key. The trophies watched from the walls — elk, boar, something with too many horns to be natural.
 
-A table near the stage held a pair of shifters, their eyes tracking the room the way eyes do when they're built for it. A booth by the window held a figure that took up the whole bench — Grog, an ogre the size of a hay bale, nursing a ceramic stein with both hands and watching the band with the focused attention of a man who takes his music seriously. Across the room, a woman in a clerical collar was arguing theology with someone whose teeth were too long for the conversation.
+A table near the stage held a pair of shifters, their eyes tracking the room the way eyes do when they're built for it. A booth by the window held a figure that took up the whole bench — Grog, an ogre the size of a hay bale, nursing a ceramic stein with both hands, watching the band with the focused attention of a man who takes his music seriously. Across the room, a woman in a clerical collar was arguing theology with someone whose teeth were too long for the conversation.
 
 In the corner, hunched over a plate of ribs, sat Krabat. He shot me a withering glance. Then he looked at Charlaine and gave her a small nod. Almost friendly. Almost.
 
@@ -94,11 +94,11 @@ A pause. Millie looked at the espresso machine at the end of the bar — chrome,
 
 "Fine," Millie said, and went to make the cappuccino with the dignity of a woman who had made her choices and would live with them.
 
-I drank the tequila. It hit the clay the way it always did — not warmth exactly, but something close. A loosening. I set the glass down and looked at the room.
+I drank the tequila. It hit the way it always did — not warmth exactly, but something close. A loosening. I set the glass down and looked at the room.
 
-Charlaine had the rosette out. She worked the bar, moving from stool to stool, holding it up, asking questions. I watched her work. She had a way of asking things that didn't feel like asking — easy, conversational, the kind of manner that made people answer before they'd decided whether to. Nobody recognized it.
+Charlaine had the rosette out. She worked the bar, moving stool to stool, holding it up, asking questions. I watched her work. She had a way of asking things that didn't feel like asking — easy, conversational, the kind of manner that made people answer before they'd decided whether to. Nobody recognized it.
 
-She tried a group of burly men with tattoos near the back wall. The one with a beard as thick as his arms squinted at the rosette and shook his head. "Can't say I have, miss. Looks like some kinda old belt buckle." Another man chimed in with a grin. "Maybe a rodeo souvenir or somethin'." Charlaine offered a smile that didn't reach her eyes and moved on.
+She tried a group of burly men with tattoos near the back wall. The one with a beard as thick as his arms squinted at the rosette and shook his head. "Can't say I have, miss. Looks like some kinda old belt buckle." Another man grinned. "Maybe a rodeo souvenir or somethin'." Charlaine offered a smile that didn't reach her eyes and moved on.
 
 She showed it to a weathered woman playing pool. To the lone troll nursing something stronger than beer. To the bouncer by the door. Each time, furrowed brows, vague shrugs, no leads.
 
@@ -152,7 +152,7 @@ He picked up his drink. "Interesting."
 
 "I have two days."
 
-Something moved in his expression. Not surprise. Something more like recognition. "The Bureau."
+Something moved in his expression. Not surprise. Something closer to recognition. "The Bureau."
 
 "Thursday."
 
@@ -162,7 +162,7 @@ He set the rosette down and finished his drink. "Then move quickly."
 
 The fight started at the table by the stage.
 
-Bruno was a regular — heavyset, human, barrel-chested, the kind of man who got louder as the night went on and thought that was the same as getting funnier. A truck driver with a shaved head and a permanent scowl. He'd been bragging about arm-wrestling, working up to some story about a lumberjack twice his size. Grog had heard enough.
+Bruno was a regular — heavyset, human, barrel-chested, the kind of man who got louder as the night went on and thought that was the same as getting funnier. A truck driver with a shaved head and a permanent scowl. He'd been bragging about arm-wrestling, building toward some story about a lumberjack twice his size. Grog had heard enough.
 
 "You wouldn't know an arm wrestle from a tea party," Grog said. His voice shook the table.
 
