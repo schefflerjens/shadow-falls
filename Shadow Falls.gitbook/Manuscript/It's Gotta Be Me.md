@@ -1,10 +1,8 @@
-# The Station
-
-The station smelled like burnt coffee and old paper. It always did. I'd been smelling it for sixty years and it still hit me the same every time I came through the door — low, familiar, the kind of comfort that doesn't ask anything of you.
+The station smelled like burnt coffee and old paper. It always did. I'd been walking through that door for sixty years and it still hit me the same — low, familiar, the kind of comfort that doesn't ask anything of you.
 
 I went straight for the pot.
 
-Charlaine was at her desk, head bent over a case file, a pencil tucked behind her ear and another in her hand. She looked up when she heard the door. Looked at my face. Looked at my hand.
+Charlaine was at her desk, head bent over a case file, a pencil tucked behind her ear and another in her hand. She looked up when the door opened. Looked at my face. Looked at my hand.
 
 "You're cracking," she said.
 
@@ -18,7 +16,7 @@ I poured a mug and drank it standing at the counter. Caffeine worked differently
 
 By the third mug I'd finished the pot. I set it down and turned around.
 
-Charlaine was watching me with her arms crossed and that look she gets. The one that means she's already decided to be worried and is just waiting for me to give her a reason.
+Charlaine had her arms crossed and that look on her face. The one that means she's already decided to be worried and is just waiting for me to give her a reason.
 
 "There were two of them," I said. "On the rooftop. In the basement."
 
@@ -76,11 +74,11 @@ She had that coming. I'd handed it to her with the daddy joke and I knew it.
 
 ---
 
-Anna Arborio's office was next door, up a staircase that creaked on the fourth and seventh step. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
+Anna Arborio's office was next door to the station, up a staircase that creaked on the fourth and seventh step. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
 
 I knocked once and went in.
 
-The office looked like a library that had stopped caring about organization. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, dark hair pinned up with what looked like a letter opener. A framed city charter hung crooked on the wall behind her. A brass desk lamp threw a tight circle of yellow light over the clutter. The rest of the room sat in shadow.
+The office looked like a library that had given up on organization. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, dark hair pinned up with what looked like a letter opener. A framed city charter hung crooked on the wall behind her. A brass desk lamp threw a tight circle of yellow light over the clutter. The rest of the room sat in shadow.
 
 She looked up. She assessed. Anna had been looking at me that way for thirty years. She didn't spook easy.
 
@@ -104,7 +102,7 @@ When I was done, she was quiet. Then: "Teleportation magic."
 
 "That's what it looks like. First sign we're dealing with something non-human. It complicates things."
 
-She nodded slowly. "I'm calling the Bureau."
+She nodded. "I'm calling the Bureau."
 
 "I'd rather you didn't."
 
@@ -144,7 +142,7 @@ I let it go. "If he has information about this working, I want it before the Bur
 
 "Agreed. Go see him." She picked her glasses back up. The conversation was over. That was another thing about Anna — she knew when she'd won.
 
-"Jam." She didn't look up from the file. "This town has spent a lot to protect you. Don't make it harder than it has to be."
+"Jam." She didn't look up from the file. "This town has spent a lot to keep you here. Don't make it harder than it has to be."
 
 I understood what she meant. The city coffers were notoriously empty. The money that had kept federal hands off this department — off me — had come from one place. It always did. Without Anna Arborio, this town would be dirt.
 

@@ -9,7 +9,17 @@
 - **Mannerisms & Speech**: Cryptic, amused, patient. "Names have power for me and my kin." Calls himself Eshu. Objects to being called "Daddy Longlegs." Speaks in riddles and offers deals.
 - **Internal Vibe**: Ancient, patient, dangerous — but not necessarily malevolent. Tests people rather than destroys them.
 
-## Background & Motivation
-- **History**: Voodoo Loa — a god of crossroads, gateways, communication, and trickery. Operates from the spirit world. The summoning circle found in the storage unit was a gateway to his domain.
-- **Goal**: Wants Jam to find someone for him ("someone who's dear to a follower of mine"). Tests Jam's worth.
-- **Fatal Flaw**: Cannot act directly in the physical world. Must work through deals and intermediaries. Always playing a game.
+## Domain
+- Guardian of crossroads, gateways, communication. Charlaine describes him as "Grand-Mère's domain" — something not to be joked about.
+- Can only manifest at the intersection of life and death (a murder scene, a vampire).
+
+## Key Relationships
+- **Jam Slate**: Pawn / Test Subject. Made a deal with Jam to find someone.
+- **Mama Marie (Grand-Mère)**: Follower. Her family line serves him. She makes offerings to him.
+- **Charlaine Meyers**: Protected indirectly through Grand-Mère's connection.
+
+## Chronological Timeline States
+| Act / Chapter | State Name | State Details & Overrides |
+| --- | --- | --- |
+| Chapter 2 | Mentioned | Charlaine says he's "Grand-Mère's domain" — not something to joke about |
+| Chapter 4 | First Appearance | Spirit world encounter via summoning circle. Offers Jam a deal. |

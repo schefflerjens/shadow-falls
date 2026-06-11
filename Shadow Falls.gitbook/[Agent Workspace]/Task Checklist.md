@@ -3,7 +3,8 @@
 ## Pending (Rewrite Pass)
 - [x] Rewrite Chapter 1 — Dead End Chase
 - [x] Polish Chapter 1 — Dead End Chase
-- [/] Rewrite Chapter 2 — It's Gotta Be Me
+- [x] Rewrite Chapter 2 — It's Gotta Be Me
+- [x] Polish Chapter 2 — It's Gotta Be Me
 - [ ] Rewrite Chapter 3 — Gone in a Flash
 - [ ] Rewrite Chapter 4 — The Scratch in the Dust
 - [ ] Rewrite Chapter 5 — The Doll

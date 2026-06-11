@@ -1,5 +1,3 @@
-# Cracked
-
 The rooftop gravel bit into my shoes with every stride. I didn't slow down.
 
 The killer was fast. Medium height, medium build, brown hair, the kind of face you'd forget before you finished looking at it. He vaulted a low brick parapet and kept going, and I went right over after him. Below us, Maple Lane baked in the afternoon sun. The asphalt had gone soft. The air had weight to it, heavy and pressing, the kind of heat that didn't let up.
