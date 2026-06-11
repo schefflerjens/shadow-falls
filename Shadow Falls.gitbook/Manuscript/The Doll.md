@@ -146,9 +146,9 @@ Outside, the night air was thick and warm, the day's heat still sitting in the p
 
 I held the petri dish in my left hand and walked west.
 
-The doll pointed the same direction it had been pointing since unit eleven. Steady. Patient. The carved face had no expression, but there was intention in it — the kind that gets put into something when the person doing the carving knows what they want it to do.
+The doll pointed the same direction it had been pointing since unit eleven. Steady. Patient. The carved face held no expression, but there was intention in it — the kind put into something when the person doing the carving knows what they want it to do.
 
-The streetlights thinned as I hit the western edge of town. Pavement gave way to gravel, then packed dirt, then the soft ground of the tree line. The forest was dark and dense, the canopy closing out the sky. The air changed — cooler, heavier, the smell of pine and wet earth replacing the dust of the street.
+The streetlights thinned as I reached the western edge of town. Pavement gave way to gravel, then packed dirt, then the soft ground at the tree line. The forest was dark and dense, the canopy closing out the sky. The air changed — cooler, heavier, pine and wet earth replacing the dust of the street.
 
 I stopped at the tree line.
 

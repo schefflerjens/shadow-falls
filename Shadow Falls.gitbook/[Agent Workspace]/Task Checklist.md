@@ -9,7 +9,8 @@
 - [x] Polish Chapter 3 — Gone in a Flash
 - [x] Rewrite Chapter 4 — The Scratch in the Dust
 - [x] Polish Chapter 4 — The Scratch in the Dust
-- [/] Rewrite Chapter 5 — The Doll
+- [x] Rewrite Chapter 5 — The Doll
+- [x] Polish Chapter 5 — The Doll
 - [ ] Rewrite Chapter 6 — Dolls Don't Lead to Happy Endings
 - [ ] Rewrite Chapter 7 — Out of the woods
 - [ ] Rewrite Chapter 8 — Mama Marie
