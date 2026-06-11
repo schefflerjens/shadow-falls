@@ -1,1 +1,1 @@
-Drafting Chapter 4 — The Scratch in the Dust
+Finished polishing Chapter 4 — The Scratch in the Dust

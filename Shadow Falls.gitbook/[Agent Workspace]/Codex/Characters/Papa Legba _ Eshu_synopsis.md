@@ -1,1 +1,1 @@
-Voodoo trickster god of crossroads. Operates from the spirit world. Made a deal with Jam to find someone.
+Voodoo trickster god of crossroads. Operates from the spirit world. Made a deal with Jam: stop the working tearing the membrane, bring him the anchor, and he'll reveal the woman in the photograph.

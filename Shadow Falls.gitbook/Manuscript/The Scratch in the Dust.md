@@ -1,5 +1,3 @@
-## The Inscription
-
 The lemonade stand was gone. The kid had packed up and gone home for dinner, and Maple Lane had the quiet that settles on a street when the day gives up on itself. I walked it without stopping. Nothing left on Maple Lane for me tonight.
 
 Main Street Mini Storage was three blocks east, tucked between a closed tax office and a laundromat that ran twenty-four hours and smelled like it. Low and flat, corrugated metal siding, a roll-up gate across the front somebody had left unlocked. My tape was still on the side door. Yellow, official, already peeling at one corner in the humidity.

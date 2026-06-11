@@ -7,7 +7,8 @@
 - [x] Polish Chapter 2 — It's Gotta Be Me
 - [x] Rewrite Chapter 3 — Gone in a Flash
 - [x] Polish Chapter 3 — Gone in a Flash
-- [/] Rewrite Chapter 4 — The Scratch in the Dust
+- [x] Rewrite Chapter 4 — The Scratch in the Dust
+- [x] Polish Chapter 4 — The Scratch in the Dust
 - [ ] Rewrite Chapter 5 — The Doll
 - [ ] Rewrite Chapter 6 — Dolls Don't Lead to Happy Endings
 - [ ] Rewrite Chapter 7 — Out of the woods
