@@ -1,0 +1,1 @@
+Jam returns to the station, inhales a pot of coffee. Briefs Charlaine on the killer twins and the mage. Anna calls him to her office — they discuss calling in the Bureau and Krabat. Jam is resistant but grudgingly agrees. Anna reassures him the town won't let anyone confiscate him again. Jam leaves with Charlaine, determined to solve this before the suits arrive.

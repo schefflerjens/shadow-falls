@@ -1,42 +1,39 @@
 # Session Memory & Logs
 
 ## Narrative State
-- **Current Book Target**: Complete Chapter 10 draft and begin Act 2 development
-- **Key Plot Elements**:
-  - Jam Slate: Clay golem Sheriff of Shadow Falls, vulnerable to heat/drying
-  - Charlaine Meyers: Deputy, carries a voodoo tracking kit from her grand-mère
-  - Anna Arborio: Mayor, vampire (50 years sober), Jam's sponsor
-  - Murder Twins: Identical, forgettable-faced killers; mage-assisted (teleported away via ozone+clove spell)
-  - Krabat (Šajatović): European mage, reluctant ally, also vanished and later seen captive
-  - Papa Legba / "Eshu": Voodoo trickster god of crossroads; operates from the spirit world
-  - The Doll: Tiny carved wooden doll pointing toward Charlaine — acts as a compass
-  - The Circle: Azure-light summoning circle found in the storage unit; spirit-world gate
-  - Fangs and Fur: Local bar; 50th-anniversary rosettes are a key clue
-  - Spirit world: Glowing red-eyed hound, void-like space, accessible via the circle
-- **Last Active State**: Session initialized. Manuscript compiled and analyzed.
-- **Last Sync**: 2026-06-11 09:10:49
+- **Current Phase**: Chapter-by-chapter rewrite prep — all draft text cleared, synopses and story beats preserved in notes
+- **Status**: 10 scenes stripped of prose, ready for rewrite pass
 
-## Active Scenes
-1. **Dead End Chase** (2,119w) — OK. Rooftop chase, twins captured then teleported away. FKGL 5.5, passive 2.47% ✓
-2. **It's Gotta Be Me** (1,167w) — OK. Station debrief with Charlaine, meeting with Anna. FKGL 3.8, passive 3.64% ✓
-3. **Gone in a Flash** (2,620w) — Needs passive voice reduction (5.43%). Tracking dust scene at Fangs and Fur, Charlaine & Krabat vanish.
-4. **The Scratch in the Dust** (1,295w) — Needs passive reduction (5.47%). Storage unit investigation, circle discovery, spirit world — meets Eshu.
-5. **The Doll** (1,578w) — Needs passive (7.35%) and adverb (1.08%) reduction. Mayor's office, glitter bomb, the doll reveal.
-6. **Dolls Don't Lead to Happy Endings** (1,666w) — Needs significant passive reduction (9.64%). Cabin in the woods, Krabat captive, murder twin sextuplets.
-7. **Out of the woods** (1,388w) — OK. FKGL 3.4, passive 2.88% ✓
-8. **Mama Marie** (2,176w) — Needs adverb reduction (1.06%). FKGL 4.9.
-9. **Sealing the deal** (1,098w) — Needs passive reduction (5.17%). FKGL 3.0.
-10. **Chapter 10** (14w) — **EMPTY PLACEHOLDER.** Needs drafting.
+## Scene Map (Synopses Preserved)
+1. **Dead End Chase** — Rooftop chase, twin capture, teleportation, mage reveal
+2. **It's Gotta Be Me** — Station debrief, Anna confrontation, Bureau/Krabat discussion
+3. **Gone in a Flash** — Tracking dust at basement, Fangs and Fur, Charlaine/Krabat vanish
+4. **The Scratch in the Dust** — Storage unit inscription, spirit world, Eshu/Legba deal
+5. **The Doll** — Glitter-bomb ward, compass-doll reveal, pointing toward the woods
+6. **Dolls Don't Lead to Happy Endings** — Cabin fight, Charlaine rescue, doll-diversion escape
+7. **Out of the woods** — Car chase, Mama Marie's pharmacy, tea ritual begins
+8. **Mama Marie** — Legba possesses Anna, Jam outsmarts him on deal, Marie turned to vampire
+9. **Sealing the deal** — Sprint to City Hall, Herb Weatherby arrival, map decoded
+10. **Chapter 10** — Placeholder, to be plotted
 
-## Manuscript Stats
-- **Total drafted words**: ~15,221 across 9 scenes
-- **Average FKGL**: 4.1 (target: 8.0 — reads too easily for urban fantasy noir)
-- **Passive voice concerns**: Scenes 3, 4, 5, 6, 9 exceed 4.0% threshold
-- **Adverb density concerns**: Scenes 5, 8 exceed 1.0% threshold
-- **Target genre**: Urban fantasy noir — first-person past, Jam Slate's cynical POV
+## Key Plot Threads
+- Murder twins: Not human — flesh golems, identical sextuplets, magically created
+- The mage: Uses ozone + clove teleportation signature; not Krabat (he's a victim)
+- Papa Legba: Trickster, deal-maker, operates through proxies; owes Jam a favor
+- Mama Marie: Turned to vampire by Legba as deal payment
+- Charlaine's bloodline: Dormant voodoo power awakening
+- Krabat: Still captive (seen at cabin, taken away in black sedan)
+- Herb Weatherby: Agency bureaucrat, decoded the map, potential ally
+
+## Manuscript Stats (Pre-Rewrite)
+- Previously ~15,221 words across 9 drafted scenes
+- All text cleared for rewrite pass
+- Story beats retained in scene notes for reference
+- FKGL avg ~4.1 (target 8.0), passive voice concerns in 5 scenes — to address during rewrite
 
 ## Pending Questions
-- Who is the mage behind the teleportation? Krabat is captive, not orchestrating.
-- What does Papa Legba actually want?
-- Who is the person Eshu wants Jam to find?
-- Are the murder twins human, constructs, or possessed?
+- Who created the murder twin flesh golems?
+- Where is Krabat being held now?
+- What does Herb Weatherby's agency want?
+- What location does the decoded map point to?
+- What is Legba's actual endgame?

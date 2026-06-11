@@ -1,1 +1,0 @@
-Once the chapter is created, drop the edited version of it in this file.

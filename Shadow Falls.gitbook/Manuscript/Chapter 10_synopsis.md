@@ -1,1 +1,1 @@
-Herb Weatherby arrives at city hall and introduces himself as an agency representative to help Jam and Charlaine.
+Placeholder — to be plotted and drafted in the next writing session. Continues from the City Hall encounter with Herb Weatherby and the decoded map.
