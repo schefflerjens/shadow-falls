@@ -1,10 +1,10 @@
 # The Station
 
-The station smelled like burnt coffee and old paper. It always did. I'd been smelling it for sixty years and it still hit me the same way every time I came through the door — a low, familiar comfort, the kind that doesn't ask anything of you.
+The station smelled like burnt coffee and old paper. It always did. I'd been smelling it for sixty years and it still hit me the same way every time I came through the door — low, familiar, the kind of comfort that doesn't ask anything of you.
 
 I went straight for the pot.
 
-Charlaine was at her desk, head bent over a case file, a pencil tucked behind her ear and another one in her hand. She looked up when she heard the door. Looked at my face. Looked at my hand.
+Charlaine was at her desk, head bent over a case file, a pencil tucked behind her ear and another in her hand. She looked up when she heard the door. Looked at my face. Looked at my hand.
 
 "You're cracking," she said.
 
@@ -14,7 +14,7 @@ Charlaine was at her desk, head bent over a case file, a pencil tucked behind he
 
 "I've had worse."
 
-I poured a mug and drank it standing at the counter. The heat from the ceramic transferred through my palms. The caffeine worked differently in clay than in blood — faster, more direct, like pouring water into dry soil. The stiffness at my wrist loosened by a fraction. I poured another.
+I poured a mug and drank it standing at the counter. The caffeine worked differently in clay than in blood — faster, more direct, like water hitting dry soil. The stiffness at my wrist loosened by a fraction. I poured another.
 
 By the third mug I'd finished the pot. I set it down and turned around.
 
@@ -28,7 +28,7 @@ Charlaine was watching me with her arms crossed and that look she gets. The one 
 
 Charlaine uncrossed her arms. "Twins?"
 
-"Not biological. They moved the same way. Reacted the same way. Like copies of a thing, not two versions of a person."
+"Not biological. They moved the same way. Reacted the same way. Copies of a thing, not two versions of a person."
 
 She chewed on that. "Constructs?"
 
@@ -40,101 +40,123 @@ She chewed on that. "Constructs?"
 
 Charlaine was quiet for a moment. She tapped the pencil against her palm twice.
 
-"That's structured magic," she said. "Grandmother's books describe that signature. Clove and ozone together means a working with real architecture behind it. Not folk magic. Not improvised."
+"That's structured magic," she said. "Grand-Mère's books describe that signature. Clove and ozone together means a working with real architecture behind it. Not folk magic. Not improvised."
 
 "No," I said. "It wasn't improvised."
 
-"You think it's Krabat."
+She stood up. "I'll get the kit."
 
-I didn't answer right away. The name sat in the room like a stone dropped in still water.
+"Do that. The magic kit. Not the fingerprint kit."
 
-"I think it's someone with his kind of reach," I said. "And his kind of patience."
+She gave me a look. "I know what kit."
 
-Charlaine stood up. "I'm going to call Grandmother. Get the kit."
+"Just making sure. You could always call your daddy if you're not sure what to bring."
 
-"Do that."
+She gave me a different look. Flatter. "Papa Legba is Grand-Mère's domain. Not mine. And not something you want to joke about."
 
-The phone on my desk rang.
+I held up a hand. Fair enough.
 
-I already knew who it was.
+The phone on my desk rang. The speaker crackled before I could reach it — Anna's voice, clipped and even.
+
+*"Jam. My office. Soon as you're free."*
+
+I already knew who it was going to be. I just didn't know she'd beat me to it.
+
+I pushed up from the chair and checked myself in the small mirror on the wall beside the coat rack. The crack at my jaw had spread a little. My collar was dusty. I looked like something that had been in a fight and lost the cosmetic portion of it.
+
+"Looking good," Charlaine said from across the room. She was pulling the canvas bag down from the shelf. "Your *amour non partagé* will be impressed."
+
+I grunted and headed for the door.
+
+She had that coming. I'd handed it to her.
+
+"Insubordination is a fireable offense," I said.
+
+"Love you, too," she said, and smiled without looking up.
 
 ---
 
-Anna Arborio's office was on the second floor of City Hall, up a staircase that creaked on the fourth and seventh step. I'd climbed it so many times I stepped over those two without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
+Anna Arborio's office was next door, up a staircase that creaked on the fourth and seventh step. I'd climbed it so many times I stepped over those two without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
 
 I knocked once and went in.
 
-The office looked like a library after an earthquake. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, her dark hair pinned up with what looked like a letter opener.
+The office looked like a library that had given up on organization. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, her dark hair pinned up with what looked like a letter opener.
 
-She looked up. She looked at my face the same way Charlaine had, but with less alarm and more assessment. Anna had been looking at me that way for thirty years. She didn't spook easy.
+She looked up. She assessed. Anna had been looking at me that way for thirty years. She didn't spook easy.
+
+Then she stopped.
 
 "You smell like a salad," she said.
 
-I patted my jacket pocket. The garlic clove was still there — I'd been carrying one since a bar fight on Clement Street in 1987. The smell had a way of clearing a room faster than a badge.
+I patted my jacket pocket. "I carry a clove in a zip bag. In case things get ugly at the Fangs and Fur. One of the bullets must have nicked the plastic." I pulled the bag out. The seal was split along one corner. The smell rolled out freely. "Clears a room faster than a badge, usually."
 
-"Rough afternoon," I said.
-
-"Sit down, Jam."
+"Bullets," she said. The word landed differently when she said it. "Sit down, Jam."
 
 I sat. The chair was good leather, worn soft. Anna took off her reading glasses and set them on a stack of journals.
 
 "Tell me what happened," she said.
 
-I told her. All of it. The rooftop, the basement, the knife that didn't do what it was supposed to, the gun that did what it was supposed to and didn't matter. The twins on the pavement. The thirty seconds I spent drinking lemonade. The cold concrete and the smell of cloves.
+I told her. All of it. The rooftop, the basement, the knife that didn't do what it was supposed to, the gun that did and didn't matter. The twins on the pavement. The thirty seconds I spent drinking lemonade. The cold concrete and the smell of cloves.
 
 Anna listened without interrupting. That was one of the things I'd always respected about her. She let you finish.
 
-When I was done, she was quiet for a moment. Then she said, "I'm calling the Bureau."
+When I was done, she was quiet. Then she said, "Teleportation magic."
 
-"No."
+"That's what it looks like. First sign we're dealing with something non-human. It complicates things."
 
-"Jam."
+She nodded slowly. "I'm calling the Bureau."
 
-"We don't need them."
+"I'd rather you didn't."
 
-"We have a serial killer with multiple identical faces, a mage with teleportation capability, and a sheriff who came back from a gunfight with a finger in his pocket." She folded her hands on the desk. "We need them."
+"It's not a question of preference, Jam. It's the law. Non-human elements, structured magic — that triggers mandatory federal notification."
 
-"The Bureau comes in, they bring their own agenda. Their own jurisdiction. They start pulling files, asking questions about the town, about the department." I looked at her. "About me."
+"I know the statute."
+
+"Then you know I don't have a choice."
+
+I looked at her. "Give me time before they get here. The Bureau comes in, they bring their own agenda. Their own jurisdiction. They start pulling files, asking questions about the town, about the department." I paused. "About me."
 
 Anna held my gaze. "I know."
 
 "Last time they sent someone—"
 
-"I know," she said again. Quieter this time.
+"I know," she said. Quieter.
 
 The room was still. Outside, a car passed on the street below. The sound faded.
 
-"This town has kept you for a hundred and thirty years," Anna said. "Nobody here is going to let a federal agent walk you out in a box." She paused. "Or a crate. Whatever they'd use. The point stands."
+"This town has invested significant money in legal fees," Anna said. "To make sure that never happens again. No government entity is going to confiscate our sheriff. Not while I'm sitting in this chair." She paused. "I can probably get you until Thursday."
 
-"That's not a guarantee you can make."
+"Two days."
 
-"No," she said. "It isn't. But I'm making it anyway."
+"Two days," she said. "Use them."
 
-She picked up her glasses and put them back on. The conversation was over. That was another thing about Anna — she knew when she'd won.
+I stood. My joints were still tight at the hip, the clay not fully recovered. I moved carefully, aware of myself.
 
-"Krabat," I said.
+"I may need to pull in Krabat," I said. "Your Igor."
 
-She looked at me over the frames.
+Anna's expression went flat. "Don't call him that."
 
-"If we're calling in outside help," I said, "we should talk to Krabat first."
+"He's doing research for you. You're the mayor. That makes you—"
 
-"I've already thought about that."
+"It makes me someone who uses available resources," she said. "It doesn't make me Frankenstein. And it doesn't make him Igor. Watch your mouth."
 
-"And?"
+I let it go. "If he has information about this working, I want it before the Bureau does."
 
-"I think you should go see him," she said. "Before the Bureau gets here. Whatever he knows, I want it on our side of the table." She pulled a file from the stack and opened it. "They can be here by Thursday."
+"Agreed. Go see him." She picked up her glasses and put them back on. The conversation was over. That was another thing about Anna — she knew when she'd won.
 
-That gave me two days.
+"Jam." She didn't look up from the file. "The town has spent a lot to protect you. Don't make it harder than it has to be."
 
-"Fine," I said.
+I understood what she meant. The city coffers were notoriously empty. The money that had kept federal hands off this department, off me, had come from one place. It always did.
 
-I stood up. My joints were still tight at the hip, the clay not fully recovered. I moved carefully, the way you move when you're aware of yourself.
+Without Anna Arborio, this town would be dirt.
 
-"Jam." Anna didn't look up from the file. "Go drink some water. A lot of it."
+I nodded once and left.
 
 ---
 
-Charlaine was waiting at the bottom of the stairs with a canvas bag over one shoulder. The bag clinked when she shifted it. Her grandmother's kit.
+Charlaine was waiting at the bottom of the stairs with the canvas bag over one shoulder. It clinked when she shifted. The magic kit. She'd also set up a fresh pot on the counter.
+
+I drank it standing up. All of it.
 
 "Bureau?" she said.
 
@@ -144,13 +166,17 @@ Her jaw set. "Then we have two days."
 
 "Two days," I said.
 
-We went out through the front door into the late afternoon. The sun was lower now, the heat still thick but not punishing. The street was quiet. Somewhere down the block, a sprinkler was running.
+I set the mug down and we went out through the front door into the late afternoon. The sun was lower now, the heat still thick but not punishing. The street was quiet. Somewhere down the block, a sprinkler was running.
 
-I turned toward the west end of town. Krabat's shop was on Dunmore Street, wedged between a watch repair and a closed-down pharmacy. The sign in the window said OPEN in faded red letters. It always said open. I'd never known him to close.
+I turned toward the west end of town.
 
-"You think he's behind it?" Charlaine said.
+"Where are we starting?" Charlaine said.
 
-"I think he knows something," I said. "Whether he's behind it or just watching it — that I don't know yet."
+"The scene," I said. "We work the magic trace before the trail goes cold. Then Krabat."
+
+"You think he's behind it?"
+
+"I think he knows something. Whether he's behind it or just watching it — that I don't know yet."
 
 "And if he won't talk?"
 
