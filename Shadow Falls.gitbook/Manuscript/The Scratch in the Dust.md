@@ -1,30 +1,30 @@
 ## The Inscription
 
-The lemonade stand was gone. The kid had packed up and gone home for dinner, and Maple Lane had the quiet that settles on a street after the day has given up on itself. I walked it without stopping. There was nothing left on Maple Lane for me tonight.
+The lemonade stand was gone. The kid had packed up and gone home for dinner, and Maple Lane had the quiet that settles on a street when the day has given up on itself. I walked it without stopping. Nothing left on Maple Lane for me tonight.
 
-Main Street Mini Storage was three blocks east, tucked between a closed tax office and a laundromat that ran twenty-four hours and smelled like it. The building was low and flat, corrugated metal siding, a roll-up gate across the front that somebody had left unlocked. My tape was still on the side door. Yellow, official, already starting to peel at one corner in the humidity.
+Main Street Mini Storage was three blocks east, tucked between a closed tax office and a laundromat that ran twenty-four hours and smelled like it. Low and flat, corrugated metal siding, a roll-up gate across the front somebody had left unlocked. My tape was still on the side door. Yellow, official, already peeling at one corner in the humidity.
 
 I ducked under it and went in.
 
-The interior was a long corridor with storage units running down both sides. Numbered metal doors, padlocked, the locks orange with rust on most of them. The overhead fluorescents had been turned off when the coroner's team left. The only light came from an emergency strip at the far end, a thin red glow that did nothing useful.
+The interior was a long corridor with storage units running down both sides. Numbered metal doors, padlocked, the locks orange with rust on most of them. The overhead fluorescents had been killed when the coroner's team left. The only light came from an emergency strip at the far end — a thin red glow that did nothing useful.
 
 I pulled my flashlight and walked.
 
-Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. He'd been found by the morning manager at six-fifteen, in unit eleven, which he'd been cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
+Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. The morning manager found him at six-fifteen, in unit eleven, which Frankie had been cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
 
-The staging was the same as the others. Deliberate. Arranged. The kind of care that takes time and says something about the person doing it.
+The staging was the same as the others. Deliberate. Arranged. The kind of care that takes time and says something about the person doing it. I'd never worked out how the killer chose them. Not Frankie, not the others. No pattern I could read. No thread connecting the victims beyond the fact that they were dead and arranged and left for someone like me to find.
 
 I stopped at unit eleven.
 
-The door was rolled up. My own chalk marks were on the frame — entry point, contact points, the shorthand I'd been using since before half this town was born. The coroner's team had been thorough. They'd taken Frankie, taken samples, taken photographs. What was left was a ten-by-ten concrete box with a bare bulb on a pull chain, a folding table shoved against the far wall, and a dark stain on the floor where Frankie had been found.
+The door was rolled up. My chalk marks were on the frame — entry point, contact points, the shorthand I'd been using since before half this town was born. The coroner's team had been thorough. They'd taken Frankie, taken samples, taken photographs. What was left was a ten-by-ten concrete box with a bare bulb on a pull chain, a folding table shoved against the far wall, and a dark stain on the floor where Frankie had been found.
 
 I pulled the chain. The bulb came on, harsh and yellow.
 
-The stain was dried brown, the color of old rust. It covered maybe three square feet, spreading out from the center in the uneven way blood spreads when a body stays in one place long enough. The coroner had outlined it in chalk. Inside the outline, the concrete was dark and flat.
+The stain was dried brown, the color of old rust. It covered maybe three square feet, spreading from the center in the uneven way blood spreads when a body stays in one place long enough. The coroner had outlined it in chalk. Inside the outline, the concrete was dark and flat.
 
 I crouched at the edge of it.
 
-I'd looked at this floor that morning. I'd looked at it carefully. I'd been thorough.
+I'd looked at this floor that morning. Looked at it carefully. Been thorough.
 
 I'd missed something.
 
@@ -32,17 +32,19 @@ Under the dried blood, at the center of the stain, there were marks in the concr
 
 An inscription.
 
-I looked at it for a long moment. The bulb swung slightly on its chain, and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
+I looked at it for a long moment. The bulb swung on its chain, and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
 
-I reached into my jacket and pulled out the rosette. Both of them. I set them on the floor beside the stain and looked at the inscription again.
+I reached into my jacket and pulled out the rosettes. Both of them. I set them on the floor beside the stain and looked at the inscription again.
 
-The clove smell was gone. The ozone was gone. Whatever had taken Charlaine and the twins had left no trace here. This was something different. Older. The cuts in the concrete had grit in them, the edges worn slightly soft — this hadn't been done today. It had been here before Frankie. Before the murder.
+The clove smell was gone. The ozone was gone. Whatever had taken Charlaine and the twins had left no trace here. This was something different. Older. The cuts in the concrete had grit in them, the edges worn soft — this hadn't been done today. It had been here before Frankie. Before the murder.
 
 Frankie had been placed on top of it.
 
 The body was the marker. The blood was the seal.
 
-My right hand moved before I'd decided to move it. I pressed two fingers to the outermost line of the inscription.
+I took out my phone and snapped a picture of the inscription, then crouched lower and studied it. I didn't recognize the symbols, but something about them pulled at me, the way a sound just below hearing pulls at you. A frequency you feel before you name it.
+
+My right hand moved before I'd decided to move it. I pressed two fingers to the outermost line.
 
 The concrete was cold. Colder than the air. Colder than stone had any right to be in July.
 
@@ -54,15 +56,23 @@ I pulled my hand back.
 
 The circle kept going.
 
-The light reached the outer edge of the inscription and the whole pattern pulsed once, twice, and then the floor wasn't there anymore.
+The light reached the outer edge of the inscription. The whole pattern pulsed once, twice, and then the floor wasn't there anymore.
+
+I lunged to my feet and drew the revolver. My heart was hitting my ribs. I aimed at the swirling darkness where the circle had opened, the muzzle tracking the edge of it. Bullets might not do a thing. They were all I had.
+
+The darkness inside the circle had no bottom. No walls. No ceiling. It pressed outward from the inscription's edge, not like shadow but like the absence of the room itself.
+
+A growl rolled out of it. Low and enormous, felt in the floor before it reached my ears.
+
+I held the gun on it and didn't move.
 
 ---
 
-The void had no floor. No ceiling. No walls in any direction I could name, though there was something at the edges — a shimmer, a membrane, the suggestion of a boundary that kept the nothing from becoming everything. The light was sourceless and flat, the color of old pewter, the kind of illumination that shows you shapes without shadows.
+The void had no floor. No ceiling. No walls in any direction I could name, though there was something at the edges — a shimmer, a membrane, the suggestion of a boundary keeping the nothing from becoming everything. The light was sourceless and flat, the color of old pewter, showing shapes without shadows.
 
 The cold was immediate. Not the dry cold of a meat locker or the wet cold of a November rain. This was absence. The cold of a place where warmth had never been and wasn't expected.
 
-My joints didn't stiffen. The cold here didn't work on clay the way the sun did. But something in me registered it anyway — a deep, structural unease, the way old buildings shift in a foundation that's moved. I'd been alive for over a century. I'd been in bad places. This was a different category.
+My joints didn't stiffen. The cold here didn't work on clay the way the sun did. But something in me registered it anyway — a deep, structural unease, the way old buildings shift when the foundation moves. I'd been alive for over a century. I'd been in bad places. This was a different category.
 
 I stood still and let my eyes work.
 
@@ -78,7 +88,7 @@ I looked back.
 
 It was the size of a draft horse. Its feet made no sound on the surface that wasn't there. Its breath came out as nothing — no vapor, no warmth, just the slow rhythm of lungs working in a place where breath had no meaning. The red eyes held mine without blinking.
 
-I didn't move. I didn't reach for the gun I wasn't carrying. I stood and held its gaze and kept my hands open and visible, the way you do when the thing in front of you is deciding whether you're a threat or an inconvenience.
+I didn't move. I didn't reach for the gun. I stood and held its gaze and kept my hands open and visible, the way you do when the thing in front of you is deciding whether you're a threat or an inconvenience.
 
 The hound sat. The movement was unhurried. Final. The way a door closes when it's been properly shut.
 
@@ -92,9 +102,9 @@ A voice came from behind me.
 
 I turned.
 
-The figure was tall. Lean in the way of things that have never needed to carry weight. A long coat, black, tattered at the hem, the fabric moving in a wind that wasn't blowing. A wide-brimmed straw hat, low over the face, the shadow underneath it absolute — not darkness exactly, but an absence of information. A walking stick, gnarled wood, planted on the non-floor with the ease of long habit.
+The figure was tall. Lean in the way of things that have never needed to carry weight. A long coat, black, tattered at the hem, the fabric moving in a wind that wasn't blowing. A wide-brimmed straw hat, low over the face, the shadow underneath it absolute — not darkness, but an absence of information. A walking stick, gnarled wood, planted on the non-floor with the ease of long habit.
 
-He stood at a distance I couldn't measure. Close enough to hear clearly. Far enough to be a suggestion of a man rather than a man.
+He stood at a distance I couldn't measure. Close enough to hear. Far enough to be a suggestion of a man rather than a man.
 
 "He responds to his name," the figure said. "But I won't be giving you that."
 
@@ -150,9 +160,9 @@ I looked at the hound. The red eyes hadn't moved.
 
 "You said you'd give me something," I said. "In return."
 
-"I said I would give you something you've been searching for." He reached into the tattered coat and produced an object. Small. Flat. He held it out at arm's length, and the distance between us didn't change, but the object was suddenly close enough to see.
+"I said I would give you something you've been searching for." He reached into the tattered coat and produced an object. Small. Flat. He held it out at arm's length, and the distance between us didn't change, but the object was close enough to see.
 
-A photograph. Old stock, sepia-toned, the edges gone soft. A man and a woman standing in front of a building I didn't recognize. The man was tall, dark-coated, his face turned slightly from the camera. The woman was looking directly at the lens.
+A photograph. Old stock, sepia-toned, the edges gone soft. A man and a woman standing in front of a building I didn't recognize. The man was tall, dark-coated, his face turned from the camera. The woman was looking directly at the lens.
 
 I knew the woman's face.
 
@@ -162,7 +172,7 @@ The cold in the void got colder. Or maybe that was something else entirely.
 
 "Where did you get that?" My voice came out flat. Good.
 
-"I told you. I know where most things are." He held the photograph steady. "Find who is using these workings. Stop them. Bring me the tool they've been using to tear the membrane — the anchor, the instrument, whatever form it takes." He tilted his head again. "Do that, and I'll tell you where she is."
+"I told you. I know where most things are." He held the photograph steady. "Find who is using these workings. Stop them. Bring me the tool they've been using to tear the membrane — the anchor, the instrument, whatever form it takes." He tilted his head. "Do that, and I'll tell you where she is."
 
 I looked at the photograph. The woman's face. The building I didn't know.
 
@@ -172,7 +182,7 @@ Forty years.
 
 "Then you leave the same way you came in. You go back to your town with your cold bar top and your two rosettes and your two days. You find nothing. The Bureau arrives. They take jurisdiction. They ask questions about you that you don't want asked." He lowered the photograph. "And the membrane keeps tearing."
 
-The hound shifted again. It had moved closer without me hearing it. The red eyes were twenty feet away now, patient and absolute.
+The hound shifted. It had moved closer without me hearing it. The red eyes were twenty feet away now, patient and absolute.
 
 I looked at the photograph one more time. Then I looked at the shadow under the hat.
 
