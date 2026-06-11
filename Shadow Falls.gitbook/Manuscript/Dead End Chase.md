@@ -2,31 +2,27 @@
 
 The rooftop gravel bit into my shoes with every stride. I didn't slow down.
 
-The twin was fast. Medium height, medium build, brown hair, the kind of face you'd forget before you finished looking at it. He vaulted a low brick parapet and kept going, and I went right over after him. Below us, Maple Lane baked in the afternoon sun. The asphalt was soft. The air was the kind of hot that had weight to it.
+The killer was fast. Medium height, medium build, brown hair, the kind of face you'd forget before you finished looking at it. He vaulted a low brick parapet and kept going, and I went right over after him. Below us, Maple Lane baked in the afternoon sun. The asphalt had gone soft. The air had weight to it, the kind of heavy heat that pressed down and didn't let up.
 
 I'd been chasing him for eleven minutes.
 
-That was eleven minutes too long in this heat.
+Eleven minutes too long.
 
-My left hand was already stiff at the knuckles. I flexed it without looking down. The clay there had started to set, the way it does when the moisture burns off faster than I can replace it. A dull resistance, like wearing a glove two sizes too small. I'd felt it before. I didn't like it any better this time.
+I'd come up here alone. Charlaine had offered to ride out. I'd told her no. I'd buried too many people I cared about over the years, and I wasn't adding her name to that list over a rooftop chase. If I got myself killed up here, that was my problem.
 
-The twin cut left toward a rusted HVAC unit and I adjusted, closing the gap by three steps. Up close, the face was worse than I remembered. Not ugly. Not scarred. Just blank. Interchangeable. The kind of face that slipped out of your memory the moment you stopped looking directly at it.
+My left hand was already stiff at the knuckles. I flexed it without looking down. The clay had started to set, the way it does when the moisture burns off faster than I can replace it. A dull resistance, like wearing a glove two sizes too small. I'd felt it before. I didn't like it any better this time.
 
-"Stop," I said.
+The killer cut left toward a rusted HVAC unit and I adjusted, closing the gap by three steps. These were the first murders Shadow Falls had seen in over a decade, and whoever was behind them had a taste for theater. Elaborate staging. Posed bodies. The kind of careful, deliberate work that announced itself and dared you to admire it. I didn't admire it. I was tired of it. I was tired of this heat, tired of this rooftop, tired of the whole ugly business. There were a thousand things I'd rather be doing right now, and not one of them involved chasing a blank-faced killer across tar paper in July.
 
-He didn't stop.
+The gap between us wasn't closing fast enough. Every step cost more than the last. The sun kept pulling the moisture out of me, and my joints were starting to drag. I had maybe a few minutes before the stiffness climbed high enough to make a jump dangerous. I needed to end this before that happened.
 
-I grabbed a fistful of his collar and we both went down hard on the tar paper. He twisted fast, faster than a man his size had any business moving, and drove an elbow back into my ribs. The impact sank into the clay there and stopped. He felt it. His elbow didn't come back out clean — it stuck for a half second before he wrenched free.
+I pushed harder. The killer hit the far edge of the building and went for the fire escape — old iron, orange with rust, bolted to the back wall of the hardware store. He hit it at speed. I followed.
 
-That always throws them.
+The alley below was narrow and dark, a slot between the hardware building and the dry goods warehouse next door. The killer hit the bottom and went for a door cut into the side of the hardware building — a stairwell entrance. He yanked it open and dropped into the dark.
 
-He scrambled up and ran for the far edge of the building. A fire escape ladder, old and orange with rust, hung down the back side. He hit it at speed. I followed.
+I landed, paused, and looked at the open door.
 
-The alley below was narrow and dark, a slot between the old hardware building and the dry goods warehouse next door. The twin hit the bottom and went for a door — a stairwell entrance cut into the side of the hardware building. He yanked it open and disappeared down into the dark.
-
-I landed, paused, looked at the open door.
-
-Basement stairs. One way in. No other way out — the hardware store had been shuttered for years, the interior door blocked solid by junk and fallen shelving. I knew this building. I knew this alley. I'd walked this beat for decades.
+Basement stairs. One way in. I knew this building. I'd walked this beat for decades. The interior door was blocked solid by collapsed shelving and junk. There was no other way out.
 
 He'd just cornered himself.
 
@@ -34,11 +30,11 @@ I went down.
 
 ---
 
-The smell hit first. Stagnant air, old dust, the particular sourness of a space that hadn't breathed properly in years. The stairs were wood and they complained under my weight. At the bottom, darkness settled in thick around a single wedge of gray light coming from a ground-level vent near the ceiling.
+The smell hit first. Stagnant air, old dust, the sourness of a space that hadn't breathed in years. The stairs were wood and they complained under my weight. At the bottom, darkness settled in around a single wedge of gray light from a ground-level vent near the ceiling.
 
-The basement was full of junk. Rusted pipe fittings. Collapsed shelving units. A stack of old paint cans furred over with dust. The kind of place where things went to be forgotten.
+The basement was full of junk. Rusted pipe fittings. Collapsed shelving. A stack of old paint cans furred over with dust. The kind of place where things went to be forgotten.
 
-The twin was at the far wall, back against it, breathing hard.
+The killer was at the far wall, back against it, breathing hard.
 
 "Nowhere to go," I said.
 
@@ -48,88 +44,108 @@ He looked at me. That forgettable face was impossible to read. No fear. No calcu
 
 He said nothing.
 
-"Okay," I said.
+Then he moved. Not toward me — sideways, circling, fast. I tracked him. He feinted right and came hard from the left, and I felt the knife go in just below my right shoulder blade. A short blade, well-placed. He knew what he was doing.
 
-I crossed the basement in four steps. He came off the wall swinging — a straight right that would have broken a normal man's jaw. It sank into my face and stopped. My head rocked back from the force, but the fist just pushed clay around and didn't find bone, because there wasn't any. He stared at his own hand, buried to the second knuckle in my cheek.
+It didn't do what he expected.
 
-I pulled his arm back out, turned him around, and put him face-first into the concrete floor. He stopped moving.
+The blade sank into the clay and stopped. No blood. No bone. Just resistance. He yanked it back and I turned around and looked at him.
+
+He stared at the knife.
+
+I took it out of his hand.
+
+Then I put him face-first into the concrete floor and held him there until he stopped moving. His wrist cracked on the way down. He went limp.
 
 I straightened up.
 
-The smell of clove hit me a half second before the sound of footsteps on the stairs.
+The smell of clove reached me a half second before the footsteps on the stairs.
 
-I turned around.
+I turned.
 
 Another one. Same face. Same build. Same blank expression. He was already raising the gun.
 
-The first shot took me in the chest. The second in the shoulder. The third through the fourth through the fifth — he emptied the magazine into me, working fast and mechanical, no hesitation, no wasted motion. Each round punched in and stopped, swallowed by the clay, deforming it, compressing it. It didn't kill me. It wasn't going to kill me.
+The first shot took me in the chest. The second in the shoulder. He kept going — third, fourth, fifth — working fast and mechanical, no hesitation, no wasted motion. Each round punched in and stopped, swallowed by the clay, compressing it, deforming it. It didn't kill me. It wasn't going to kill me.
 
-But it hurt. And more than that, each impact fractured the already-dry surface. I heard myself crack. Not a sound from the outside — a sound from the inside, low and grinding, like old pottery under pressure.
+But it hurt. And each impact fractured the already-dry surface. I heard myself crack — not from the outside, but from inside, low and grinding, like old pottery under pressure.
 
 My right hand went numb at the ring finger.
 
-The second twin lowered the empty gun. That blank face looked at me the way you look at a problem that hasn't resolved yet.
+The second killer lowered the empty gun. That blank face looked at me the way you look at a problem that hasn't resolved yet.
 
-I walked over and hit him once, hard, in the temple. He dropped.
+He had more ammunition somewhere. Fresh legs. He hadn't taken a single step in this heat. If he ran, I couldn't catch him — not in the shape I was in. My joints were too far gone for that.
 
-Two down.
+So I didn't chase him. I walked toward him slowly, hands open, voice level.
 
-I stood in the dark of that basement with two unconscious forgettable men on the floor and a right hand that wasn't responding properly. I looked at the ring finger. It was stiff. Completely stiff, locked at a forty-five degree angle, the clay there fully set and cracking at the joint.
+"Easy," I said. "Nobody else has to get hurt. Put it down and we talk this through."
+
+He watched me come. Calculating. Deciding.
+
+I kept walking. Kept talking. Calm and reasonable, the way you talk to a man standing on a ledge.
+
+When I got close enough, I hit him once, hard, in the temple.
+
+He dropped.
+
+I stood in the dark with two unconscious men on the floor and a right hand that wasn't responding. I looked at the ring finger. Stiff. Locked at a forty-five degree angle, the clay fully set and cracking at the joint.
 
 I tried to flex it.
 
 It snapped off at the second knuckle.
 
-I looked at the piece of clay on the floor. It looked like a finger. It was a finger. It had been my finger twenty seconds ago.
+I looked at the piece of clay on the floor. It had been my finger twenty seconds ago.
 
-I put it in my jacket pocket. You don't leave pieces of yourself lying around in an abandoned basement. That's just good sense.
+I put it in my jacket pocket. You don't leave pieces of yourself in an abandoned basement. That's just good sense.
 
 ---
 
-The sun outside was a punishment. I came up out of the alley and back onto Maple Lane squinting, and the heat landed on me like a door swinging open on a furnace. The stiffness in my left hand had crept up to the wrist. My face felt tight where the twin's fist had compressed it. I needed water. I needed it now.
+The sun outside was a punishment. I came up out of the alley onto Maple Lane squinting, and the heat landed on me like a door swinging open on a furnace. The stiffness in my left hand had crept up to the wrist. My face felt tight where the first killer's fist had compressed it. I needed water. I needed it now.
 
-Half a block down, a kid had a roadside stand set up on the corner outside Mrs. Peabody's. Hand-painted sign. Plastic pitcher sweating in the heat. A jar with three crumpled dollar bills in it.
+I had one killer slung over my left shoulder and the other over my right. The plan was simple: get them to the station, get some answers. I shuffled up Maple Lane and tried not to think about how much my joints ached.
+
+Half a block down, a kid had a roadside stand set up outside Mrs. Peabody's. Hand-painted sign. Plastic pitcher sweating in the heat. A jar with three crumpled dollar bills in it.
 
 Lemonade.
 
-I walked over, put a five on the table, and said, "Leave the pitcher."
+I set the twins down on the sidewalk and put a five on the table. "Leave the pitcher," I said.
 
 The kid looked at me. Looked at my hand. Looked at my face, which probably had the texture of old stucco right now.
 
 "Yes sir," he said.
 
-I drank. Not like a man drinks — I don't swallow, not really. The moisture absorbed through my palms when I wrapped them around the pitcher, through my lips, through the clay of my face and throat. It was slow. It wasn't enough. But it was something. The stiffness in my wrist eased by a fraction. My knuckles loosened.
+I drank. Not the way a man drinks — I don't swallow, not really. The moisture absorbed through my palms when I wrapped them around the pitcher, through my lips, through the clay of my face and throat. Slow. Not enough. But something. The stiffness in my wrist eased by a fraction. My knuckles loosened. I checked my right hand. The finger had already started to rebuild itself, new clay filling in at the joint, soft and pliable.
 
-I went back down to the basement.
+I set the pitcher down and turned back to the sidewalk.
 
 The twins were gone.
 
-Not escaped. Not dragged off. Gone. The concrete floor where they'd been lying was empty, and the air in the basement had changed. The mustiness was still there, but underneath it, cutting through it, was something sharp and chemical. Two smells, layered.
+Not escaped. Not dragged off. Gone. The concrete where they'd been lying was empty, and the air had changed. The street smell was still there, but underneath it, cutting through it, was something sharp and layered.
 
 Clove.
 
 Ozone.
 
-I stood in the dark and breathed it in and thought about what that meant.
+I crouched down and pressed my palm flat against the pavement where they'd been. Cold. Not the ambient cold of shade — colder than that, colder than the air temperature had any business producing. The kind of cold that came from a working.
 
-Teleportation leaves a signature. Not every practitioner's is the same, but the combination of clove and ozone was specific — it meant structured magic, deliberate magic, the kind that takes years to learn and real power to execute. You don't pull two unconscious men out of a locked basement with a snap of your fingers unless someone on the outside is doing the heavy lifting for you.
+Teleportation leaves a signature. The combination of clove and ozone was specific. It meant structured magic, deliberate magic, the kind that takes years to learn and real power to execute. You don't pull two unconscious men off a public sidewalk in broad daylight unless someone is doing serious heavy lifting for you.
 
-Someone with training. Someone with reach.
+Someone with training. Someone with reach. Someone who had been watching the whole time and waited until my back was turned.
 
-The twins weren't the case. The twins had never been the case. They were instruments. Tools. The same way I was a tool, once, made by someone else's hands for someone else's purpose.
+I stood up.
 
-The difference was I knew who made me.
+The kid at the lemonade stand was watching me with wide eyes.
 
-Whoever made the twins was still out there. And they'd just watched me work, assessed the situation, and pulled their pieces off the board without blinking.
+"You see anyone near these two?" I said.
 
-I stood in the basement of a shuttered hardware store on Maple Lane in Shadow Falls, with a finger in my pocket and lemonade drying on my palms, and the air tasted like cloves and lightning.
+"No sir," he said. "One second they were there. Then they weren't."
 
-This wasn't a case anymore.
+I nodded. That tracked.
 
-This was a mage.
+I looked up and down Maple Lane. Nothing. No one running. No vehicle pulling away. Just the heat and the empty street and the smell of cloves fading in the air.
 
-And mages don't send forgettable-faced constructs after a golem sheriff unless they know exactly what they're doing — and exactly what they want.
+The twins weren't the case. They'd never been the case. They were instruments. Tools. Sent by someone who had just watched me work, assessed what I was, and pulled their pieces off the board without blinking.
 
-I didn't know yet what that was.
+I bought another lemonade and drank it on the walk back.
 
-But I was going to find out.
+By the time I reached the station, my finger had grown back clean.
+
+The rest of it was going to be harder to fix.
