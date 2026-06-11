@@ -12,7 +12,7 @@ I knocked once and went in.
 
 The office had gotten worse since the afternoon. The city budget printout had been joined by a second one, spread over the first at an angle, both covered in red pen. The towers of case files on the credenza had multiplied. A cold cup of coffee sat on the corner of the desk next to an open aspirin bottle. The brass lamp still threw its tight circle of yellow light. Everything outside that circle was dark.
 
-Anna was at her desk. She'd taken her hair down. It sat in a loose knot, held with a pencil instead of the letter opener. Reading glasses on. Pen in one hand, file in the other. She looked up when I came in with the eyes of a woman who'd been awake since five in the morning and intended to stay awake until midnight and had made her peace with it.
+Anna was at her desk. She'd taken her hair down. It sat in a loose knot, held with a pencil instead of the letter opener. Reading glasses on. Pen in one hand, file in the other. She looked up when I came in with the eyes of a woman who'd been awake since five in the morning, intended to stay awake until midnight, and had made her peace with it.
 
 She looked at my face. Then at my hand.
 
@@ -124,13 +124,13 @@ I looked at the petri dish. The doll pointed west, steady as a compass needle.
 
 "I'm going anyway."
 
-Anna looked at me for a long moment. Then she picked up the petri dish and held it out across the desk.
+Anna looked at me for a long moment. Then she picked up the petri dish and walked it across the room. She held it out.
 
 "Go bring them back," she said.
 
 I took it.
 
-I stood. My joints were still stiff at the hip, the clay not fully recovered from the afternoon. At the door I stopped.
+I stood. My joints were still stiff at the hip, the clay not recovered from the afternoon. At the door I stopped.
 
 "If I'm not back before Thursday—"
 
@@ -146,7 +146,7 @@ Outside, the night air was thick and warm, the day's heat still sitting in the p
 
 I held the petri dish in my left hand and walked west.
 
-The doll pointed the same direction it had been pointing since unit eleven. Steady. Patient. The carved face had no expression, but there was intention in it — the kind that gets put into something when the person doing the carving knows exactly what they want it to do.
+The doll pointed the same direction it had been pointing since unit eleven. Steady. Patient. The carved face had no expression, but there was intention in it — the kind that gets put into something when the person doing the carving knows what they want it to do.
 
 The streetlights thinned as I hit the western edge of town. Pavement gave way to gravel, then packed dirt, then the soft ground of the tree line. The forest was dark and dense, the canopy closing out the sky. The air changed — cooler, heavier, the smell of pine and wet earth replacing the dust of the street.
 
