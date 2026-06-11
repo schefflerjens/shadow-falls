@@ -14,7 +14,9 @@ I looked at the disk in its cloth. Cold. Always cold. The cold of a thing that h
 
 "A vessel," Charlaine said.
 
-"A vessel." Mama Marie stood. She moved to the shelf and began returning jars to their places, her back to the room. "The possession requires a specific kind of host. Living tissue won't hold him — the body fights it. The trauma of a god moving through living nerves—" She set a jar on the shelf. "It breaks things."
+"A vessel." Mama Marie stood. She moved to the shelf and began returning jars to their places, her back to the room. "Possession requires a specific kind of host. Living tissue won't hold him — the body fights it. A god moving through living nerves breaks things."
+
+She set a jar on the shelf.
 
 "Dead tissue," I said.
 
@@ -24,7 +26,7 @@ I knew where she was going. I'd known since she said *vessel.*
 
 "Dead yet living," I said.
 
-"A vampire." She folded her hands. "The body is stopped — no heartbeat, no breath, no biological resistance. But the animating force is still present. Still aware. A crossroads in miniature — between what is living and what is not." She paused. "The ideal vessel for a crossroads god."
+"A vampire." She folded her hands. "The body is stopped — no heartbeat, no breath, no biological resistance. But the animating force is still present. Still aware. A crossroads in miniature, between what is living and what is not." She paused. "The ideal vessel for a crossroads god."
 
 "Anna," Charlaine said.
 
@@ -32,13 +34,13 @@ Mama Marie was already moving toward the phone on the wall.
 
 ---
 
-It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you dial when you've had it memorized longer than you admit.
+It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you've had memorized longer than you admit.
 
 It rang twice.
 
 Anna picked up.
 
-Mama Marie said three words. Then she listened. Then she said: "Ten minutes."
+Mama Marie said three words. Listened. Said: "Ten minutes."
 
 She hung up.
 
@@ -76,7 +78,7 @@ Mama Marie pointed to the chair at the head of the table.
 
 Anna sat. She placed her hands flat on the table, palms down, the way Mama Marie had sat when we'd first come in. She looked at me once — the look of someone who had made a decision and wasn't going to revisit it.
 
-I nodded once.
+I nodded.
 
 She looked back at the table.
 
@@ -126,7 +128,7 @@ The body tilted its head.
 
 "The terms were your words, not mine. You were specific." I held the green eyes. "So was I."
 
-Silence. The smoke from Mama Marie's clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
+Silence. The smoke from the clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
 
 Something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that had been outmaneuvered by mortals for ten thousand years and found it interesting every time.
 
@@ -152,7 +154,7 @@ The green eyes moved to the disk on the table. Then back to me.
 
 "*It is the answer I have.*" The voice dropped, the erosion quality deepening. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise.*" The green eyes steadied. "*City Hall. Before noon. That is where it ends.*"
 
-Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed immediately. The windows rattled. Something outside exploded with a sound like a cannon shot and the smell of ozone punched through the walls.
+Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed immediately. The windows rattled. Something outside exploded with a sound like a cannon shot and ozone punched through the walls.
 
 I had a feeling I knew what that was.
 
@@ -168,7 +170,7 @@ Then Legba laughed. Low, guttural, genuine — the laugh of something ancient th
 
 I sat with it. The Jack of Crossroads was warm in my breast pocket. The disk sat on the table between us, cold and waiting. I thought about asking for Krabat's location — too easy to twist. I thought about asking who was behind the murder twins — the answer could be someone three states away and useless before dawn.
 
-I thought about what I needed.
+I thought about what I actually needed.
 
 "I want a way to stop the source of the killings from committing any further crimes in or around Shadow Falls," I said. "Without any more citizens coming to harm."
 
@@ -212,7 +214,7 @@ Mama Marie made no sound.
 
 Charlaine made a sound. Small. Cut off.
 
-I was already moving — halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body turned up in unit eleven six months ago. Mama Marie had known. She'd set the doll in the floor and waited and made her peace with the cost, and there was nothing I could do that wouldn't make it worse.
+I was halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body turned up in unit eleven six months ago. Mama Marie had known. She'd set the doll in the floor and waited and made her peace with the cost, and there was nothing I could do that wouldn't make it worse.
 
 I sat back down.
 
@@ -272,9 +274,15 @@ I looked at her. The gauze at her temple. The torn shoulder of the fresh uniform
 
 "All right," I said.
 
+Charlaine turned to Mama Marie. Something passed between them — not words. The kind of look that carries the weight of a longer conversation, one that would happen later and would not be easy. Mama Marie nodded once. Charlaine held it a beat, then looked away.
+
 Anna was at the door to the front room. She stopped and looked back at Mama Marie.
 
-Something passed between them — a look that carried the weight of a longer conversation, the kind that would happen later and would not be easy. Anna nodded once. Mama Marie nodded back.
+The same kind of look. Anna nodded once. Mama Marie nodded back.
+
+"Cerberus will stay," Mama Marie said. "He'll guard the porch. Anna will need someone close when she wakes properly."
+
+Anna opened her mouth. Closed it. Nodded again.
 
 We went out through the pharmacy, past the amber bottles and the dried herbs and the glass case with its ordinary stock, and out the front door into the night.
 
