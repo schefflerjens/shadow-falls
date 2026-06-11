@@ -1,0 +1,1 @@
+Vampire mayor of Shadow Falls. 50 years sober. Jam's AA sponsor. Spread thin by the crisis.

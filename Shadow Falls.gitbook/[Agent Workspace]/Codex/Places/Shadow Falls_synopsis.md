@@ -1,0 +1,1 @@
+Small town with supernatural residents. Jam's home and beat. Sweltering summer setting for a noir urban fantasy.

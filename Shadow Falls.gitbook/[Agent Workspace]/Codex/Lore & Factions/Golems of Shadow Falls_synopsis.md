@@ -1,0 +1,1 @@
+Clay constructs animated by magic. Jam Slate is the only known active golem. Vulnerable to heat.

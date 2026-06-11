@@ -1,0 +1,1 @@
+European dark mage. Reluctant consultant to Anna. Vanished from Fangs and Fur. Found captive at the cabin.

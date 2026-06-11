@@ -184,6 +184,31 @@
                                 "type": "Text",
                                 "title": "Character Profile Template",
                                 "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Jam Slate",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Charlaine Meyers",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Anna Arborio",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Krabat (Šajatović)",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Papa Legba / Eshu",
+                                "children": []
                             }
                         ]
                     },
@@ -195,6 +220,16 @@
                                 "type": "Text",
                                 "title": "Location Template",
                                 "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Shadow Falls",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Fangs and Fur",
+                                "children": []
                             }
                         ]
                     },
@@ -205,6 +240,16 @@
                             {
                                 "type": "Text",
                                 "title": "Lore Template",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Golems of Shadow Falls",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Voodoo & the Spirit World",
                                 "children": []
                             }
                         ]

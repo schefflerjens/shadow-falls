@@ -1,0 +1,1 @@
+Voodoo trickster god of crossroads. Operates from the spirit world. Made a deal with Jam to find someone.

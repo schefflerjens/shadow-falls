@@ -1,0 +1,1 @@
+Active magical tradition in Shadow Falls. Involves Loa, spirit world access, talismans, and crossroads deals with Papa Legba.

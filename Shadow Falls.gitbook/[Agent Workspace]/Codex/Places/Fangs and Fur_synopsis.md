@@ -1,0 +1,1 @@
+Local bar. Neutral ground for humans and supernaturals. Site of Charlaine and Krabat's disappearance.

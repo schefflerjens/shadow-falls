@@ -1,0 +1,1 @@
+Jam's deputy. Carries voodoo tools from her grand-mère. Kidnapped at Fangs and Fur.

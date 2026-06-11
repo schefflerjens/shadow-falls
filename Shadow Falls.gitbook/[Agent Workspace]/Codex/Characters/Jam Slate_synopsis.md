@@ -1,0 +1,1 @@
+Clay golem Sheriff of Shadow Falls. First-person noir narrator. Wisecracking, stubborn, over a century old.
