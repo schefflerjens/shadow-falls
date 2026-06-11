@@ -1,5 +1,3 @@
-## Tracking Dust and Tequila
-
 The basement was exactly as we'd left it. I ducked under the yellow tape and went down first, one hand on the wall, the stairs complaining under my weight.
 
 Charlaine followed with the canvas bag.
@@ -96,9 +94,9 @@ A pause. Millie looked at the espresso machine at the end of the bar — chrome,
 
 I drank the tequila. It hit the way it always did — not warmth exactly, but something close. A loosening. I set the glass down and looked at the room.
 
-Charlaine had the rosette out. She worked the bar, moving stool to stool, holding it up, asking questions. I watched her work. She had a way of asking things that didn't feel like asking — easy, conversational, the kind of manner that made people answer before they'd decided whether to. Nobody recognized it.
+Charlaine had the rosette out. She worked the bar, moving stool to stool, holding it up, asking questions. She had a way of asking things that didn't feel like asking — easy, conversational, the kind of manner that made people answer before they'd decided whether to. Nobody recognized it.
 
-She tried a group of burly men with tattoos near the back wall. The one with a beard as thick as his arms squinted at the rosette and shook his head. "Can't say I have, miss. Looks like some kinda old belt buckle." Another man grinned. "Maybe a rodeo souvenir or somethin'." Charlaine offered a smile that didn't reach her eyes and moved on.
+She tried the group of burly men near the back wall. The one with a beard as thick as his arms squinted at the rosette and shook his head. "Can't say I have, miss. Looks like some kinda old belt buckle." Another man grinned. "Maybe a rodeo souvenir or somethin'." Charlaine offered a smile that didn't reach her eyes and moved on.
 
 She showed it to a weathered woman playing pool. To the lone troll nursing something stronger than beer. To the bouncer by the door. Each time, furrowed brows, vague shrugs, no leads.
 
@@ -172,7 +170,7 @@ Grog stood. The difference in scale was significant.
 
 Millie threw her hands up. "Not again!"
 
-I was off the stool before the first shove.
+I was off the stool before the first shove landed.
 
 "Bruno." I put myself between them. Bruno was breathing through his nose, face the color of a stop sign. Grog had the look of a man who had decided to be patient for exactly three more seconds. "Grog."
 

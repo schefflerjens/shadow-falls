@@ -5,7 +5,8 @@
 - [x] Polish Chapter 1 — Dead End Chase
 - [x] Rewrite Chapter 2 — It's Gotta Be Me
 - [x] Polish Chapter 2 — It's Gotta Be Me
-- [/] Rewrite Chapter 3 — Gone in a Flash
+- [x] Rewrite Chapter 3 — Gone in a Flash
+- [x] Polish Chapter 3 — Gone in a Flash
 - [ ] Rewrite Chapter 4 — The Scratch in the Dust
 - [ ] Rewrite Chapter 5 — The Doll
 - [ ] Rewrite Chapter 6 — Dolls Don't Lead to Happy Endings
