@@ -1,1 +1,1 @@
-Finished Chapter 5 — The Doll
+Finished Chapter 6 — Dolls Don't Lead to Happy Endings

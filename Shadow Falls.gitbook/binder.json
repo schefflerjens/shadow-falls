@@ -261,6 +261,11 @@
                                 "type": "Text",
                                 "title": "Character Voice Guide",
                                 "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "The Bone Disk (The Anchor)",
+                                "children": []
                             }
                         ]
                     }

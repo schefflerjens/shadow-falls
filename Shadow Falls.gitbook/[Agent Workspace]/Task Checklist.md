@@ -11,7 +11,8 @@
 - [x] Polish Chapter 4 — The Scratch in the Dust
 - [x] Rewrite Chapter 5 — The Doll
 - [x] Polish Chapter 5 — The Doll
-- [ ] Rewrite Chapter 6 — Dolls Don't Lead to Happy Endings
+- [x] Rewrite Chapter 6 — Dolls Don't Lead to Happy Endings
+- [x] Polish Chapter 6 — Dolls Don't Lead to Happy Endings
 - [ ] Rewrite Chapter 7 — Out of the woods
 - [ ] Rewrite Chapter 8 — Mama Marie
 - [ ] Rewrite Chapter 9 — Sealing the deal

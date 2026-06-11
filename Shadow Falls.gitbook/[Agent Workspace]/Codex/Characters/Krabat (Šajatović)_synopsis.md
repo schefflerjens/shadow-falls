@@ -1,1 +1,1 @@
-European dark mage. Reluctant consultant to Anna. Vanished from Fangs and Fur. Found captive at the cabin.
+European dark mage. Reluctant consultant to Anna. Vanished from Fangs and Fur. Set up the cabin but wasn't there. Appears to be the villain but is actually a red herring — being manipulated or framed by the real antagonist.

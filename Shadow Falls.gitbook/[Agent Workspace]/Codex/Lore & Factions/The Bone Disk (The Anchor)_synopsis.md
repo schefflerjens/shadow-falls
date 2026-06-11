@@ -1,0 +1,1 @@
+A carved bone disk, ~6 inches across, with the same geometric inscription as the one in the storage unit. Used as an anchor to tear the membrane between worlds. Currently in Jam's possession.
