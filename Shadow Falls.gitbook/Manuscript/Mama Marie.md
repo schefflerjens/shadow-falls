@@ -32,7 +32,7 @@ Mama Marie was already moving toward the phone on the wall.
 
 ---
 
-It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory, seven digits, no area code. The kind of number you dial when you've had it memorized for longer than you admit.
+It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you dial when you've had it memorized for longer than you admit.
 
 It rang twice.
 
@@ -56,17 +56,17 @@ I looked at Charlaine. Charlaine looked at me.
 
 Six months. The same six months the murders had been happening. The same six months Mama Marie had been watching from the sidelines, placing her charms, waiting for the shape of it to come clear.
 
-I thought about Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding the town up by sheer force of will and the particular stubbornness of someone who has been dead for nineteen years and decided it wasn't going to slow her down.
+I thought about Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding the town up by sheer force of will and the particular stubbornness of someone who had been dead for nineteen years and decided it wasn't going to slow her down.
 
 She'd known all of it. She'd been carrying it the same way she carried everything — quietly, without announcement, until it was time.
 
-I should have been angry. I wasn't. I was too tired, and it was too late in the night for anger to accomplish anything useful.
+I should have been angry. I wasn't. It was too late in the night for anger to accomplish anything useful.
 
 "Fine," I said.
 
 ---
 
-Anna arrived in eight minutes. Not ten. The front door opened and she came through the pharmacy without stopping, past the glass case and the amber bottles and the dried herbs, into the back room. She'd changed from the office clothes into something darker — black slacks, a dark shirt, her hair down. No reading glasses. She looked like herself and not like herself, the way people look when they've stripped away the professional layer and you're seeing the thing underneath.
+Anna arrived in eight minutes. Not ten. The front door opened and she came through the pharmacy without stopping — past the glass case and the amber bottles and the dried herbs — into the back room. She'd changed from the office clothes into something darker. Black slacks, a dark shirt, her hair down. No reading glasses. She looked like herself and not like herself, the way people look when they've stripped away the professional layer and you're seeing the thing underneath.
 
 She looked at the table. At the empty cup, face down. At the disk in its cloth. At Mama Marie.
 
@@ -74,13 +74,13 @@ She looked at the table. At the empty cup, face down. At the disk in its cloth. 
 
 Mama Marie pointed to the chair at the head of the table.
 
-Anna sat. She placed her hands flat on the table, palms down, the way Mama Marie had sat when we'd first come in. She looked at me once. The look was brief and said nothing and said everything — the look of someone who has made a decision they're not going to revisit.
+Anna sat. She placed her hands flat on the table, palms down, the way Mama Marie had sat when we'd first come in. She looked at me once. The look was brief — the look of someone who had made a decision they weren't going to revisit.
 
 I nodded once.
 
 She looked back at the table.
 
-Mama Marie moved through the room with purpose now, pulling things from shelves without hesitation. A bundle of dried herbs, different from the ones she'd used before. A small clay bowl. A stick of chalk. She crouched at the head of the table and drew on the floorboards, quick precise lines, a geometry I half-recognized. Not Legba's crossroads geometry. Something older. Something that predated the inscription in unit eleven by centuries.
+Mama Marie moved through the room with purpose now, pulling things from shelves without hesitation. A bundle of dried herbs, different from the ones she'd used before. A small clay bowl. A stick of chalk. She crouched at the head of the table and drew on the floorboards — quick, precise lines, a geometry I half-recognized. Not Legba's crossroads geometry. Something older. Something that predated the inscription in unit eleven by centuries.
 
 She stood and lit the herbs in the clay bowl. The smoke was white and sharp, a smell like the air before lightning.
 
@@ -92,7 +92,7 @@ The candles went low.
 
 Anna went still.
 
-She'd been still before — the particular stillness of someone waiting. This was different. This was the stillness of a body from which the occupant has stepped back. A held breath that would never be released because there was no breath to hold. Her hands were flat on the table. Her eyes were closed.
+She'd been still before — the particular stillness of someone waiting. This was different. This was the stillness of a body from which the occupant has stepped back. Her hands were flat on the table. Her eyes were closed.
 
 Then they opened.
 
@@ -110,45 +110,37 @@ It was the raspy voice from the void. The erosion voice. The geological voice. B
 
 "Legba," I said.
 
-The green eyes moved around the room. Taking in the candles, the shelves, the stained cup face-down on the table. The body moved — a small adjustment, shoulders settling differently, the head tilting at an angle that wasn't Anna's angle. Not wrong, exactly. Like a coat worn by someone it wasn't made for. The fit was close but the movement was off.
+The green eyes moved around the room. Taking in the candles, the shelves, the stained cup face-down on the table. The body shifted — a small adjustment, shoulders settling differently, the head tilting at an angle that wasn't Anna's angle. Not wrong, exactly. Like a coat worn by someone it wasn't made for. The fit was close but the movement was off.
 
 A hand reached across the table. Palm up. Waiting.
 
-"*The anchor,*" it said. "*Our transaction.*"
+"*The anchor,*" it said. "*Our transaction is complete.*"
 
 I didn't move.
 
-"We had an agreement," I said. "You'd tell me who has Charlaine. You told me it was Krabat. I found her." I kept my voice level. "But that's not the full agreement. The full agreement was information. Someone you've been searching for." I looked at the green eyes. "You showed me a photograph. You said you'd tell me where she is."
+"Not yet." I kept my voice level. "You said you'd give me something I've been searching for. You showed me a photograph. You said you'd tell me where she is." I put both hands flat on the table. "Finding Charlaine was finding *someone.* You promised me *something.* A location. A person. Those aren't the same word."
 
 The body that held Legba tilted its head.
 
 "*The girl was found. The anchor is recovered. The terms are satisfied.*"
 
-"The terms were: find who's using the workings, stop them, bring you the anchor. In exchange, you tell me where she is." I put both hands flat on the table. "I haven't stopped them yet. And you said *someone*, not *something*. You were specific."
-
-The green eyes held mine. The candles threw shadows across Anna's face and the shadows moved wrong — too slow, too deliberate, tracking something other than the light.
-
-"*Someone,*" the voice said. Tasting the word.
-
-"Someone. A person. With a location. That's what you offered."
+"The terms were your words, not mine. You were specific." I held the green eyes. "So was I."
 
 Silence. The smoke from Mama Marie's clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
 
-Then — something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that has been outmaneuvered by mortals for ten thousand years and finds it genuinely interesting every time.
+Something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that had been outmaneuvered by mortals for ten thousand years and found it interesting every time.
 
 "*Precise,*" Legba said.
 
 "I've had practice."
 
-"*So you have.*" The body leaned back in the chair. Anna's posture but not Anna's ease. "*Very well. Someone. I will honor the full terms.*" A pause, the kind that makes you wait on purpose. "*When the transaction is complete.*"
+"*So you have.*" The body leaned back in the chair. Anna's posture but not Anna's ease. "*Very well. I will honor the full terms.*" A pause, the kind that makes you wait on purpose. "*When the transaction is complete.*"
 
-"When I bring you the anchor."
+Outside, the first rumble of thunder rolled in from the west. The candles shuddered.
 
-"*When you bring me the anchor.*"
+"Then tell me how to stop Krabat without more people dying," I said.
 
-"Then tell me how to stop Krabat without more people dying."
-
-The green eyes moved to the disk on the table. Then back to me. The body was still for a moment — not thinking, exactly. Consulting something. The way you consult a map you've memorized but want to be certain of.
+The green eyes moved to the disk on the table. Then back to me.
 
 "*It can be done,*" Legba said. "*Though you may not find the outcome comfortable.*"
 
@@ -158,33 +150,49 @@ The green eyes moved to the disk on the table. Then back to me. The body was sti
 
 "That's not an answer."
 
-"*It is the answer I have for you.*" The voice dropped, the erosion quality deepening. "*The rest depends on choices that haven't been made yet. I cannot tell you what I don't know.*" A pause. "*What I know is that the pieces are converging. Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise.*" The green eyes steadied. "*City Hall. Before noon. That is where it ends.*"
+"*It is the answer I have.*" The voice dropped, the erosion quality deepening. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise.*" The green eyes steadied. "*City Hall. Before noon. That is where it ends.*"
 
-I sat with that. The anchor was cold in my pocket. The Jack of Crossroads was warm in my breast pocket. Both of them, patient. Both of them waiting.
+Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed immediately. The windows rattled. Something outside exploded with a sound like a cannon shot and the smell of ozone punched through the walls.
 
-"Fine," I said.
+I had a feeling I knew what that was.
 
-I reached into my jacket and set the disk on the table, still wrapped in its cloth.
+Charlaine kicked me under the table. Hard. She hissed through her teeth: "Stop antagonizing him."
 
-The body of Anna Arborio reached out and closed both hands around it.
+I looked at the green eyes.
 
-The cold went out of the room. Not warmth — the absence of that particular cold, the cold of the anchor, lifting away as Legba's hands closed over it. The cloth fell away. The bone disk sat in those hands, the carved geometry facing up, and the lines on it pulsed once — azure, the same deep blue I'd seen in unit eleven — and went dark.
+The green eyes looked back.
 
-The anchor was spent. The door was closed.
+Then Legba laughed. Low, guttural, genuine — the laugh of something ancient that has just been surprised into real amusement. The sound filled Anna's chest and came out wrong and right at the same time.
 
-Legba turned the disk over. Held it for a moment. Then he set it down and looked at Mama Marie.
+"*Game recognizes game, Sheriff.*" The storm outside settled to a low rumble. "*Name your price.*"
 
-The green eyes moved to her with a deliberateness that had nothing to do with curiosity. This was something decided.
+I sat with it. The Jack of Crossroads was warm in my breast pocket. The disk sat on the table between us, cold and waiting. I thought about asking for Krabat's location — too easy to twist. I thought about asking who was behind the murder twins — the answer could be someone three states away and useless before dawn.
+
+I thought about what I actually needed.
+
+"I want a way to stop the source of the killings from committing any further crimes in or around Shadow Falls," I said. "Without any more citizens coming to harm."
+
+The green eyes considered me.
+
+"*That is a very specific request with many constraints.*"
+
+"Can't do it?" I said.
+
+Thunder cracked again. Charlaine's boot connected with my shin.
+
+"*It can be done,*" Legba said. "*But giving you what you ask for and not what you need — that is on brand, as you say.*" A pause. "*City Hall. Before noon. Wait for the clock to strike.*"
+
+He turned his head toward Mama Marie.
+
+The green eyes found her with a deliberateness that had nothing to do with curiosity. This was something decided.
+
+"*Your kin has been safely returned,*" Legba said. "*Are you ready to fulfill your part of the bargain?*"
 
 Mama Marie stood at the edge of the chalk lines, the clay bowl still in her hands. She met the green eyes without flinching. The look of a woman who knew what was coming and had already made her accounting.
 
-"*You meddled,*" Legba said.
+"I am," she said.
 
-"I protected my blood." Her voice was even. "I would do it again."
-
-"*I know.*" The body rose from the chair. Not Anna's way of rising. Smoother. Older. The movement of something that has inhabited a thousand bodies and knows how they work. "*That is why the price is what it is.*"
-
-Charlaine was on her feet. "Grand-Mère—"
+"Grand-Mère—" Charlaine was on her feet.
 
 "Sit down, *cher.*" Mama Marie didn't look at her granddaughter. She kept her eyes on the green ones. "I knew the price when I put the doll in that floor."
 
@@ -194,17 +202,17 @@ Charlaine was on her feet. "Grand-Mère—"
 
 Charlaine sat.
 
-The body of Anna Arborio crossed the room in three steps. Mama Marie set the clay bowl down on the shelf beside her. She stood straight. Her hands were at her sides. Her face was composed — not calm, composed. There is a difference. Calm is the absence of feeling. Composed is feeling held in place by will.
+The body of Anna Arborio rose from the chair. Not Anna's way of rising. Smoother. Older. The movement of something that has inhabited a thousand bodies and knows how they work. Mama Marie set the clay bowl down on the shelf beside her. She stood straight. Her hands were at her sides. Her face was composed — not calm, composed. Calm is the absence of feeling. Composed is feeling held in place by will.
 
 Legba took her wrist.
 
-The bite was fast. No theater. No ceremony. The green eyes were level and the movement was economical and the sound was the sound of something final.
+The bite was fast. No theater. No ceremony. The movement was economical and the sound was the sound of something final.
 
 Mama Marie made no sound.
 
 Charlaine made a sound. Small. Cut off.
 
-I was already moving. I was halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body was found in unit eleven six months ago. Mama Marie had known. She'd set the doll in the floor and she'd waited and she'd made her peace with the cost and there was nothing I could do about any of it that wouldn't make it worse.
+I was already moving. Halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body turned up in unit eleven six months ago. Mama Marie had known. She'd set the doll in the floor and waited and made her peace with the cost, and there was nothing I could do that wouldn't make it worse.
 
 I sat back down.
 
@@ -216,7 +224,7 @@ She looked at her wrist. At the marks. At the dark blood that wasn't flowing the
 
 She looked at Charlaine.
 
-Charlaine was looking back at her with the expression of someone watching a door close that they can't reach in time.
+Charlaine looked back at her with the expression of someone watching a door close that they can't reach in time.
 
 "*It is done,*" Legba said.
 
@@ -248,13 +256,13 @@ I stood. The Jack of Crossroads was still warm in my breast pocket. The anchor w
 
 "Charlaine," I said.
 
-"I'm coming." She said it before I could say anything else. Her voice had that flat, final quality — the quality that meant the conversation was already over and I was the only one who hadn't caught up.
+"I'm coming." She said it before I could say anything else. Flat, final — the quality that meant the conversation was already over and I was the only one who hadn't caught up.
 
-I looked at her. The gauze at her temple. The torn shoulder of the fresh uniform shirt. The red marks on her wrists from the binding cord. She'd been taken and brought back and her grandmother had just been turned into a vampire in front of her and she was standing straight with her jacket in her hand and her eyes clear.
+I looked at her. The gauze at her temple. The torn shoulder of the fresh uniform shirt. The red marks on her wrists from the binding cord. She'd been taken and brought back and her grandmother had just been turned into a vampire in front of her, and she was standing straight with her jacket in her hand and her eyes clear.
 
 "All right," I said.
 
-Anna was already at the door to the front room. She stopped and looked back at Mama Marie.
+Anna was at the door to the front room. She stopped and looked back at Mama Marie.
 
 Something passed between them — a look that carried the weight of a longer conversation, the kind that would happen later and would not be easy. Anna nodded once. Mama Marie nodded back.
 
@@ -274,13 +282,13 @@ Except it didn't look like a car anymore.
 
 It looked like something a lightning bolt had decided to have an opinion about.
 
-The hood was caved in from the center, buckled upward in a V. The windshield was gone — not cracked, gone, the frame empty and the glass distributed across the hood and the pavement in a radius of about fifteen feet. Both front tires were flat. The driver's side door was open at an angle that suggested the hinges had given up. The interior was scorched — not burned, scorched, the seats blackened and the dash melted in places, the smell of ozone and char reaching us from ten feet away.
+The hood was caved in from the center, buckled upward in a V. The windshield was gone — not cracked, gone, the frame empty and the glass distributed across the hood and the pavement in a radius of about fifteen feet. Both front tires were flat. The driver's side door hung open at an angle that said the hinges had given up. The interior was scorched — not burned, scorched — the seats blackened and the dash melted in places. The smell of ozone and char reached us from ten feet away.
 
 I looked at it for a moment.
 
 "When did that happen?" Charlaine said.
 
-"Lightning strike. Sometime in the last two hours." I looked at the eastern sky. The thin edge of change was there — still dark, but committed now to becoming something else. "We have twenty-five minutes."
+"During the negotiation." I looked at the eastern sky. The thin edge of change was there — still dark, but committed now to becoming something else. "We have twenty-five minutes."
 
 "City Hall is twelve blocks."
 
