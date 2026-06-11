@@ -4,7 +4,7 @@
 All 10 scenes have been stripped of draft text. Synopses written. Story beats preserved in notes. Codex populated. Ready for chapter-by-chapter rewrite.
 
 ## Pending (Rewrite Pass)
-- [ ] Rewrite Chapter 1 — Dead End Chase
+- [/] Rewrite Chapter 1 — Dead End Chase
 - [ ] Rewrite Chapter 2 — It's Gotta Be Me
 - [ ] Rewrite Chapter 3 — Gone in a Flash
 - [ ] Rewrite Chapter 4 — The Scratch in the Dust

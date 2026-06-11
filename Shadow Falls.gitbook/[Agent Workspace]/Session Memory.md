@@ -1,8 +1,8 @@
 # Session Memory & Logs
 
 ## Narrative State
-- **Current Phase**: Chapter-by-chapter rewrite prep — all draft text cleared, synopses and story beats preserved in notes
-- **Status**: 10 scenes stripped of prose, ready for rewrite pass
+- **Current Phase**: Drafting Chapter 1 — Dead End Chase
+- **Last Sync**: 2026-06-11
 
 ## Scene Map (Synopses Preserved)
 1. **Dead End Chase** — Rooftop chase, twin capture, teleportation, mage reveal
