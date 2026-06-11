@@ -1,1 +1,1 @@
-Finished polishing Chapter 4 — The Scratch in the Dust
+Drafting Chapter 5 — The Doll
