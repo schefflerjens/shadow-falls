@@ -1,4 +1,4 @@
-The coffee was burnt and I was on my third mug when Charlaine came back from the bathroom with a clean face and a strip of gauze taped over the cut at her temple. She'd found a fresh shirt in her locker — same uniform, no tear in the shoulder. She'd done something with her hair. She looked put together. She looked like someone who had decided to be put together and was making it work through sheer will.
+The coffee was burnt and I was on my third mug when Charlaine came back from the bathroom. Clean face, gauze taped over the cut at her temple, fresh uniform shirt from her locker. She'd done something with her hair. She looked put together — the kind of put together that runs on sheer will and nothing else.
 
 She looked at me over the counter.
 
@@ -12,7 +12,7 @@ I set the mug down. "It's past midnight."
 
 "The doll transformed." She picked up her jacket from the back of the chair. "She felt it. She's awake and she's waiting, and every minute we sit here is a minute we don't have." She held my gaze. "You need the disk read. I need answers. There's one place we get both."
 
-She had that right. The bone disk sat in my jacket pocket, cold through the cloth. It had been cold since the chamber — the cold of a thing that had been opened and closed too many times, a door with the hinges worn loose. I needed someone who could read what was carved on it and tell me what it meant before Thursday.
+She had that right. The bone disk sat in my jacket pocket, cold through the cloth. Cold since the chamber — the cold of something opened and closed too many times. I needed someone who could read what was carved on it before Thursday. Before the Bureau arrived and started asking questions I couldn't answer.
 
 Mama Marie was the only person in a hundred miles who could do that.
 
@@ -20,25 +20,25 @@ Mama Marie was the only person in a hundred miles who could do that.
 
 ---
 
-The pharmacy sat on the eastern edge of town where Crescent Street curved south and the buildings got smaller and older and the sidewalk gave way to packed dirt. A converted house, two stories, the ground floor opened into retail space decades ago and never quite converted back. The sign above the door was hand-lettered, the paint faded to a suggestion of letters. *Meyers Apothecary & Sundries.* Below it, smaller: *Est. 1947.* The window display held bundles of dried herbs, a row of amber bottles, a hand-written card listing the week's specials in script too fine to read from the car.
+The pharmacy sat on the eastern edge of town where Crescent Street curved south and the buildings got smaller and older and the sidewalk gave way to packed dirt. A converted house, two stories, the ground floor opened into retail space decades ago and never quite converted back. The sign above the door was hand-lettered, the paint faded to a suggestion. *Meyers Apothecary & Sundries.* Below it, smaller: *Est. 1947.* The window display held bundles of dried herbs, a row of amber bottles, a hand-written card listing the week's specials in script too fine to read from the car.
 
 A light burned upstairs. Every window on the ground floor was lit.
 
-I pulled to the curb and cut the engine. Charlaine was out the door before the engine stopped ticking.
+I pulled to the curb and cut the engine. Charlaine was out the door before it stopped ticking.
 
 I followed her up the porch steps. She didn't knock. She opened the door and went in.
 
 ---
 
-The smell hit before my eyes adjusted. Layered, built up over decades. Dried herbs — rosemary, sage, something floral and sharp underneath. Candle wax, sweet and bitter mixed together. Old wood. Earth. And beneath all of it, something without a name — the particular density of a place where workings happened regularly and the air had absorbed them the way wood absorbs smoke.
+The smell hit before my eyes adjusted. Layered, built up over decades. Dried herbs — rosemary, sage, something floral and sharp underneath. Candle wax, sweet and bitter together. Old wood. Earth. And beneath all of it, something without a name — the particular density of a place where workings happened regularly and the air had absorbed them the way wood absorbs smoke.
 
-The pharmacy was long and narrow, the original rooms of the house visible in the bones of it — a doorway here, a window placement there, the ghost of a staircase behind a shelving unit. Shelves ran floor to ceiling on both sides, packed with jars, bottles, and cloth bundles tied with cord. Glass apothecary jars with hand-lettered labels. Bundles of dried things hanging from the ceiling beams. A glass case near the door held the ordinary retail stock — aspirin, bandages, the things people came in for without thinking about what else the place sold.
+The pharmacy was long and narrow, the original rooms of the house visible in the bones of it — a doorway here, a window placement there, the ghost of a staircase behind a shelving unit. Shelves ran floor to ceiling on both sides, packed with jars, bottles, cloth bundles tied with cord. Glass apothecary jars with hand-lettered labels. Bundles of dried things hanging from the ceiling beams. A glass case near the door held the ordinary retail stock — aspirin, bandages, the things people came in for without thinking about what else the place sold.
 
 Behind the counter at the back, a lamp burned. Oil, not electric. The light it threw was amber and close.
 
 Mama Marie stood behind the counter with her hands flat on the wood, watching us come in.
 
-She was a small woman. Compact, precise, the kind of stillness that comes from having nothing to prove. Her hair was silver and pinned up. She wore a dark house robe over a nightgown — open and unhurried, as if she'd had time to dress properly and chosen not to. Her face was Charlaine's face at sixty years' remove — the same bone structure, the same eyes, the same quality of attention that made you feel read rather than looked at.
+She was a small woman. Compact, precise, the kind of stillness that comes from having nothing to prove. Silver hair pinned up. A dark house robe, open over a nightgown — not the robe of someone who had been sleeping. Someone who had dressed and chosen not to finish. Her face was Charlaine's face at sixty years' remove — same bone structure, same eyes, same quality of attention that made you feel read rather than looked at.
 
 She looked at Charlaine first. The cut at her temple. The gauze. The set of her jaw.
 
@@ -50,15 +50,15 @@ She knew why we were there.
 
 "The doll found her," I said.
 
-She nodded once, as if that was the expected answer. "Come," she said, and turned toward the back room.
+She nodded once, as if that was the expected answer. "Come," she said, and turned toward the back.
 
 ---
 
-The back room was a kitchen that had stopped being a kitchen sometime in the last century. The stove was still there, heavy iron, and it was on — a low flame under a pot that smelled of something I couldn't name and didn't try to. The table was wide and scarred, the kind of table that had been used for everything and remembered all of it. Chairs around it, mismatched. Shelves on every wall, more crowded than the front, the jars here without labels — contents identified by color and arrangement rather than words.
+The back room was a kitchen that had stopped being a kitchen sometime in the last century. The stove was still there — heavy iron, low flame under a pot that smelled of something I couldn't name and didn't try to. The table was wide and scarred, the kind that had been used for everything and remembered all of it. Mismatched chairs around it. Shelves on every wall, more crowded than the front, the jars here without labels — contents identified by color and arrangement rather than words.
 
 Candles on every surface. Tall ones, short ones, colors I didn't have names for. All of them burning.
 
-Mama Marie sat at the head of the table. She didn't gesture to the chairs. She didn't need to. We sat.
+Mama Marie sat at the head of the table. She didn't gesture to the chairs. We sat.
 
 Charlaine sat across from her grandmother and put both hands flat on the table. "The doll," she said. "It was yours."
 
@@ -70,11 +70,11 @@ Charlaine went still. "You knew about the murders."
 
 "You put a watching charm in a crime scene," I said.
 
-She looked at me. The amber eyes held mine without apology. "I put a protection in a dangerous place. What it watched was secondary." She paused. "The charm was keyed to Charlaine's blood. If she came within range of it, the watching would find her."
+She looked at me. The amber eyes held mine without apology. "I put a protection in a dangerous place. What it watched was secondary." A pause. "The charm was keyed to Charlaine's blood. If she came within range of it, the watching would find her."
 
 Charlaine's hands stayed flat on the table. "Why my blood?"
 
-Mama Marie looked at her granddaughter for a long moment. The candles threw their light across her face, shadows moving in the draft from the open back window.
+Mama Marie looked at her granddaughter for a long moment. The candles threw light across her face, shadows moving in the draft from the back window.
 
 "Because you were the target," she said.
 
@@ -86,7 +86,7 @@ Charlaine's voice came out even. It cost her. "From the beginning."
 
 "The inscription in unit eleven," I said. "Same pattern as the anchor."
 
-She nodded. "Each murder was a key turning in a lock. The staged bodies, the inscriptions, the blood — all of it deliberate. All of it building toward something." She paused. "The lock requires a specific kind of power to open. Power that runs in bloodlines."
+She nodded. "Each murder was a key turning in a lock. The staged bodies, the inscriptions, the blood — all of it deliberate. All of it building toward something." A pause. "The lock requires a specific kind of power to open. Power that runs in bloodlines."
 
 Charlaine's jaw was set. "Mine."
 
@@ -114,13 +114,13 @@ She didn't touch the carved side. She turned it over and examined the back. Ran 
 
 "His cabin. His constructs on the perimeter."
 
-She set the disk down and looked at it. The pot on the stove made its low sound. A candle on the windowsill guttered in the draft and steadied.
+She set the disk down and looked at it. The pot made its low sound. A candle on the windowsill guttered in the draft and steadied.
 
-"This is Legba's architecture," she said. "His crossroads geometry — the structure, the proportions. This is his work, or work built from his templates." She paused. "But the hand that carved it wasn't his."
+"This is Legba's architecture," she said. "His crossroads geometry — the structure, the proportions. His work, or work built from his templates." She paused. "But the hand that carved it wasn't his."
 
 "Someone learned it."
 
-"Someone was taught it." She looked up at me. "This isn't self-taught. This is transmission — a teacher and a student, working through the old methods. You don't get this clean a copy of Legba's geometry without direct instruction." She touched the rim of the disk again. "And the instruction was old. This person has been working this architecture for decades."
+"Someone was taught it." She looked up at me. "This isn't self-taught. This is transmission — a teacher and a student, working through the old methods. You don't get this clean a copy of Legba's geometry without direct instruction." She touched the rim again. "And the instruction was old. This person has been working this architecture for decades."
 
 "Krabat."
 
@@ -174,7 +174,7 @@ The Jack of Crossroads was warm in my breast pocket.
 
 "He knew I'd need to cross back," I said.
 
-"He gave you the card." It wasn't a question.
+"He gave you the card." Not a question.
 
 "Yes."
 
@@ -182,11 +182,11 @@ She nodded. "He's been arranging this for longer than tonight. Longer than this 
 
 I went still.
 
-"He told you I knew," she said. It wasn't an apology. "I've known for a long time where she is, Jam. Years. I didn't tell you because I didn't know if the time was right." She held my gaze. "I'm telling you now that Legba's deal is real. He'll honor it. He's a trickster and a god of leverage, but he keeps his bargains. That's the one thing you can count on."
+"He told you I knew," she said. Not an apology. "I've known for a long time where she is, Jam. Years. I didn't tell you because I didn't know if the time was right." She held my gaze. "I'm telling you now that Legba's deal is real. He'll honor it. He's a trickster and a god of leverage, but he keeps his bargains. That's the one thing you can count on."
 
 The lamp threw its amber light across the table. The disk sat on its cloth. The anchor. The instrument. The cold thing that had been tearing holes in the world one murder at a time.
 
-"Contact him," I said. "The ritual you mentioned. The tea."
+"Contact him," I said. "The ritual. The tea."
 
 She was already moving to the shelf. "I'll need thirty minutes."
 
@@ -224,7 +224,7 @@ She lifted her cup.
 
 We lifted ours.
 
-The smell came up from the surface — all the layers at once, the herbs and the earth and the unnamed thing underneath. It sat in the air above the cup like a presence.
+The smell came up from the surface — all the layers at once, herbs and earth and the unnamed thing underneath. It sat in the air above the cup like a presence.
 
 Mama Marie spoke. Not to us. To the empty cup at the head of the table.
 
@@ -246,7 +246,7 @@ Not loud. Not dramatic. Present — the way a sound is present when it comes fro
 
 "It's on the table."
 
-A pause. The steam shifted, the density of it moving. *"Good. The membrane is still intact. One working remaining before it fails."* Another pause, longer. *"Krabat has a buyer."*
+A pause. The steam shifted. *"Good. The membrane is still intact. One working remaining before it fails."* Another pause, longer. *"Krabat has a buyer."*
 
 The room was very still.
 
@@ -270,7 +270,7 @@ Mama Marie spoke. "*Ki kote li ye kounye a?*"
 
 The steam paused. Then: *"Close."*
 
-The candles came back up. All at once, the flames rising to their normal height, the room returning to amber and shadow. The steam above the empty cup dispersed. The presence — the density, the weight of it — lifted and was gone the way a sound is gone when it stops.
+The candles came back up. All at once — the flames rising to their normal height, the room returning to amber and shadow. The steam above the empty cup dispersed. The presence lifted and was gone the way a sound is gone when it stops.
 
 The empty cup sat at the head of the table. Its surface was dry. Nothing had been poured into it. But when Charlaine reached over and turned it toward the lamp, the inside was stained dark. The same color as what was in ours.
 
