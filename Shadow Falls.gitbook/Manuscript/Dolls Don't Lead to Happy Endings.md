@@ -6,7 +6,7 @@ Twenty yards past the tree line, the streetlights were gone. The canopy was dens
 
 It pointed steady. No hesitation. No drift.
 
-The air changed as I went deeper. Cooler, yes — but something else underneath the cool. A quality to it, the way air gets in rooms that have been shut up too long. Stale at the edges. Pressurized, almost. Like the forest was holding something in.
+The air changed as I went deeper. Cooler, yes — but something else underneath the cool. The way air gets in rooms that have been shut up too long. Stale at the edges. Pressurized, almost. Like the forest was holding something in.
 
 My joints were still stiff at the hip from the afternoon. The clay at my knuckles had that two-sizes-too-small feeling. I'd had three mugs of coffee and two shots of tequila and neither had done what I needed. I was running on the kind of tired that sits below the bones.
 
@@ -16,9 +16,7 @@ The doll turned in its dish.
 
 I stopped.
 
-It had been pointing west since unit eleven. Now it had shifted — maybe ten degrees north. I adjusted my bearing and kept going, stepping over a fallen birch, ducking under a low branch that wanted to take my hat.
-
-I didn't have a hat. I ducked anyway.
+It had been pointing west since unit eleven. Now it had shifted — maybe ten degrees north. I adjusted my bearing and kept going, stepping over a fallen birch, ducking under a low branch.
 
 The cabin appeared the way bad things appear in the dark — not all at once, but in pieces. First the shape of it, a geometry that didn't belong in the forest. Then the outline, a low structure leaning slightly to the right, the way old buildings lean when the foundation has given up on one side. Then the details, as I got closer, as my eyes pulled what light there was and worked with it.
 
@@ -30,13 +28,13 @@ The doll pointed at the front door.
 
 I crouched behind a pine trunk and looked at the perimeter.
 
-They were there. I counted six before I stopped counting. Same face on each of them — medium height, medium build, brown hair, the forgettable face I'd been seeing since the rooftop on Maple Lane. They moved the perimeter in a pattern, slow and mechanical, the way a clock hand moves. No communication between them. No variation. They didn't need to coordinate. They were running the same program.
+They were there. I counted six before I stopped counting. Same face on each of them — medium height, medium build, brown hair, the forgettable features I'd been seeing since the rooftop on Maple Lane. They moved the perimeter in a pattern, slow and mechanical, the way a clock hand moves. No communication between them. No variation. They didn't need to coordinate. They were running the same program.
 
 I'd seen that face twice before. Once on the roof, once in the basement. Two men I'd assumed were twins, which was unlikely enough. Now there were six of them, and unlikely didn't begin to cover it. These weren't brothers. They weren't even people. They were constructs — built things, shaped from material and intent and the same structured magic I'd been smelling for two days. Krabat's work. The same hand that had pulled Charlaine out of her chair at the station and dropped her somewhere in these woods.
 
 Legba had told me who had her. Now I was going to get her back.
 
-Six of them. One of me, stiff at the hip, missing a night's sleep, operating on lemonade and tequila and the particular stubbornness that comes from being made of earth.
+Six of them. One of me, stiff at the hip, short a night's sleep, running on tequila and the particular stubbornness that comes from being made of earth.
 
 I put the petri dish in my breast pocket next to the Jack of Crossroads.
 
@@ -68,7 +66,7 @@ I grabbed his arm before he could pull it back. Twisted. Kept twisting until he 
 
 Five.
 
-The sixth one I found waiting by the fireplace. He wasn't on a circuit. He'd been standing there, still as furniture, and I'd walked past him in the dark.
+The sixth one was waiting by the fireplace. He wasn't on a circuit. He'd been standing there, still as furniture, and I'd walked past him in the dark.
 
 He hit me from behind. Both fists, the back of my head, a blow that would have put a man down for good. My head snapped forward. The clay at the base of my skull compressed and cracked — I heard it, felt it, the grinding sensation of fractured clay that hadn't been moistened in too long. My vision went white for half a second.
 
@@ -120,7 +118,7 @@ Her head came up. The eyes took a moment to focus — the slow, dragging focus o
 
 "Later." I looked at the cord on her wrists. The shimmer was a working — binding magic, the kind that would tighten if she pulled against it. I didn't pull against it. I pressed my thumb to the center of the braid and held it there, feeling for the architecture the way you feel for a knot in the dark.
 
-There was a knot. Layered, deliberate, the same old signature I'd been tracking since the basement on Maple Lane. I found the outermost thread of it and pressed harder.
+There was a knot. Layered, deliberate, the same signature I'd been tracking since the basement on Maple Lane. I found the outermost thread of it and pressed harder.
 
 The cord went slack.
 
@@ -188,7 +186,7 @@ I pulled the petri dish from my breast pocket. The doll was still inside, still 
 
 "It found you." I put it back in my pocket. "Now it wants to go home."
 
-We moved through the trees at a pace Charlaine could manage. She was steadier than she'd been in the chamber, the circulation back in her legs, the fog of the binding wearing off. She kept pace without complaint. She didn't ask questions. She watched the trees.
+We moved through the trees at a pace Charlaine could manage. She was steadier than she'd been in the chamber, the circulation back in her legs, the fog of the binding wearing off. She kept pace without complaint. She watched the trees.
 
 We were forty yards from the cabin when the sound started.
 
@@ -278,7 +276,7 @@ She was quiet for a moment. "How did you know where to look?"
 
 "Legba told me Krabat had you. The doll did the rest."
 
-She turned toward me. The lamplight from a passing streetlight caught the dried blood at her temple, the dust in her curls. "You met Legba."
+She turned toward me. The light from a passing streetlamp caught the dried blood at her temple, the dust in her curls. "You met Legba."
 
 "Two days ago. He's the one who sent the doll."
 
