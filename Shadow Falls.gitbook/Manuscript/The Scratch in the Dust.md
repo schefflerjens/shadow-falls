@@ -28,11 +28,11 @@ I'd looked at this floor that morning. Looked at it carefully. Been thorough.
 
 I'd missed something.
 
-Under the dried blood, at the center of the stain, there were marks in the concrete. Not accidental. Not the scuffs and scratches that come from years of storage traffic. Fine, precise lines cut into the surface with something sharp. They ran in curves and angles, a pattern that repeated and folded back on itself, the kind of geometry that doesn't come from casual work.
+Under the dried blood, at the center of the stain, there were marks in the concrete. Not accidental. Not the scuffs and scratches that come from years of storage traffic. Fine, precise lines cut into the surface with something sharp. They ran in curves and angles, a pattern that repeated and folded back on itself — the kind of geometry that doesn't come from casual work.
 
 An inscription.
 
-I studied it. The bulb swung on its chain, and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
+I studied it. The bulb swung on its chain and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
 
 I reached into my jacket and pulled out the rosettes. Both of them. I set them on the floor beside the stain and looked at the inscription again.
 
@@ -42,7 +42,7 @@ Frankie had been placed on top of it.
 
 The body was the marker. The blood was the seal.
 
-I took out my phone and snapped a picture, then crouched lower and studied the symbols. I didn't recognize them, but something about them pulled at me — the way a sound just below hearing pulls at you. A frequency you feel before you name it.
+I took out my phone and snapped a picture. Then I crouched lower and studied the symbols. I didn't recognize them, but something about them pulled at me — the way a sound just below hearing pulls at you. A frequency you feel before you name it.
 
 My right hand moved before I'd decided to move it. I pressed two fingers to the outermost line.
 
@@ -70,7 +70,7 @@ I held the gun on it and didn't move.
 
 The void had no floor. No ceiling. No walls in any direction I could name, though something existed at the edges — a shimmer, a membrane, the suggestion of a boundary keeping the nothing from becoming everything. The light was sourceless and flat, the color of old pewter, showing shapes without shadows.
 
-The cold was immediate. Not the dry cold of a meat locker or the wet cold of a November rain. This was absence. The cold of a place where warmth had never been and wasn't expected.
+The cold hit immediately. Not the dry cold of a meat locker or the wet cold of a November rain. This was absence. The cold of a place where warmth had never been and wasn't expected.
 
 My joints didn't stiffen. The cold here didn't work on clay the way the sun did. But something in me registered it anyway — a deep, structural unease, the way old buildings shift when the foundation moves. I'd been alive for over a century. I'd been in bad places. This was a different category.
 
