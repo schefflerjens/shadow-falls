@@ -1,26 +1,26 @@
 ## The Inscription
 
-The lemonade stand was gone. The kid had packed up and gone home for dinner, and Maple Lane had the quiet that settles on a street when the day has given up on itself. I walked it without stopping. Nothing left on Maple Lane for me tonight.
+The lemonade stand was gone. The kid had packed up and gone home for dinner, and Maple Lane had the quiet that settles on a street when the day gives up on itself. I walked it without stopping. Nothing left on Maple Lane for me tonight.
 
 Main Street Mini Storage was three blocks east, tucked between a closed tax office and a laundromat that ran twenty-four hours and smelled like it. Low and flat, corrugated metal siding, a roll-up gate across the front somebody had left unlocked. My tape was still on the side door. Yellow, official, already peeling at one corner in the humidity.
 
 I ducked under it and went in.
 
-The interior was a long corridor with storage units running down both sides. Numbered metal doors, padlocked, the locks orange with rust on most of them. The overhead fluorescents had been killed when the coroner's team left. The only light came from an emergency strip at the far end — a thin red glow that did nothing useful.
+The interior was a long corridor with storage units running down both sides. Numbered metal doors, padlocked, most of the locks orange with rust. The overhead fluorescents had been killed when the coroner's team left. The only light came from an emergency strip at the far end — a thin red glow that did nothing useful.
 
 I pulled my flashlight and walked.
 
-Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. The morning manager found him at six-fifteen, in unit eleven, which Frankie had been cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
+Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. The morning manager found him at six-fifteen, in unit eleven, cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
 
-The staging was the same as the others. Deliberate. Arranged. The kind of care that takes time and says something about the person doing it. I'd never worked out how the killer chose them. Not Frankie, not the others. No pattern I could read. No thread connecting the victims beyond the fact that they were dead and arranged and left for someone like me to find.
+The staging matched the others. Deliberate. Arranged. The kind of care that takes time and says something about the person doing it. I'd never worked out how the killer chose them. Not Frankie, not the others. No pattern I could read. No thread connecting the victims beyond the fact that they were dead and arranged and left for someone like me to find.
 
 I stopped at unit eleven.
 
-The door was rolled up. My chalk marks were on the frame — entry point, contact points, the shorthand I'd been using since before half this town was born. The coroner's team had been thorough. They'd taken Frankie, taken samples, taken photographs. What was left was a ten-by-ten concrete box with a bare bulb on a pull chain, a folding table shoved against the far wall, and a dark stain on the floor where Frankie had been found.
+The door was rolled up. My chalk marks were on the frame — entry point, contact points, the shorthand I'd been using since before half this town was born. The coroner's team had been thorough. They'd taken Frankie, taken samples, taken photographs. What remained was a ten-by-ten concrete box with a bare bulb on a pull chain, a folding table shoved against the far wall, and a dark stain on the floor where Frankie had been found.
 
 I pulled the chain. The bulb came on, harsh and yellow.
 
-The stain was dried brown, the color of old rust. It covered maybe three square feet, spreading from the center in the uneven way blood spreads when a body stays in one place long enough. The coroner had outlined it in chalk. Inside the outline, the concrete was dark and flat.
+The stain was dried brown, the color of old rust. It covered maybe three square feet, spreading from the center the way blood spreads when a body stays in one place long enough. The coroner had outlined it in chalk. Inside the outline, the concrete was dark and flat.
 
 I crouched at the edge of it.
 
@@ -28,11 +28,11 @@ I'd looked at this floor that morning. Looked at it carefully. Been thorough.
 
 I'd missed something.
 
-Under the dried blood, at the center of the stain, there were marks in the concrete. Not accidental. Not the scuffs and scratches that come from years of storage traffic. These were deliberate — fine, precise lines cut into the surface with something sharp. They ran in curves and angles, a pattern that repeated and folded back on itself, the kind of geometry that doesn't come from casual work.
+Under the dried blood, at the center of the stain, there were marks in the concrete. Not accidental. Not the scuffs and scratches that come from years of storage traffic. Fine, precise lines cut into the surface with something sharp. They ran in curves and angles, a pattern that repeated and folded back on itself, the kind of geometry that doesn't come from casual work.
 
 An inscription.
 
-I looked at it for a long moment. The bulb swung on its chain, and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
+I studied it. The bulb swung on its chain, and the shadows shifted across the marks. In the moving light, the pattern had depth. Layers. The kind of thing you carve when you know what you're doing and you've done it before.
 
 I reached into my jacket and pulled out the rosettes. Both of them. I set them on the floor beside the stain and looked at the inscription again.
 
@@ -42,7 +42,7 @@ Frankie had been placed on top of it.
 
 The body was the marker. The blood was the seal.
 
-I took out my phone and snapped a picture of the inscription, then crouched lower and studied it. I didn't recognize the symbols, but something about them pulled at me, the way a sound just below hearing pulls at you. A frequency you feel before you name it.
+I took out my phone and snapped a picture, then crouched lower and studied the symbols. I didn't recognize them, but something about them pulled at me — the way a sound just below hearing pulls at you. A frequency you feel before you name it.
 
 My right hand moved before I'd decided to move it. I pressed two fingers to the outermost line.
 
@@ -50,7 +50,7 @@ The concrete was cold. Colder than the air. Colder than stone had any right to b
 
 I traced the line.
 
-The glow came from inside the concrete, not from the surface. Azure. A deep, saturated blue, the color of a gas flame at its hottest point. It bled up through the cuts in the stone and spread outward, following the geometry of the inscription, filling each line in sequence. The pattern lit from the center and expanded, and the air above it crackled — a dry, electric sound, like static before a storm.
+The glow came from inside the concrete, not from the surface. Azure. A deep, saturated blue, the color of a gas flame at its hottest point. It bled up through the cuts in the stone and spread outward, following the geometry of the inscription, filling each line in sequence. The pattern lit from the center and expanded. The air above it crackled — dry and electric, like static before a storm.
 
 I pulled my hand back.
 
@@ -60,7 +60,7 @@ The light reached the outer edge of the inscription. The whole pattern pulsed on
 
 I lunged to my feet and drew the revolver. My heart was hitting my ribs. I aimed at the swirling darkness where the circle had opened, the muzzle tracking the edge of it. Bullets might not do a thing. They were all I had.
 
-The darkness inside the circle had no bottom. No walls. No ceiling. It pressed outward from the inscription's edge, not like shadow but like the absence of the room itself.
+The darkness inside the circle had no bottom. No walls. No ceiling. It pressed outward from the inscription's edge — not like shadow but like the absence of the room itself.
 
 A growl rolled out of it. Low and enormous, felt in the floor before it reached my ears.
 
@@ -68,7 +68,7 @@ I held the gun on it and didn't move.
 
 ---
 
-The void had no floor. No ceiling. No walls in any direction I could name, though there was something at the edges — a shimmer, a membrane, the suggestion of a boundary keeping the nothing from becoming everything. The light was sourceless and flat, the color of old pewter, showing shapes without shadows.
+The void had no floor. No ceiling. No walls in any direction I could name, though something existed at the edges — a shimmer, a membrane, the suggestion of a boundary keeping the nothing from becoming everything. The light was sourceless and flat, the color of old pewter, showing shapes without shadows.
 
 The cold was immediate. Not the dry cold of a meat locker or the wet cold of a November rain. This was absence. The cold of a place where warmth had never been and wasn't expected.
 
@@ -78,7 +78,7 @@ I stood still and let my eyes work.
 
 The void wasn't empty.
 
-Forty feet out — if distance meant anything here — something moved. Low to the ground, enormous, dark against the pewter light. It moved with the slow deliberateness of something that has never needed to hurry. Four legs, a head the size of a steamer trunk, a coat the color of midnight with a shine to it like wet ink.
+Forty feet out — if distance meant anything here — something moved. Low to the ground, enormous, dark against the pewter light. It moved with the slow deliberateness of something that has never needed to hurry. Four legs, a head the size of a steamer trunk, a coat the color of midnight with a shine like wet ink.
 
 The eyes were red. Not the dull red of reflected light. Red from the inside, lit from somewhere behind the iris, the color of coals in the dark.
 
