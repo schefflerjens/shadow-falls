@@ -1,15 +1,23 @@
 ### Story Beats
-- Jam speeds towards Charlaine's grandma's house, with Charlaine still shaken by her ordeal of being kidnapped, and then saved by Jam and a magic doll.
-- Jam explains his decision to go to Charlaine's grandma (briefly mentioning needing help understanding the magic, Papa Legba's deal, and what is happening). Jam suspects the grandma is involved because Legba gave him the means to rescue her.
-- Charlaine expresses fear and confusion about the doll and the situation but refuses to believe that her grandma could be involved.
-- Jam and Charlaine arrive at the grandma's house, which is actually the town pharmacy. It's in the middle of the night, so the shop is closed, but Jam rings the bell and rattles on the door until the lights turn on inside.
-- Charlaine's grandma greets them, surprised by their hurried arrival. (Consider adding a detail about her appearance that hints at her magic - wise eyes, unusual jewelry).
-- Jam explains the situation — the disappearances, Krabat, the creepy forest, and most importantly, the doll's transformation. Charlaine's grandma is silent for a moment, contemplating what she heard, then she shuffles off to make some tea.
-- When Grandma returns, she reveals her knowledge of the magic used on the doll (explain the magic — a powerful enchantment connection to crossroads magic). Grandma explains what the doll's transformation means (tie it to Charlaine's importance — dormant magic awakened, bloodline connection).
-- Jam confronts the possibility that Papa Legba might be behind the doll's magic. He asks Grandma if she put the Voodoo god up to this plan. Grandma shrugs and responds that she does not have that kind of power. She then says that, whenever she isn't sure, she finds reassurance in consulting the tea leaves.
-- Jam is derisive and compares it to carnival fortune teller tricks, but stops abruptly when Charlaine kicks him under the table. Grandma clarifies that if they want answers from Legba, they need to find a way to communicate with him. The tea leaves are a line of communication, a way to focus the mind and be more receptive to the spirit world. Unlike other Voodoo deities, the god of crossroads will be able to pick it up.
-- Jam sighs and agrees to the approach. Grandma spills the tea in a saucer and begins the ritual.
-- The rest of this scene (Legba possessing Anna, the deal argument, Marie being turned) is in "Sealing the deal".
-
-### 🔄 Continuity Note (from Ch4 rewrite)
-This is a SECOND meeting with Legba, not first contact. Jam already met him in the spirit world (Ch4). The deal argument will center on the photograph/anchor deal — Legba may try to claim Charlaine's rescue satisfies his obligation, but Jam will argue the real deal (find the anchor → get the woman's location) is still outstanding.
+- The kitchen is still. The tea ritual is over. The empty cup at the head of the table is dry, but the inside is stained dark. Legba spoke. The conversation is not finished.
+- Mama Marie stands at the counter. The tea ritual was a telephone line — communication only. Legba cannot act through steam. He cannot take the anchor through a cup of tea. He needs a vessel.
+- She picks up the phone. Calls Anna. "It's time."
+- Anna arrives within ten minutes. She's still dressed from the office — the same suit, the same reading glasses pushed up on her head. She looks tired and composed and unsurprised. She knew this call was coming.
+- Mama Marie explains: Anna is a crossroads. Vampire — dead yet alive. Legba can manifest through her more completely than through steam. Anna nods. She's already agreed to this.
+- Mama Marie clears the table. Lights fresh candles. Prepares Anna by having her sit at the head of the table where the empty cup was. She chants — the same invocation as before, but deeper, longer, the words building layers the way the herbs did. The candles gutter. The temperature drops.
+- Anna's eyes go green. Legba is present.
+- Through Anna, Legba acknowledges the deal. He congratulates Jam on finding Charlaine and the anchor. He claims the deal is complete.
+- Jam pushes back. Legba's original words were: "I will give you something you've been searching for." Finding "someone" (Charlaine) does not satisfy finding "something" (the woman in the photograph / the anchor's purpose). Legba owes Jam still.
+- A storm brews outside. Thunder. Lightning. Something explodes — likely Jam's car. Charlaine kicks Jam under the table and hisses at him to stop pissing off deities.
+- The storm passes. Legba laughs — low, guttural, genuine amusement. He admits English is a tricky language and game recognizes game. He asks Jam to name his price.
+- Jam thinks. He can't ask for "someone" (Krabat is out). He can't ask for Krabat's location (too easy for Legba to twist). He considers asking who's behind the murder twins but realizes the answer could be useless (someone far away).
+- Jam asks for a way to stop the source of the killings from committing any further crimes in or around Shadow Falls, without any more citizens coming to harm.
+- Legba says it's a very specific request with many constraints. Jam asks if that means he can't do it. Another crack of thunder. Charlaine kicks him again.
+- Legba admits it can be done, but Jam might not like the outcome. "Giving what you ask for but not what you needed — that's on brand." He tells Jam to go to City Hall and wait for the clock to strike noon.
+- Legba turns to Mama Marie. "Your kin has been safely returned. Are you ready to fulfill your part of the bargain?"
+- Mama Marie nods. Before Jam or Charlaine can react, Legba (in Anna's body) lunges forward. Anna's fangs sink into Mama Marie's neck. She drinks.
+- Marie collapses. Charlaine rushes to her. Anna's body crumples — Legba is gone. Anna is unconscious.
+- Mama Marie is pale, still. Not dead — turned. She'll wake as a vampire.
+- Charlaine stands, eyes wet but voice steady. She insists on coming with Jam. Anna is unconscious and may wake hungry. Cerberus (the hound from under the porch) will guard them.
+- They step outside. Jam's car is a smoking wreck — the lightning strike. Twenty-five minutes to sunrise.
+- They run toward City Hall.
