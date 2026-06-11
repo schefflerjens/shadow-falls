@@ -1,0 +1,1 @@
+Standard blueprint for lore, magic systems, factions, or items.

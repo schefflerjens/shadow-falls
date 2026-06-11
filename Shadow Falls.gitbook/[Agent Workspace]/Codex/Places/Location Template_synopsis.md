@@ -1,0 +1,1 @@
+Standard blueprint for setting files.

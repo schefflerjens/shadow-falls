@@ -1,0 +1,1 @@
+Standard blueprint for character files.

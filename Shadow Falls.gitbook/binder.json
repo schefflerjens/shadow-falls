@@ -1,0 +1,216 @@
+[
+    {
+        "type": "DraftFolder",
+        "title": "Manuscript",
+        "children": [
+            {
+                "type": "Text",
+                "title": "Dead End Chase",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "It's Gotta Be Me",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Gone in a Flash",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "The Scratch in the Dust",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "The Doll",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Dolls Don't Lead to Happy Endings",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Out of the woods",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Mama Marie",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Sealing the deal",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Chapter 10",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Folder",
+        "title": "Characters",
+        "children": [
+            {
+                "type": "Text",
+                "title": "Jam Slate",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Charlaine Meyers",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Anna Arborio",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "The killer",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Krabat",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Papa Legba",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Murder Twins",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Herbert \"Herb\" Weatherby",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Folder",
+        "title": "Places",
+        "children": [
+            {
+                "type": "Text",
+                "title": "Shadow Falls",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "city hall",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "abandoned basement",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Fangs and Fur",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "grandma's hut",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Folder",
+        "title": "Notes",
+        "children": [
+            {
+                "type": "Text",
+                "title": "Series Overview",
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "ResearchFolder",
+        "title": "Research",
+        "children": []
+    },
+    {
+        "type": "TrashFolder",
+        "title": "Trash",
+        "children": []
+    },
+    {
+        "type": "Folder",
+        "title": "[Agent Workspace]",
+        "children": [
+            {
+                "type": "Text",
+                "title": "Prompt Directives",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Session Memory",
+                "children": []
+            },
+            {
+                "type": "Text",
+                "title": "Task Checklist",
+                "children": []
+            },
+            {
+                "type": "Folder",
+                "title": "Codex",
+                "children": [
+                    {
+                        "type": "Folder",
+                        "title": "Characters",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "title": "Character Profile Template",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Folder",
+                        "title": "Places",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "title": "Location Template",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Folder",
+                        "title": "Lore & Factions",
+                        "children": [
+                            {
+                                "type": "Text",
+                                "title": "Lore Template",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

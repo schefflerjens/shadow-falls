@@ -1,0 +1,8 @@
+# Location Profile: Shadow Falls
+
+## Narrative Purpose
+- **Significance**: Major setting in the Shadow Falls series.
+- **Atmosphere**: Sleek film noir detective novel tone, cynical, wisecracking, tough.
+
+## Details
+The story plays in and around Shadow Falls, a small city in New England in the present time. Nestled amidst rolling hills and vibrant maple forests lies the town of Shadow Falls. Time seems to slow down as you enter this quaint haven. The main street, Maple Lane, is a tapestry of color. Brick buildings with worn storefronts house generations-old businesses. The Shadow Falls General Store, with its creaky screen door and shelves overflowing with local honey and hand-knitted scarves, is the heart of the town. Mrs. Peabody, with her kind smile and encyclopedic knowledge of everyone's needs, presides over the counter. Across the street, the Shadow Falls Book Nook boasts a crooked wooden sign and a mishmash of used and new books piled high. The scent of old paper mingles with the aroma of freshly brewed coffee from The Bean There, a tiny café next door, where folks gather for morning gossip and steaming mugs. There are no national chains here. A hand-painted sign announces "Ol' Macdonald's Farm Fresh Produce," while the Shadow Falls Hardware boasts a dusty collection of everything from nails to antique tools.  In the afternoon, the rhythmic clang of the blacksmith's hammer echoes from down the street. Shadow Falls embraces a simpler pace. Evenings are spent on porches, catching fireflies and listening to crickets chirp.  On weekends, the townsfolk gather at the bandstand in the town square for open mic nights or potluck picnics.  Life here is a gentle symphony of community spirit and timeless charm.

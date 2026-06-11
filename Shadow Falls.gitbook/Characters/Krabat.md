@@ -1,0 +1,8 @@
+# Character Profile: Krabat
+
+## Role & Narrative Purpose
+- **Narrative Function**: Key character in Shadow Falls.
+- **Core Narrative Conflict**: Supernatural mysteries and investigation.
+
+## Description & Background
+Krabat is tall and lean, with piercing black eyes and a shock of white hair that seems to defy gravity. He Appears to be in his late 30s, but is actually much older. He often wears dark, tailored clothing that hints at a European origin. A faint scar snakes across his left cheek, adding to his air of mystery. He is the same Krabat from the Slavic folktale of a young man who apprentices himself to a dark sorcerer.  However, after all those centuries, Krabat is the powerful sorcerer himself. Krabat emigrated to America from Europe in the 17th century.  He roamed the continent, using his magic to exploit and manipulate others. Officially, Krabat owns a curio shop filled with seemingly ordinary trinkets and antiques. However, his true income comes from leveraging his magic for personal gain. Krabat is a master manipulator, able to weave charm and intimidation with equal ease. He possesses a dry wit and a sardonic sense of humor. Despite his outward charisma, there's a cold distance in his eyes, a hint of darkness lurking beneath the surface. His true motives are shrouded in secrecy. He seems content with his life of luxury, but there's a hint of restlessness in his eyes, a suggestion that he seeks something more.  Perhaps he craves a challenge, or maybe he yearns for something he lost long ago. There's a simmering tension between Krabat and Sheriff Jam Slate. Whether it stems from a past conflict, ideological differences, or a shared interest in the alluring mayor, Anna Arborio, remains unclear.

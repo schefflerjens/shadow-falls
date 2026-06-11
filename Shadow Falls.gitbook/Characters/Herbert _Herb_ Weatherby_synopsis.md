@@ -1,0 +1,1 @@
+Character profile for Herbert "Herb" Weatherby.
