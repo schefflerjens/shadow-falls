@@ -1,1 +1,1 @@
-AI steering instructions and style guide.
+AI steering instructions and style guide. Updated sentence length and genre benchmarks for noir cadence.
