@@ -1,4 +1,4 @@
-The coffee was burnt and I was on my third mug when Charlaine came back from the bathroom. Clean face, gauze taped over the cut at her temple, fresh uniform shirt from her locker. She'd done something with her hair. She looked put together — the kind of put together that runs on sheer will and nothing else.
+The coffee was burnt and I was on my third mug when Charlaine came back from the bathroom. Clean face, gauze taped over the cut at her temple, fresh uniform shirt from her locker. She'd done something with her hair. She looked put together — the kind that runs on sheer will and nothing else.
 
 She looked at me over the counter.
 
@@ -30,7 +30,7 @@ I followed her up the porch steps. She didn't knock. She opened the door and wen
 
 ---
 
-The smell hit before my eyes adjusted. Layered, built up over decades. Dried herbs — rosemary, sage, something floral and sharp underneath. Candle wax, sweet and bitter together. Old wood. Earth. And beneath all of it, something without a name — the particular density of a place where workings happened regularly and the air had absorbed them the way wood absorbs smoke.
+The smell hit before my eyes adjusted. Layered, built up over decades. Dried herbs — rosemary, sage, something floral and sharp underneath. Candle wax, sweet and bitter together. Old wood. Earth. Beneath all of it, something without a name — the particular density of a place where workings happened regularly and the air had absorbed them the way wood absorbs smoke.
 
 The pharmacy was long and narrow, the original rooms of the house visible in the bones of it — a doorway here, a window placement there, the ghost of a staircase behind a shelving unit. Shelves ran floor to ceiling on both sides, packed with jars, bottles, cloth bundles tied with cord. Glass apothecary jars with hand-lettered labels. Bundles of dried things hanging from the ceiling beams. A glass case near the door held the ordinary retail stock — aspirin, bandages, the things people came in for without thinking about what else the place sold.
 
@@ -62,7 +62,7 @@ Mama Marie sat at the head of the table. She didn't gesture to the chairs. We sa
 
 Charlaine sat across from her grandmother and put both hands flat on the table. "The doll," she said. "It was yours."
 
-"It was mine." Mama Marie's voice was low and even. The voice of someone who had been having important conversations her whole life and had stopped finding them dramatic. "I put it in the floor of that storage unit six months ago. When the first body was found."
+"It was mine." Mama Marie's voice was low and even. The voice of someone who had spent a lifetime in important conversations and stopped finding them dramatic. "I put it in the floor of that storage unit six months ago. When the first body was found."
 
 Charlaine went still. "You knew about the murders."
 
@@ -92,7 +92,7 @@ Charlaine's jaw was set. "Mine."
 
 "Yours." Mama Marie reached across the table and put one hand over Charlaine's. "You have dormant power in this bloodline, *cher*. My mother had it. I have it. You have it, though you've never trained it. Whoever is doing this knows what you carry." She released her granddaughter's hand. "They took you because you were the point. Not because you were in the way."
 
-Charlaine sat back. She looked at the candles on the shelf behind her grandmother's head. Her face was controlled — the kind of controlled that takes work — and underneath it something moved. Not fear, exactly. Something older than fear. The particular feeling of finding out that a thing you thought was happening around you was actually happening to you.
+Charlaine sat back. She looked at the candles on the shelf behind her grandmother's head. Her face was controlled — the kind that takes work — and underneath it something moved. Not fear, exactly. Something older than fear. The particular feeling of finding out that a thing you thought was happening around you was actually happening to you.
 
 She absorbed it. She didn't fall apart. That was Charlaine.
 
@@ -102,7 +102,7 @@ I reached into my jacket and set it on the table, still wrapped in the cloth fro
 
 She unwrapped it.
 
-The bone disk sat on the cloth under the candlelight. The carved geometry was sharp and precise, the lines deep, the whole thing radiating cold that had nothing to do with temperature. Mama Marie looked at it the way you look at a thing when you already know what it is and you're deciding how to say it.
+The bone disk sat on the cloth under the candlelight. The carved geometry was sharp and precise, the lines deep, the whole thing radiating cold that had nothing to do with temperature. Mama Marie looked at it the way you look at something when you already know what it is and you're deciding how to say it.
 
 She didn't touch the carved side. She turned it over and examined the back. Ran one thumb along the rim.
 
@@ -200,9 +200,9 @@ She held my gaze for a moment. Then she nodded and turned to watch her grandmoth
 
 ---
 
-Mama Marie moved through the back room with the efficiency of someone who had done this many times and had stopped finding it remarkable. Jars from the shelf, selected without hesitation. A bundle of dried herbs untied and separated by hand. A clay pot — not the iron one on the stove, a smaller one, unglazed, the color of red earth — brought down from a high shelf and set on the table.
+Mama Marie moved through the back room with the efficiency of someone who had done this many times and stopped finding it remarkable. Jars from the shelf, selected without hesitation. A bundle of dried herbs untied and separated by hand. A clay pot — not the iron one on the stove, a smaller one, unglazed, the color of red earth — brought down from a high shelf and set on the table.
 
-She filled it from the iron pot. The steam carried that unnamed smell, stronger now, something that sat at the back of the throat and stayed there.
+She filled it from the iron pot. The steam carried that unnamed smell, stronger now, something that settled at the back of the throat and stayed there.
 
 Into it she added the herbs. Each addition changed the smell — a sharpening here, a deepening there, the layers building the way a chord builds when you add notes. She worked without speaking. The candles burned steady. The draft from the back window had stopped.
 

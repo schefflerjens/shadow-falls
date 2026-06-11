@@ -1,1 +1,1 @@
-Finished Chapter 6 — Dolls Don't Lead to Happy Endings
+Finished Chapter 7 — Out of the woods. Two chapters remain (8, 9) plus Ch10 to plot.
