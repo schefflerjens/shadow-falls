@@ -1,6 +1,6 @@
 # The Station
 
-The station smelled like burnt coffee and old paper. It always did. I'd been smelling it for sixty years and it still hit me the same way every time I came through the door — low, familiar, the kind of comfort that doesn't ask anything of you.
+The station smelled like burnt coffee and old paper. It always did. I'd been smelling it for sixty years and it still hit me the same every time I came through the door — low, familiar, the kind of comfort that doesn't ask anything of you.
 
 I went straight for the pot.
 
@@ -14,7 +14,7 @@ Charlaine was at her desk, head bent over a case file, a pencil tucked behind he
 
 "I've had worse."
 
-I poured a mug and drank it standing at the counter. The caffeine worked differently in clay than in blood — faster, more direct, like water hitting dry soil. The stiffness at my wrist loosened by a fraction. I poured another.
+I poured a mug and drank it standing at the counter. Caffeine worked differently in clay than in blood — faster, more direct, like water hitting dry soil. The stiffness at my wrist loosened a fraction. I poured another.
 
 By the third mug I'd finished the pot. I set it down and turned around.
 
@@ -44,9 +44,9 @@ Charlaine was quiet for a moment. She tapped the pencil against her palm twice.
 
 "No," I said. "It wasn't improvised."
 
-She stood up. "I'll get the kit."
+She stood. "I'll get the kit."
 
-"Do that. The magic kit. Not the fingerprint kit."
+"The magic kit. Not the fingerprint kit."
 
 She gave me a look. "I know what kit."
 
@@ -56,11 +56,11 @@ She gave me a different look. Flatter. "Papa Legba is Grand-Mère's domain. Not 
 
 I held up a hand. Fair enough.
 
-The phone on my desk rang. The speaker crackled before I could reach it — Anna's voice, clipped and even.
+The desk speaker crackled before I could sit back down — Anna's voice, clipped and even.
 
 *"Jam. My office. Soon as you're free."*
 
-I already knew who it was going to be. I just didn't know she'd beat me to it.
+I already knew it was going to be her. I just didn't know she'd beat me to it.
 
 I pushed up from the chair and checked myself in the small mirror on the wall beside the coat rack. The crack at my jaw had spread a little. My collar was dusty. I looked like something that had been in a fight and lost the cosmetic portion of it.
 
@@ -68,7 +68,7 @@ I pushed up from the chair and checked myself in the small mirror on the wall be
 
 I grunted and headed for the door.
 
-She had that coming. I'd handed it to her.
+She had that coming. I'd handed it to her with the daddy joke and I knew it.
 
 "Insubordination is a fireable offense," I said.
 
@@ -76,11 +76,11 @@ She had that coming. I'd handed it to her.
 
 ---
 
-Anna Arborio's office was next door, up a staircase that creaked on the fourth and seventh step. I'd climbed it so many times I stepped over those two without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
+Anna Arborio's office was next door, up a staircase that creaked on the fourth and seventh step. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
 
 I knocked once and went in.
 
-The office looked like a library that had given up on organization. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, her dark hair pinned up with what looked like a letter opener.
+The office looked like a library that had stopped caring about organization. Medical journals stacked on the windowsill. Case files in towers on the credenza. A city budget printout spread across the floor with coffee rings on it. Anna sat behind her desk in the middle of all of it, reading glasses on, dark hair pinned up with what looked like a letter opener. A framed city charter hung crooked on the wall behind her. A brass desk lamp threw a tight circle of yellow light over the clutter. The rest of the room sat in shadow.
 
 She looked up. She assessed. Anna had been looking at me that way for thirty years. She didn't spook easy.
 
@@ -98,9 +98,9 @@ I sat. The chair was good leather, worn soft. Anna took off her reading glasses 
 
 I told her. All of it. The rooftop, the basement, the knife that didn't do what it was supposed to, the gun that did and didn't matter. The twins on the pavement. The thirty seconds I spent drinking lemonade. The cold concrete and the smell of cloves.
 
-Anna listened without interrupting. That was one of the things I'd always respected about her. She let you finish.
+Anna listened without interrupting. She let you finish. That was one of the things I'd always respected about her.
 
-When I was done, she was quiet. Then she said, "Teleportation magic."
+When I was done, she was quiet. Then: "Teleportation magic."
 
 "That's what it looks like. First sign we're dealing with something non-human. It complicates things."
 
@@ -124,11 +124,11 @@ Anna held my gaze. "I know."
 
 The room was still. Outside, a car passed on the street below. The sound faded.
 
-"This town has invested significant money in legal fees," Anna said. "To make sure that never happens again. No government entity is going to confiscate our sheriff. Not while I'm sitting in this chair." She paused. "I can probably get you until Thursday."
+"I can probably get you until Thursday," she said.
 
 "Two days."
 
-"Two days," she said. "Use them."
+"Two days. Use them."
 
 I stood. My joints were still tight at the hip, the clay not fully recovered. I moved carefully, aware of myself.
 
@@ -138,17 +138,15 @@ Anna's expression went flat. "Don't call him that."
 
 "He's doing research for you. You're the mayor. That makes you—"
 
-"It makes me someone who uses available resources," she said. "It doesn't make me Frankenstein. And it doesn't make him Igor. Watch your mouth."
+"It makes me someone who uses available resources. It doesn't make me Frankenstein. And it doesn't make him Igor." She set her glasses down. "Watch your mouth."
 
 I let it go. "If he has information about this working, I want it before the Bureau does."
 
-"Agreed. Go see him." She picked up her glasses and put them back on. The conversation was over. That was another thing about Anna — she knew when she'd won.
+"Agreed. Go see him." She picked her glasses back up. The conversation was over. That was another thing about Anna — she knew when she'd won.
 
-"Jam." She didn't look up from the file. "The town has spent a lot to protect you. Don't make it harder than it has to be."
+"Jam." She didn't look up from the file. "This town has spent a lot to protect you. Don't make it harder than it has to be."
 
-I understood what she meant. The city coffers were notoriously empty. The money that had kept federal hands off this department, off me, had come from one place. It always did.
-
-Without Anna Arborio, this town would be dirt.
+I understood what she meant. The city coffers were notoriously empty. The money that had kept federal hands off this department — off me — had come from one place. It always did. Without Anna Arborio, this town would be dirt.
 
 I nodded once and left.
 
@@ -172,7 +170,7 @@ I turned toward the west end of town.
 
 "Where are we starting?" Charlaine said.
 
-"The scene," I said. "We work the magic trace before the trail goes cold. Then Krabat."
+"The scene. We work the magic trace before the trail goes cold. Then Krabat."
 
 "You think he's behind it?"
 
