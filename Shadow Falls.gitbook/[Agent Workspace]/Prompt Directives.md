@@ -1,16 +1,20 @@
 # Style Guide & Prompt Directives
 
-Use this document to instruct the AI agent on writing style, voice, formatting constraints, and scene rules.
-
 ## Core Styling Guidelines
-- **POV**: First person limited point of view of Jim Slate's perspective
+- **POV**: First person limited point of view of Jam Slate's perspective
 - **Tense**: First person past tense
-- **Tone/Atmosphere**: Write from the first person perspective of the main character, Jam Slate. Emulate the style of classic film noir detective novels, meaning the narration is cynical, wisecracking, and tough.  Dialogue is short, fast-paced, and packed with punch. Dialogue reveals character motivations and drives the plot forward without flowery language. Use vivid settings descriptions but stay away from metaphors and similes. Good and bad are blurred, and the detectives themselves are often flawed. Justice might be served, but at a cost. AVOID LONG SENTENCES AND DIALOG TAGS.
+- **Tone/Atmosphere**: Write from the first person perspective of Jam Slate. Emulate the style of classic film noir detective novels — cynical, wisecracking, tough narration. Dialogue is short, fast-paced, packed with punch. Dialogue reveals character motivations and drives the plot forward without flowery language. Use vivid setting description but avoid metaphors and similes. Good and bad are blurred; the detective is flawed. Justice might be served, but at a cost.
+- **Sentence Length Target**: Average 14-18 words per sentence (to hit FKGL 8.0). Vary sentence rhythm — short for action, slightly longer for atmosphere — but never let a sentence meander. Cut every unnecessary word.
+- **AVOID**: Dialogue tags beyond "said," long exposition, metaphors/similes, tell-don't-show internal monologue, filter words ("I saw," "I felt," "I noticed," "I realized").
 
 ## General Style Rules
 1. Dialogue is short, fast-paced, and packed with punch.
 2. Dialogue reveals character motivations and drives the plot forward without flowery language.
-3. Use vivid settings descriptions but stay away from metaphors and similes.
-4. Good and bad are blurred, and the detectives themselves are often flawed.
+3. Use vivid setting descriptions but stay away from metaphors and similes.
+4. Good and bad are blurred, and the detective is flawed.
 5. Justice might be served, but at a cost.
-6. AVOID LONG SENTENCES AND DIALOG TAGS.
+6. No dialogue tags beyond "said." Use action beats to identify speakers.
+7. Cut filter words on sight ("I saw," "I felt," "I noticed," "I realized," "I knew").
+8. Show through action, implication, and subtext — not through internal summary.
+9. Each scene should start in media res and end on a hook or a turn.
+10. The world is mundane-on-the-surface with supernatural beneath; never over-explain the magic. Let it feel everyday to Jam.

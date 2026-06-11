@@ -251,6 +251,16 @@
                                 "type": "Text",
                                 "title": "Voodoo & the Spirit World",
                                 "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Worldbuilding & Magic Rules",
+                                "children": []
+                            },
+                            {
+                                "type": "Text",
+                                "title": "Character Voice Guide",
+                                "children": []
                             }
                         ]
                     }
