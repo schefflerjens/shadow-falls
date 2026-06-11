@@ -2,7 +2,7 @@
 
 The trees closed in fast.
 
-Twenty yards past the tree line, the streetlights were gone. The canopy was dense enough that the sky disappeared in patches, leaving only the black spaces between branches and the occasional gray smear of cloud. My shoes found soft ground, pine needles, the occasional root that wanted to put me down. I watched the doll in the petri dish and kept moving.
+Twenty yards past the tree line, the streetlights were gone. The canopy was dense enough that the sky disappeared in patches, leaving only black spaces between branches and the occasional gray smear of cloud. My shoes found soft ground — pine needles, the occasional root that wanted to put me down. I watched the doll in the petri dish and kept moving.
 
 It pointed steady. No hesitation. No drift.
 
@@ -22,7 +22,7 @@ I didn't have a hat. I ducked anyway.
 
 The cabin appeared the way bad things appear in the dark — not all at once, but in pieces. First the shape of it, a geometry that didn't belong in the forest. Then the outline, a low structure leaning slightly to the right, the way old buildings lean when the foundation has given up on one side. Then the details, as I got closer, as my eyes pulled what light there was and worked with it.
 
-Paint peeling from the clapboards in long strips, the wood beneath gone silver-gray. Windows boarded over with planks nailed at irregular angles. A porch with two steps, both rotted through. A door that had swollen in its frame and been forced shut. A rusted tin roof with a hole in one corner, the edges curled back like a can opener had gotten at it.
+Paint peeling from the clapboards in long strips, the wood beneath gone silver-gray. Windows boarded over with planks nailed at irregular angles. A porch with two steps, both rotted through. A door swollen in its frame and forced shut. A rusted tin roof with a hole in one corner, the edges curled back like a can opener had gotten at it.
 
 The kind of place that had been abandoned long enough to forget it had ever been inhabited.
 
@@ -32,13 +32,15 @@ I crouched behind a pine trunk and looked at the perimeter.
 
 They were there. I counted six before I stopped counting. Same face on each of them — medium height, medium build, brown hair, the forgettable face I'd been seeing since the rooftop on Maple Lane. They moved the perimeter in a pattern, slow and mechanical, the way a clock hand moves. No communication between them. No variation. They didn't need to coordinate. They were running the same program.
 
+I'd seen that face twice before. Once on the roof, once in the basement. Two men I'd assumed were twins, which was unlikely enough. Now there were six of them, and unlikely didn't begin to cover it. These weren't brothers. They weren't even people. They were constructs — built things, shaped from material and intent and the same structured magic I'd been smelling for two days. Krabat's work. The same hand that had pulled Charlaine out of her chair at the station and dropped her somewhere in these woods.
+
+Legba had told me who had her. Now I was going to get her back.
+
 Six of them. One of me, stiff at the hip, missing a night's sleep, operating on lemonade and tequila and the particular stubbornness that comes from being made of earth.
 
 I put the petri dish in my breast pocket next to the Jack of Crossroads.
 
-The first one came around the east side of the cabin on a regular circuit. I waited until he was eight feet out, stepped from behind the pine, and hit him once across the jaw with my right hand.
-
-The impact was solid. He went sideways, hit the ground, and lay still. No sound. No reaction from the others. They were running their circuits, not watching each other.
+The first one came around the east side of the cabin on a regular circuit. I waited until he was eight feet out, stepped from behind the pine, and hit him once across the jaw with my right hand. The impact was solid. He went sideways, hit the ground, and lay still. No sound. No reaction from the others. They were running their circuits, not watching each other.
 
 I dragged him behind the pine and left him there.
 
@@ -46,11 +48,11 @@ The second one came from the north side. I let him pass the corner of the cabin 
 
 The third one saw me.
 
-He didn't hesitate. No fear, no calculation — he came straight in, fast, and he was strong. Stronger than the two I'd taken quietly. He got both hands on my lapels and drove me backward into the cabin wall, and the rotted clapboards gave way behind me with a crack like a rifle shot. We went through the wall together.
+He didn't hesitate. No fear, no calculation — he came straight in, fast, and he was strong. Stronger than the two I'd taken quietly. He got both hands on my lapels and drove me backward into the cabin wall, and the rotted clapboards gave way with a crack like a rifle shot. We went through the wall together.
 
 Inside the cabin, the dark was total.
 
-He had my lapels. I had his wrists. We stood in the wreckage of the wall, splinters around our feet, and he was trying to drive me further back and I was holding my ground. He was strong the way a machine is strong — no variance, no fatigue, constant pressure. I felt the clay at my shoulders compress under the grip.
+He had my lapels. I had his wrists. We stood in the wreckage of the wall, splinters around our feet, and he was trying to drive me further back while I held my ground. He was strong the way a machine is strong — no variance, no fatigue, constant pressure. I felt the clay at my shoulders compress under the grip.
 
 I let him push. Let him build momentum. Then I dropped my weight and turned, and he went over my hip and into the far wall. The wall held. He didn't.
 
@@ -58,9 +60,9 @@ He slid down and stayed down.
 
 The fourth and fifth came through the door at the same time.
 
-The cabin was one room. Low ceiling, bare floor, a dead fireplace on the far wall. Enough gray light came through the gaps in the boarded windows to see shapes. The two constructs spread apart as they came in, flanking, and I understood they'd been built for this — built to work in pairs when the situation called for it.
+The cabin was one room. Low ceiling, bare floor, a dead fireplace on the far wall. Enough gray light came through the gaps in the boarded windows to make out shapes. The two constructs spread apart as they came in, flanking, and I understood they'd been built for this — built to work in pairs when the situation called for it.
 
-I went for the closer one first. Three steps and a straight right hand to the center of his face. He dropped. The second one caught me from the side, a solid hit to the ribs that would have cracked bone if I had any. Instead it compressed the clay, deformed it, the impact spreading through my torso like a shockwave through wet sand. I felt myself go momentarily soft at the midsection — not painful, exactly, but wrong. A structural wrongness.
+I went for the closer one first. Three steps and a straight right hand to the center of his face. He dropped. The second one caught me from the side, a solid hit to the ribs that would have cracked bone if I had any. Instead it compressed the clay, deformed it, the impact spreading through my torso like a shockwave through wet sand. I felt myself go soft at the midsection — not painful, exactly, but wrong. A structural wrongness.
 
 I grabbed his arm before he could pull it back. Twisted. Kept twisting until he went down.
 
@@ -68,7 +70,7 @@ Five.
 
 The sixth one I found waiting by the fireplace. He wasn't on a circuit. He'd been standing there, still as furniture, and I'd walked past him in the dark.
 
-He hit me from behind. Both fists, the back of my head, a blow that would have put a man down for good. My head snapped forward. The clay at the base of my skull compressed and cracked — I heard it, felt it, the grinding sensation of fractured clay that hadn't been moistened in too long. My vision went white for a half second.
+He hit me from behind. Both fists, the back of my head, a blow that would have put a man down for good. My head snapped forward. The clay at the base of my skull compressed and cracked — I heard it, felt it, the grinding sensation of fractured clay that hadn't been moistened in too long. My vision went white for half a second.
 
 I turned around.
 
@@ -102,11 +104,11 @@ I went down.
 
 ---
 
-The chamber was maybe fifteen feet square. Dirt walls, timber-braced, the ceiling low enough that I had to duck at the center beam. A kerosene lamp hung from an iron hook in the corner, throwing its orange light across the packed earth floor. A workbench against one wall, covered in objects I didn't look at yet. Shelving on the opposite wall, jars and pouches and things wrapped in cloth. The smell was heavy — old earth, clove, ozone, and something underneath it all that I recognized as the smell of active workings, the smell of magic that had been used recently and often.
+The chamber was maybe fifteen feet square. Dirt walls, timber-braced, the ceiling low enough that I had to duck at the center beam. A kerosene lamp hung from an iron hook in the corner, throwing orange light across the packed earth floor. A workbench against one wall, covered in objects I didn't look at yet. Shelving on the opposite wall, jars and pouches and things wrapped in cloth. The smell was heavy — old earth, clove, ozone, and something underneath it all that I recognized as the smell of active workings, the smell of magic used recently and often.
 
 She was against the far wall.
 
-Sitting on the floor, back against the timber bracing, wrists bound in front of her with something that looked like braided cord but shimmered faintly when the lamplight caught it. Her head was down, the short curls dusty and tangled. Her jacket was gone. Her uniform shirt was torn at the shoulder. There was dried blood on her temple, a cut that had stopped bleeding but hadn't been cleaned.
+Sitting on the floor, back against the timber bracing, wrists bound in front of her with something that looked like braided cord but shimmered when the lamplight caught it. Her head was down, the short curls dusty and tangled. Her jacket was gone. Her uniform shirt was torn at the shoulder. There was dried blood on her temple, a cut that had stopped bleeding but hadn't been cleaned.
 
 I crossed the chamber in four steps and crouched in front of her.
 
@@ -142,15 +144,13 @@ She absorbed that. Her jaw set. "I knew something was wrong when he sat down. He
 
 I looked.
 
-The workbench held a collection of objects arranged with the same deliberate care I'd seen in the staged murder scenes. A shallow iron bowl, blackened inside, with a residue at the bottom that had dried to a dark crust. Three candles burned down to stubs, the wax pooled and hardened. A length of cord identical to the one I'd taken off her wrists, coiled in a tight spiral. And at the center of it all, a disk of carved bone, maybe six inches across, covered in the same geometry I'd seen cut into the floor of unit eleven.
+The workbench held a collection of objects arranged with the same deliberate care I'd seen in the staged murder scenes. A shallow iron bowl, blackened inside, with a residue dried to a dark crust at the bottom. Three candles burned down to stubs, the wax pooled and hardened. A length of cord identical to the one I'd taken off her wrists, coiled in a tight spiral. At the center of it all, a disk of carved bone, maybe six inches across, covered in the same geometry I'd seen cut into the floor of unit eleven.
 
 The inscription. The same pattern. But this one was three-dimensional — carved into the bone in relief, the lines sharp and deep, the whole thing mounted on a wooden stand so it faced the room.
 
-The anchor.
+The anchor. The instrument Legba had described. The thing they'd been using to tear the membrane.
 
-The instrument Legba had described. The thing they'd been using to tear the membrane.
-
-I took it off the stand. The bone was cold. Not the ambient cold of the chamber — colder. The specific cold of a thing that had been used as a doorway too many times.
+I took it off the stand. The bone was cold. Not the ambient cold of the chamber — colder. The cold of a thing that had been used as a doorway too many times.
 
 "Don't touch the carved side," Charlaine said.
 
@@ -160,13 +160,13 @@ I took it off the stand. The bone was cold. Not the ambient cold of the chamber 
 
 She was right. The six constructs I'd put down were still down, but I didn't know how long that held. I didn't know if Krabat had more of them. I didn't know if he'd been watching the cabin and already knew I was here.
 
-I wrapped the bone disk in the cloth from the workbench shelf and put it in my jacket pocket. It sat heavy against my ribs.
+I wrapped the bone disk in cloth from the workbench shelf and put it in my jacket pocket. It sat heavy against my ribs.
 
 "Up," I said.
 
 ---
 
-The cabin was still when we came up through the trapdoor. The six constructs were where I'd left them — the three inside, the two by the door, the one in the fireplace ash. None of them had moved.
+The cabin was still when we came up through the trapdoor. The six constructs were where I'd left them — three inside, two by the door, one in the fireplace ash. None had moved.
 
 Charlaine looked at them. Looked at me.
 
@@ -192,19 +192,19 @@ We moved through the trees at a pace Charlaine could manage. She was steadier th
 
 We were forty yards from the cabin when the sound started.
 
-Low. Rhythmic. The sound of footsteps on packed earth, multiple sets, moving in a pattern I recognized. The mechanical, clockwork rhythm of constructs running their circuits.
+Low. Rhythmic. Footsteps on packed earth, multiple sets, moving in a pattern I recognized. The mechanical, clockwork rhythm of constructs running their circuits.
 
 I stopped.
 
 Charlaine stopped beside me.
 
-Through the trees, back at the cabin, shapes moved in the dark. The same medium height, same medium build, the same forgettable faces catching the faint light. Not six. More than six. I counted eight before I stopped.
+Through the trees, back at the cabin, shapes moved in the dark. Same medium height, same medium build, the same forgettable faces catching the faint light. Not six. More than six. I counted eight before I stopped.
 
 "He reset them," Charlaine said, low.
 
 "Or he sent more."
 
-They were moving outward from the cabin in a slow spiral, the way a search pattern expands. Systematic. Patient. They had time. We didn't.
+They were moving outward from the cabin in a slow spiral, the way a search pattern expands. Patient. They had time. We didn't.
 
 One of them turned in our direction.
 
@@ -226,7 +226,7 @@ I took the lid off.
 
 The figure stepped out of the dish onto my palm. Stepped off my palm onto the ground. Stepped away from me into the dark between the trees.
 
-Charlaine made a sound beside me. A small, involuntary sound.
+Charlaine made a sound beside me. Small. Involuntary.
 
 The figure walking away from us was Charlaine. Her height, her build, her short curls, her torn uniform shirt. Walking at a normal pace, no hurry, directly toward the nearest construct. The construct turned. Tracked. Followed.
 
@@ -256,7 +256,7 @@ The engine turned over.
 
 I pulled onto the road and pointed east, toward the orange glow of Shadow Falls against the low clouds.
 
-Charlaine had her head back against the seat. Her eyes were open, watching the tree line out the window. The cut on her temple had started to bleed again, very slightly. She pressed the back of her hand against it without looking.
+Charlaine had her head back against the seat. Her eyes were open, watching the tree line out the window. The cut on her temple had started to bleed again, slightly. She pressed the back of her hand against it without looking.
 
 "Krabat wasn't there," she said.
 
@@ -274,7 +274,19 @@ Charlaine turned her head to look at me. "You think he wanted you to take the an
 
 "I think he wanted me moving in a specific direction." The streetlights thickened. Pavement under the tires again. "I just don't know what's at the end of it yet."
 
-She was quiet for a moment. "The doll," she said. "It's gone."
+She was quiet for a moment. "How did you know where to look?"
+
+"Legba told me Krabat had you. The doll did the rest."
+
+She turned toward me. The lamplight from a passing streetlight caught the dried blood at her temple, the dust in her curls. "You met Legba."
+
+"Two days ago. He's the one who sent the doll."
+
+She sat with that. Outside, the tree line thinned and the first gas station of the western edge slid past. "He never told me he was watching," she said.
+
+"He watches everything."
+
+She looked back out the window. "The doll," she said. "It's gone."
 
 "Yes."
 
