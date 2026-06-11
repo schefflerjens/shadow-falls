@@ -215,3 +215,27 @@ The shadow under the hat shifted. The raspy voice dropped lower.
 The hound stood. The red eyes burned.
 
 The pewter light went out.
+
+---
+
+I was on my knees in unit eleven of Main Street Mini Storage. The bare bulb still burned overhead, harsh and yellow. The concrete under my palms was warm again — normal temperature, normal stone, the cold of the void already fading like a dream you can't hold onto. The inscription in the floor had gone dark. Just cuts in concrete now. Dead. Spent.
+
+The Jack of Crossroads was in my hand. Warm. The only proof I had that any of it had happened.
+
+I got to my feet. Stood there for a moment with the card in one hand and the dead inscription at my feet, letting the real world settle back around me. The smell of dust. The hum of the emergency strip down the hall. The ordinary sounds of a storage unit on a summer night in a town that didn't know what lived under its streets.
+
+I turned to leave.
+
+There was something on the floor near the doorway. Small. Wooden. It hadn't been there when I came in — I would have noticed. I crossed to it and picked it up.
+
+A doll. Intricately carved, the wood smooth and warm against my palm, the way the Jack was warm. Tiny limbs, a painted face with no expression, the whole thing no bigger than my thumb. On the smooth back of the doll, a single name was etched in a delicate script: *Charlaine Meyers*.
+
+I turned it over in my hand. The wood felt alive beneath my fingers — not the dead grain of a carved trinket, but something with weight and intention behind it.
+
+A compass.
+
+I set the doll on the concrete floor. It lay still for a moment. Then it rotated about forty-five degrees to the left, slow and deliberate, until it faced a spot on the far wall. I picked it up and turned it back. It rotated again, settling on the same direction.
+
+I picked it up and put it in my pocket with the Jack and the two rosettes.
+
+The inscription in the floor was dead. The void was sealed. But Legba hadn't sent me back empty-handed.

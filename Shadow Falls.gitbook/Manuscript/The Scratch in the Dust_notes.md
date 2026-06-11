@@ -1,8 +1,11 @@
 ### Story Beats
-- Jam makes his way to the "Main Street Mini Storage", a self storage facility and the place where the serial killer last struck. He does not have a lot of hope to find any new clues here, since the coroner has already removed the body and Charlaine had told him any magic trail would run cold after two to three hours anyway. But Charlaine is missing, and Jam has no better idea where to look.
-- Jam enters, ignoring police tape he had put up himself earlier today. The storage facility is dark, dusty, and filled with an unsettling quiet. Everything still looks the way Jam left it. Jam approaches the scene of the crime and remembers Frankie, a twenty-something kid who had been working here. Jam reflects that he never found out how and why the killer chose their victims.
-- Standing where Frankie's body lay, Jam feels a strange unease. He runs a hand through his hair, frustration gnawing at him. Examining the dusty concrete, he notices a faint, almost imperceptible scratch in the floor, hidden beneath a smear of dried blood.
-- Intrigued, Jam cleans the area around the scratch, revealing a faint magical inscription etched into the concrete. He doesn't recognize the symbols, but they resonate with a subtle energy. Jam takes out his phone and snaps a picture.
-- Hesitantly, Jam traces the inscription with his finger. A jolt of energy shoots through him, and the inscription glows with an eerie blue light. The air crackles, and a shimmering circle materializes on the floor where the inscription is etched.
-- Jam leaps back, his heart pounding. The warehouse plunges into an unnatural darkness within the circle. A low growl echoes from the darkness, sending shivers down Jam's spine.
-- Jam draws his revolver, aiming it at the swirling shadows within the circle. He knows bullets might not work, but it's all he has.
+- Jam makes his way to the "Main Street Mini Storage", the place where the serial killer last struck. The magic trail has gone cold, but Charlaine is missing and Jam has nowhere else to look.
+- Inside, he finds the spot where the victim Frankie Oakes was found. Under the dried blood stain, he discovers a faint magical inscription etched into the concrete. He takes a picture.
+- He traces the inscription with his finger. The lines glow azure. A shimmering circle opens beneath him and pulls him into the spirit world.
+- The void: no floor, no ceiling, pewter-colored light. A giant red-eyed hound guards the space. A hooded figure appears — Eshu (Papa Legba), tall, lean, tattered coat, straw hat hiding his face.
+- Legba reveals someone has been using his old architecture to tear the membrane between worlds. Frankie's body was placed on top of the inscription deliberately — the body as marker, the blood as seal.
+- Legba offers a deal: find who is using the workings, stop them, and bring him the anchor/instrument they're using. In return, Legba produces a sepia photograph of a woman Jam has been searching for for 40 years. He'll tell Jam where she is.
+- Legba gives Jam the "Jack of Crossroads" — a playing card that allows crossing between worlds.
+- Jam asks who has Charlaine. Legba says "You've already met him. He was sitting two stools down from you" — revealing Krabat took her.
+- The void closes. Jam is back in the storage unit on his knees. The inscription is dead, just cuts in concrete.
+- Near the doorway, Jam finds a small wooden doll — intricately carved, warm to the touch. On its back, a name etched in delicate script: Charlaine Meyers. It acts as a compass, rotating to point in a consistent direction. Legba left it for him.
