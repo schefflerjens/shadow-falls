@@ -10,7 +10,9 @@ Homer MCP acts as a bridge between LLM writing agents and book project directori
 
 ## Repository Layout
 
-- **[Shadow Falls.gitbook/](file:///Users/jensscheffler/projects/shadow-falls/Shadow%20Falls.gitbook)**: An example book project in the GitBook database format. It showcases how manuscript outlines, character bibles, location profiles, and story notes are structured for the MCP.
+- **[Shadow Falls.gitbook/](Shadow%20Falls.gitbook/)**: An example book project in the GitBook database format. It showcases how manuscript outlines, character bibles, location profiles, and story notes are structured for the MCP.
+  - 📖 [Read the compiled manuscript](Shadow%20Falls.md)
+  - 📱 [Download EPUB](Shadow%20Falls.epub)
 - **[engine_deprecated/](file:///Users/jensscheffler/projects/shadow-falls/engine_deprecated)**: The original custom Python-based writing assistant, preserved here as historical context only.
 
 ## Key Features
