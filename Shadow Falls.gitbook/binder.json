@@ -270,6 +270,11 @@
                         ]
                     }
                 ]
+            },
+            {
+                "type": "Text",
+                "title": "Ideal Reader",
+                "children": []
             }
         ]
     }
