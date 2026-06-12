@@ -60,7 +60,7 @@ Six months. The same six months the murders had been happening. The same six mon
 
 I thought about Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding this town up by sheer force of will and the stubbornness of someone who had been dead nineteen years and decided it wasn't going to slow her down.
 
-She'd known all of it. She'd been carrying it the same way she carried everything — quietly, without announcement, until it was time.
+She'd known all of it. She'd been carrying it the same way she carried everything — without announcement, until it was time.
 
 I should have been angry. I wasn't. Too late in the night for anger to accomplish anything.
 
@@ -120,27 +120,23 @@ A hand reached across the table. Palm up. Waiting.
 
 I didn't move.
 
-"Not yet." I kept my voice level. "You said you'd give me something I've been searching for. You showed me a photograph. You said you'd tell me where she is." I put both hands flat on the table. "Finding Charlaine was finding *someone.* You promised me *something.* A location. A person. Those aren't the same word."
+"One of three," I said. "The deal was: find who's behind the workings. Stop them. Bring you the anchor." I kept my voice level. "I've brought the anchor. That's one. I don't know who's behind it yet. I haven't stopped them. The deal isn't complete."
 
-The body tilted its head.
+The green eyes held mine. The candles threw shadows across Anna's face and the shadows moved wrong — too slow, too deliberate, tracking something other than the light.
 
-"*The girl was found. The anchor is recovered. The terms are satisfied.*"
+"*The girl was found,*" Legba said. "*She is safe. The anchor is recovered. That is substantial.*"
 
-"The terms were your words, not mine. You were specific." I held the green eyes. "So was I."
+"That's not what you offered." I put both hands flat on the table. "You showed me a photograph. You said do those three things and you'd tell me where she is. I've done one of them." I held his gaze. "I'm not asking for the full answer yet. I'm asking for enough to finish the job."
 
-Silence. The smoke from the clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
+Silence. The smoke from Mama Marie's clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
 
-Something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that had been outmaneuvered by mortals for ten thousand years and found it interesting every time.
+Then — something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that has been outmaneuvered by mortals for ten thousand years and finds it genuinely interesting every time.
 
 "*Precise,*" Legba said.
 
 "I've had practice."
 
-"*So you have.*" The body leaned back in the chair. "*Very well. I will honor the full terms.*" A pause, the kind that makes you wait on purpose. "*When the transaction is complete.*"
-
-Outside, the first rumble of thunder rolled in from the west. The candles shuddered.
-
-"Then tell me how to stop the source of the killings," I said. "No more people die. No more crimes in or around Shadow Falls."
+"*So you have.*" The body leaned back in the chair. Anna's posture but not Anna's ease. "*Very well. You have fulfilled one condition. I will give you what you need to fulfill the others.*" A pause, the kind that makes you wait on purpose. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise. The final working can be completed without the anchor — the bloodline is the key, not the instrument.*"
 
 The green eyes moved to the disk on the table. Then back to me.
 
@@ -154,7 +150,7 @@ The green eyes moved to the disk on the table. Then back to me.
 
 "*It is the answer I have.*" The voice dropped, the erosion quality deepening. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise.*" The green eyes steadied. "*City Hall. Before noon. That is where it ends.*"
 
-Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed immediately. The windows rattled. Something outside exploded with a sound like a cannon shot and ozone punched through the walls.
+Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed without a breath. The windows rattled. Something outside exploded with a sound like a cannon shot and ozone punched through the walls.
 
 I had a feeling I knew what that was.
 
@@ -170,7 +166,7 @@ Then Legba laughed. Low, guttural, genuine — the laugh of something ancient th
 
 I sat with it. The Jack of Crossroads was warm in my breast pocket. The disk sat on the table between us, cold and waiting. I thought about asking for Krabat's location — too easy to twist. I thought about asking who was behind the murder twins — the answer could be someone three states away and useless before dawn.
 
-I thought about what I actually needed.
+I thought about what I needed.
 
 "I want a way to stop the source of the killings from committing any further crimes in or around Shadow Falls," I said. "Without any more citizens coming to harm."
 
@@ -242,7 +238,7 @@ Her eyes found Mama Marie. Then Charlaine. Then me.
 
 "Done," I said.
 
-She nodded. She pressed two fingers to her temple the way she did when she had a headache and was deciding whether to acknowledge it. Then she stood, straightened her shirt, and was Anna Arborio again — mayor, vampire, the person who kept this town from falling apart by sheer stubbornness.
+She nodded. She pressed two fingers to her temple the way she did when she had a headache and was deciding whether to acknowledge it. Then she stood, straightened her shirt, and was Anna Arborio again — mayor, vampire, the person who kept this town from falling apart by stubbornness alone.
 
 Then her knees went. She caught the table edge. Held it.
 
@@ -294,7 +290,7 @@ I checked my watch.
 
 Twenty-five minutes to sunrise.
 
-My car sat at the curb where I'd left it, two wheels on the grass, the old dark blue Ford that ran because it knew better than to stop.
+My car sat at the curb where I'd left it, two wheels on the grass. The old dark blue Ford that ran because it knew better than to stop.
 
 Except it didn't look like a car anymore.
 
