@@ -1,1 +1,1 @@
-Finished Chapter 7 — Out of the woods. Two chapters remain (8, 9) plus Ch10 to plot.
+Finished Chapter 8 — Mama Marie. One chapter remaining (Ch9), plus Ch10 to plot.
