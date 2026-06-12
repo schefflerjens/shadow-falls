@@ -102,7 +102,7 @@ Anna stood. She moved to the window and looked out at the dark tree line with he
 
 The office was quiet. The aspirin bottle sat open on the desk. The budget printouts were covered in red ink. The cold coffee was getting colder.
 
-She'd been running this town for twenty years. Kept the federal hands off the department. Kept the charter loopholes intact. Kept the money flowing to the places that needed it and away from the places that asked too many questions. She was tired the way people get tired when they've been holding something up for a long time and they're not going to put it down.
+She'd been running this town longer than anyone remembered. Kept the federal hands off the department. Kept the charter loopholes intact. Kept the money flowing to the places that needed it and away from the places that asked too many questions. She was tired the way people get tired when they've been holding something up for a long time and they're not going to put it down.
 
 "Do you trust Legba?" she said. Her back was still to me.
 

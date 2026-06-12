@@ -50,7 +50,7 @@ I looked at Charlaine. Charlaine looked at me.
 
 "She knew," Charlaine said.
 
-"She's been waiting for the call." Mama Marie moved back to the table and began clearing the cups. "Anna Arborio has been a vampire for nineteen years. She has been mayor of this town for sixteen. She has spent those sixteen years keeping certain arrangements intact." She stacked the cups with precise, unhurried movements. "She knew this night was coming. She volunteered."
+"She's been waiting for the call." Mama Marie moved back to the table and began clearing the cups. "Anna Arborio came across the ocean a long time ago. Before Shadow Falls was Shadow Falls. She's been a vampire longer than most towns in this country have existed." She stacked the cups with precise, unhurried movements. "She knew this night was coming. She volunteered."
 
 "When?" I said.
 
@@ -58,7 +58,7 @@ I looked at Charlaine. Charlaine looked at me.
 
 Six months. The same six months the murders had been happening. The same six months Mama Marie had been watching from the sidelines, placing her charms, waiting for the shape of it to come clear.
 
-Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding this town up by sheer force of will and the stubbornness of someone who had been dead nineteen years and decided it wasn't going to slow her down.
+Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding this town up by sheer force of will and the particular stubbornness of something that had been alive longer than most countries and wasn't about to let a little thing like daylight slow her down.
 
 She'd known all of it. She'd been carrying it the same way she carried everything — without announcement, until it was time.
 
