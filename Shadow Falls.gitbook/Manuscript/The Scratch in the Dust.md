@@ -8,11 +8,11 @@ The interior was a long corridor with storage units running down both sides. Num
 
 I pulled my flashlight and walked.
 
-Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. The morning manager found him at six-fifteen, in unit eleven, cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
+Frankie Oakes had worked the front desk here for two years. Twenty-three years old, no priors, no enemies anyone could name. The morning manager found him at six-fifteen, in Unit Eleven, cataloguing for a tenant dispute. The door had been standing open. Frankie had been inside.
 
 The staging matched the others. Deliberate. Arranged. The kind of care that takes time and says something about the person doing it. I'd never worked out how the killer chose them. Not Frankie, not the others. No pattern I could read. No thread connecting the victims beyond the fact that they were dead and arranged and left for someone like me to find.
 
-I stopped at unit eleven.
+I stopped at Unit Eleven.
 
 The door was rolled up. My chalk marks were on the frame — entry point, contact points, the shorthand I'd been using since before half this town was born. The coroner's team had been thorough. They'd taken Frankie, taken samples, taken photographs. What remained was a ten-by-ten concrete box with a bare bulb on a pull chain, a folding table shoved against the far wall, and a dark stain on the floor where Frankie had been found.
 
@@ -232,7 +232,7 @@ The pewter light went out.
 
 ---
 
-I was on my knees in unit eleven of Main Street Mini Storage. The bare bulb still burned overhead, harsh and yellow. The concrete under my palms was warm again — normal temperature, normal stone, the cold of the void already fading like a dream you can't hold onto. The inscription in the floor had gone dark. Just cuts in concrete now. Dead. Spent.
+I was on my knees in Unit Eleven of Main Street Mini Storage. The bare bulb still burned overhead, harsh and yellow. The concrete under my palms was warm again — normal temperature, normal stone, the cold of the void already fading like a dream you can't hold onto. The inscription in the floor had gone dark. Just cuts in concrete now. Dead. Spent.
 
 The Jack of Crossroads was in my hand. Warm. The only proof I had that any of it had happened.
 
