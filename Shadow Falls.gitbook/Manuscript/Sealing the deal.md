@@ -16,7 +16,7 @@ I put my hand on the iron pull and felt the resistance. Deadbolted from inside �
 
 This wasn't a normal morning.
 
-Charlaine had her hands on her knees, breathing. She looked up at the door. Then at me.
+Charlaine had her hands on her knees, catching her breath. She looked up at the door. Then at me.
 
 "Anna?" she said.
 
@@ -40,7 +40,7 @@ The briefcase caught the edge of the bottom step. He went down hard — one knee
 
 Charlaine was already moving.
 
-She pulled a brick from the planter at the base of the City Hall steps — a loose one, the mortar gone, the kind that had been sitting there waiting for exactly this use — and threw it in one clean motion. It cracked against the pavement between the dogs and the man. The dogs scattered. One went left, two went right, all three vanishing into the dark with the speed of animals that had decided this wasn't worth it.
+She pulled a brick from the planter at the base of the City Hall steps — a loose one, the mortar long gone — and threw it in one clean motion. It cracked against the pavement between the dogs and the man. The dogs scattered. One went left, two went right, all three vanishing into the dark with the speed of animals that had decided this wasn't worth it.
 
 The man on the pavement looked up.
 
@@ -48,7 +48,7 @@ He found Charlaine first. Then he found me. His eyes went wide behind the thick 
 
 He scrambled up. Got one hand on the briefcase. Got both feet under him. Stood on the bottom step, breathing hard, adjusting his glasses with one finger.
 
-"Thank you," he said. His voice was nasal, slightly high, the voice of a man who spent most of his time in rooms where he was the least important person present. "They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted — recognition, or the near-cousin of it, the look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
+"Thank you," he said. His voice was nasal, slightly high — the voice of a man who spent most of his time in rooms where he was the least important person present. "They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted — recognition, or the near-cousin of it. The look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
 
 "I am," I said.
 
@@ -196,6 +196,6 @@ She looked at me. The cut at her temple. The gauze. The torn shoulder and the se
 
 He adjusted his grip on the briefcase. "I'll keep up."
 
-We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map. The air smelled of rain and burning rubber. My car was still out there somewhere, a smoking wreck from the lightning strike, and the Bureau was coming with the sun. Krabat was moving. We had one lead, one map, and twelve blocks to cover before the geometry closed for good.
+We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map. The air smelled of rain and burning rubber. My car was still out there somewhere — a smoking wreck from the lightning strike — and the Bureau was coming with the sun. Krabat was moving. We had one lead, one map, and twelve blocks to cover before the geometry closed for good.
 
 We ran.
