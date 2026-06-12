@@ -26,13 +26,13 @@ She straightened. "Window?"
 
 "Ground floor windows are barred. Second floor—"
 
-A sound from the alley beside the building cut through the quiet. Not loud. Frantic. Rapid slapping of shoe leather on pavement, a grunt of effort, and underneath it the low excited sound of dogs working themselves up to something.
+A sound from the alley cut through the quiet. Not loud. Frantic. Rapid slapping of shoe leather on pavement, a grunt of effort, and underneath it the low excited sound of dogs working themselves up to something.
 
 We both looked at the alley mouth.
 
-Three dogs came out first. Medium-sized, mixed breed, the lean and hungry kind that ran the alleys at night and had learned the hours before dawn belonged to them. They moved fast, ears flat, the coordinated focus of animals that had found something worth chasing.
+Three dogs out first. Medium-sized, mixed breed, the lean and hungry kind that ran the alleys at night and had learned the hours before dawn belonged to them. They moved fast, ears flat, the coordinated focus of animals that had found something worth chasing.
 
-Behind them, a man.
+Ahead of them, a man.
 
 He came out of the alley at a run that was more of a controlled fall — arms out, briefcase swinging, the gait of someone who had not run anywhere in a long time and was discovering the body does not forget this as a pleasant experience. Short. Wide through the middle. A rumpled suit that had been slept in, or at least worried in, for the better part of a day. Thinning brown hair combed with optimism over a head that had given up on it. Thick horn-rimmed glasses riding low on his nose, the lenses catching the streetlight as he ran.
 
@@ -58,7 +58,7 @@ Charlaine looked at me.
 
 "The agency," I said.
 
-"Yes. The one Mayor Arborio contacted. The notification went through proper channels — filed correctly, received correctly, and assessed." He paused. "By my superiors."
+"Yes. Mayor Arborio contacted us. The notification went through proper channels — filed correctly, received correctly, and assessed." He paused. "By my superiors."
 
 "And?"
 
@@ -136,7 +136,7 @@ I thought about the reset perimeter. Krabat setting the trap and leaving before 
 
 Legba's voice in Anna's body. *City Hall before noon. What you need will be there.*
 
-He'd known. He'd known what we'd find at City Hall. He'd known we'd need the map. He'd sent us here at the right moment — not because he was helping us, but because our finding the final site served his purpose. Krabat's buyer wanted the membrane down. Legba wanted it intact. Two gods with opposite interests, and I was the instrument both of them were trying to use.
+He'd known. He'd known what we'd find at City Hall. He'd known we'd need the map. He'd sent us here at the right moment — not because he was helping us, but because our finding the final site served his purpose. Krabat's buyer wanted the membrane down. Legba wanted it intact. Two forces with opposite interests, and I was the instrument both of them were trying to use.
 
 I looked at Herb.
 
@@ -178,6 +178,8 @@ The clock tower said four fifty-two.
 
 The eastern sky was the color of old pewter — the same color as the void, the same color as light that showed shapes without shadows. Not dawn yet. The hour before dawn, when the dark has started losing and hasn't finished.
 
+The air smelled of rain and burning rubber. My car was still out there somewhere — a smoking wreck from the lightning strike — and the Bureau was coming with the sun.
+
 Charlaine was already at the bottom of the steps.
 
 "The pharmacy's twelve blocks east," she said.
@@ -196,6 +198,6 @@ She looked at me. The cut at her temple. The gauze. The torn shoulder and the se
 
 He adjusted his grip on the briefcase. "I'll keep up."
 
-We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map. The air smelled of rain and burning rubber. My car was still out there somewhere — a smoking wreck from the lightning strike — and the Bureau was coming with the sun. Krabat was moving. We had one lead, one map, and twelve blocks to cover before the geometry closed for good.
+We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map. Krabat was moving. We had one lead, one map, and twelve blocks to cover before the geometry closed for good.
 
 We ran.

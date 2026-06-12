@@ -1,1 +1,1 @@
-Finished Chapter 8 — Mama Marie. One chapter remaining (Ch9), plus Ch10 to plot.
+Finished Chapter 9 — Sealing the deal. All prose chapters drafted. Only need to plot and draft Chapter 10.
