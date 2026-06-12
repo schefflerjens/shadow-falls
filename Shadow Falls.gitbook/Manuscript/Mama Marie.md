@@ -62,13 +62,13 @@ I thought about Anna in her office. The red pen on the budget printouts. The col
 
 She'd known all of it. She'd been carrying it the same way she carried everything — quietly, without announcement, until it was time.
 
-I should have been angry. I wasn't. Too late in the night for anger to accomplish anything useful.
+I should have been angry. I wasn't. Too late in the night for anger to accomplish anything.
 
 "Fine," I said.
 
 ---
 
-Anna arrived in eight minutes. Not ten. The front door opened and she came through the pharmacy without stopping — past the glass case and the amber bottles and the dried herbs — into the back room. She'd changed from her office clothes into something darker. Black slacks, a dark shirt, her hair down. No reading glasses. She looked like herself and not like herself, the way people look when they've stripped away the professional layer and you're seeing what's underneath.
+Anna arrived in eight minutes. Not ten. The front door opened and she came through the pharmacy without stopping — past the glass case and the amber bottles and the dried herbs — into the back room. She still wore her office clothes. The same dark suit, the same reading glasses pushed up on her head. She looked tired and composed and unsurprised.
 
 She looked at the table. At the empty cup, face down. At the disk in its cloth. At Mama Marie.
 
@@ -88,7 +88,7 @@ She stood and lit the herbs in the clay bowl. The smoke was white and sharp, a s
 
 She spoke.
 
-The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, the language of a request becoming the language of a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, the smoke trailing behind her. The words came in a rhythm that had nothing to do with meter and everything to do with intention.
+The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, the language of a request becoming the language of a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, the smoke trailing behind her. The words built in layers, one over the next, the way the herbs had built in the pot.
 
 The candles went low.
 
@@ -206,7 +206,7 @@ Charlaine sat.
 
 The body of Anna Arborio rose from the chair. Not Anna's way of rising. Smoother. Older. The movement of something that has inhabited a thousand bodies and knows how they work. Mama Marie set the clay bowl on the shelf beside her. She stood straight. Her hands were at her sides. Her face was composed — not calm, composed. Calm is the absence of feeling. Composed is feeling held in place by will.
 
-Legba took her wrist.
+Legba crossed to her in two steps and took her wrist.
 
 The bite was fast. No theater. No ceremony. The movement was economical and the sound was the sound of something final.
 
