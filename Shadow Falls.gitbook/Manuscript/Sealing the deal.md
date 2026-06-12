@@ -26,7 +26,7 @@ She straightened. "Window?"
 
 "Ground floor windows are barred. Second floor—"
 
-A sound from the alley beside the building cut through the quiet. Not loud. Frantic. A rapid slapping of shoe leather on pavement, a grunt of effort, and underneath it the low, excited sound of dogs working themselves up to something.
+A sound from the alley beside the building cut through the quiet. Not loud. Frantic. Rapid slapping of shoe leather on pavement, a grunt of effort, and underneath it the low excited sound of dogs working themselves up to something.
 
 We both looked at the alley mouth.
 
@@ -48,7 +48,7 @@ He found Charlaine first. Then he found me. His eyes went wide behind the thick 
 
 He scrambled up. Got one hand on the briefcase. Got both feet under him. Stood on the bottom step, breathing hard, adjusting his glasses with one finger.
 
-"Thank you," he said. His voice was nasal, slightly high — the voice of a man who spent most of his time in rooms where he was the least important person present. "They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted — recognition, or the near-cousin of it. The look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
+"Thank you," he said. His voice was nasal, slightly high — the voice of a man who spent most of his time in rooms where he was the least important person present. "They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted. Recognition, or the near-cousin of it. The look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
 
 "I am," I said.
 
@@ -94,7 +94,7 @@ Six points. Five circled in red, the circles filled in. One circled but empty.
 
 "The murder scenes," I said.
 
-"The murder scenes." Herb smoothed the map against the wall. "I mapped them against the survey. The locations aren't random — they're precise. Each site sits on a specific geometric point in a larger pattern." He tapped the five filled circles. "Your victims. The activated sites." He moved his finger to the empty circle. "This is the sixth point. The pattern requires six to complete the figure." He looked up through the thick lenses. "No one has died here yet."
+"The murder scenes." Herb smoothed the map against the wall. "I pulled the agency's case reports and cross-referenced every location against the original city survey. The sites aren't random — they're precise. Each one sits on a specific geometric point in a larger pattern." He tapped the five filled circles. "Your victims. The activated sites." He moved his finger to the empty circle. "This is the sixth point. The pattern requires six to complete the figure." He looked up through the thick lenses. "No one has died here yet."
 
 Charlaine moved beside me. She looked at the map. She looked at the empty circle. She looked at the street name printed in small type beside it.
 
