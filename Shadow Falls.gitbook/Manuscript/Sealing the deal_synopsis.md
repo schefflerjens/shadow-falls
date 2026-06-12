@@ -1,1 +1,11 @@
-Jam and Charlaine sprint toward City Hall at dawn. They encounter Herb Weatherby, a nervous bureaucrat from a clandestine supernatural monitoring agency, being chased by dogs. Charlaine saves him. Herb claims his superiors dismissed Shadow Falls as a "small-town spook story" but he dug through classified files and wants to help. Jam is skeptical, but Charlaine reminds him about the map. Herb recognizes it as an old city survey with cryptic markings and deciphers a section, pointing them toward a specific location — their next move against Legba.
+Twenty-five minutes to sunrise. Jam and Charlaine sprint toward City Hall on foot — Jam's car is a smoking wreck. They reach the steps panting as the clock tower chimes. The heavy oak doors are locked.
+
+A commotion in the alley beside the building — a short man in a rumpled suit stumbles out, pursued by three stray dogs. Charlaine grabs a brick from a planter and throws it, scattering the dogs. The man scrambles up, clutching a battered briefcase.
+
+He introduces himself as Herbert "Herb" Weatherby. He's from the agency Anna contacted — a clandestine government unit that monitors supernatural activity. His superiors dismissed Shadow Falls as a "small-town spook story." He went through classified files on his own anyway and found something: the murders in Shadow Falls trace a deliberate geometric pattern across the town. He mapped the crime scene locations against an old city survey and found one point that hasn't been activated — the site of the final working.
+
+Jam is skeptical. "You're a paper pusher. You came here alone?"
+
+Herb admits he's not authorized. But the geometry is clear — the final working site is marked on his map. Charlaine looks at it. She recognizes the location.
+
+A tentative alliance forms. Jam doesn't trust Herb, but the decoded map is the first solid lead since the anchor. Charlaine is practical — they have no time to waste.
