@@ -34,7 +34,7 @@ Mama Marie was already moving toward the phone on the wall.
 
 ---
 
-It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you've had longer than you admit.
+It was an old rotary phone. Black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you've had longer than you admit.
 
 It rang twice.
 
@@ -100,7 +100,7 @@ Then they opened.
 
 Green.
 
-Not Anna's dark eyes. Not a color that belonged in a human face. Green the color of deep water over pale sand, lit from below, the pupils gone wide and absolute. The irises held that light the way stained glass holds light — not reflecting it but containing it, burning with it.
+Not Anna's dark eyes. Not a color that belonged in a human face. Green the color of deep water over pale sand, lit from below, the pupils gone wide and absolute. The irises held that light the way stained glass holds light — not reflecting it, but containing it.
 
 The body that had been Anna Arborio turned its head and looked at me.
 
@@ -120,23 +120,27 @@ A hand reached across the table. Palm up. Waiting.
 
 I didn't move.
 
-"One of three," I said. "The deal was: find who's behind the workings. Stop them. Bring you the anchor." I kept my voice level. "I've brought the anchor. That's one. I don't know who's behind it yet. I haven't stopped them. The deal isn't complete."
+"One condition met," I said. "I brought you the anchor. That's it. I haven't identified who's running the workings. I haven't stopped them." I kept my voice level. "The deal isn't complete."
 
 The green eyes held mine. The candles threw shadows across Anna's face and the shadows moved wrong — too slow, too deliberate, tracking something other than the light.
 
 "*The girl was found,*" Legba said. "*She is safe. The anchor is recovered. That is substantial.*"
 
-"That's not what you offered." I put both hands flat on the table. "You showed me a photograph. You said do those three things and you'd tell me where she is. I've done one of them." I held his gaze. "I'm not asking for the full answer yet. I'm asking for enough to finish the job."
+"That's not what you offered." I put both hands flat on the table. "Your exact words were: I will give you something you've been searching for. Finding someone doesn't satisfy finding something." I held his gaze. "The deal still has teeth."
 
 Silence. The smoke from Mama Marie's clay bowl had gone thin, nearly spent. The chalk lines on the floor held their geometry in the low light.
 
-Then — something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that has been outmaneuvered by mortals for ten thousand years and finds it genuinely interesting every time.
+Then something moved in the green eyes. Not Anna's amusement. Older than Anna's amusement. The amusement of a thing that has been outmaneuvered by mortals for ten thousand years and finds it genuinely interesting every time.
 
 "*Precise,*" Legba said.
 
 "I've had practice."
 
-"*So you have.*" The body leaned back in the chair. Anna's posture but not Anna's ease. "*Very well. You have fulfilled one condition. I will give you what you need to fulfill the others.*" A pause, the kind that makes you wait on purpose. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise. The final working can be completed without the anchor — the bloodline is the key, not the instrument.*"
+"*So you have.*"
+
+The body leaned back in the chair. Anna's posture but not Anna's ease.
+
+"*Very well.*" A pause, the kind that makes you wait on purpose. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise. The final working can be completed without the anchor — the bloodline is the key, not the instrument.*"
 
 The green eyes moved to the disk on the table. Then back to me.
 
@@ -148,7 +152,7 @@ The green eyes moved to the disk on the table. Then back to me.
 
 "That's not an answer."
 
-"*It is the answer I have.*" The voice dropped, the erosion quality deepening. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise.*" The green eyes steadied. "*City Hall. Before noon. That is where it ends.*"
+"*It is the answer I have.*" The voice dropped, the erosion quality deepening. "*City Hall. Before noon. Wait for the clock to strike. That is where it ends.*"
 
 Lightning cracked outside — close, white, the kind that doesn't wait for thunder. The thunder followed without a breath. The windows rattled. Something outside exploded with a sound like a cannon shot and ozone punched through the walls.
 
