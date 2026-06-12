@@ -22,7 +22,7 @@ Charlaine had her hands on her knees, breathing. She looked up at the door. Then
 
 "Anna's at the pharmacy." I looked at the lock. "The spare key is in my desk. Which is in there."
 
-She straightened up. "Window?"
+She straightened. "Window?"
 
 "Ground floor windows are barred. Second floor—"
 
@@ -30,13 +30,13 @@ A sound from the alley beside the building cut through the quiet. Not loud. Fran
 
 We both looked at the alley mouth.
 
-Three dogs came out first. Medium-sized, mixed breed, the lean and hungry kind that ran the alleys at night and had learned that the hours before dawn belonged to them. They moved fast, ears flat, the coordinated focus of animals that had found something worth chasing.
+Three dogs came out first. Medium-sized, mixed breed, the lean and hungry kind that ran the alleys at night and had learned the hours before dawn belonged to them. They moved fast, ears flat, the coordinated focus of animals that had found something worth chasing.
 
 Behind them, a man.
 
 He came out of the alley at a run that was more of a controlled fall — arms out, briefcase swinging, the gait of someone who had not run anywhere in a long time and was discovering the body does not forget this as a pleasant experience. Short. Wide through the middle. A rumpled suit that had been slept in, or at least worried in, for the better part of a day. Thinning brown hair combed with optimism over a head that had given up on it. Thick horn-rimmed glasses riding low on his nose, the lenses catching the streetlight as he ran.
 
-The briefcase caught the edge of the bottom step and he went down hard, one knee on the pavement, both hands out. The briefcase skidded. He grabbed for it. The dogs were four feet behind him.
+The briefcase caught the edge of the bottom step. He went down hard — one knee on the pavement, both hands out. The briefcase skidded. He grabbed for it. The dogs were four feet behind him.
 
 Charlaine was already moving.
 
@@ -48,7 +48,7 @@ He found Charlaine first. Then he found me. His eyes went wide behind the thick 
 
 He scrambled up. Got one hand on the briefcase. Got both feet under him. Stood on the bottom step, breathing hard, adjusting his glasses with one finger.
 
-"Thank you," he said. His voice was nasal, slightly high, the voice of a man who spent most of his time in rooms where he was the least important person present. "I — yes. Thank you. They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted — recognition, or the near-cousin of it, the look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
+"Thank you," he said. His voice was nasal, slightly high, the voice of a man who spent most of his time in rooms where he was the least important person present. "They came out of nowhere. I was just—" He stopped. He looked at me more carefully. Something in his expression shifted — recognition, or the near-cousin of it, the look of someone who has read a file and is now meeting the subject. "You're Jam Slate."
 
 "I am," I said.
 
@@ -58,17 +58,17 @@ Charlaine looked at me.
 
 "The agency," I said.
 
-"The agency. Yes." He picked the briefcase back up. "The one Mayor Arborio contacted. The notification went through proper channels, I want to be clear about that. It was filed correctly, received correctly, and — assessed." He paused. "By my superiors."
+"Yes. The one Mayor Arborio contacted. The notification went through proper channels — filed correctly, received correctly, and assessed." He paused. "By my superiors."
 
 "And?"
 
-He adjusted his glasses. "They assessed it as a small-town spook story. Those are the exact words in the assessment. I have the memo." He patted the briefcase. "In here, actually. Not that it's — relevant. It's just. I have it."
+He adjusted his glasses. "They called it a small-town spook story. Those are the exact words in the assessment. I have the memo." He patted the briefcase. "In here. Not that it's relevant. I just have it."
 
-I looked at him. The rumpled suit. The briefcase. The glasses. The careful, apologetic way he held himself — the posture of a man who had spent his career being dismissed and had learned to lead with the dismissal before anyone else could.
+I looked at him. The rumpled suit. The briefcase. The careful, apologetic way he held himself — the posture of a man who had spent his career being dismissed and had learned to lead with the dismissal before anyone else could.
 
 "You're not authorized," I said.
 
-"I'm not authorized." He said it the way you say something you've been rehearsing. "I went through the classified files on my own time. My own initiative. My superiors don't know I'm here." He paused. "They think I'm at a regional filing conference in Hartford."
+"I'm not authorized." He said it the way you say something you've been rehearsing. "I went through the classified files on my own time. My superiors don't know I'm here." He paused. "They think I'm at a regional filing conference in Hartford."
 
 Charlaine made a sound. Not quite a laugh. Almost.
 
@@ -90,7 +90,7 @@ The lines formed a pattern.
 
 I looked at it. The geometry was precise — the same curves and angles I'd seen cut into the floor of unit eleven, the same proportions as the inscription on the bone disk sitting cold in my jacket pocket. Legba's crossroads geometry. The architecture of a working built to tear a membrane, one site at a time.
 
-Six points. Five of them circled in red, the circles filled in. One circled but empty.
+Six points. Five circled in red, the circles filled in. One circled but empty.
 
 "The murder scenes," I said.
 
@@ -164,7 +164,7 @@ I didn't trust him. I didn't have the time not to use him.
 
 He folded it. He handed it to me.
 
-I gave it to Charlaine. She put it in her jacket pocket with the precise movements of someone who has decided what they're going to do and is now just executing.
+I gave it to Charlaine. She put it in her jacket pocket with the precise movements of someone who has decided what they're going to do and is now executing.
 
 "You stay close and do what I tell you," I said to Herb. "No questions I don't have time to answer. No calls to your agency, your superiors, or anyone else until this is finished."
 
@@ -196,4 +196,6 @@ She looked at me. The cut at her temple. The gauze. The torn shoulder and the se
 
 He adjusted his grip on the briefcase. "I'll keep up."
 
-We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map.
+We went down the steps and turned east, into the thinning dark, toward Crescent Street and the pharmacy and the last empty circle on the map. The air smelled of rain and burning rubber. My car was still out there somewhere, a smoking wreck from the lightning strike, and the Bureau was coming with the sun. Krabat was moving. We had one lead, one map, and twelve blocks to cover before the geometry closed for good.
+
+We ran.
