@@ -270,6 +270,14 @@ Charlaine turned her head to look at me. "You think he wanted you to take the an
 
 "I think he wanted me moving in a specific direction." The streetlights thickened. Pavement under the tires again. "I just don't know what's at the end of it yet."
 
+She was quiet for a moment. "Why let us go? He had me. He had the cabin. He could have made his stand there."
+
+"I don't know."
+
+"He's a lunatic?"
+
+"He's a centuries-old mage with a buyer and a plan that's been running longer than this case." I kept my eyes on the road. "He could have ten reasons, and none of them would make us safer for knowing them right now." I glanced at her. "You're back. That's what matters. We figure the rest out from here."
+
 She was quiet for a moment. "How did you know where to look?"
 
 "Legba told me Krabat had you. The doll did the rest."
