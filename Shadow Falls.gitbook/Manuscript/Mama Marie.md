@@ -6,11 +6,11 @@ Legba was gone. The steam had dispersed. The presence that had occupied that cha
 
 Mama Marie sat with both hands flat on the table, looking at the empty cup. Not thinking. Listening to the silence after something large has passed through.
 
-I looked at the disk in its cloth. Cold. Always cold. The cold of a thing that had been used as a door too many times and remembered every crossing.
+I looked at the disk in its cloth. Cold. Always cold. The cold of a thing used as a door too many times, one that remembered every crossing.
 
 "That was a telephone," I said.
 
-"Yes." Mama Marie didn't look up from the cup. "He spoke. He listened. He cannot act through steam." She turned the cup over on the table, face down, the way you close a conversation. "To receive the anchor, to complete the transaction — he needs a body."
+"Yes." Mama Marie didn't look up from the cup. "He spoke. He listened. He cannot act through steam." She turned the cup face down on the table, the way you close a conversation. "To receive the anchor, to complete the transaction — he needs a body."
 
 "A vessel," Charlaine said.
 
@@ -34,7 +34,7 @@ Mama Marie was already moving toward the phone on the wall.
 
 ---
 
-It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you've had memorized longer than you admit.
+It was an old phone. Rotary, black, the cord coiled and worn smooth at the handset. She dialed from memory — seven digits, no area code. The kind of number you've had longer than you admit.
 
 It rang twice.
 
@@ -58,7 +58,7 @@ I looked at Charlaine. Charlaine looked at me.
 
 Six months. The same six months the murders had been happening. The same six months Mama Marie had been watching from the sidelines, placing her charms, waiting for the shape of it to come clear.
 
-I thought about Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding the town up by sheer force of will and the particular stubbornness of someone who had been dead for nineteen years and decided it wasn't going to slow her down.
+I thought about Anna in her office. The red pen on the budget printouts. The cold coffee. The aspirin bottle open on the desk. Awake at midnight because she was always awake at midnight, holding this town up by sheer force of will and the stubbornness of someone who had been dead nineteen years and decided it wasn't going to slow her down.
 
 She'd known all of it. She'd been carrying it the same way she carried everything — quietly, without announcement, until it was time.
 
@@ -76,7 +76,7 @@ She looked at the table. At the empty cup, face down. At the disk in its cloth. 
 
 Mama Marie pointed to the chair at the head of the table.
 
-Anna sat. She placed her hands flat on the table, palms down, the way Mama Marie had sat when we'd first come in. She looked at me once — the look of someone who had made a decision and wasn't going to revisit it.
+Anna sat. She placed her hands flat on the table, palms down, the way Mama Marie had sat when we'd first come in. She looked at me once — the look of someone who had made a decision and wasn't revisiting it.
 
 I nodded.
 
@@ -88,7 +88,7 @@ She stood and lit the herbs in the clay bowl. The smoke was white and sharp, a s
 
 She spoke.
 
-The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, the language of a request becoming the language of a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, the smoke trailing behind her. The words built in layers, one over the next, the way the herbs had built in the pot.
+The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, a request becoming a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, the smoke trailing behind her. The words built in layers, one over the next, the way the herbs had built in the pot.
 
 The candles went low.
 
@@ -106,13 +106,13 @@ The body that had been Anna Arborio turned its head and looked at me.
 
 The voice that came out was not Anna's voice.
 
-It was the raspy voice from the void. The erosion voice. The geological voice. But here, in a body, it had weight it hadn't had in the void — a physical resonance, a vibration in the air you felt in your back teeth.
+It was the raspy voice from the void. The erosion voice. The geological voice. But here, in a body, it had weight it hadn't had in the void — a physical resonance you felt in your back teeth.
 
 "*Sheriff Slate.*"
 
 "Legba," I said.
 
-The green eyes moved around the room — the candles, the shelves, the stained cup face-down on the table. The body shifted, shoulders settling differently, the head tilting at an angle that wasn't Anna's angle. Not wrong, exactly. The fit was close but the movement was off.
+The green eyes moved around the room — the candles, the shelves, the stained cup face down on the table. The body shifted, shoulders settling differently, the head tilting at an angle that wasn't Anna's angle. Not wrong. The fit was close, but the movement was off.
 
 A hand reached across the table. Palm up. Waiting.
 
@@ -136,7 +136,7 @@ Something moved in the green eyes. Not Anna's amusement. Older than Anna's amuse
 
 "I've had practice."
 
-"*So you have.*" The body leaned back in the chair — Anna's posture, not Anna's ease. "*Very well. I will honor the full terms.*" A pause, the kind that makes you wait on purpose. "*When the transaction is complete.*"
+"*So you have.*" The body leaned back in the chair. "*Very well. I will honor the full terms.*" A pause, the kind that makes you wait on purpose. "*When the transaction is complete.*"
 
 Outside, the first rumble of thunder rolled in from the west. The candles shuddered.
 
@@ -204,7 +204,7 @@ Mama Marie stood at the edge of the chalk lines, the clay bowl still in her hand
 
 Charlaine sat.
 
-The body of Anna Arborio rose from the chair. Not Anna's way of rising. Smoother. Older. The movement of something that has inhabited a thousand bodies and knows how they work. Mama Marie set the clay bowl on the shelf beside her. She stood straight. Her hands were at her sides. Her face was composed — not calm, composed. Calm is the absence of feeling. Composed is feeling held in place by will.
+The body of Anna Arborio rose from the chair. Not Anna's way of rising. Smoother. Older. The movement of something that had inhabited a thousand bodies and knew how they worked. Mama Marie set the clay bowl on the shelf. She stood straight. Her hands were at her sides. Her face was composed — not calm, composed. Calm is the absence of feeling. Composed is feeling held in place by will.
 
 Legba crossed to her in two steps and took her wrist.
 
@@ -232,7 +232,7 @@ Charlaine looked back with the expression of someone watching a door close they 
 
 The green left Anna's eyes.
 
-Anna blinked. Once. Twice. She was back — the posture shifting, the angle of the head returning to something familiar. She looked at her hands, still closed around the empty space where the disk had been. She opened them. Nothing.
+Anna blinked. Once. Twice. She was back — the posture shifting, the angle of the head returning to something familiar. She looked at her hands, still closed around empty space. She opened them. Nothing.
 
 She looked up.
 
@@ -242,7 +242,7 @@ Her eyes found Mama Marie. Then Charlaine. Then me.
 
 "Done," I said.
 
-She nodded. She pressed two fingers to her temple the way she did when she had a headache and was deciding whether to acknowledge it. Then she stood, straightened her shirt, and was Anna Arborio again — mayor, vampire, the person who kept this town from falling apart by sheer force of stubbornness.
+She nodded. She pressed two fingers to her temple the way she did when she had a headache and was deciding whether to acknowledge it. Then she stood, straightened her shirt, and was Anna Arborio again — mayor, vampire, the person who kept this town from falling apart by sheer stubbornness.
 
 Then her knees went. She caught the table edge. Held it.
 
@@ -262,15 +262,15 @@ Charlaine stood. "Grand-Mère."
 
 "That's not—" Charlaine stopped. Her jaw worked. "That's not the point."
 
-"I know." Mama Marie turned from the stove. She looked at her granddaughter with the amber eyes that were the same as before and not the same at all. "We'll talk. But not now." She looked at me. "Now you go."
+"I know." Mama Marie turned from the stove. She looked at her granddaughter with amber eyes that were the same as before and not the same at all. "We'll talk. But not now." She looked at me. "Now you go."
 
 I stood. The Jack of Crossroads was still warm in my breast pocket. The anchor was gone. The disk was spent. What I had left was a playing card, a god's promise, and twenty-five minutes before sunrise.
 
 "Charlaine," I said.
 
-"I'm coming." She said it before I could say anything else. Flat, final — the quality that meant the conversation was already over and I was the last one to know.
+"I'm coming." She said it before I could say anything else. Flat, final — the tone that meant the conversation was already over and I was the last one to know.
 
-I looked at her. The gauze at her temple. The torn shoulder of the fresh uniform shirt. The red marks on her wrists from the binding cord. She'd been taken and brought back and her grandmother had just been turned into a vampire in front of her, and she was standing straight with her jacket in her hand and her eyes clear.
+I looked at her. The gauze at her temple. The torn shoulder of the fresh uniform shirt. The red marks on her wrists from the binding cord. She'd been taken and brought back and her grandmother had just been turned in front of her, and she was standing straight with her jacket in her hand and her eyes clear.
 
 "All right," I said.
 
@@ -288,7 +288,7 @@ We went out through the pharmacy, past the amber bottles and the dried herbs and
 
 ---
 
-The air outside was warm and close. The streetlights on Crescent Street threw orange circles on the packed dirt. The eastern sky was still dark but the darkness had changed quality — the particular change that happens in the hour before dawn, when the black begins to thin at the edges without yet becoming anything else.
+The air outside was warm and close. The streetlights on Crescent Street threw orange circles on the packed dirt. The eastern sky was still dark, but the darkness had changed quality — the particular change that happens in the hour before dawn, when the black begins to thin at the edges without yet becoming anything else.
 
 I checked my watch.
 
