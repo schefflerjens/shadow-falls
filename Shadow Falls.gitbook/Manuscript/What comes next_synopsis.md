@@ -1,0 +1,1 @@
+Author's note. A cliffhanger and acknowledgment of the AI-assisted writing process that produced this draft.

@@ -1,1 +1,1 @@
-Finished Chapter 9 — Sealing the deal. All prose chapters drafted. Only need to plot and draft Chapter 10.
+All 10 chapters drafted and polished. Shadow Falls manuscript complete through Chapter 10 (cliffhanger). 15,221+ words of noir urban fantasy. Ready for final review or next steps.

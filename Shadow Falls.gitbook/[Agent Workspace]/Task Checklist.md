@@ -1,12 +1,17 @@
 # Task Checklist & Backlog
 
-## Pending (Rewrite Pass)
-- [x] Chapters 1–8
-- [x] Rewrite Chapter 9 — Sealing the deal
-- [x] Polish Chapter 9 — Sealing the deal
-- [ ] Plot and draft Chapter 10
+## All Prose Chapters Drafted & Polished
+- [x] Chapter 1 — Dead End Chase
+- [x] Chapter 2 — It's Gotta Be Me
+- [x] Chapter 3 — Gone in a Flash
+- [x] Chapter 4 — The Scratch in the Dust
+- [x] Chapter 5 — The Doll
+- [x] Chapter 6 — Dolls Don't Lead to Happy Endings
+- [x] Chapter 7 — Out of the woods
+- [x] Chapter 8 — Mama Marie
+- [x] Chapter 9 — Sealing the deal
+- [x] Chapter 10 — What Comes Next (cliffhanger)
 
-## Ink Slinger (maybe)
-- [ ] Continuity check across all chapters
-- [ ] Full cross-chapter Codex sync
+## Ink Slinger
+- [ ] Full continuity check & Codex sync
 - [ ] Publish to Kindle

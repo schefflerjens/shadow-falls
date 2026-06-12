@@ -1,1 +1,0 @@
-Placeholder — to be plotted and drafted in the next writing session. Continues from the City Hall encounter with Herb Weatherby and the decoded map.
