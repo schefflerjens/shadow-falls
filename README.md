@@ -15,6 +15,8 @@ Homer MCP acts as a bridge between LLM writing agents and book project directori
   - 📱 [Download EPUB](Shadow%20Falls.epub)
 - **[engine_deprecated/](engine_deprecated/)**: The original custom Python-based writing assistant, preserved here as historical context only.
 
+**Note on cost:** the MCP uses open router, so you can pick and choose what LLMs should do the writing and the editing. For this book, the writer was Claude Sonnet 4.6 and the editor was Gemini 2.5 Pro. In total, the book cost about 12 USD to produce.
+
 ## Key Features
 
 1. **Structured Outline Navigation**: Seamless read/write integration for manuscript chapters, scenes, characters, and places.
