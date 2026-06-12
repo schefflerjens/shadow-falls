@@ -2,7 +2,7 @@ The kitchen was quiet.
 
 The candles burned steady. The iron pot ticked on the trivet, cooling. The empty cup at the head of the table sat with its dark stain and said nothing.
 
-Legba was gone. The steam had dispersed. The presence that had occupied that chair — the density of it, the weight — lifted clean and left the room feeling smaller for its absence.
+Legba was gone. The steam had dispersed. The presence that had occupied that chair — the density of it, the weight — lifted clean and left the room smaller for its absence.
 
 Mama Marie sat with both hands flat on the table, looking at the empty cup. Not thinking. Listening to the silence after something large has passed through.
 
@@ -88,19 +88,19 @@ She stood and lit the herbs in the clay bowl. The smoke was white and sharp, a s
 
 She spoke.
 
-The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, a request becoming a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, the smoke trailing behind her. The words built in layers, one over the next, the way the herbs had built in the pot.
+The language was Haitian Creole, the same cadence as before but different in register — lower, more formal, a request becoming a summons. She moved around Anna's chair in a slow circuit, the clay bowl in both hands, smoke trailing behind her. The words built in layers, one over the next, the way the herbs had built in the pot.
 
 The candles went low.
 
 Anna went still.
 
-She'd been still before — the particular stillness of someone waiting. This was different. This was the stillness of a body from which the occupant has stepped back. Her hands were flat on the table. Her eyes were closed.
+She'd been still before — the particular stillness of someone waiting. This was different. This was the stillness of a body from which the occupant had stepped back. Her hands were flat on the table. Her eyes were closed.
 
 Then they opened.
 
 Green.
 
-Not Anna's dark eyes. Not a color that belonged in a human face. Green the color of deep water over pale sand, lit from below, the pupils gone wide and absolute. The irises held that light the way stained glass holds light — not reflecting it, but containing it.
+Not Anna's dark eyes. Not a color that belonged in a human face. Green the color of deep water over pale sand, lit from below, the pupils wide and absolute. The irises held that light the way stained glass holds light — not reflecting it, but containing it.
 
 The body that had been Anna Arborio turned its head and looked at me.
 
@@ -140,7 +140,9 @@ Then something moved in the green eyes. Not Anna's amusement. Older than Anna's 
 
 The body leaned back in the chair. Anna's posture but not Anna's ease.
 
-"*Very well.*" A pause, the kind that makes you wait on purpose. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise. The final working can be completed without the anchor — the bloodline is the key, not the instrument.*"
+Then the green eyes shifted. Something settled behind them — a decision reached, a calculation complete.
+
+"*Very well.*" The pause was the kind that made you wait on purpose. "*Krabat will move before dawn. He knows the anchor is gone. He knows the girl is free. He will improvise. The final working can be completed without the anchor — the bloodline is the key, not the instrument.*"
 
 The green eyes moved to the disk on the table. Then back to me.
 
@@ -170,7 +172,7 @@ Then Legba laughed. Low, guttural, genuine — the laugh of something ancient th
 
 I sat with it. The Jack of Crossroads was warm in my breast pocket. The disk sat on the table between us, cold and waiting. I thought about asking for Krabat's location — too easy to twist. I thought about asking who was behind the murder twins — the answer could be someone three states away and useless before dawn.
 
-I thought about what I needed.
+I thought about what I actually needed.
 
 "I want a way to stop the source of the killings from committing any further crimes in or around Shadow Falls," I said. "Without any more citizens coming to harm."
 
@@ -226,7 +228,7 @@ She looked at her wrist. At the marks. At the dark blood that wasn't flowing the
 
 She looked at Charlaine.
 
-Charlaine looked back with the expression of someone watching a door close they can't reach in time.
+Charlaine looked back with the expression of someone watching a door close they couldn't reach in time.
 
 "*It is done,*" Legba said.
 
@@ -254,7 +256,7 @@ I was beside her before she hit the floor.
 
 She didn't argue. That told me enough.
 
-Mama Marie had moved to the stove. She was filling the kettle. The movements were the same as before — precise, unhurried, the economy of long practice. But the stillness around her was different. It would always be different now.
+Mama Marie had moved to the stove. She filled the kettle. The movements were the same as before — precise, unhurried, the economy of long practice. But the stillness around her was different. It would always be different now.
 
 Charlaine stood. "Grand-Mère."
 
