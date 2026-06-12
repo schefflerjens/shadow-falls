@@ -20,7 +20,7 @@ Mama Marie was the only person in a hundred miles who could do that.
 
 ---
 
-The pharmacy sat on the eastern edge of town where Crescent Street curved south and the buildings got smaller and older and the sidewalk gave way to packed dirt. A converted house, two stories, the ground floor opened into retail space decades ago and never quite converted back. The sign above the door was hand-lettered, the paint faded to a suggestion. *Meyers Apothecary & Sundries.* Below it, smaller: *Est. 1947.* The window display held bundles of dried herbs, a row of amber bottles, a hand-written card listing the week's specials in script too fine to read from the car.
+The pharmacy sat on the eastern edge of town where Crescent Street curved south and the buildings got smaller and older and the sidewalk gave way to packed dirt. A converted house, two stories, the ground floor opened into retail space decades ago and never quite converted back. The sign above the door was hand-lettered, the paint faded to a suggestion. *Meyers Apothecary & Sundries.* Below it, smaller: *Est. 1947.* The window display held bundles of dried herbs, a row of amber bottles, a handwritten card listing the week's specials in script too fine to read from the car.
 
 A light burned upstairs. Every window on the ground floor was lit.
 
@@ -84,7 +84,7 @@ Charlaine's voice came out even. It cost her. "From the beginning."
 
 "From before the beginning." Mama Marie folded her hands on the table. "The murders weren't random. The victims weren't chosen for themselves. They were chosen for where they were — the locations. Each site had geometry beneath it. Old geometry." She looked at me. "You've seen it."
 
-"The inscription in unit eleven," I said. "Same pattern as the anchor."
+"The inscription in Unit Eleven," I said. "Same pattern as the anchor."
 
 She nodded. "Each murder was a key turning in a lock. The staged bodies, the inscriptions, the blood — all of it deliberate. All of it building toward something." A pause. "The lock requires a specific kind of power to open. Power that runs in bloodlines."
 
@@ -158,7 +158,7 @@ Mama Marie looked at me. The amber eyes moved across my face the way they'd move
 
 "He's already been in contact," she said.
 
-"In the void. Under unit eleven."
+"In the void. Under Unit Eleven."
 
 "He came to you directly." She said it without inflection, but something in it carried weight. "He doesn't do that often. Not for small things."
 

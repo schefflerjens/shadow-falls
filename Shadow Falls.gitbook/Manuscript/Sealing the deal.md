@@ -6,9 +6,9 @@ The eastern sky was changing. Not light yet. The change before light — the bla
 
 We cut through the alley behind the dry goods warehouse. Gravel, then packed dirt, then the back end of the hardware supply lot with its chain-link and its dumpsters. The shortcut saved us two blocks and a broken traffic light.
 
-The clock tower came into view above the rooflines on the last stretch. The hands said four forty-seven. The mechanism that struck the hours was old and loud and had no opinion about whether you were ready to hear it. I'd heard it ten thousand times. It still hit you in the chest.
+The clock tower came into view above the rooflines on the last stretch. The hands said 4:47. The mechanism that struck the hours was old and loud and had no opinion about whether you were ready to hear it. I'd heard it ten thousand times. It still hit you in the chest.
 
-We came up the front steps at four forty-eight.
+We came up the front steps at 4:48.
 
 The heavy oak doors were locked.
 
@@ -88,7 +88,7 @@ Over the survey, in red pen, a series of points. Six of them. Connected by lines
 
 The lines formed a pattern.
 
-I looked at it. The geometry was precise — the same curves and angles I'd seen cut into the floor of unit eleven, the same proportions as the inscription on the bone disk sitting cold in my jacket pocket. Legba's crossroads geometry. The architecture of a working built to tear a membrane, one site at a time.
+I looked at it. The geometry was precise — the same curves and angles I'd seen cut into the floor of Unit Eleven, the same proportions as the inscription on the bone disk sitting cold in my jacket pocket. Legba's crossroads geometry. The architecture of a working built to tear a membrane, one site at a time.
 
 Six points. Five circled in red, the circles filled in. One circled but empty.
 
@@ -174,7 +174,7 @@ Herb nodded. His glasses had slid down his nose again. He pushed them up.
 
 "Then you can file a report about it." I turned toward the steps. "Come on."
 
-The clock tower said four fifty-two.
+The clock tower said 4:52.
 
 The eastern sky was the color of old pewter — the same color as the void, the same color as light that showed shapes without shadows. Not dawn yet. The hour before dawn, when the dark has started losing and hasn't finished.
 

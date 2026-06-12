@@ -84,7 +84,7 @@ I looked at her. "That's optimism. Doesn't suit you."
 
 ---
 
-Anna Arborio's office was next door to the station, up a staircase that creaked on the fourth and seventh step. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
+Anna Arborio's office was next door to the station, up a staircase that creaked on the fourth and seventh steps. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
 
 I knocked once and went in.
 
@@ -96,7 +96,7 @@ Then she stopped.
 
 "You smell like a salad," she said.
 
-I patted my jacket pocket. "I carry a clove in a zip bag. In case things get ugly at the Fangs and Fur. One of the bullets must have nicked the plastic." I pulled the bag out. The seal was split along one corner. The smell rolled out freely. "Clears a room faster than a badge, usually."
+I patted my jacket pocket. "I carry garlic cloves in a zip bag. In case things get ugly at the Fangs and Fur. One of the bullets must have nicked the plastic." I pulled the bag out. The seal was split along one corner. The smell rolled out freely. "Clears a room faster than a badge, usually."
 
 "Bullets," she said. The word landed differently when she said it. "Sit down, Jam."
 

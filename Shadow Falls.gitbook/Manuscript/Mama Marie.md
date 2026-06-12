@@ -82,7 +82,7 @@ I nodded.
 
 She looked back at the table.
 
-Mama Marie moved through the room with purpose, pulling things from shelves without hesitation. A bundle of dried herbs, different from the ones before. A small clay bowl. A stick of chalk. She crouched at the head of the table and drew on the floorboards — quick, precise lines, a geometry I half-recognized. Not Legba's crossroads geometry. Something older. Something that predated the inscription in unit eleven by centuries.
+Mama Marie moved through the room with purpose, pulling things from shelves without hesitation. A bundle of dried herbs, different from the ones before. A small clay bowl. A stick of chalk. She crouched at the head of the table and drew on the floorboards — quick, precise lines, a geometry I half-recognized. Not Legba's crossroads geometry. Something older. Something that predated the inscription in Unit Eleven by centuries.
 
 She stood and lit the herbs in the clay bowl. The smoke was white and sharp, a smell like the air before lightning.
 
@@ -182,7 +182,7 @@ Mama Marie made no sound.
 
 Charlaine made a sound. Small. Cut off.
 
-I was halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body turned up in unit eleven six months ago. Mama Marie had known. She'd set the doll in the floor and waited and made her peace with the cost, and there was nothing I could do that wouldn't make it worse.
+I was halfway out of my chair before I understood that moving wouldn't change anything. The price had been agreed before tonight. Before this week. Before the first body turned up in Unit Eleven six months ago. Mama Marie had known. She'd set the doll in the floor and waited and made her peace with the cost, and there was nothing I could do that wouldn't make it worse.
 
 I sat back down.
 

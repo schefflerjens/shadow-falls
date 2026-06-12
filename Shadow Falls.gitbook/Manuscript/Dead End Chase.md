@@ -84,7 +84,7 @@ When I got close enough, I hit him once, hard, in the temple.
 
 He dropped.
 
-I stood in the dark with two unconscious men on the floor and a right hand that wasn't responding. I looked at the ring finger. Stiff. Locked at a forty-five degree angle, the clay fully set and cracking at the joint.
+I stood in the dark with two unconscious men on the floor and a right hand that wasn't responding. I looked at the ring finger. Stiff. Locked at a forty-five-degree angle, the clay fully set and cracking at the joint.
 
 I tried to flex it.
 
@@ -96,7 +96,7 @@ I put it in my jacket pocket. You don't leave pieces of yourself in an abandoned
 
 ---
 
-The sun outside was a punishment. I came up out of the alley onto Maple Lane squinting, and the heat landed on me hard. The stiffness in my left hand had crept up to the wrist. My face felt tight where the first killer's fist had compressed it. I needed water. I needed it now.
+The sun outside was a punishment. I came up out of the alley onto Maple Lane squinting, and the heat landed on me hard. The stiffness in my left hand had crept up to the wrist. My face felt tight where the fight and the heat had pulled at it. I needed water. I needed it now.
 
 I had one killer slung over my left shoulder and the other over my right. The plan was simple: get them to the station, get some answers. I shuffled up Maple Lane and tried not to think about how much my joints ached.
 
@@ -108,7 +108,7 @@ I set the twins down on the sidewalk and put a five on the table. "Leave the pit
 
 The kid looked at me. Looked at my hand. Looked at my face, which had the texture of old stucco right about now.
 
-"Yes sir," he said.
+"Yes, sir," he said.
 
 I drank. Not the way a man drinks — I don't swallow, not really. The moisture absorbed through my palms when I wrapped them around the pitcher, through my lips, through the clay of my face and throat. Slow. Not enough. But something. The stiffness in my wrist eased by a fraction. My knuckles loosened. I checked my right hand. The finger had started to rebuild itself, new clay filling in at the joint, soft and pliable.
 
@@ -134,7 +134,7 @@ The kid at the lemonade stand was watching me with wide eyes.
 
 "You see anyone near these two?" I said.
 
-"No sir," he said. "One second they were there. Then they weren't."
+"No, sir," he said. "One second they were there. Then they weren't."
 
 I nodded. That tracked.
 

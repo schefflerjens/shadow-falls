@@ -26,7 +26,7 @@ She set the file down. Took off her glasses. Folded them onto the stack of journ
 
 I talked.
 
-I laid it out in order. The inscription under Frankie's blood — old cuts in the concrete, geometry that didn't come from casual work. The way my hand moved before I'd decided to move it. The cold. The void opening from the floor of unit eleven like a door someone had been waiting to unlock.
+I laid it out in order. The inscription under Frankie's blood — old cuts in the concrete, geometry that didn't come from casual work. The way my hand moved before I'd decided to move it. The cold. The void opening from the floor of Unit Eleven like a door someone had been waiting to unlock.
 
 Anna didn't move.
 
@@ -76,7 +76,7 @@ Anna picked it up the way you pick up something that might be fragile or might b
 
 "Left it on the floor of the storage unit. It's a compass. It points to her."
 
-Anna set the doll on the desk. We both watched it. It lay still for a moment. Then it rotated — slow, deliberate, the same forty-five degrees it had turned in unit eleven — and pointed toward the west wall of the office.
+Anna set the doll on the desk. We both watched it. It lay still for a moment. Then it rotated — slow, deliberate, the same forty-five degrees it had turned in Unit Eleven — and pointed toward the west wall of the office.
 
 The window behind Anna's desk looked west. Beyond the glass, beyond the streetlights and the edge of town, the tree line was a dark mass against the last gray light of the sky.
 
@@ -146,7 +146,7 @@ Outside, the night air was thick and warm, the day's heat still sitting in the p
 
 I held the petri dish in my left hand and walked west.
 
-The doll pointed the same direction it had been pointing since unit eleven. Steady. Patient. The carved face held no expression, but there was intention in it — the kind put into something when the person doing the carving knows what they want it to do.
+The doll pointed the same direction it had been pointing since Unit Eleven. Steady. Patient. The carved face held no expression, but there was intention in it — the kind put into something when the person doing the carving knows what they want it to do.
 
 The streetlights thinned as I reached the western edge of town. Pavement gave way to gravel, then packed dirt, then the soft ground at the tree line. The forest was dark and dense, the canopy closing out the sky. The air changed — cooler, heavier, pine and wet earth replacing the dust of the street.
 

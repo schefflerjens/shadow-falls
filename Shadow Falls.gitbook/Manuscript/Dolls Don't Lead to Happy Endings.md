@@ -14,7 +14,7 @@ The doll turned in its dish.
 
 I stopped.
 
-It had been pointing west since unit eleven. Now it had shifted — maybe ten degrees north. I adjusted my bearing and kept going, stepping over a fallen birch, ducking under a low branch.
+It had been pointing west since Unit Eleven. Now it had shifted — maybe ten degrees north. I adjusted my bearing and kept going, stepping over a fallen birch, ducking under a low branch.
 
 The cabin appeared the way bad things appear in the dark — not all at once, but in pieces. First the shape of it, a geometry that didn't belong in the forest. Then the outline, a low structure leaning slightly to the right, the way old buildings lean when the foundation has given up on one side. Then the details came as I got closer, as my eyes pulled what light there was and worked with it.
 
@@ -140,7 +140,7 @@ She absorbed that. Her jaw set. "I knew something was wrong when he sat down. He
 
 I looked.
 
-The workbench held a collection of objects arranged with the same deliberate care I'd seen in the staged murder scenes. A shallow iron bowl, blackened inside, with a residue dried to a dark crust at the bottom. Three candles burned down to stubs, the wax pooled and hardened. A length of cord identical to the one I'd taken off her wrists, coiled in a tight spiral. At the center of it all, a disk of carved bone, maybe six inches across, covered in the same geometry I'd seen cut into the floor of unit eleven.
+The workbench held a collection of objects arranged with the same deliberate care I'd seen in the staged murder scenes. A shallow iron bowl, blackened inside, with a residue dried to a dark crust at the bottom. Three candles burned down to stubs, the wax pooled and hardened. A length of cord identical to the one I'd taken off her wrists, coiled in a tight spiral. At the center of it all, a disk of carved bone, maybe six inches across, covered in the same geometry I'd seen cut into the floor of Unit Eleven.
 
 The inscription. The same pattern. But this one was three-dimensional — carved into the bone in relief, the lines sharp and deep, the whole thing mounted on a wooden stand so it faced the room.
 
