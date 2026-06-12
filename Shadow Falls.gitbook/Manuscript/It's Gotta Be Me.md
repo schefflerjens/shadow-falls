@@ -72,6 +72,16 @@ She had that coming. I'd handed it to her with the daddy joke and I knew it.
 
 "Love you, too," she said, and smiled without looking up.
 
+I was at the door when her voice stopped me. "Jam."
+
+I turned.
+
+"When Anna makes the call — whoever they send might not be what you're expecting. I heard the old guard's mostly gone. Replaced by paper pushers who think the supernatural is small-town superstition." She shrugged. "Maybe they won't send anyone at all. Maybe they'll just file the report and forget about it."
+
+I looked at her. "That's optimism. Doesn't suit you."
+
+"Not optimism. Just something to think about."
+
 ---
 
 Anna Arborio's office was next door to the station, up a staircase that creaked on the fourth and seventh step. I'd climbed it enough times that I stepped over both without thinking. The door was frosted glass with her name stenciled in black. The light inside was on.
