@@ -116,6 +116,20 @@ The voice was raspy. Old. Not old the way Grog was old, or old the way I was old
 
 "No," he said. "She is not."
 
+"You still haven't told me who you are," I said.
+
+The shadow beneath the hat shifted. The raspy voice flattened slightly — not anger, but the particular precision of someone who expects to be recognized.
+
+"You may call me Eshu. But you know me as Papa Legba." He paused. "I have heard what you call me when you think you're being clever. I would advise against continuing that habit."
+
+Behind me, the hound let out a low, resonant growl. A sound that didn't rise or fall — just sat in the air, heavy and patient, the way a held note sits in a room.
+
+The figure lifted the walking stick a fraction of an inch and the growl stopped.
+
+"Daddy Longlegs," I said.
+
+The growl came back. Lower this time.
+
 The hound shifted behind me. I didn't turn to look.
 
 "You know where she is," I said.
