@@ -8,7 +8,7 @@ Originally developed as a private assistant, this repository serves as the publi
 
 ## 📖 Overview
 
-Homer MCP acts as a bridge between LLM writing agents and book project directories (supporting Scrivener `.scriv` and GitBook `.gitbook` formats). It exposes a suite of 32 tools enabling writing models to directly navigate outline hierarchies, draft scenes, run analytical developmental critiques, simulate readers, and compile final drafts to Kindle-compliant ebooks.
+Homer MCP acts as a bridge between LLM writing agents and book project directories (supporting Scrivener `.scriv` and a home-brewn GitBook `.gitbook` format). It exposes a suite of 32 tools enabling writing models to directly navigate outline hierarchies, draft scenes, run analytical developmental critiques, simulate readers, and compile final drafts to Kindle-compliant ebooks.
 
 **Note on cost:** The MCP uses OpenRouter, allowing you to choose which LLMs do the writing and editing. For the included example book (*Shadow Falls*), the writer was Claude 3.5 Sonnet and the editor was Gemini 2.0 Pro (or equivalent models). In total, the book cost about 12 USD to produce.
 
@@ -22,7 +22,7 @@ Homer MCP acts as a bridge between LLM writing agents and book project directori
   - 📖 [Read the compiled manuscript](Shadow%20Falls.md)
   - 📱 [Download EPUB](Shadow%20Falls.epub)
 - **[engine_deprecated/](engine_deprecated/)**: The original custom Python-based writing assistant, preserved here as historical context only.
-- **[run.sh](run.sh)**: A bootstrapping script to start the server and the live background browser viewer.
+- **[run.sh](run.sh)**: A bootstrapping script to start the server, the live background browser viewer, and launch `opencode` as the conversational agent to interface with the MCP.
 - **[.env.example](.env.example)**: Environment template file.
 
 ---
@@ -92,12 +92,15 @@ To run the Homer MCP server, connect it to your MCP client (such as Claude Deskt
    # Add your OPENROUTER_API_KEY
    ```
 
-### 2. Launch live viewer
+### 2. Launch conversational client and live viewer
 
-Execute the bootstrapper script to spin up the background browser services and editor on port 8090:
+Execute the bootstrapper script to spin up the background browser services and editor on port 8090, and launch the conversational agent interface:
 ```bash
 ./run.sh
 ```
+
+> [!NOTE]
+> The `run.sh` script uses `opencode` as the conversational agent to interface with the MCP. You can interact with it just like a writing assistant to guide the creation, auditing, polishing, and compilation of your manuscript.
 
 ### 3. MCP Configuration
 
