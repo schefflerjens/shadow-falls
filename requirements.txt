@@ -1,2 +1,5 @@
 striprtf>=0.0.26
 Pillow>=10.0.0
+reportlab>=4.5.1
+opencv-python-headless>=4.13.0.92
+remove-ai-watermarks>=0.11.2
