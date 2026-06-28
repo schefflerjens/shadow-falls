@@ -1,0 +1,6 @@
+Target Genre Benchmarks: {benchmarks}
+
+Highlighted Sentence to Expand: {selected_text}
+Author guidelines: {instruction}
+
+Write a fully fleshed-out expansion of the highlighted sentence. Do NOT wrap the replacement text in quotation marks or quotes unless they are part of the actual dialogue/prose. Return only the raw generated replacement text. Do not include notes or explanations.

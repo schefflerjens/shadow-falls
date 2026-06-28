@@ -1,0 +1,6 @@
+Target Genre Benchmarks: {benchmarks}
+
+Highlighted Selection to Rewrite: {selected_text}
+Author instructions: {instruction}
+
+Rewrite only the highlighted selection. Do NOT wrap the replacement text in quotation marks or quotes unless they are part of the actual dialogue/prose. Return only the raw replacement text segment. Do not include notes or explanations.

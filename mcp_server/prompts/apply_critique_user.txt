@@ -1,0 +1,17 @@
+Here is the target Genre Benchmarks:
+
+{benchmarks}
+
+Here is the project's Style Guide / Prompt Directives:
+
+{style_guide}
+
+Here is the Editorial Critique / Feedback:
+
+{feedback}
+
+Here is the Chapter Draft text to edit:
+
+{draft_text}
+
+Please output the FULL, polished version of the chapter. Do NOT truncate, do NOT include notes or placeholders, and do NOT add before/after explanations. Output only the finished story text.

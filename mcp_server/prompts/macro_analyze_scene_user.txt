@@ -1,0 +1,11 @@
+Scene {scene_index} of {total_scenes}
+Chapter: {chapter}
+Title: {title}
+Binder Synopsis: {synopsis}
+
+--- Scene Text ---
+{scene_text}
+
+--- Project Metadata ---
+Target Genre: {target_genre}
+Style Directives: {style_directives}

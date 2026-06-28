@@ -1,0 +1,6 @@
+Chapter: {chapter}
+Title: {title}
+UUID: {uuid}
+
+--- Scene Text ---
+{scene_text}

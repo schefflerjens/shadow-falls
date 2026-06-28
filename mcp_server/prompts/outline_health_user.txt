@@ -1,0 +1,9 @@
+Here is the complete manuscript plot outline and entity tracker compiled directly from the Scrivener binder database:
+
+{outline_markdown}
+
+Please perform a rigorous narrative health check. Output a structured **OUTLINE STRUCTURAL HEALTH REPORT** analyzing:
+1. **Pacing & Structural Arc:** Does the chapter/scene division follow a compelling emotional and logical arc? Are some parts too thin or over-packed?
+2. **Character & Location Continuity:** Trace character appearances. Are there any timeline inconsistencies? (e.g. characters teleporting across places, or dead characters appearing, or character attributes mismatching their current Act state).
+3. **Setups & Payoffs:** Identify unresolved subplots, dangling narrative threads, or setups without payoffs.
+4. **Sensory & Atmospheric Grounding:** Assess whether the settings (locations) are emotionally resonant and physically consistent.

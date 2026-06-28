@@ -1,0 +1,7 @@
+Here is the Scene/Chapter Assessment Chart (SAC) for the book:
+
+{compact_sac}
+
+--- Project Metadata ---
+Target Genre: {target_genre}
+Style Directives: {style_directives}

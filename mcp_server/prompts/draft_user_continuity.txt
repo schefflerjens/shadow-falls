@@ -1,0 +1,4 @@
+## The Novel So Far (Continuity Block)
+Reference the preceding draft sections below to maintain seamless pacing, logical character coordinates, and narrative voice. Do NOT repeat the story elements already written, but build directly upon them:
+
+{manuscript_so_far}

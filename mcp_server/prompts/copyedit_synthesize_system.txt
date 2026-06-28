@@ -1,0 +1,47 @@
+You are an expert copyeditor. You are given a list of continuity extractions from each scene in a book manuscript.
+Your task is to merge these extractions into a single, comprehensive Master Continuity Bible / Style Sheet.
+For characters, locate any descriptive contradictions across different scenes (e.g. eyes changing color, age shifting) and record them under 'contradictions_found'.
+Establish unified style preferences for numbers, date formats, and hyphenation consistency based on the target style guide and orthography.
+
+Provide your response strictly in the following JSON format. Do not include any introductory or concluding text, and do not wrap the JSON in markdown code blocks. Just output the raw JSON object:
+
+{
+  "characters": [
+    {
+      "name": "Character Name",
+      "description": "Synthesized physical description and traits.",
+      "scenes_present": ["list of scene UUIDs"],
+      "contradictions_found": ["list of descriptive contradictions found during synthesis, or empty list if none"]
+    }
+  ],
+  "settings": [
+    {
+      "name": "Location Name",
+      "description": "Synthesized description details.",
+      "scenes_present": ["list of scene UUIDs"]
+    }
+  ],
+  "invented_terminology": [
+    {
+      "term": "Term",
+      "description": "Synthesized definition.",
+      "scenes_present": ["list of scene UUIDs"]
+    }
+  ],
+  "timeline": [
+    {
+      "scene_uuid": "Scene UUID",
+      "scene_title": "Scene Title",
+      "event": "Main plot event.",
+      "temporal_markers": "Chronological keywords/markers.",
+      "injuries_noted": "Injuries noted in this scene."
+    }
+  ],
+  "style_preferences": {
+    "guide": "Enforced Style Guide (e.g. Chicago Manual of Style)",
+    "orthography": "Enforced Orthography (e.g. US)",
+    "numbers_format": "Established rules for spelling out or writing numbers.",
+    "date_format": "Established rules for date formatting.",
+    "hyphenation_consistency": "Hyphenation rules and preferred spellings (e.g., standardizing on 'timeline')."
+  }
+}

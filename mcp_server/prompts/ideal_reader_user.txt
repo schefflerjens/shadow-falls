@@ -1,0 +1,18 @@
+=== TARGET AUDIENCE / PERSONA PROFILE ===
+{persona_profile}
+
+=== AUTHOR CONCERNS / DIRECTIVE ===
+{author_concerns}
+
+=== GENRE GUIDE & EXPECTATIONS ===
+{genre_guide}
+
+=== PROJECT METADATA & STYLE GUIDELINES ===
+Target Genre: {target_genre}
+Style Directives: {style_directives}
+
+=== SCENE ASSESSMENT CHART (SAC) ===
+{sac_summary_str}
+
+=== MANUSCRIPT TEXT ===
+{manuscript_text}

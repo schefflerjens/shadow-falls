@@ -1,0 +1,31 @@
+We are planning scene-by-scene beats for the chapter: '{chapter_title}'.
+Here is the overall high-level chapter premise / blueprint:
+{chapter_synopsis}
+
+{preceding_chapter_context}
+
+{existing_scenes_context}
+
+Available Codex Characters:
+{available_characters}
+
+Available Codex Locations:
+{available_locations}
+
+Please partition this chapter premise into exactly {num_scenes} sequential scenes.
+For each scene, provide:
+1. A concise, evocative title (e.g., 'Jane's Discovery').
+2. Specific narrative beats/synopsis describing exactly what happens in the scene.
+3. Which key characters and places from the Codex should be present in this scene.
+
+Output the scenes in a clean, parsable JSON array format like this:
+[
+  {
+    "title": "Scene Title 1",
+    "synopsis": "Scene synopsis beats details...",
+    "present_characters": ["Jane"],
+    "present_places": ["Ironworks"]
+  },
+  ...
+]
+Output ONLY the raw JSON array. Do NOT wrap it in markdown code blocks or add conversational prose. Your response must be direct, raw, valid JSON.

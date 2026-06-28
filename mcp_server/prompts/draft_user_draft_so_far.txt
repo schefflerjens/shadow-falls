@@ -1,0 +1,4 @@
+**Scene Draft So Far:**
+{scene_draft_so_far}
+
+Continue writing the scene directly from the end of the Draft So Far above. Output ONLY the new continuing prose.

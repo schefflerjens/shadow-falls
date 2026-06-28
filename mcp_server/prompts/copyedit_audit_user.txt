@@ -1,0 +1,13 @@
+Chapter: {chapter}
+Title: {title}
+UUID: {uuid}
+
+--- Target Guidelines ---
+Style Guide: {style_guide}
+Orthography: {orthography}
+
+--- Continuity Bible / Style Sheet ---
+{continuity_bible}
+
+--- Scene Text ---
+{scene_text}

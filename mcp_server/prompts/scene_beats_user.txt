@@ -1,0 +1,17 @@
+We are planning detailed dramatic beats for the scene: '{scene_title}'.
+Here is the current high-level scene synopsis / premise:
+{scene_synopsis}
+
+Available Codex Characters:
+{available_characters}
+
+Available Codex Locations:
+{available_locations}
+
+Please expand this high-level scene synopsis into exactly 3-4 granular, sequential dramatic beats.
+For each beat, specify:
+- The specific character actions, wants, or obstacles.
+- The micro-shift or outcome of the beat.
+- Which Codex characters/places are active.
+
+Output the beats in a clean, bulleted list. Do NOT include conversational intro or outro. Output only the beats.

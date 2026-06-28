@@ -1,0 +1,6 @@
+{context_block}
+
+=== Custom Instructions ===
+{custom_instructions}
+
+Write the prose that should be inserted between the two context sections under 'Surrounding Text' above, following the custom instructions, project context, and style guidelines. Do not repeat the anchor text or any text from the after context. Output only the new text:

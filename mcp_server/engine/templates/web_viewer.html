@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homer Live Chapter Web Viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0B0F19;
+            --bg-sidebar: #111827;
+            --bg-card: #1F2937;
+            --bg-active: #374151;
+            --text-main: #F3F4F6;
+            --text-muted: #9CA3AF;
+            --accent-glow: #3B82F6;
+            --accent-success: #10B981;
+            --accent-warning: #F59E0B;
+            --accent-danger: #EF4444;
+            --font-outfit: 'Outfit', sans-serif;
+            --font-inter: 'Inter', sans-serif;
+            --font-serif: 'Playfair Display', Georgia, serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font-family: var(--font-inter);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar - Project Outline */
+        .sidebar {
+            width: 280px;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--bg-active);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .sidebar-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--bg-active);
+        }
+
+        .sidebar-header h1 {
+            font-family: var(--font-outfit);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            background: linear-gradient(135deg, #60A5FA, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sidebar-header p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .outline-tree {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+        }
+
+        .tree-node {
+            margin-bottom: 6px;
+        }
+
+        .tree-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .tree-item:hover {
+            background-color: rgba(55, 65, 81, 0.5);
+            color: var(--text-main);
+        }
+
+        .tree-item.active {
+            background-color: var(--bg-active);
+            color: var(--text-main);
+            font-weight: 500;
+            border-left: 3px solid var(--accent-glow);
+        }
+
+        .tree-icon {
+            margin-right: 8px;
+            font-size: 1rem;
+        }
+
+        .tree-children {
+            margin-left: 16px;
+            border-left: 1px dashed var(--bg-active);
+            padding-left: 8px;
+            margin-top: 4px;
+        }
+
+        /* Reader Viewport */
+        .viewport {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+        }
+
+        .viewport-header {
+            padding: 20px 40px;
+            background-color: rgba(17, 24, 39, 0.4);
+            border-bottom: 1px solid var(--bg-active);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .scene-title {
+            font-family: var(--font-outfit);
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .project-meta {
+            font-size: 0.850rem;
+            color: var(--text-muted);
+            word-break: break-all;
+        }
+
+        .reader-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .reader-content {
+            width: 100%;
+            max-width: 800px;
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            line-height: 1.75;
+            color: #E5E7EB;
+            position: relative;
+        }
+
+        .reader-empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-muted);
+            font-family: var(--font-outfit);
+        }
+
+        .reader-empty svg {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 16px;
+            stroke: var(--bg-active);
+        }
+
+        /* Right Sidebar - Scorecard Dashboard */
+        .scorecard-panel {
+            width: 320px;
+            background-color: var(--bg-sidebar);
+            border-left: 1px solid var(--bg-active);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .panel-title {
+            font-family: var(--font-outfit);
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--bg-active);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .panel-refresh-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-muted);
+            font-size: 1rem;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s, transform 0.2s;
+            outline: none;
+        }
+
+        .panel-refresh-btn:hover {
+            color: var(--text-main);
+        }
+
+        .panel-refresh-btn:active {
+            transform: scale(0.9);
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .panel-refresh-btn.spinning {
+            animation: rotate 0.8s linear infinite;
+        }
+
+        @keyframes flash {
+            0% { opacity: 0.35; }
+            100% { opacity: 1; }
+        }
+
+        .metric-card.flashing, .repeats-list li.flashing {
+            animation: flash 0.4s ease-in-out;
+        }
+
+        .metric-group {
+            margin-bottom: 24px;
+        }
+
+        .metric-card {
+            background-color: var(--bg-card);
+            border-radius: 8px;
+            padding: 14px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .metric-info h3 {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .metric-info p {
+            font-family: var(--font-outfit);
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .metric-status {
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 9999px;
+            font-weight: 600;
+        }
+
+        .status-optimal {
+            background-color: rgba(16, 185, 129, 0.1);
+            color: var(--accent-success);
+        }
+
+        .status-warning {
+            background-color: rgba(245, 158, 11, 0.1);
+            color: var(--accent-warning);
+        }
+
+        .repeats-list {
+            list-style: none;
+            font-size: 0.850rem;
+        }
+
+        .repeats-list li {
+            padding: 6px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.03);
+        }
+
+        .repeats-list li span:first-child {
+            color: var(--text-muted);
+        }
+
+        .repeats-list li span:last-child {
+            font-weight: 600;
+            color: var(--accent-glow);
+        }
+
+        /* Floating Medium-style Context Toolbar */
+        .selection-toolbar {
+            position: absolute;
+            background-color: #1F2937;
+            border: 1px solid #374151;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            padding: 6px;
+            display: none;
+            z-index: 1000;
+            flex-direction: row;
+            gap: 4px;
+        }
+
+        .selection-toolbar button {
+            background: none;
+            border: none;
+            color: var(--text-main);
+            padding: 8px 12px;
+            font-size: 0.8rem;
+            font-family: var(--font-outfit);
+            font-weight: 500;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .selection-toolbar button:hover {
+            background-color: var(--bg-active);
+        }
+
+        .selection-toolbar button svg {
+            width: 14px;
+            height: 14px;
+            fill: var(--text-muted);
+        }
+
+        /* Form Modal for Custom Selection Edits */
+        .action-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--bg-sidebar);
+            border: 1px solid var(--bg-active);
+            border-radius: 12px;
+            padding: 24px;
+            width: 480px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            z-index: 2000;
+            display: none;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1999;
+            display: none;
+        }
+
+        .action-modal h2 {
+            font-family: var(--font-outfit);
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+            color: var(--text-main);
+        }
+
+        .action-modal label {
+            display: block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .action-modal textarea, .action-modal input[type="text"] {
+            width: 100%;
+            background-color: var(--bg-base);
+            border: 1px solid var(--bg-active);
+            color: var(--text-main);
+            border-radius: 6px;
+            padding: 10px;
+            font-family: var(--font-inter);
+            font-size: 0.875rem;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        .action-modal select {
+            width: 100%;
+            background-color: var(--bg-base);
+            border: 1px solid var(--bg-active);
+            color: var(--text-main);
+            border-radius: 6px;
+            padding: 10px;
+            font-family: var(--font-inter);
+            font-size: 0.875rem;
+            margin-bottom: 16px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            font-family: var(--font-outfit);
+            font-weight: 600;
+            font-size: 0.875rem;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-cancel {
+            background-color: transparent;
+            color: var(--text-muted);
+        }
+
+        .btn-cancel:hover {
+            color: var(--text-main);
+        }
+
+        .btn-submit {
+            background-color: var(--accent-glow);
+            color: #FFF;
+        }
+
+        .btn-submit:hover {
+            background-color: #2563EB;
+        }
+
+        .btn-secondary {
+            background-color: var(--bg-card);
+            color: var(--text-main);
+            border: 1px solid var(--bg-active);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--bg-active);
+        }
+
+        /* Loading Spinner */
+        .spinner-container {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(11, 15, 25, 0.8);
+            z-index: 2500;
+            backdrop-filter: blur(4px);
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border-left-color: var(--accent-glow);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .spinner-text {
+            margin-top: 16px;
+            font-family: var(--font-outfit);
+            font-size: 0.950rem;
+            color: var(--text-main);
+        }
+
+        /* Corkboard Grid layout */
+        .corkboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+            width: 100%;
+        }
+
+        .scene-card {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .scene-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+        }
+
+        .scene-card.excluded {
+            opacity: 0.65;
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+        }
+
+        .scene-card.excluded:hover {
+            opacity: 0.85;
+            border-color: rgba(239, 68, 68, 0.4);
+        }
+
+        .scene-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .scene-card-title {
+            background: transparent;
+            border: none;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+            color: var(--text-main);
+            font-family: var(--font-outfit);
+            font-size: 1rem;
+            font-weight: 600;
+            width: 100%;
+            padding: 2px 0;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .scene-card-title:focus {
+            border-bottom-color: var(--accent-glow);
+        }
+
+        .scene-card-body {
+            background-color: rgba(11, 15, 25, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            color: var(--text-muted);
+            font-family: var(--font-inter);
+            font-size: 0.875rem;
+            line-height: 1.5;
+            padding: 10px;
+            resize: vertical;
+            min-height: 120px;
+            outline: none;
+            width: 100%;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .scene-card-body:focus {
+            border-color: var(--accent-glow);
+            color: var(--text-main);
+        }
+
+        .chapter-overview-card {
+            background: linear-gradient(135deg, rgba(31, 41, 55, 0.3) 0%, rgba(17, 24, 39, 0.5) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .chapter-synopsis-box {
+            background: transparent;
+            border: none;
+            color: var(--text-main);
+            font-family: var(--font-inter);
+            font-size: 1rem;
+            line-height: 1.6;
+            outline: none;
+            width: 100%;
+            min-height: 80px;
+        }
+
+        .section-label {
+            display: block;
+            font-family: var(--font-outfit);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent-glow);
+            margin-bottom: 8px;
+            user-select: none;
+        }
+
+        /* Single Scene view split layout */
+        .scene-editor-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .scene-synopsis-pane {
+            background: rgba(59, 130, 246, 0.03);
+            border: 1px dashed rgba(59, 130, 246, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .scene-synopsis-box {
+            color: var(--text-main);
+            font-family: var(--font-inter);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            outline: none;
+            width: 100%;
+            min-height: 60px;
+        }
+
+        .scene-draft-pane {
+            margin-top: 8px;
+        }
+
+        .scene-draft-editor p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            line-height: 1.75;
+        }
+
+        .scene-draft-editor {
+            outline: none;
+            min-height: 200px;
+            border-radius: 6px;
+            padding: 8px;
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+
+        .scene-draft-editor:focus {
+            background-color: rgba(255, 255, 255, 0.01);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Outline Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>Homer Web Reader</h1>
+            <select id="project-selector" style="width: 100%; background: var(--bg-base); border: 1px solid var(--bg-active); color: var(--text-main); padding: 8px 10px; border-radius: 6px; margin-top: 10px; font-family: var(--font-outfit); font-size: 0.825rem; font-weight: 500; cursor: pointer; outline: none; transition: border-color 0.2s;">
+                <option value="">Loading books...</option>
+            </select>
+        </div>
+        <div class="outline-tree" id="outline-container">
+            <!-- Outlines render dynamically -->
+        </div>
+    </div>
+
+    <!-- Main Viewport -->
+    <div class="viewport">
+        <div class="viewport-header">
+                <div class="scene-title" style="display: flex; align-items: center; gap: 12px;">
+                    <span id="active-scene-title">Homer Writing Assistant</span>
+                    <span id="word-count-badge" style="display: none; font-size: 0.8rem; background-color: var(--bg-active); color: var(--text-muted); padding: 4px 10px; border-radius: 9999px; font-weight: 500; font-family: var(--font-inter);">0 words</span>
+                </div>
+                <div class="project-meta" id="active-scene-uuid">Please select a scene from the left binder sidebar</div>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="btn btn-secondary" id="btn-save-scene" style="display: none; align-items: center; gap: 6px; background-color: var(--accent-glow); color: #FFF; border: none;">💾 Save</button>
+                <button class="btn btn-secondary" id="btn-take-snapshot" style="display: none; align-items: center; gap: 6px;">📸 Snapshot</button>
+                <button class="btn btn-secondary" id="btn-undo-snapshot" style="display: none; align-items: center; gap: 6px;">⏪ Revert</button>
+                <div id="status-tag"></div>
+            </div>
+        </div>
+
+        <div class="reader-container">
+            <!-- Loading Spinner Overlay -->
+            <div class="spinner-container" id="loading-overlay">
+                <div class="spinner"></div>
+                <div class="spinner-text" id="loading-message">Applying Critique Polish...</div>
+            </div>
+
+            <!-- Plain book reader interface -->
+            <div class="reader-content" id="reader-body">
+                <div class="reader-empty">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.180 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                    </svg>
+                    <p>Select a chapter/scene text from the binder to begin editing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scorecard Dashboard Sidebar -->
+    <div class="scorecard-panel">
+        <div class="panel-title">
+            <span>📊 Prose scorecard</span>
+            <button id="btn-refresh-scorecard" class="panel-refresh-btn" title="Recompute scorecard from active editor text">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+            </button>
+        </div>
+        <div class="metric-group">
+            <div class="metric-card">
+                <div class="metric-info">
+                    <h3>FK Grade Level</h3>
+                    <p id="stat-grade">-</p>
+                </div>
+                <div class="metric-status" id="status-grade">-</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-info">
+                    <h3>Avg Sentence Length</h3>
+                    <p id="stat-length">-</p>
+                </div>
+                <div class="metric-status" id="status-length">-</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-info">
+                    <h3>Adverb Density</h3>
+                    <p id="stat-adverbs">-</p>
+                </div>
+                <div class="metric-status" id="status-adverbs">-</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-info">
+                    <h3>Passive Voice</h3>
+                    <p id="stat-passives">-</p>
+                </div>
+                <div class="metric-status" id="status-passives">-</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-info">
+                    <h3>Filler Words</h3>
+                    <p id="stat-fillers">-</p>
+                </div>
+                <div class="metric-status" id="status-fillers">-</div>
+            </div>
+        </div>
+
+        <div class="panel-title">
+            <span>🔄 Repeated Content Words</span>
+        </div>
+        <ul class="repeats-list" id="stat-repeats">
+            <li><span>No data</span><span>-</span></li>
+        </ul>
+    </div>
+
+    <!-- Floating Medium Context Menu -->
+    <div class="selection-toolbar" id="text-toolbar">
+        <button id="btn-sensory">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            Describe
+        </button>
+        <button id="btn-rewrite">
+            <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+            Rewrite
+        </button>
+        <button id="btn-expand">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            Expand
+        </button>
+    </div>
+
+    <!-- Action Modal -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="action-modal" id="action-modal">
+        <h2 id="modal-title">Rewrite Prose</h2>
+        <div style="margin-bottom: 12px; font-size: 0.8rem; color: var(--text-muted);" id="modal-selection-snippet"></div>
+        
+        <label for="modal-input">Instruction / Target</label>
+        <textarea id="modal-input" rows="3" placeholder="Enter instructions (e.g. Show, don't tell)"></textarea>
+        
+        <div class="modal-buttons">
+            <button class="btn btn-cancel" id="modal-cancel">Cancel</button>
+            <button class="btn btn-submit" id="modal-submit">Apply Changes</button>
+        </div>
+    </div>
+
+    <script>
+        // State variables
+        let projectPath = "";
+        let selectedUUID = "";
+        let selectedText = "";
+        let currentAction = "";
+        let isDirty = false;
+        let activeNodeType = "Text"; // Default
+        
+        function markDirty(dirty) {
+            isDirty = dirty;
+            const saveBtn = document.getElementById('btn-save-scene');
+            if (dirty) {
+                saveBtn.style.display = "inline-flex";
+                saveBtn.removeAttribute('disabled');
+            } else {
+                saveBtn.style.display = "none";
+                saveBtn.setAttribute('disabled', 'true');
+            }
+        }
+        
+        function checkUnsavedChanges() {
+            if (isDirty) {
+                return confirm("You have unsaved manual edits. Are you sure you want to leave without saving?");
+            }
+            return true;
+        }
+        
+        // Dynamic path discovery from search queries
+        const urlParams = new URLSearchParams(window.location.search);
+        projectPath = urlParams.get('project_path') || "";
+        const initialUUID = urlParams.get('uuid') || "";
+        
+        const selector = document.getElementById('project-selector');
+        
+        // Fetch list of available books in the workspace
+        async function loadProjects() {
+            try {
+                const response = await fetch('/api/books');
+                const books = await response.json();
+                selector.innerHTML = '<option value="">-- Select Book --</option>';
+                
+                if (books && books.error) {
+                    selector.innerHTML = `<option value="">Error: ${escapeHTML(books.error)}</option>`;
+                    return;
+                }
+                
+                if (!Array.isArray(books)) {
+                    selector.innerHTML = '<option value="">Invalid books response</option>';
+                    return;
+                }
+                
+                books.forEach(book => {
+                    const opt = document.createElement('option');
+                    opt.value = book.path;
+                    opt.innerText = book.name;
+                    if (book.path === projectPath) {
+                        opt.selected = true;
+                    }
+                    selector.appendChild(opt);
+                });
+                
+                // Default to first book if none selected
+                if (!projectPath && books.length > 0) {
+                    projectPath = books[0].path;
+                    selector.value = projectPath;
+                    updateUrlParams();
+                    loadOutline();
+                }
+            } catch (err) {
+                console.error("Error fetching projects", err);
+                selector.innerHTML = '<option value="">Error loading books</option>';
+            }
+        }
+        
+        function updateUrlParams() {
+            if (projectPath) {
+                let newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?project_path=' + encodeURIComponent(projectPath);
+                if (selectedUUID) {
+                    newUrl += '&uuid=' + encodeURIComponent(selectedUUID);
+                }
+                window.history.pushState({ path: newUrl }, '', newUrl);
+            }
+        }
+        
+        selector.addEventListener('change', () => {
+            if (!checkUnsavedChanges()) {
+                selector.value = projectPath;
+                return;
+            }
+            projectPath = selector.value;
+            selectedUUID = "";
+            activeNodeType = "Text";
+            updateUrlParams();
+            // Hide snapshot/undo/refresh buttons since no scene is loaded yet
+            document.getElementById('btn-take-snapshot').style.display = "none";
+            document.getElementById('btn-undo-snapshot').style.display = "none";
+            document.getElementById('btn-save-scene').style.display = "none";
+            const refreshBtn = document.getElementById('btn-refresh-scorecard');
+            if (refreshBtn) refreshBtn.style.display = "none";
+            if (projectPath) {
+                loadOutline();
+                document.getElementById('reader-body').innerHTML = `
+                    <div class="reader-empty">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.180 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+                        <p>Select a chapter/scene text from the binder to begin editing</p>
+                    </div>`;
+                document.getElementById('active-scene-title').innerText = "Homer Writing Assistant";
+                document.getElementById('active-scene-uuid').innerText = "Please select a scene from the left binder sidebar";
+            } else {
+                document.getElementById('outline-container').innerHTML = "";
+            }
+        });
+
+        // Fetch binder tree outline
+        async function loadOutline() {
+            if (!projectPath) return;
+            try {
+                const response = await fetch(`/api/outline?project_path=${encodeURIComponent(projectPath)}`);
+                const tree = await response.json();
+                renderOutline(tree, document.getElementById('outline-container'));
+                
+                // If a UUID is specified in the URL query, locate and load it immediately
+                if (initialUUID) {
+                    const node = findNodeInTree(tree, initialUUID);
+                    if (node) {
+                        loadNode(node.uuid, node.title, node.type);
+                    }
+                }
+            } catch (err) {
+                console.error("Error fetching outline tree", err);
+            }
+        }
+        
+        function findNodeInTree(nodes, uuid) {
+            for (let node of nodes) {
+                if (node.uuid === uuid) return node;
+                if (node.children) {
+                    const found = findNodeInTree(node.children, uuid);
+                    if (found) return found;
+                }
+            }
+            return null;
+        }
+        
+        function highlightOutlineNode(uuid) {
+            document.querySelectorAll('.tree-item').forEach(el => {
+                if (el.getAttribute('data-uuid') === uuid) {
+                    el.classList.add('active');
+                    el.scrollIntoView({ block: 'nearest' });
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+        }
+        
+        // Render binder tree dynamically
+        function renderOutline(nodes, container) {
+            container.innerHTML = "";
+            nodes.forEach(node => {
+                const div = document.createElement('div');
+                div.className = "tree-node";
+                
+                const item = document.createElement('div');
+                item.className = "tree-item";
+                item.setAttribute('data-uuid', node.uuid);
+                if (node.uuid === selectedUUID) item.classList.add('active');
+                
+                const icon = document.createElement('span');
+                icon.className = "tree-icon";
+                if (node.type === "Folder" || node.type === "DraftFolder" || node.type === "ResearchFolder") {
+                    icon.innerText = "📁";
+                } else if (node.type === "Image") {
+                    icon.innerText = "🖼️";
+                } else {
+                    icon.innerText = "📄";
+                }
+                
+                const label = document.createElement('span');
+                label.innerText = node.title;
+                label.title = "Double-click to rename";
+                
+                label.addEventListener('dblclick', (e) => {
+                    e.stopPropagation(); // Prevent triggering node selection click
+                    
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = node.title;
+                    input.style.background = 'var(--bg-base)';
+                    input.style.color = 'var(--text-main)';
+                    input.style.border = '1px solid var(--accent-glow)';
+                    input.style.borderRadius = '4px';
+                    input.style.padding = '2px 6px';
+                    input.style.fontFamily = 'var(--font-inter)';
+                    input.style.fontSize = 'inherit';
+                    input.style.width = '180px';
+                    
+                    const finishEdit = async () => {
+                        const newTitle = input.value.trim();
+                        if (newTitle && newTitle !== node.title) {
+                            const oldTitle = node.title;
+                            node.title = newTitle;
+                            label.innerText = newTitle;
+                            
+                            showLoading("Renaming item...");
+                            try {
+                                const saveResponse = await fetch('/api/save', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify({
+                                        project_path: projectPath,
+                                        scene_uuid: node.uuid,
+                                        title: newTitle
+                                    })
+                                });
+                                const saveRes = await saveResponse.json();
+                                hideLoading();
+                                if (saveRes.error) {
+                                    alert("Error renaming: " + saveRes.error);
+                                    node.title = oldTitle;
+                                    label.innerText = oldTitle;
+                                } else {
+                                    if (node.uuid === selectedUUID) {
+                                        document.getElementById('active-scene-title').innerText = newTitle;
+                                    }
+                                }
+                            } catch (err) {
+                                hideLoading();
+                                alert("Failed to save renamed title: " + err);
+                                node.title = oldTitle;
+                                label.innerText = oldTitle;
+                            }
+                        }
+                        input.replaceWith(label);
+                    };
+                    
+                    input.addEventListener('keydown', (evt) => {
+                        if (evt.key === 'Enter') {
+                            finishEdit();
+                        } else if (evt.key === 'Escape') {
+                            input.replaceWith(label);
+                        }
+                    });
+                    
+                    input.addEventListener('blur', () => {
+                        finishEdit();
+                    });
+                    
+                    label.replaceWith(input);
+                    input.focus();
+                    input.select();
+                });
+                
+                item.appendChild(icon);
+                item.appendChild(label);
+                
+                item.addEventListener('click', () => {
+                    if (!checkUnsavedChanges()) return;
+                    document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    loadNode(node.uuid, node.title, node.type);
+                });
+                
+                div.appendChild(item);
+                
+                if (node.children && node.children.length > 0) {
+                    const childContainer = document.createElement('div');
+                    childContainer.className = "tree-children";
+                    renderOutline(node.children, childContainer);
+                    div.appendChild(childContainer);
+                }
+                
+                container.appendChild(div);
+            });
+        }
+        
+        // Load Scene/Folder contents and scorecards
+        async function loadNode(uuid, title, type) {
+            selectedUUID = uuid;
+            activeNodeType = type;
+            document.getElementById('active-scene-title').innerText = title;
+            document.getElementById('active-scene-uuid').innerText = uuid;
+            
+            const wordCountBadge = document.getElementById('word-count-badge');
+            wordCountBadge.style.display = "none";
+            
+            highlightOutlineNode(uuid);
+            updateUrlParams();
+            
+            showLoading("Reading Scrivener Data...");
+            try {
+                const response = await fetch(`/api/scene?project_path=${encodeURIComponent(projectPath)}&uuid=${encodeURIComponent(uuid)}`);
+                const data = await response.json();
+                hideLoading();
+                
+                if (data.error) {
+                    document.getElementById('reader-body').innerHTML = `<p style="color: var(--accent-danger)">Error: ${escapeHTML(data.error)}</p>`;
+                    return;
+                }
+                
+                const refreshBtn = document.getElementById('btn-refresh-scorecard');
+                if (type === "Text") {
+                    document.getElementById('btn-take-snapshot').style.display = "inline-flex";
+                    document.getElementById('btn-undo-snapshot').style.display = "inline-flex";
+                    if (refreshBtn) refreshBtn.style.display = "inline-flex";
+                } else {
+                    document.getElementById('btn-take-snapshot').style.display = "none";
+                    document.getElementById('btn-undo-snapshot').style.display = "none";
+                    if (refreshBtn) refreshBtn.style.display = "none";
+                }
+                
+                if (type === "Image") {
+                    // Render image view
+                    document.getElementById('reader-body').innerHTML = `
+                        <div class="image-viewer-container" style="position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 20px; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--bg-active); margin-top: 24px; width: 100%;">
+                            <img src="/api/image?project_path=${encodeURIComponent(projectPath)}&uuid=${encodeURIComponent(uuid)}&t=${Date.now()}" alt="${escapeHTML(title)}" style="max-width: 100%; max-height: 70vh; object-fit: contain; border-radius: 6px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+                            <div style="margin-top: 16px; font-size: 0.9rem; color: var(--text-muted); font-family: var(--font-inter);">${escapeHTML(title)}</div>
+                            
+                            <!-- Floating Amazon Search Thumbnail Preview -->
+                            <div class="thumbnail-preview-card" style="position: absolute; top: 16px; right: 16px; width: 140px; background: rgba(17, 24, 39, 0.85); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; padding: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); backdrop-filter: blur(12px) saturate(180%); display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 10; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s;" onmouseover="this.style.transform='scale(1.02)'; this.style.borderColor='var(--accent-glow)';" onmouseout="this.style.transform='scale(1)'; this.style.borderColor='rgba(255, 255, 255, 0.08)';" title="Simulates Amazon Search result scale">
+                                <div style="font-family: var(--font-outfit); font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent-glow); text-align: center; user-select: none;">Search Preview</div>
+                                <div style="width: 120px; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.2); border-radius: 4px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
+                                    <img src="/api/image?project_path=${encodeURIComponent(projectPath)}&uuid=${encodeURIComponent(uuid)}&t=${Date.now()}" alt="Thumbnail" style="width: 100%; height: auto; display: block;" />
+                                </div>
+                                <div style="font-size: 0.6rem; color: var(--text-muted); text-align: center; font-family: var(--font-inter); line-height: 1.2; margin-top: 2px;">Legibility Check<br>(120px wide)</div>
+                            </div>
+                        </div>
+                    `;
+                    wordCountBadge.style.display = "none";
+                    clearScorecard();
+                } else if (type === "Text") {
+                    // Render single scene view
+                    const cleanText = data.text || "";
+                    const synopsis = data.synopsis || "";
+                    
+                    let draftHTML = "";
+                    if (cleanText.trim()) {
+                        const paragraphs = cleanText.split(/\n\n+/);
+                        draftHTML = paragraphs.map(p => `<p>${escapeHTML(p)}</p>`).join('');
+                    } else {
+                        draftHTML = `<p></p>`;
+                    }
+                    
+                    document.getElementById('reader-body').innerHTML = `
+                        <div class="scene-editor-layout">
+                            <div class="scene-synopsis-pane">
+                                <label class="section-label">SCENE BEATS / SYNOPSIS</label>
+                                <div id="scene-synopsis-editor" contenteditable="true" class="scene-synopsis-box">${escapeHTML(synopsis)}</div>
+                            </div>
+                            <div class="scene-draft-pane">
+                                <label class="section-label">SCENE PROSE DRAFT</label>
+                                <div id="scene-draft-editor" contenteditable="true" class="scene-draft-editor">
+                                    ${draftHTML}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    document.getElementById('scene-synopsis-editor').addEventListener('input', () => markDirty(true));
+                    document.getElementById('scene-draft-editor').addEventListener('input', () => markDirty(true));
+                    
+                    // Show word count badge
+                    const wordCount = (data.metrics && data.metrics.total_words) || 0;
+                    wordCountBadge.innerText = wordCount + " words";
+                    wordCountBadge.style.display = "inline-flex";
+                    
+                    // Update Scorecard stats
+                    updateScorecard(data.metrics);
+                } else {
+                    // Render folder planner view (Chapter Beats Planner)
+                    const synopsis = data.synopsis || "";
+                    const children = data.children || [];
+                    
+                    let childrenHTML = "";
+                    if (children.length > 0) {
+                        childrenHTML = `
+                            <label class="section-label" style="margin-top: 24px;">SCENE OUTLINES & BEATS</label>
+                            <div class="corkboard-grid">
+                                ${children.map((child, idx) => `
+                                    <div class="scene-card ${child.include_in_compile === false ? 'excluded' : ''}" data-uuid="${child.uuid}">
+                                        <div class="scene-card-header">
+                                            <input type="text" class="scene-card-title" value="${escapeHTML(child.title)}" placeholder="Scene Title" />
+                                            <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500; white-space: nowrap;">#${idx+1} (${child.word_count || 0} words${child.include_in_compile === false ? ', excluded' : ''})</span>
+                                        </div>
+                                        <textarea class="scene-card-body" placeholder="Describe the story beats for this scene...">${escapeHTML(child.synopsis)}</textarea>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                    } else {
+                        childrenHTML = `
+                            <div style="margin-top: 24px; padding: 20px; border: 1px dashed var(--bg-active); border-radius: 8px; text-align: center; color: var(--text-muted);">
+                                No child scenes found in this folder.
+                            </div>
+                        `;
+                    }
+                    
+                    document.getElementById('reader-body').innerHTML = `
+                        <div class="chapter-overview-card">
+                            <label class="section-label">CHAPTER SYNOPSIS / PREMISE</label>
+                            <div id="chapter-synopsis-editor" contenteditable="true" class="chapter-synopsis-box">${escapeHTML(synopsis)}</div>
+                        </div>
+                        ${childrenHTML}
+                    `;
+                    
+                    document.getElementById('chapter-synopsis-editor').addEventListener('input', () => markDirty(true));
+                    document.querySelectorAll('.scene-card-title').forEach(el => el.addEventListener('input', () => markDirty(true)));
+                    document.querySelectorAll('.scene-card-body').forEach(el => el.addEventListener('input', () => markDirty(true)));
+                    
+                    // Show aggregated word count badge
+                    const totalFolderWords = (data.metrics && data.metrics.total_words) || 0;
+                    wordCountBadge.innerText = totalFolderWords + " words total";
+                    wordCountBadge.style.display = "inline-flex";
+                    
+                    updateScorecard(data.metrics);
+                }
+                
+                markDirty(false);
+                
+            } catch (err) {
+                hideLoading();
+                document.getElementById('reader-body').innerHTML = `<p style="color: var(--accent-danger)">Failed to fetch content: ${escapeHTML(err.message || err)}</p>`;
+            }
+        }
+        
+        function escapeHTML(str) {
+            if (str === null || str === undefined) return "";
+            // Strip non-printable control characters (ASCII < 32 except \n, \r, \t)
+            const sanitized = String(str).replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "");
+            return sanitized
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;")
+                .replace(/`/g, "&#96;");
+        }
+        
+        // Render metrics card values
+        function updateScorecard(m) {
+            if (!m) return;
+            document.getElementById('stat-grade').innerText = m.flesch_kincaid_grade || "-";
+            document.getElementById('stat-length').innerText = (m.average_sentence_length || "-") + " words";
+            document.getElementById('stat-adverbs').innerText = (m.adverb_density || "-") + "%";
+            document.getElementById('stat-passives').innerText = (m.passive_voice_density || "-") + "%";
+            document.getElementById('stat-fillers').innerText = (m.filler_word_density || "-") + "%";
+            
+            // Render statuses based on general benchmarks
+            applyStatusTag('grade', m.flesch_kincaid_grade, 4.5, 6.5);
+            applyStatusTag('length', m.average_sentence_length, 10.0, 14.0);
+            applyStatusTag('adverbs', m.adverb_density, 0, 1.0);
+            applyStatusTag('passives', m.passive_voice_density, 0, 4.0);
+            applyStatusTag('fillers', m.filler_word_density, 0, 1.2);
+            
+            // Render repeated words
+            const repeatsUl = document.getElementById('stat-repeats');
+            repeatsUl.innerHTML = "";
+            if (m.top_repeated_words && m.top_repeated_words.length > 0) {
+                m.top_repeated_words.slice(0, 10).forEach(([word, count]) => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<span>"${escapeHTML(word)}"</span><span>${count}x</span>`;
+                    repeatsUl.appendChild(li);
+                });
+            } else {
+                repeatsUl.innerHTML = "<li><span>No repetitions</span><span>-</span></li>";
+            }
+        }
+        
+        function clearScorecard() {
+            document.getElementById('stat-grade').innerText = "-";
+            document.getElementById('stat-length').innerText = "-";
+            document.getElementById('stat-adverbs').innerText = "-";
+            document.getElementById('stat-passives').innerText = "-";
+            document.getElementById('stat-fillers').innerText = "-";
+            
+            document.getElementById('status-grade').innerText = "-";
+            document.getElementById('status-grade').className = "metric-status";
+            document.getElementById('status-length').innerText = "-";
+            document.getElementById('status-length').className = "metric-status";
+            document.getElementById('status-adverbs').innerText = "-";
+            document.getElementById('status-adverbs').className = "metric-status";
+            document.getElementById('status-passives').innerText = "-";
+            document.getElementById('status-passives').className = "metric-status";
+            document.getElementById('status-fillers').innerText = "-";
+            document.getElementById('status-fillers').className = "metric-status";
+            
+            document.getElementById('stat-repeats').innerHTML = "<li><span>No data</span><span>-</span></li>";
+        }
+        
+        function applyStatusTag(elementId, val, min, max) {
+            const el = document.getElementById('status-' + elementId);
+            if (val === undefined || val === null) {
+                el.innerText = "-";
+                el.className = "metric-status";
+                return;
+            }
+            if (val >= min && val <= max) {
+                el.innerText = "Optimal";
+                el.className = "metric-status status-optimal";
+            } else {
+                el.innerText = "Out of Bounds";
+                el.className = "metric-status status-warning";
+            }
+        }
+        
+        // Show/Hide loaders
+        function showLoading(msg) {
+            document.getElementById('loading-message').innerText = msg;
+            document.getElementById('loading-overlay').style.display = "flex";
+        }
+        function hideLoading() {
+            document.getElementById('loading-overlay').style.display = "none";
+        }
+        
+        // Selection Highlighting Events
+        const reader = document.getElementById('reader-body');
+        const toolbar = document.getElementById('text-toolbar');
+
+        // Detect manual edits on contenteditable paragraphs
+        reader.addEventListener('input', (e) => {
+            if (e.target.tagName === 'P' && activeNodeType === 'Text') {
+                markDirty(true);
+            }
+        });
+        
+        document.addEventListener('selectionchange', () => {
+            const selection = window.getSelection();
+            const text = selection.toString().trim();
+            
+            if (text && reader.contains(selection.anchorNode) && activeNodeType === "Text") {
+                selectedText = text;
+                const range = selection.getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                
+                // Position floating menu above selection
+                toolbar.style.top = `${window.scrollY + rect.top - toolbar.offsetHeight - 12}px`;
+                toolbar.style.left = `${window.scrollX + rect.left + (rect.width / 2) - (toolbar.offsetWidth / 2)}px`;
+                toolbar.style.display = "flex";
+            } else {
+                toolbar.style.display = "none";
+            }
+        });
+        
+        // Floating Toolbar Button Hooks
+        document.getElementById('btn-sensory').addEventListener('click', () => {
+            openActionModal("sensory", "Describe Sensory Details", "Describe the highlighted phrase with sensory elements (sight, sound, smell, touch, taste) matching the style guide.");
+        });
+        document.getElementById('btn-rewrite').addEventListener('click', () => {
+            openActionModal("rewrite", "Rewrite Prose Selection", "Provide rewrite instructions (e.g. 'Show, Don't Tell', 'Increase tension', 'Make it dialogue-heavy') or write your own custom rules.");
+        });
+        document.getElementById('btn-expand').addEventListener('click', () => {
+            openActionModal("expand", "Expand Prose Selection", "Explain how you want the AI to expand the highlighted summary sentence into a rich, fully-fleshed narrative beat.");
+        });
+        
+        function openActionModal(action, title, instructionPlaceholder) {
+            currentAction = action;
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-selection-snippet').innerText = selectedText.length > 100 ? `"${selectedText.substring(0, 100)}..."` : `"${selectedText}"`;
+            document.getElementById('modal-input').value = "";
+            document.getElementById('modal-input').placeholder = instructionPlaceholder;
+            
+            document.getElementById('modal-overlay').style.display = "block";
+            document.getElementById('action-modal').style.display = "block";
+            toolbar.style.display = "none";
+        }
+        
+        function closeModal() {
+            document.getElementById('modal-overlay').style.display = "none";
+            document.getElementById('action-modal').style.display = "none";
+        }
+        
+        document.getElementById('modal-cancel').addEventListener('click', closeModal);
+        document.getElementById('modal-overlay').addEventListener('click', closeModal);
+        
+        document.getElementById('modal-submit').addEventListener('click', async () => {
+            const instruction = document.getElementById('modal-input').value.trim();
+            
+            // If dirty, silently auto-save first so the server has the latest text to align highlights
+            if (isDirty) {
+                showLoading("Auto-saving manual edits...");
+                const saveSuccess = await saveScene(true);
+                if (!saveSuccess) {
+                    hideLoading();
+                    return; // Abort if save failed
+                }
+            }
+            
+            showLoading(`Running AI selection ${currentAction}...`);
+            
+            try {
+                const response = await fetch('/api/action', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        project_path: projectPath,
+                        scene_uuid: selectedUUID,
+                        action: currentAction,
+                        selected_text: selectedText,
+                        instruction: instruction
+                    })
+                });
+                
+                const data = await response.json();
+                hideLoading();
+                
+                if (data.error) {
+                    alert("Error executing action:\n\n" + data.error);
+                    return;
+                }
+                
+                // On success, close modal and clear input
+                closeModal();
+                document.getElementById('modal-input').value = "";
+                
+                // Clear active selection and reload updated scene contents
+                window.getSelection().removeAllRanges();
+                loadNode(selectedUUID, document.getElementById('active-scene-title').innerText, activeNodeType);
+                
+            } catch (err) {
+                hideLoading();
+                alert("Failed to submit action request: " + err);
+            }
+        });
+
+        // Take Snapshot button event
+        document.getElementById('btn-take-snapshot').addEventListener('click', async () => {
+            const description = prompt("Enter a description for the snapshot:", "Manual Web Checkpoint");
+            if (description === null) return; // user cancelled
+            
+            showLoading("Creating Scrivener snapshot...");
+            try {
+                const response = await fetch('/api/snapshot', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        project_path: projectPath,
+                        scene_uuid: selectedUUID,
+                        description: description.trim() || "Manual Web Checkpoint"
+                    })
+                });
+                const data = await response.json();
+                hideLoading();
+                
+                if (data.error) {
+                    alert("Error creating snapshot:\n\n" + data.error);
+                } else {
+                    alert("Snapshot successfully created!");
+                }
+            } catch (err) {
+                hideLoading();
+                alert("Failed to create snapshot: " + err);
+            }
+        });
+
+        // Revert to Last Snapshot button event
+        document.getElementById('btn-undo-snapshot').addEventListener('click', async () => {
+            if (!confirm("Are you sure you want to undo edits and revert to the last snapshot? This will overwrite your current scene draft.")) {
+                return;
+            }
+            
+            showLoading("Reverting to last snapshot...");
+            try {
+                const response = await fetch('/api/undo', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        project_path: projectPath,
+                        scene_uuid: selectedUUID
+                    })
+                });
+                const data = await response.json();
+                hideLoading();
+                
+                if (data.error) {
+                    alert("Error reverting to snapshot:\n\n" + data.error);
+                } else {
+                    alert("Successfully reverted to snapshot: " + data.title + " (" + data.date + ")");
+                    loadNode(selectedUUID, document.getElementById('active-scene-title').innerText, activeNodeType);
+                }
+            } catch (err) {
+                hideLoading();
+                alert("Failed to revert to snapshot: " + err);
+            }
+        });
+
+        async function saveScene(silent = false) {
+            let payload = {
+                project_path: projectPath,
+                scene_uuid: selectedUUID
+            };
+            
+            if (activeNodeType === "Text") {
+                const draftEditor = document.getElementById('scene-draft-editor');
+                let paragraphs = Array.from(draftEditor.children).map(p => p.innerText.trim());
+                if (paragraphs.length === 0) {
+                    paragraphs = draftEditor.innerText.split(/\n+/).map(p => p.trim());
+                }
+                payload.text = paragraphs.filter(p => p !== "").join('\n\n');
+                
+                const synopsisEditor = document.getElementById('scene-synopsis-editor');
+                payload.synopsis = synopsisEditor ? synopsisEditor.innerText.trim() : "";
+            } else {
+                const chapterSynopsisEditor = document.getElementById('chapter-synopsis-editor');
+                payload.synopsis = chapterSynopsisEditor ? chapterSynopsisEditor.innerText.trim() : "";
+                
+                const cards = document.querySelectorAll('.scene-card');
+                payload.children = Array.from(cards).map(card => {
+                    const titleInput = card.querySelector('.scene-card-title');
+                    const bodyTextarea = card.querySelector('.scene-card-body');
+                    return {
+                        uuid: card.getAttribute('data-uuid'),
+                        title: titleInput ? titleInput.value.trim() : "",
+                        synopsis: bodyTextarea ? bodyTextarea.value.trim() : ""
+                    };
+                });
+            }
+            
+            if (!silent) showLoading("Saving edits to Scrivener...");
+            try {
+                const response = await fetch('/api/save', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await response.json();
+                if (!silent) hideLoading();
+                
+                if (data.error) {
+                    alert("Error saving scene:\n\n" + data.error);
+                    return false;
+                } else {
+                    markDirty(false);
+                    if (!silent) {
+                        loadNode(selectedUUID, document.getElementById('active-scene-title').innerText, activeNodeType);
+                    }
+                    return true;
+                }
+            } catch (err) {
+                if (!silent) hideLoading();
+                alert("Failed to save scene: " + err);
+                return false;
+            }
+        }
+
+        // Save manual edits event
+        document.getElementById('btn-save-scene').addEventListener('click', () => saveScene(false));
+
+        // Keyboard bindings for save (Cmd+S / Ctrl+S)
+        document.addEventListener('keydown', (e) => {
+            if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+                e.preventDefault();
+                if (isDirty && selectedUUID) {
+                    document.getElementById('btn-save-scene').click();
+                }
+            }
+        });
+
+        // Scorecard Refresh click event
+        document.getElementById('btn-refresh-scorecard').addEventListener('click', async () => {
+            if (activeNodeType !== "Text" || !selectedUUID) return;
+            
+            const draftEditor = document.getElementById('scene-draft-editor');
+            if (!draftEditor) return;
+            
+            let paragraphs = Array.from(draftEditor.children).map(p => p.innerText.trim());
+            if (paragraphs.length === 0) {
+                paragraphs = draftEditor.innerText.split(/\n+/).map(p => p.trim());
+            }
+            const text = paragraphs.filter(p => p !== "").join('\n\n');
+            
+            const refreshBtn = document.getElementById('btn-refresh-scorecard');
+            refreshBtn.classList.add('spinning');
+            refreshBtn.style.pointerEvents = "none";
+            
+            // Let the spin animation run for at least 500ms so there is a clear visual indicator of progress
+            const minTimePromise = new Promise(resolve => setTimeout(resolve, 500));
+            
+            try {
+                const responsePromise = fetch('/api/scorecard', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        project_path: projectPath,
+                        scene_uuid: selectedUUID,
+                        text: text
+                    })
+                });
+                
+                const [response] = await Promise.all([responsePromise, minTimePromise]);
+                const data = await response.json();
+                
+                if (data.error) {
+                    alert("Error recalculating scorecard:\n\n" + data.error);
+                } else if (data.metrics) {
+                    updateScorecard(data.metrics);
+                    
+                    // Flash scorecard elements to visually confirm the update
+                    document.querySelectorAll('.metric-card, .repeats-list li').forEach(el => {
+                        el.classList.remove('flashing');
+                        void el.offsetWidth; // force layout reflow to restart animation
+                        el.classList.add('flashing');
+                        setTimeout(() => el.classList.remove('flashing'), 400);
+                    });
+                    
+                    // Update word count badge in headers
+                    const wordCountBadge = document.getElementById('word-count-badge');
+                    if (wordCountBadge) {
+                        const wordCount = data.metrics.total_words || 0;
+                        wordCountBadge.innerText = wordCount + " words";
+                    }
+                }
+            } catch (err) {
+                alert("Failed to refresh scorecard: " + err);
+            } finally {
+                refreshBtn.classList.remove('spinning');
+                refreshBtn.style.pointerEvents = "auto";
+            }
+        });
+        
+        // Make the active scene/chapter title editable on double-click
+        const activeSceneTitle = document.getElementById('active-scene-title');
+        activeSceneTitle.title = "Double-click to rename";
+        activeSceneTitle.style.cursor = "pointer";
+        
+        activeSceneTitle.addEventListener('dblclick', (e) => {
+            if (!selectedUUID || activeSceneTitle.innerText === "Homer Writing Assistant") return;
+            
+            const oldTitle = activeSceneTitle.innerText;
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = oldTitle;
+            input.style.background = 'var(--bg-base)';
+            input.style.color = 'var(--text-main)';
+            input.style.border = '1px solid var(--accent-glow)';
+            input.style.borderRadius = '6px';
+            input.style.padding = '4px 10px';
+            input.style.fontFamily = 'var(--font-outfit)';
+            input.style.fontSize = '1.5rem';
+            input.style.fontWeight = '600';
+            input.style.width = '350px';
+            
+            const finishTitleEdit = async () => {
+                const newTitle = input.value.trim();
+                if (newTitle && newTitle !== oldTitle) {
+                    activeSceneTitle.innerText = newTitle;
+                    showLoading("Renaming item...");
+                    try {
+                        const response = await fetch('/api/save', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                project_path: projectPath,
+                                scene_uuid: selectedUUID,
+                                title: newTitle
+                            })
+                        });
+                        const data = await response.json();
+                        hideLoading();
+                        
+                        if (data.error) {
+                            alert("Error renaming: " + data.error);
+                            activeSceneTitle.innerText = oldTitle;
+                        } else {
+                            // Update sidebar tree node title dynamically
+                            const sidebarItem = document.querySelector(`.tree-item[data-uuid="${selectedUUID}"]`);
+                            if (sidebarItem) {
+                                const label = sidebarItem.querySelector('span:not(.tree-icon)');
+                                if (label) {
+                                    label.innerText = newTitle;
+                                }
+                            }
+                        }
+                    } catch (err) {
+                        hideLoading();
+                        alert("Failed to save renamed title: " + err);
+                        activeSceneTitle.innerText = oldTitle;
+                    }
+                }
+                input.replaceWith(activeSceneTitle);
+            };
+            
+            input.addEventListener('keydown', (evt) => {
+                if (evt.key === 'Enter') {
+                    finishTitleEdit();
+                } else if (evt.key === 'Escape') {
+                    input.replaceWith(activeSceneTitle);
+                }
+            });
+            
+            input.addEventListener('blur', () => {
+                finishTitleEdit();
+            });
+            
+            activeSceneTitle.replaceWith(input);
+            input.focus();
+            input.select();
+        });
+        
+        // Run outline and project list loads
+        loadProjects();
+        if (projectPath) {
+            loadOutline();
+        }
+    </script>
+</body>
+</html>

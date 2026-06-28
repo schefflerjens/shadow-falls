@@ -1,0 +1,16 @@
+Here is the Style Scorecard and target benchmarks:
+
+{scorecard}
+{repeats_section}
+Here is the project's Style Guide / Prompt Directives:
+
+{style_guide}
+
+Here is the Chapter Draft text:
+
+{draft_text}
+
+Please write your critique report. You MUST structure it in three clear sections:
+1. **READABILITY & PACING EVALUATION**: Analyze where sentences drag, where passive voice slows the action, or where reading difficulty exceeds the target.
+2. **DIALOGUE & WORD CHOICE CRITIQUE**: Call out weak dialogue tags, adverb usage, filler words, or repetitive words/phrases.
+3. **ACTIONABLE REVISION INSTRUCTIONS**: Provide a bulleted list of 5-8 specific, actionable revision instructions. Each instruction must specify EXACTLY which paragraph or sentence to edit and how to rewrite it to satisfy the benchmarks.
