@@ -4,6 +4,11 @@ Homer MCP is a Model Context Protocol (MCP) server and agentic framework designe
 
 Originally developed as a private assistant, this repository serves as the public open-source release of the Homer MCP project.
 
+> [!TIP]
+> **Free Software & How to Support:** This tool is completely free to use. If you build or write with it, the author would greatly appreciate it if you took a look at the books generated using this framework on their [Amazon Author Page](https://amazon.com/author/scheffler). If you enjoy the books, please consider leaving a review! 
+
+Also, please let [the author](https://www.linkedin.com/in/schefflerjens/) know what you build with it. They would love to see what you create!
+
 ---
 
 ## 📖 Overview
